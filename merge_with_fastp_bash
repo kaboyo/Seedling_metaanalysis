@@ -1,0 +1,15 @@
+fastp \
+  -i SampleA_1.clean.fastq.gz \
+  -I SampleA_2.clean.fastq.gz \
+  --merge \
+  --merged_out SampleA.merged.fastq.gz \
+  --unpaired1 SampleA.unmerged_R1.fastq.gz \
+  --unpaired2 SampleA.unmerged_R2.fastq.gz \
+  --overlap_len_require 20 \
+  --overlap_diff_limit 5 \
+  --overlap_diff_percent_limit 20 \
+  --disable_trim_poly_g \
+  --disable_quality_filtering \
+  --disable_adapter_trimming \
+  --html SampleA.fastp.html \
+  --json SampleA.fastp.json
