@@ -1,0 +1,9 @@
+metric,model,stage_beta,se,p,adj_r2
+Shannon,stage only,-0.1972,0.033,2.8644536652948622e-09,0.0181
+Shannon,+ logdepth,-0.1484,0.0323,4.800946675566194e-06,0.0766
+Shannon,+ logdepth + study,-0.1261,0.0366,0.0005846865639535873,0.3852
+Shannon,+ logdepth + study + species,-0.1201,0.0366,0.001056801464035345,0.3914
+Observed,stage only,-0.1457,1.3573,0.9145023143512285,-0.0005
+Observed,+ logdepth,2.4046,1.3023,0.06498382978260375,0.0963
+Observed,+ logdepth + study,-10.9423,1.4231,2.3793464323762068e-14,0.439
+Observed,+ logdepth + study + species,-10.7575,1.405,3.04683658484138e-14,0.4586

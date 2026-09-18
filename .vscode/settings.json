@@ -1,0 +1,27 @@
+{
+    // Positron Assistant settings
+    "positron.assistant.enabled": true,
+    "positron.assistant.sidebarView": true,
+
+    // Python configuration for this project
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+
+    // R configuration for this project
+    "r.lsp.debug": false,
+    "r.lsp.diagnostics": true,
+    "r.plot.useHttpgd": true,
+
+    // General workspace settings
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/*.png": false
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/.git": true
+    }
+}

@@ -1,0 +1,12 @@
+step,n_samples,n_features,total_reads,note,pct_reads_retained
+0. raw matrix as parsed,2456,129070,34993355,metadata lists 2457; SRR18176465 absent from counts,100.0
+1. keep Kingdom==Bacteria,2456,22496,22171423,removed 106574 incl 106267 Unassigned,63.36
+2. drop Order==Chloroplast,2456,21907,20174449,,57.65
+3. drop Family==Mitochondria,2456,21651,18928465,,54.09
+4. drop Cyanobacteria phyla,2456,21550,18926135,,54.08
+5. remove soil samples,2408,21550,18892584,48 soil removed BEFORE depth floor,53.99
+6. library size >= 500,1886,21550,18853875,on Bacteria-filtered depths,53.88
+7. drop zero-sum features,1886,15929,18853875,,53.88
+8. prevalence >= 3 samples,1886,2826,18336980,,52.4
+9. feature total count >= 10,1886,2823,18336957,,52.4
+10. cap at 2000 most abundant features,1886,2000,18247170,,52.14

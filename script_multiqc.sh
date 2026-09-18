@@ -6,6 +6,6 @@
 
 # Run MultiQC on the fastp reports
 echo "Running MultiQC..."
-multiqc fastp_reports -o multiqc_report
+multiqc /Users/expeditoolimi/Documents/Southampton/Meta-analysis/Seedling_metaanalysis/reports -o multiqc_report
 
 echo "All done. MultiQC report saved in ./multiqc_report"

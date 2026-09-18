@@ -1,0 +1,11 @@
+basis,term,F,R2,n
+ASV top100 raw (manuscript actual),Developmental_Stage,19.26,0.0123,1553
+ASV top100 raw (manuscript actual),Scientific_Name,16.589,0.1145,1553
+ASV top100 raw (manuscript actual),Cultivar,20.647,0.1405,1529
+ASV top100 raw (manuscript actual),study_alias,28.995,0.0697,1553
+ASV top100 raw (manuscript actual),Author,35.033,0.0635,1553
+genus top100 rel (caption claim),Developmental_Stage,37.702,0.0196,1883
+genus top100 rel (caption claim),Scientific_Name,16.868,0.1193,1883
+genus top100 rel (caption claim),Cultivar,15.133,0.1386,1807
+genus top100 rel (caption claim),study_alias,27.605,0.0934,1883
+genus top100 rel (caption claim),Author,28.581,0.0838,1883

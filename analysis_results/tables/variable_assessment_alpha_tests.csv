@@ -1,0 +1,11 @@
+variable,metric,test,statistic,p_value,n_samples,n_groups
+Developmental_Stage,Observed,Kruskal-Wallis,13.130902307239039,2.904648520540292e-4,1886,2
+Developmental_Stage,Shannon,Kruskal-Wallis,38.23047985002025,6.286278576527569e-10,1886,2
+Scientific_Name,Observed,Kruskal-Wallis,302.3353083970036,1.8282108632519947e-55,1886,16
+Scientific_Name,Shannon,Kruskal-Wallis,250.79730063899285,8.506456107697324e-45,1886,16
+Cultivar,Observed,Kruskal-Wallis,383.87827311963895,2.0896221473221862e-70,1806,19
+Cultivar,Shannon,Kruskal-Wallis,457.52496078758185,8.603276040095499e-86,1806,19
+study_alias,Observed,Kruskal-Wallis,441.14612718922933,3.53645741870641e-91,1886,8
+study_alias,Shannon,Kruskal-Wallis,485.6396309172762,9.790481539466757e-101,1886,8
+Author,Observed,Kruskal-Wallis,409.52199892207074,2.5068838283485677e-85,1886,7
+Author,Shannon,Kruskal-Wallis,483.22491061146064,3.4502254178315515e-101,1886,7

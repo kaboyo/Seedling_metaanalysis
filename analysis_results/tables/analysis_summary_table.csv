@@ -1,0 +1,12 @@
+section,metric,value
+Dataset scope,Filtered samples,1886
+Dataset scope,Filtered taxa,2000
+Composition,Core taxa,NA
+Alpha diversity,Alpha status,completed
+Beta diversity,PERMANOVA status,failed
+Beta diversity,PERMANOVA stage-subset status,failed
+Beta diversity,PERMDISP status,failed
+Beta diversity,PERMDISP stage-subset status,failed
+Differential abundance,DESeq2 status,completed
+Differential abundance,ANCOM-BC2 status,failed
+Network,Co-occurrence status,completed

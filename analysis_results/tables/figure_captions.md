@@ -1,0 +1,96 @@
+# Figure captions
+
+46 figures written by this render.
+
+**`alpha_combined.tiff`** — Observed ASV richness and Shannon diversity by developmental stage, with the Kruskal-Wallis test for each.
+
+**`alpha_observed_by_author.tiff`** — Observed ASV richness by author. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_observed_by_cultivar.tiff`** — Observed ASV richness by cultivar. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_observed_by_developmental_stage.tiff`** — Observed ASV richness by developmental stage. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_observed_by_geography.tiff`** — Observed ASV richness by geography. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_observed_by_scientific_name.tiff`** — Observed ASV richness by scientific name. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_observed_by_study_alias.tiff`** — Observed ASV richness by study alias. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_observed.tiff`** — Observed ASV richness by developmental stage. Boxes show the median and interquartile range; points are individual samples.
+
+**`alpha_richness_by_cultivar.tiff`** — Observed ASV richness per study and cultivar, split by developmental stage. Vertical lines mark per-cultivar medians; the x axis is log-scaled.
+
+**`alpha_richness_by_species.tiff`** — Observed ASV richness per study and host species, split by developmental stage. Vertical lines mark per-species medians; the x axis is log-scaled.
+
+**`alpha_shannon_by_author.tiff`** — Shannon diversity by author. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_shannon_by_cultivar.tiff`** — Shannon diversity by cultivar. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_shannon_by_developmental_stage.tiff`** — Shannon diversity by developmental stage. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_shannon_by_geography.tiff`** — Shannon diversity by geography. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_shannon_by_scientific_name.tiff`** — Shannon diversity by scientific name. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_shannon_by_study_alias.tiff`** — Shannon diversity by study alias. Boxes show the median and interquartile range and points are individual samples; panels split by developmental stage where that variable is not the stage itself.
+
+**`alpha_shannon.tiff`** — Shannon diversity by developmental stage. Boxes show the median and interquartile range; points are individual samples.
+
+**`cooccurrence_network.tiff`** — Genus co-occurrence network. Nodes are genera sized by degree, edges are significant correlations above the correlation threshold; the most connected genera are labelled.
+
+**`fig_taxa_strips_family.tiff`** — Family composition by study, cultivar and developmental stage, as for the phylum figure. Families reaching the abundance threshold in at least one bar are shown individually; the rest are pooled as Other.
+
+**`fig_taxa_strips_genus.tiff`** — Genus composition by study, cultivar and developmental stage, as for the phylum figure. Genera reaching the abundance threshold in at least one bar are shown individually; the rest are pooled as Other.
+
+**`fig_taxa_strips_phylum.tiff`** — Phylum composition by study, cultivar and developmental stage. Each bar is one cultivar at one stage within a study; bar segments are the mean of per-sample relative abundances. Circles mark seed and triangles seedling samples; n is the sample count and * marks fewer than three samples.
+
+**`fig1_composition_R.png`** — (no caption defined)
+
+**`fig1_geographic_distribution.tiff`** — Global distribution of the compiled dataset. Each ring is one study (BioProject) in one country, labelled with its project ID and sample count; ring area is proportional to sample count and ring segments give the seed/seedling split. Countries contributing samples are shaded teal. The table lists every contributing study.
+
+**`fig2_alpha_R.png`** — (no caption defined)
+
+**`fig3_beta_R.png`** — (no caption defined)
+
+**`fig4_indicator_R.png`** — (no caption defined)
+
+**`geographic_distribution_map.tiff`** — Choropleth of sample provenance: countries shaded by the number of samples contributed (log scale). Retained as an alternative view of the Figure 1 map.
+
+**`indicator_species_plot.tiff`** — Indicator taxa for seeds and seedlings: point-biserial indicator values for the strongest associations, coloured by the stage each taxon indicates.
+
+**`library_sizes.tiff`** — Distribution of per-sample library size (reads, log scale) after filtering, with the median marked in the subtitle.
+
+**`pcoa_bray_genus_by_author.tiff`** — Principal coordinates analysis of genus-level Bray-Curtis distances, coloured by author, with 95% confidence ellipses.
+
+**`pcoa_bray_genus_by_cultivar.tiff`** — Principal coordinates analysis of genus-level Bray-Curtis distances, coloured by cultivar, with 95% confidence ellipses.
+
+**`pcoa_bray_genus_by_developmental_stage.tiff`** — Principal coordinates analysis of genus-level Bray-Curtis distances, coloured by developmental stage, with 95% confidence ellipses.
+
+**`pcoa_bray_genus_by_scientific_name.tiff`** — Principal coordinates analysis of genus-level Bray-Curtis distances, coloured by scientific name, with 95% confidence ellipses.
+
+**`pcoa_bray_genus_by_study_alias.tiff`** — Principal coordinates analysis of genus-level Bray-Curtis distances, coloured by study alias, with 95% confidence ellipses.
+
+**`pcoa_bray_genus.tiff`** — Principal coordinates analysis of genus-level Bray-Curtis distances, coloured by developmental stage, with 95% confidence ellipses.
+
+**`pcoa_jaccard_genus.tiff`** — Principal coordinates analysis of genus-level Jaccard (presence/absence) distances, coloured by developmental stage, with 95% confidence ellipses.
+
+**`rarefaction_curves.tiff`** — Rarefaction curves: expected ASV richness against sequencing depth, one line per sample, coloured by developmental stage. Shown as a sensitivity check; the primary results are not rarefied.
+
+**`sample_provenance_by_country.tiff`** — Samples per country, split by developmental stage. Bar length is the number of samples retained after filtering.
+
+**`sequencing_depth_histogram.tiff`** — Sequencing depth per sample after filtering, coloured by developmental stage. Depth varies widely between studies, so richness comparisons across studies need depth control.
+
+**`study_scope.tiff`** — Samples per study, split by developmental stage, showing how unevenly the dataset is distributed across BioProjects.
+
+**`top_genus_composition.tiff`** — Total reads assigned to the most abundant genera across all retained samples.
+
+**`top_phyla_composition.tiff`** — Mean relative abundance of the most abundant bacterial phyla across all retained samples.
+
+**`top5_genus_stage_correlation_heatmap_by_cultivar.tiff`** — Spearman correlation between the top five genera and developmental stage, within each cultivar. Asterisks mark adjusted p < 0.05.
+
+**`top5_genus_stage_correlation_heatmap_by_plant_family.tiff`** — Spearman correlation between the top five genera and developmental stage, within each plant family. Asterisks mark adjusted p < 0.05.
+
+**`umap.tiff`** — UMAP embedding of genus-level community structure, coloured by developmental stage.
+
+**`volcano_deseq2.tiff`** — Differential abundance between seeds and seedlings (DESeq2): log2 fold change against adjusted significance, with significant features highlighted.
+

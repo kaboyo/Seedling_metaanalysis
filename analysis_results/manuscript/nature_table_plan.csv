@@ -1,0 +1,6 @@
+item,role,evidence_file,manuscript_use,status
+Table 1,Study and sample audit,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results/tables/study_level_audit.csv,"Report study-level sample counts, host species, geography, and developmental-stage coverage.",available
+Table 2,Filtering and retained-feature audit,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results/tables/taxonomy_filtered_features.csv,Document bacterial-retention rules and non-target sequence removal.,available
+Table 3,PERMANOVA and PERMDISP summary,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results/tables/permanova_results.csv,Separate compositional location effects from dispersion effects.,pending
+Supplementary Table 1,Alpha-diversity metrics,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results/tables/alpha_diversity.csv,Provide per-sample richness and diversity values for reuse.,available
+Supplementary Table 2,Core taxa list,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results/tables/core_taxa_list.csv,List taxa supporting the core-microbiome claim.,pending

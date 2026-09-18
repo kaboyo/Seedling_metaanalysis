@@ -1,0 +1,8 @@
+category,current_record,gap_or_action
+Raw ASV counts,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/Datesets/asv-counts.csv,Deposit or cite accession/DOI before submission.
+Sample metadata,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/Datesets/metadata.csv,"Confirm controlled vocabulary for host species, developmental stage, geography, and study alias."
+Taxonomy,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/Datesets/taxa.csv,Record classifier/database version used to generate assignments.
+Phylogenetic tree,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/Datesets/tree.nexus,Record generation method and whether tree overlap was sufficient for UniFrac/Faith PD.
+Analysis code,phyloseq_analysis.qmd; analysis_config.json,Archive code with a commit/tag and dependency lockfile or sessionInfo output.
+Derived outputs,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results,"Archive tables, figures, and cache-free reproducible outputs."
+Restricted data,none recorded in config,"If any source dataset has access restrictions, add access procedure and license."

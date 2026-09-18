@@ -1,0 +1,6 @@
+item,value
+Notebook,phyloseq_analysis.qmd
+Production config,analysis_config.json
+Smoke config,analysis_config.smoke.json
+Expected output root,/Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis/analysis_results
+Package-dependent skips,UniFrac/Faith PD can skip when tree overlap is insufficient; optional mori/mirai memory backend is not required.

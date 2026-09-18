@@ -1,0 +1,94 @@
+QUARANTINE MANIFEST — Sat Sep 12 18:09:03 CEST 2026
+Restore with: rsync -a _quarantine/files/ ./   (MANIFEST.txt and VERIFY.txt excluded)
+
+### 2a byte-identical duplicates
+Datesets/asv-counts (1).csv                                | md5 19e78715 == asv-counts.csv
+Datesets/asv-counts (1).pre_harmonize.csv                  | md5 82648eb9 == asv-counts.pre_harmonize.csv
+Datesets/taxa (1).csv                                      | md5 bbed1aa0 == taxa.csv
+Datesets/taxonomy (1).tsv                                  | md5 265bce21 == taxonomy.tsv
+joined-scripts/project/strawberry-excalibur 2.qmd          | md5 9086f8f6 == strawberry-excalibur_EXC.qmd
+
+### 2b duplicate outputs (all 38 cmp-verified identical)
+analysis_results/cache/bray_distance (1).rds                           | identical to original
+analysis_results/diversity/pcoa_bray_genus_by_author (1).tiff          | identical to original
+analysis_results/diversity/pcoa_bray_genus_by_cultivar (1).tiff        | identical to original
+analysis_results/diversity/pcoa_jaccard_genus (1).tiff                 | identical to original
+analysis_results/figures/cooccurrence_network (1).tiff                 | identical to original
+analysis_results/figures/genus_composition_bubble_seeds (1).tiff       | identical to original
+analysis_results/figures/geographic_distribution_map (1).tiff          | identical to original
+analysis_results/figures/indicator_species_plot (1).tiff               | identical to original
+analysis_results/figures/phylum_composition_bubble_seeds (1).tiff      | identical to original
+analysis_results/figures/top5_genus_stage_correlation_heatmap_by_plant_family (1).tiff | identical to original
+analysis_results/setup/ps0 (1).rds                                     | identical to original
+analysis_results_smoke/diversity/pcoa_bray_genus (1).tiff              | identical to original
+analysis_results_smoke/diversity/pcoa_bray_genus_by_cultivar (1).tiff  | identical to original
+analysis_results_smoke/diversity/pcoa_bray_genus_by_developmental_stage (1).tiff | identical to original
+analysis_results_smoke/diversity/pcoa_bray_genus_by_scientific_name (1).tiff | identical to original
+analysis_results_smoke/diversity/pcoa_bray_otuid (1).tiff              | identical to original
+analysis_results_smoke/figures/alpha_combined (1).tiff                 | identical to original
+analysis_results_smoke/figures/alpha_observed_by_author (1).tiff       | identical to original
+analysis_results_smoke/figures/alpha_observed_by_cultivar (1).tiff     | identical to original
+analysis_results_smoke/figures/alpha_observed_by_scientific_name (1).tiff | identical to original
+analysis_results_smoke/figures/alpha_observed_by_study_alias (1).tiff  | identical to original
+analysis_results_smoke/figures/alpha_richness_by_cultivar (1).tiff     | identical to original
+analysis_results_smoke/figures/alpha_richness_by_species (1).tiff      | identical to original
+analysis_results_smoke/figures/alpha_shannon_by_author (1).tiff        | identical to original
+analysis_results_smoke/figures/alpha_shannon_by_cultivar (1).tiff      | identical to original
+analysis_results_smoke/figures/alpha_shannon_by_developmental_stage (1).tiff | identical to original
+analysis_results_smoke/figures/alpha_shannon_by_scientific_name (1).tiff | identical to original
+analysis_results_smoke/figures/alpha_shannon_by_study_alias (1).tiff   | identical to original
+analysis_results_smoke/figures/family_composition_bubble_seedlings (1).tiff | identical to original
+analysis_results_smoke/figures/genus_composition_bubble_seedlings (1).tiff | identical to original
+analysis_results_smoke/figures/genus_composition_bubble_seeds (1).tiff | identical to original
+analysis_results_smoke/figures/geographic_distribution_map (1).tiff    | identical to original
+analysis_results_smoke/figures/permdisp_plot (1).tiff                  | identical to original
+analysis_results_smoke/figures/top5_genus_stage_correlation_heatmap_by_cultivar (1).tiff | identical to original
+analysis_results_smoke/figures/top5_genus_stage_correlation_heatmap_by_plant_family (1).tiff | identical to original
+analysis_results_smoke/figures/top_phyla_composition (1).tiff          | identical to original
+analysis_results_smoke/figures/umap (1).tiff                           | identical to original
+analysis_results_smoke/setup/library_sizes (1).tiff                    | identical to original
+
+### 2c caches, scratch, intermediates
+.mypy_cache                                                | regenerable type-check cache (40 MB)
+.pytest_cache                                              | regenerable pytest cache
+tmp_debug                                                  | scratch dir (89 MB)
+tmp_debug_narrow                                           | scratch dir (8 MB)
+__pycache__                                                | bytecode; .pyc was TRACKED in git
+tests/__pycache__                                          | bytecode; .pyc was TRACKED in git
+phyloseq_analysis 2.rmarkdown                              | older knitr intermediate of phyloseq_analysis.qmd
+phyloseq_analysis 3.rmarkdown                              | older knitr intermediate of phyloseq_analysis.qmd
+analysis_results/~$Figures.pptx                            | stale Office lock file (outside manuscript/)
+
+### 3 user-approved large input
+Datesets/feature-table.tsv                                 | 1.36 GB; content lives in asv-counts.csv (convert_seedling_tables.py); re-exportable from feature-table.biom
+wild-again/ (aborted git init skeleton, 0 regular files)
+structures/ (genuinely empty, rmdir'd)
+
+### Phase 1 — superseded originals (integrated copies now live in repo)
+artifacts/figures.qmd                                      | superseded by manuscript_figures.qmd (config-driven)
+artifacts/manuscript_audit_2026-08-04/verify_manuscript.py | superseded by validation/verify_manuscript.py (config-driven)
+artifacts/figures.html                                     | render of the old hardcoded-path qmd; regenerable
+artifacts/.DS_Store                                        | macOS junk
+
+### figures/ folder redundancies — data files misfiled in a figures dir
+analysis_results/figures/umap_data.csv                   | relocated to diversity/umap_data.csv (data, not a figure)
+analysis_results/figures/pairwise_observed.rds             | data object misfiled in figures/; diversity/pairwise_observed.rds is canonical
+analysis_results/figures/pairwise_shannon.rds              | data object misfiled in figures/; diversity/pairwise_shannon.rds is canonical
+
+### figures scattered outside figures/ — now all written to figures/ by figures_all.qmd
+analysis_results/diversity/pcoa_bray_genus.tiff            | figure now written to figures/pcoa_bray_genus.tiff by figures_all.qmd
+analysis_results/diversity/pcoa_bray_genus_by_author.tiff  | figure now written to figures/pcoa_bray_genus_by_author.tiff by figures_all.qmd
+analysis_results/diversity/pcoa_bray_genus_by_cultivar.tiff | figure now written to figures/pcoa_bray_genus_by_cultivar.tiff by figures_all.qmd
+analysis_results/diversity/pcoa_bray_genus_by_developmental_stage.tiff | figure now written to figures/pcoa_bray_genus_by_developmental_stage.tiff by figures_all.qmd
+analysis_results/diversity/pcoa_bray_genus_by_scientific_name.tiff | figure now written to figures/pcoa_bray_genus_by_scientific_name.tiff by figures_all.qmd
+analysis_results/diversity/pcoa_bray_genus_by_study_alias.tiff | figure now written to figures/pcoa_bray_genus_by_study_alias.tiff by figures_all.qmd
+analysis_results/diversity/pcoa_jaccard_genus.tiff         | figure now written to figures/pcoa_jaccard_genus.tiff by figures_all.qmd
+analysis_results/setup/library_sizes.tiff                  | figure now written to figures/library_sizes.tiff by figures_all.qmd
+
+### RESTORED 2026-09-12 at user request — Datesets/ holds original files, not duplicates
+Datesets/asv-counts (1).csv                                | RESTORED to Datesets/
+Datesets/asv-counts (1).pre_harmonize.csv                  | RESTORED to Datesets/
+Datesets/taxa (1).csv                                      | RESTORED to Datesets/
+Datesets/taxonomy (1).tsv                                  | RESTORED to Datesets/
+Datesets/feature-table.tsv                                 | RESTORED to Datesets/
+Nothing under Datesets/ is in quarantine any more. Do not re-quarantine it.

@@ -1,0 +1,55 @@
+meta:
+  name: Seedling Microbiome Meta-Analysis
+
+color:
+  palette:
+    white: "#FFFFFF"
+    black: "#1a1a2e"
+    slate: "#334155"
+    gray: "#64748b"
+    light-gray: "#f1f5f9"
+    blue: "#2563eb"
+    green: "#16a34a"
+    teal: "#0d9488"
+    orange: "#ea580c"
+    red: "#dc2626"
+  foreground: slate
+  background: white
+  primary: blue
+  secondary: gray
+  success: green
+  info: teal
+  warning: orange
+  danger: red
+
+typography:
+  fonts:
+    - family: Source Sans 3
+      source: google
+      weight: [300, 400, 600, 700]
+      style: [normal, italic]
+    - family: Source Serif 4
+      source: google
+      weight: [400, 600, 700]
+      style: [normal, italic]
+    - family: Source Code Pro
+      source: google
+      weight: [400, 500]
+  base:
+    family: Source Sans 3
+    size: 1rem
+    line-height: 1.6
+    weight: 400
+  headings:
+    family: Source Serif 4
+    weight: 600
+    line-height: 1.3
+  monospace:
+    family: Source Code Pro
+    size: 0.9em
+  monospace-inline:
+    color: slate
+    background-color: light-gray
+  link:
+    color: primary
+    weight: 500
