@@ -9,7 +9,7 @@
     "min_library_size": 500,
     "min_feature_prevalence": 3,
     "min_feature_total_count": 10,
-    "max_retained_features": 2000,
+    "max_retained_features": null,
     "beta_top_taxa": 100,
     "keep_kingdom": [
       "Bacteria"
