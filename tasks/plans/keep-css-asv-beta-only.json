@@ -1,0 +1,141 @@
+{
+  "title": "ExecPlan: Keep only the CSS-normalised, all-ASV beta-diversity analysis",
+  "protocol": "Living document following ~/.claude/PLANS.md. Each required section of that protocol is one top-level key here, in the same order.",
+  "last_updated": "2026-10-01",
+  "status": "DRAFT - awaiting user approval and four decisions (see open_decisions). No code has been changed.",
+
+  "purpose": "The analysis currently reports beta diversity (how different the bacterial communities of samples are from each other) three ways, on three different sets of taxa, which produces three different answers for the same question. After this change there is one: Bray-Curtis distances on all 2,823 filtered ASVs after CSS normalisation, with its PERMANOVA table. The other two - the original top-100-ASV analysis and the genus-level CSS analysis - are removed so no figure or table can be mistaken for the reported result.",
+
+  "context_and_orientation": {
+    "environment": "R 4.3.2, Quarto 1.7.32. Repository root /Users/expeditoolimi/Documents/Southampton/Southampton/Seedling_metaanalysis. Nothing is committed since fdc30d9; the working tree holds all earlier uncommitted edits.",
+    "terms": {
+      "ASV": "Amplicon sequence variant: one exact 16S sequence type. 2,823 remain after filtering.",
+      "CSS": "Cumulative sum scaling (metagenomeSeq): a normalisation that scales each sample by the sum of its counts up to a data-driven quantile, used here instead of rarefaction because sequencing depth differs 65-fold between studies.",
+      "PERMANOVA": "Permutation test (vegan::adonis2) of whether groups differ in community composition; R2 is the share of variation a grouping explains.",
+      "PERMDISP": "Permutation test (vegan::betadisper) of whether groups differ in spread. PERMANOVA can be significant because of spread alone, so the two are read together.",
+      "PCoA": "Principal coordinates analysis: the 2-D scatter drawn from a distance matrix.",
+      "univariate vs marginal": "Univariate tests one grouping alone; marginal tests each grouping after accounting for all the others."
+    },
+    "what_exists_now": [
+      {"track": "KEEP - CSS, ASV level", "chunk": "beta-diversity-css (Part 1)", "taxa": "all 2,823 filtered ASVs", "outputs": "diversity/permanova_css_by_unit.csv rows with unit == 'ASV' (stage univariate R2 = 0.021, n = 1,879; marginal R2 = 0.004, n = 1,802); cache/bray_css_all_features.rds; panel b of figures/pcoa_css_stage_unit_sensitivity.tiff"},
+      {"track": "DELETE - CSS, genus level", "chunk": "beta-diversity-css (Part 1), genus half", "taxa": "all genera", "outputs": "permanova_css_by_unit.csv rows with unit == 'genus'; cache/bray_css_genus.rds; the seven figures/pcoa_css_bray_genus_by_*.tiff; panel a of pcoa_css_stage_unit_sensitivity.tiff"},
+      {"track": "DELETE - original, top 100", "chunk": "memory-aware-beta-objects, unifrac, permanova, permdisp, nmds, pcoa, umap, and the beta half of variable-assessment (Part 1); fx-fig-umap (Part 2)", "taxa": "top 100 ASVs or top 100 genera by total abundance, raw counts", "outputs": "tables/variable_assessment_beta_tests.csv; diversity/pcoa_bray_genus*.csv, pcoa_jaccard_genus.csv, umap_data.csv; figures/pcoa_bray_genus_by_*.tiff, umap.tiff; cache/bray_distance*.rds, jaccard_distance.rds"}
+    ],
+    "consequences_of_deleting": [
+      "Every ordination figure by grouping variable is currently drawn from GENUS distances. Deleting the genus track leaves no ordination figure except one ASV-level panel, unless the figures are redrawn at ASV level (decision 1).",
+      "The only PERMDISP in the document belongs to the original top-100 track. Deleting it leaves the kept PERMANOVA with no dispersion test (decision 2).",
+      "NMDS, UMAP, UniFrac and Jaccard results disappear entirely; the kept analysis is Bray-Curtis only.",
+      "The per-variable beta tests in variable-assessment (top-100) go; the kept chunk already tests Developmental_Stage, Family, Scientific_Name, Cultivar, study_alias and Geography on all ASVs. Author is not among them.",
+      "The genus-level check - that the stage effect does not depend on the unit of analysis (it is larger at genus level, R2 = 0.038) - is lost. 57.4% of ASVs occur in a single study, so an ASV-level effect partly reflects study identity; the code comment that says this stays, but the supporting genus row goes."
+    ],
+    "not_touched": [
+      "validation/verify_manuscript.py and Part 3 of the master (the independent audit and its figures) - deliberately separate; its tables of record describe the manuscript as audited.",
+      "microbiome_analysis.py and phyloseq_analysis.R (the Python pipeline) - it has its own genus-level beta diversity; out of scope unless decision 4 says otherwise.",
+      "analysis_results/manuscript/*.docx.",
+      "filters.beta_top_taxa and analysis.beta_rank in the configs - still read by the Python pipeline."
+    ]
+  },
+
+  "plan_of_work": "All code changes are in seedling_analysis_master.qmd. Work from the dependents inward so the document parses after every step: first the kept chunk is made self-sufficient (ASV-only, with its own ordination figures and, if approved, PERMDISP); then the consumers of the old results (summary, figure plan, captions, guidance text) are pointed at the kept outputs; only then are the old chunks removed, each replaced by an HTML comment '<!-- removed: <label> - <reason> -->' as was done for the alpha-diversity removal, so the history of what was there stays readable. Stale output files are deleted last, and only those listed under decision 3. Rollback: nothing is committed, so a snapshot commit is taken first if approved (decision 4); otherwise a copy of the master is kept in the scratchpad for the duration.",
+
+  "milestones": [
+    {
+      "id": 0,
+      "title": "Snapshot",
+      "scope": "Make the removal reversible.",
+      "steps": ["If decision 4 is yes: git add seedling_analysis_master.qmd analysis_config*.json tasks/ and commit 'chore: snapshot before beta-diversity consolidation'. Otherwise copy seedling_analysis_master.qmd to the session scratchpad."],
+      "verification": ["git log -1 shows the snapshot, or the scratchpad copy exists and is byte-identical."]
+    },
+    {
+      "id": 1,
+      "title": "Make the kept chunk ASV-only and self-sufficient",
+      "scope": "Edit chunk beta-diversity-css so it no longer builds, tests or draws anything at genus level.",
+      "steps": [
+        "Remove genus agglomeration, CSS$genus, bray_css_genus.rds, the genus univariate PERMANOVA loop and the 'unit' sensitivity figure.",
+        "Write the PERMANOVA table as diversity/permanova_css_asv.csv (columns model, term, df, R2, F, p, n) and stop writing permanova_css_by_unit.csv.",
+        "Decision 1 = redraw: draw PCoA of the ASV distances coloured by each variable as figures/pcoa_css_bray_asv_by_<variable>.tiff, each annotated with its ASV-level PERMANOVA line.",
+        "Decision 2 = add: run vegan::betadisper + permutest on the ASV distances for each univariate term and write diversity/permdisp_css_asv.csv."
+      ],
+      "verification": [
+        "Stage univariate R2 = 0.0211 at n = 1,879 and marginal R2 = 0.0037 at n = 1,802, identical to the current ASV rows.",
+        "No file whose name contains 'genus' is written by the chunk."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Repoint the consumers",
+      "scope": "Everything that reads the old results reads the kept ones.",
+      "steps": [
+        "Chunk summary: replace the UniFrac / PERMANOVA / PERMDISP / NMDS status rows with the status of the kept analysis.",
+        "Chunk nature-manuscript-package: Figure 4 -> figures/pcoa_css_bray_asv_by_developmental_stage.tiff (or mark the row as table-only if decision 1 = none); Table 3 and the beta claim -> diversity/permanova_css_asv.csv; update the layout guidance text.",
+        "Chunk figure-captions: remove captions and caption_for() patterns for pcoa_bray*, pcoa_jaccard*, pcoa_css_bray_genus*, pcoa_css_stage_unit_sensitivity, umap, nmds, permdisp; add the ASV ones.",
+        "Part 2 intro table: drop the rows for cache/{bray,jaccard}_distance.rds, diversity/pcoa_*.csv and umap_data.csv."
+      ],
+      "verification": ["grep for permanova_results.csv, pcoa_bray, ps_beta, nmds_result, umap_result in the executed part of the master returns nothing."]
+    },
+    {
+      "id": 3,
+      "title": "Remove the old tracks",
+      "scope": "Delete the chunks that now have no consumer.",
+      "steps": [
+        "Replace with removal comments: memory-aware-beta-objects, unifrac, permanova, permdisp, nmds, pcoa, umap (Part 1) and fx-fig-umap (Part 2).",
+        "Chunk variable-assessment: remove the beta half (plot_variable_pcoa, the adonis2/betadisper block, the two bray_dist_for_variables_* distances, variable_assessment_beta_tests.csv) and keep the alpha half.",
+        "Remove helpers left without callers by this change (for example get_beta_distance, drop_invalid_distance_samples) after confirming each has no other caller."
+      ],
+      "verification": [
+        "Every executed chunk parses with R's parse(); no duplicate chunk labels.",
+        "The kept chunk, extracted and run on analysis_results/setup/ps_clean.rds, completes and reproduces the milestone 1 numbers."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Remove stale outputs and update the docs",
+      "scope": "Only if decision 3 = delete.",
+      "steps": [
+        "Delete from analysis_results/: figures/pcoa_bray_genus_by_*.tiff (5), figures/pcoa_css_bray_genus_by_*.tiff (7), figures/pcoa_css_stage_unit_sensitivity.tiff, figures/umap.tiff, figures/umap_data.csv; diversity/pcoa_bray_genus*.csv (6), diversity/pcoa_jaccard_genus.csv, diversity/umap_data.csv, diversity/permanova_css_by_unit.csv; tables/variable_assessment_beta_tests.csv; cache/bray_distance.rds, bray_distance_all_asvs.rds, jaccard_distance.rds, bray_css_genus.rds, jaccard_css_genus.rds, css_genus_matrix.rds, bray_css_uncapped.rds, bray_css_all_asvs.rds, jaccard_css_all_asvs.rds, permanova_css_by_unit.rds.",
+        "Update CLAUDE.md: the 'Memory discipline' bullet on ps_beta / beta_top_taxa and the figure-count statements no longer describe the master."
+      ],
+      "verification": ["ls analysis_results/figures | grep -c -E 'pcoa_bray|genus_by|umap' returns 0."]
+    }
+  ],
+
+  "validation_and_acceptance": [
+    "diversity/permanova_css_asv.csv contains only ASV-level rows and reproduces: Developmental_Stage univariate R2 0.0211, F 40.43, p 0.001, n 1,879.",
+    "The master's executed chunks parse and have unique labels.",
+    "python3 -m pytest tests/ -q still passes (the Python pipeline is untouched).",
+    "A full quarto render of the master is the only check that executes every Part 1 edit together; it takes long and is run only on request."
+  ],
+
+  "interfaces_and_dependencies": {
+    "new_dependencies": [],
+    "outputs_added": ["diversity/permanova_css_asv.csv", "diversity/permdisp_css_asv.csv (decision 2)", "figures/pcoa_css_bray_asv_by_<variable>.tiff (decision 1)"],
+    "outputs_no_longer_written": ["diversity/permanova_css_by_unit.csv", "tables/variable_assessment_beta_tests.csv", "all pcoa_bray_genus*, pcoa_jaccard_genus, pcoa_css_bray_genus*, umap*, and the nmds / permdisp / unifrac results"],
+    "objects_removed": ["ps_beta", "ps_beta_otuid", "ps_beta_genus", "permanova_result", "permdisp_result", "nmds_result", "unifrac_result", "umap_result"]
+  },
+
+  "progress": [
+    {"timestamp": "2026-10-01", "status": "done", "item": "Scope mapped: 8 Part 1 chunks, 1 Part 2 chunk, 5 consumers, about 35 stale output files."},
+    {"timestamp": null, "status": "pending", "item": "User approval and decisions 1-4."},
+    {"timestamp": null, "status": "pending", "item": "Milestones 0-4."}
+  ],
+
+  "surprises_and_discoveries": [
+    {"finding": "The ordination figures of the kept track are drawn at genus level, not ASV level.", "evidence": "Code comment in beta-diversity-css: 'Ordination figures are drawn at genus level'; all seven pcoa_css_* figure names contain 'genus'."},
+    {"finding": "The kept track has no dispersion test.", "evidence": "betadisper appears only in chunks permdisp and variable-assessment, both on the top-100 objects."},
+    {"finding": "Figure plan rows already point at files that do not exist.", "evidence": "nature_figure_plan.csv Figure 4 -> diversity/pcoa_bray.tiff; Table 3 -> tables/permanova_results.csv; neither file is present."}
+  ],
+
+  "decision_log": [
+    {"date": "2026-10-01", "decision": "Keep only the CSS-normalised all-ASV Bray-Curtis analysis; delete the top-100 track and the genus-level CSS track.", "rationale": "One reported beta-diversity result instead of three that disagree.", "author": "User"},
+    {"date": "2026-10-01", "decision": "Plan written in JSON and submitted for approval before any edit.", "rationale": "Rule in tasks/lessons.md after the previous plan was written retrospectively.", "author": "Claude"}
+  ],
+
+  "open_decisions": [
+    {"id": 1, "question": "Ordination figures: redraw at ASV level, or have none?", "recommended": "Redraw at ASV level, so the figures and the reported PERMANOVA describe the same data."},
+    {"id": 2, "question": "Add a PERMDISP on the kept ASV distances?", "recommended": "Yes. Without it a reviewer cannot tell whether the PERMANOVA reflects a shift in composition or only a difference in spread."},
+    {"id": 3, "question": "Delete the stale output files listed in milestone 4, or leave them on disk?", "recommended": "Delete, so an old figure cannot be picked up as a current result."},
+    {"id": 4, "question": "Take a git snapshot commit before removing code?", "recommended": "Yes; the same was done before the alpha-diversity removal (commit fdc30d9)."}
+  ],
+
+  "outcomes_and_retrospective": null
+}

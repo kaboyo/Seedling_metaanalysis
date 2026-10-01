@@ -338,16 +338,14 @@ FIGURE_CAPTIONS <- c(
     "Mean relative abundance of the most abundant bacterial phyla across all retained samples.",
   "top_genus_composition.tiff" =
     "Total reads assigned to the most abundant genera across all retained samples.",
-  "alpha_observed.tiff" =
-    "Observed ASV richness by developmental stage. Boxes show the median and interquartile range; points are individual samples.",
-  "alpha_shannon.tiff" =
-    "Shannon diversity by developmental stage. Boxes show the median and interquartile range; points are individual samples.",
-  "alpha_combined.tiff" =
-    "Observed ASV richness and Shannon diversity by developmental stage, with the Kruskal-Wallis test for each.",
-  "alpha_richness_by_species.tiff" =
-    "Observed ASV richness per study and host species, split by developmental stage. Vertical lines mark per-species medians; the x axis is log-scaled.",
-  "alpha_richness_by_cultivar.tiff" =
-    "Observed ASV richness per study and cultivar, split by developmental stage. Vertical lines mark per-cultivar medians; the x axis is log-scaled. The lower panel summarises the contributing studies: reference, accession, sample count, number of cultivars, the seed/seedling split and median richness. Reference and accession are listed separately because Chandel et al. 2022 contributed two BioProjects.",
+  "alpha_indices_by_stage_rarefied.tiff" =
+    "Alpha diversity in seeds and seedlings after rarefying every sample to the same depth (columns), for observed ASV richness, Shannon, Simpson and Pielou's evenness (rows). Boxes show the median and interquartile range, whiskers 1.5 times the interquartile range, points outliers. Each panel gives the Kruskal-Wallis test of developmental stage across all studies pooled, with its H-based effect size; samples below a depth are excluded at that depth, so sample numbers differ between columns. Study is not controlled for in these pooled tests; per-study tests are in alpha_diversity_findings.csv.",
+  "fig_alluvial_genus_by_plant_family.tiff" =
+    "Genus composition at each developmental stage, by plant family. Only studies that sampled both seeds and seedlings of that family contribute, so both bars rest on the same studies (n in each strip); relative abundance is averaged within each study, then across studies, so every study counts equally. Ribbon width is the mean relative abundance of a genus; each stage sums to 100%. Ribbons link the same genus name across stages and do NOT indicate that cells persisted, were inherited or were transmitted - seeds and seedlings are different, unpaired samples. The 15 genera most abundant across all studies are named, with the same colours in every genus figure, and all others pooled as Other.",
+  "fig_alluvial_genus_by_host_species.tiff" =
+    "As for the plant-family alluvial, but resolved to host species and grouped by plant family. Only species with a study sampling both stages are shown, so the panel set is smaller than the full species list. Supplementary to the family-level version.",
+  "fig_genus_seedling_vs_seed_by_species.tiff" =
+    "Change in genus relative abundance from seed to seedling within each host species, for the 15 genera named in the alluvial figures. Colour is log2(seedling / seed) of the study-averaged relative abundances, from the same studies that sampled both stages, with a pseudocount of 1e-4 added to both; values beyond +/-6 are capped, and ratios where one stage is near zero mostly reflect the pseudocount. Dot size is the larger of the two stage means.",
   "pcoa_css_bray_genus_by_developmental_stage.tiff" =
     "Principal coordinates analysis of Bray-Curtis distances between CSS-normalised communities, agglomerated to all genera, coloured by developmental stage. Axis labels give the variance explained by each coordinate.",
   "pcoa_css_stage_unit_sensitivity.tiff" =
@@ -396,28 +394,18 @@ caption_for <- function(file) {
     f <- basename(file)
     if (f %in% names(FIGURE_CAPTIONS)) return(unname(FIGURE_CAPTIONS[[f]]))
     pretty_var <- function(x) gsub("_", " ", x)
-    m <- regmatches(f, regexec("^alpha_(observed|shannon)_by_(.+)\\.tiff$", f))[[1]]
+    m <- regmatches(f, regexec("^alpha_richness_by_(species)_depth(\\d+)\\.tiff$", f))[[1]]
     if (length(m) == 3) {
-        metric <- if (m[2] == "observed") "Observed ASV richness" else "Shannon diversity"
-        return(sprintf(paste("%s by %s. Boxes show the median and interquartile range and points are",
-                             "individual samples; panels split by developmental stage where that",
-                             "variable is not the stage itself."), metric, pretty_var(m[3])))
-    }
-    m <- regmatches(f, regexec("^rarefied_(observed|shannon)_by_(.+)_depth(\\d+)\\.tiff$", f))[[1]]
-    if (length(m) == 4) {
-        metric <- if (m[2] == "observed") "Observed ASV richness" else "Shannon diversity"
-        return(sprintf(paste("%s by %s after rarefying every sample to %s reads, with the",
-                             "Kruskal-Wallis test for that variable. Groups are ordered by",
-                             "ascending median. Samples below the depth are excluded rather",
-                             "than rarefied."), metric, pretty_var(m[3]), m[4]))
-    }
-    m <- regmatches(f, regexec("^rarefied_(observed|shannon)_depth(\\d+)\\.tiff$", f))[[1]]
-    if (length(m) == 3) {
-        metric <- if (m[2] == "observed") "Observed ASV richness" else "Shannon diversity"
-        return(sprintf(paste("%s by developmental stage after rarefying every sample to",
-                             "%s reads. Samples below that depth are excluded rather than",
-                             "rarefied. Shown as a sensitivity analysis; the primary",
-                             "results are not rarefied."), metric, m[3]))
+        return(sprintf(paste("Observed ASV richness per study and host %s, split by developmental",
+                             "stage, after rarefying every sample to %s reads. Boxes are per-study",
+                             "quartiles; the vertical line in each panel is the median for that",
+                             "%s at that stage, absent where the stage was not sampled. The log-scaled",
+                             "x axis is shared by both stages. Rows are grouped by plant family,",
+                             "families ordered by ascending median richness and species by",
+                             "ascending median within each family. Samples below the depth are",
+                             "excluded rather than rarefied. The table lists each contributing",
+                             "study with its accession, samples, species and median richness."),
+                       m[2], m[3], m[2]))
     }
     m <- regmatches(f, regexec("^fig_taxa_strips_(phylum|family|genus)_by_(plant_family|host_species)\\.tiff$", f))[[1]]
     if (length(m) == 3) {
@@ -582,33 +570,12 @@ order_by_median <- function(groups, values, decreasing = FALSE) {
     factor(g, levels = names(sort(m, decreasing = decreasing)))
 }
 
-format_p_label <- function(p) {
-    if (is.null(p) || length(p) == 0 || is.na(p)) return("p = NA")
-    if (p < 0.001) return("p < 0.001")
-    paste0("p = ", formatC(p, format = "f", digits = 3))
-}
-
 format_p_stars <- function(p) {
     if (is.null(p) || length(p) == 0 || is.na(p)) return("ns")
     if (p < 0.001) return("***")
     if (p < 0.01) return("**")
     if (p < 0.05) return("*")
     "ns"
-}
-
-alpha_group_stats <- function(df, group_col) {
-    if (is.null(group_col) || !(group_col %in% colnames(df))) return(NULL)
-    grp <- as.factor(df[[group_col]])
-    if (nlevels(grp) < 2) return(NULL)
-    list(
-        observed = kruskal.test(df$Observed, grp),
-        shannon = kruskal.test(df$Shannon, grp)
-    )
-}
-
-alpha_pairwise_comparisons <- function(values, groups) {
-    if (length(unique(groups[!is.na(groups)])) < 2) return(NULL)
-    pairwise.wilcox.test(values, as.factor(groups), p.adjust.method = "bonf")
 }
 
 # Plant species color palette (per plant family)
@@ -3387,200 +3354,7 @@ cat("  Alpha diversity:", alpha_result$status, "\n")
 
 #### Alpha Diversity Visualization
 
-```{r alpha-diversity-plots}
-plot_alpha_diversity <- function(ps, group_col, output_dir) {
-    if (is.null(group_col) || !(group_col %in% colnames(sample_data(ps)))) {
-        return(list(status = "skipped_no_group"))
-    }
-
-    rich <- estimate_richness(ps, measures = c("Observed", "Shannon"))
-    meta_df <- as.data.frame(sample_data(ps))
-    alpha_df <- cbind(meta_df, rich)
-    alpha_df <- alpha_df[!is.na(alpha_df[[group_col]]), , drop = FALSE]
-
-    stats_res <- alpha_group_stats(alpha_df, group_col)
-    observed_p <- if (!is.null(stats_res)) stats_res$observed$p.value else NA_real_
-    shannon_p <- if (!is.null(stats_res)) stats_res$shannon$p.value else NA_real_
-    observed_pairwise <- alpha_pairwise_comparisons(alpha_df$Observed, alpha_df[[group_col]])
-    shannon_pairwise <- alpha_pairwise_comparisons(alpha_df$Shannon, alpha_df[[group_col]])
-
-    # Get unique groups for palette
-    groups <- unique(sample_data(ps)[[group_col]])
-    n_groups <- length(groups[!is.na(groups)])
-
-    # Color palette
-    palette <- get_palette(n_groups, "wildagain", "alpha_diversity")
-
-    # plot_richness() takes the group order from sample_data, so the order is set on a
-    # copy of the object before each call - once per metric, descending by median.
-    ps_ordered <- function(values) {
-        sd <- data.frame(sample_data(ps), check.names = FALSE)
-        keep <- !is.na(sd[[group_col]])
-        lev <- levels(order_by_median(alpha_df[[group_col]], values))
-        sd[[group_col]] <- factor(as.character(sd[[group_col]]), levels = lev)
-        out <- ps
-        sample_data(out) <- sample_data(sd)
-        out
-    }
-    ps_obs <- ps_ordered(alpha_df$Observed)
-    ps_sh  <- ps_ordered(alpha_df$Shannon)
-
-    # Observed ASV richness plot
-    p_obs <- plot_richness(ps_obs, x = group_col, measures = "Observed") +
-        geom_boxplot(aes(fill = get(group_col)), alpha = 0.8, outlier.shape = NA,
-                     width = 0.55) +
-        geom_jitter(aes(color = get(group_col)), size = 1.5, alpha = 0.95, width = 0.2) +
-        scale_fill_manual(values = palette, name = group_col) +
-        scale_color_manual(values = palette, name = group_col) +
-        labs(x = group_col, y = "Observed ASV Richness",
-             title = "Observed ASV Richness",
-             subtitle = paste("Kruskal-Wallis", format_p_label(observed_p))) +
-        theme_pipeline_classic() +
-        theme(
-            axis.text.x = element_text(angle = 45, hjust = 1),
-            legend.position = "bottom"
-        )
-
-    # Shannon diversity plot
-    p_sh <- plot_richness(ps_sh, x = group_col, measures = "Shannon") +
-        geom_boxplot(aes(fill = get(group_col)), alpha = 0.8, outlier.shape = NA,
-                     width = 0.55) +
-        geom_jitter(aes(color = get(group_col)), size = 1.5, alpha = 0.95, width = 0.2) +
-        scale_fill_manual(values = palette, name = group_col) +
-        scale_color_manual(values = palette, name = group_col) +
-        labs(x = group_col, y = "Shannon Diversity Index",
-             title = "Shannon Diversity",
-             subtitle = paste("Kruskal-Wallis", format_p_label(shannon_p))) +
-        theme_pipeline_classic() +
-        theme(
-            axis.text.x = element_text(angle = 45, hjust = 1),
-            legend.position = "bottom"
-        )
-
-    # Save individual plots
-    save_nature_figure(file.path(output_dir, "alpha_observed.tiff"), p_obs, kind = "standard")
-    save_nature_figure(file.path(output_dir, "alpha_shannon.tiff"), p_sh, kind = "standard")
-
-    # Combined plot (multi-panel with cowplot)
-    legend <- cowplot::get_legend(p_obs)
-    p_obs_nl <- p_obs + theme(legend.position = "none")
-    p_sh_nl <- p_sh + theme(legend.position = "none")
-    p_combined <- cowplot::plot_grid(
-        cowplot::plot_grid(p_obs_nl, p_sh_nl, labels = c("A", "B"), nrow = 1, label_size = 15),
-        legend, ncol = 1, rel_heights = c(1, 0.1)
-    )
-    save_nature_figure(file.path(output_dir, "alpha_combined.tiff"), p_combined, kind = "wide")
-
-    if (!is.null(observed_pairwise)) {
-        saveRDS(observed_pairwise, file.path(output_dir, "pairwise_observed.rds"))
-    }
-    if (!is.null(shannon_pairwise)) {
-        saveRDS(shannon_pairwise, file.path(output_dir, "pairwise_shannon.rds"))
-    }
-
-    # ── Faceted richness by plant species ───────────
-    if ("Scientific_Name" %in% colnames(sample_data(ps)) &&
-        "study_alias" %in% colnames(sample_data(ps))) {
-
-        meta_df <- as.data.frame(sample_data(ps))
-        # Compute median richness per species for ordering
-        rich <- estimate_richness(ps, measures = "Observed")
-        meta_df$observed_otus <- rich$Observed
-
-        # Order species by median richness
-        species_medians <- tapply(meta_df$observed_otus, meta_df$Scientific_Name, median, na.rm = TRUE)
-        meta_df$Scientific_Name <- factor(meta_df$Scientific_Name,
-                                           levels = names(sort(species_medians)))
-        meta_df$study_alias <- as.character(meta_df$study_alias)
-        if ("Developmental_Stage" %in% colnames(meta_df)) {
-            meta_df$Developmental_Stage <- factor(meta_df$Developmental_Stage, levels = c("Seeds", "Seedlings"))
-        }
-
-        p_species <- ggplot(meta_df,
-                            aes(x = observed_otus, y = study_alias,
-                                color = Scientific_Name)) +
-            geom_jitter(alpha = 0.95, size = 1.5) +
-            geom_vline(
-                data = data.frame(
-                    Scientific_Name = factor(names(species_medians), levels = levels(meta_df$Scientific_Name)),
-                    median_val = as.numeric(species_medians)
-                ),
-                aes(xintercept = median_val),
-                linetype = "solid", linewidth = 0.6, color = "black"
-            ) +
-            facet_grid(Scientific_Name ~ Developmental_Stage, scales = "free", space = "free") +
-            scale_x_log10() +
-            labs(x = "Observed ASV Richness", y = "Studies",
-                 title = "Bacterial ASV Richness by Plant Species",
-                 subtitle = paste("Observed richness plotted; species medians shown by vertical lines")) +
-            theme_pipeline_faceted() +
-            theme(
-                strip.text.y = element_text(size = 8, angle = 0, face = "bold.italic"),
-                legend.position = "none"
-            ) +
-            guides(col = guide_legend(ncol = 4))
-
-        save_nature_figure(file.path(output_dir, "alpha_richness_by_species.tiff"),
-                           p_species, kind = "wide")
-    }
-
-    if ("Cultivar" %in% colnames(sample_data(ps)) &&
-        "study_alias" %in% colnames(sample_data(ps))) {
-
-        meta_df <- as.data.frame(sample_data(ps))
-        rich <- estimate_richness(ps, measures = "Observed")
-        meta_df$observed_otus <- rich$Observed
-        meta_df$Cultivar <- trimws(as.character(meta_df$Cultivar))
-        meta_df$Cultivar[meta_df$Cultivar == ""] <- NA_character_
-        meta_df <- meta_df[!is.na(meta_df$Cultivar), , drop = FALSE]
-
-        if (nrow(meta_df) > 0) {
-            cultivar_medians <- tapply(meta_df$observed_otus, meta_df$Cultivar, median, na.rm = TRUE)
-            meta_df$Cultivar <- factor(meta_df$Cultivar,
-                                       levels = names(sort(cultivar_medians)))
-            meta_df$study_alias <- as.character(meta_df$study_alias)
-            if ("Developmental_Stage" %in% colnames(meta_df)) {
-                meta_df$Developmental_Stage <- factor(meta_df$Developmental_Stage, levels = c("Seeds", "Seedlings"))
-            }
-
-            p_cultivar <- ggplot(meta_df,
-                                 aes(x = observed_otus, y = study_alias,
-                                     color = Cultivar)) +
-                geom_jitter(alpha = 0.95, size = 1.5) +
-                geom_vline(
-                    data = data.frame(
-                        Cultivar = factor(names(cultivar_medians), levels = levels(meta_df$Cultivar)),
-                        median_val = as.numeric(cultivar_medians)
-                    ),
-                    aes(xintercept = median_val),
-                    linetype = "solid", linewidth = 0.6, color = "black"
-                ) +
-                facet_grid(Cultivar ~ Developmental_Stage, scales = "free", space = "free") +
-                scale_x_log10() +
-                labs(x = "Observed ASV Richness", y = "Studies",
-                     title = "Bacterial ASV Richness by Cultivar",
-                     subtitle = paste("Observed richness plotted; cultivar medians shown by vertical lines")) +
-                theme_pipeline_faceted() +
-                theme(
-                    strip.text.y = element_text(size = 8, angle = 0, face = "bold.italic"),
-                    legend.position = "none"
-                ) +
-                guides(col = guide_legend(ncol = 4))
-
-            save_nature_figure(file.path(output_dir, "alpha_richness_by_cultivar.tiff"),
-                               p_cultivar, kind = "wide")
-        }
-    }
-
-    list(status = "completed")
-}
-
-if (!is.null(group_col) && group_col %in% colnames(sample_data(ps))) {
-    cat("Plotting alpha diversity...\n")
-    alpha_plot_result <- plot_alpha_diversity(ps, group_col, figures_dir)
-    cat("  Alpha diversity plots:", alpha_plot_result$status, "\n")
-}
-```
+<!-- removed: alpha-diversity-plots - Part 1 plot_alpha_diversity + plot_variable_alpha driver. Alpha diversity is now represented only by the two richness figures; see tables/alpha_diversity_findings.csv for the statistics these carried. -->
 
 ### Rarefied Alpha Diversity
 
@@ -3637,12 +3411,21 @@ compute_rarefied_alpha <- function(ps, rarefaction_depth = NULL, group_col = NUL
         richness_rarefied <- rowSums(otu_rarefied > 0)
         shannon_rarefied <- vegan::diversity(otu_rarefied, index = "shannon")
         simpson_rarefied <- vegan::diversity(otu_rarefied, index = "simpson")
+        # Fisher's alpha and Pielou's evenness, so each rarefaction depth carries the same
+        # five indices as the unrarefied table (compute_alpha_diversity). Evenness is
+        # undefined for a single-ASV sample, as there. fisher.alpha warns on samples it
+        # cannot fit well; phyloseq::estimate_richness suppresses the same warning.
+        fisher_rarefied <- suppressWarnings(vegan::fisher.alpha(otu_rarefied))
+        evenness_rarefied <- ifelse(richness_rarefied > 1,
+                                    shannon_rarefied / log(richness_rarefied), NA_real_)
 
         rarefied_df <- data.frame(
             sample_id = rownames(otu_rarefied),
             Observed_rarefied = richness_rarefied,
             Shannon_rarefied = shannon_rarefied,
             Simpson_rarefied = simpson_rarefied,
+            Fisher_rarefied = fisher_rarefied,
+            Evenness_rarefied = evenness_rarefied,
             rarefaction_depth = rarefaction_depth,
             stringsAsFactors = FALSE
         )
@@ -3663,120 +3446,55 @@ compute_rarefied_alpha <- function(ps, rarefaction_depth = NULL, group_col = NUL
                 cat("Shannon (rarefied) ~", group_col, ":", kt_sh_r$p.value, "\n")
             }
 
-            # Plot rarefied observed richness
-            pal_r <- get_palette(length(unique(rarefied_df[[group_col]])),
-                                "wildagain", "alpha_diversity")
+            # Rarefied boxplots removed: alpha diversity is represented by the two
+            # richness figures alone. The rarefied VALUES are still computed and
+            # written per depth, because those figures are drawn from them, and the
+            # Kruskal-Wallis tests below are still tabulated.
 
-            rare_obs <- rarefied_df
-            rare_obs[[group_col]] <- order_by_median(rare_obs[[group_col]],
-                                                     rare_obs$Observed_rarefied)
-            p_obs_r <- ggplot(rare_obs,
-                              aes(x = .data[[group_col]], y = Observed_rarefied,
-                                  fill = .data[[group_col]])) +
-                geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-                geom_jitter(aes(color = .data[[group_col]]),
-                            width = 0.15, size = 1.5, alpha = 0.95) +
-                scale_fill_manual(values = pal_r) +
-                scale_color_manual(values = pal_r) +
-                labs(
-                    x = group_col,
-                    y = "Observed ASV Richness (rarefied)",
-                    title = paste0("Rarefied ASV Richness (depth = ", rarefaction_depth, ")")
-                ) +
-                theme_pipeline_classic() +
-                theme(axis.text.x = element_text(angle = 45, hjust = 1),
-                      legend.position = "none")
-
-            save_nature_figure(file.path(output_dir,
-                               sprintf("rarefied_observed_depth%d.tiff", rarefaction_depth)),
-                               p_obs_r, kind = "standard")
-
-            # Plot rarefied Shannon
-            rare_sh <- rarefied_df
-            rare_sh[[group_col]] <- order_by_median(rare_sh[[group_col]],
-                                                    rare_sh$Shannon_rarefied)
-            p_sh_r <- ggplot(rare_sh,
-                             aes(x = .data[[group_col]], y = Shannon_rarefied,
-                                 fill = .data[[group_col]])) +
-                geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-                geom_jitter(aes(color = .data[[group_col]]),
-                            width = 0.15, size = 1.5, alpha = 0.95) +
-                scale_fill_manual(values = pal_r) +
-                scale_color_manual(values = pal_r) +
-                labs(
-                    x = group_col,
-                    y = "Shannon Index (rarefied)",
-                    title = paste0("Rarefied Shannon Diversity (depth = ", rarefaction_depth, ")")
-                ) +
-                theme_pipeline_classic() +
-                theme(axis.text.x = element_text(angle = 45, hjust = 1),
-                      legend.position = "none")
-
-            save_nature_figure(file.path(output_dir,
-                               sprintf("rarefied_shannon_depth%d.tiff", rarefaction_depth)),
-                               p_sh_r, kind = "standard")
-
-            # The same rarefied values broken out by every grouping variable, each panel
-            # carrying its own Kruskal-Wallis test so the figure stands alone. Groups are
-            # ascending by median, matching the non-rarefied alpha boxplots.
-            # safe_file_label() is defined further down the document (variable-assessment
-            # and fx-palettes), so it does not exist yet at this point in the run. Same
-            # rule, defined locally, so the filenames match the non-rarefied panels.
-            rare_slug <- function(x) {
-                x <- iconv(x, from = "", to = "UTF-8", sub = "")
-                x <- gsub("[^A-Za-z0-9]+", "_", x)
-                tolower(gsub("^_+|_+$", "", x))
-            }
             rare_vars <- intersect(c("Developmental_Stage", "study_alias", "Scientific_Name",
                                      "Cultivar", "Author", "Geography"), names(rarefied_df))
+            rare_metrics <- c("Observed_rarefied", "Shannon_rarefied", "Simpson_rarefied",
+                              "Fisher_rarefied", "Evenness_rarefied")
             rare_tests <- list()
             for (v in rare_vars) {
                 dv <- rarefied_df[!is.na(rarefied_df[[v]]) & rarefied_df[[v]] != "", , drop = FALSE]
                 if (dplyr::n_distinct(dv[[v]]) < 2) next
-                for (metric in c("Observed_rarefied", "Shannon_rarefied")) {
+                for (metric in rare_metrics) {
                     kt <- stats::kruskal.test(dv[[metric]] ~ factor(dv[[v]]))
                     rare_tests[[length(rare_tests) + 1]] <- data.frame(
                         depth = rarefaction_depth, variable = v,
                         metric = sub("_rarefied$", "", metric),
-                        groups = dplyr::n_distinct(dv[[v]]), n = nrow(dv),
+                        # n counts the samples the test used: evenness is NA for
+                        # single-ASV samples and kruskal.test drops those
+                        groups = dplyr::n_distinct(dv[[v]]), n = sum(!is.na(dv[[metric]])),
                         H = unname(kt$statistic), df = unname(kt$parameter), p = kt$p.value)
-                    dv2 <- dv
-                    dv2[[v]] <- order_by_median(dv2[[v]], dv2[[metric]])
-                    ng <- nlevels(dv2[[v]])
-                    # get_palette() only supplies 8 categorical colours; Scientific_Name
-                    # has 16 levels. distinct_palette() grows a maximin-contrast set.
-                    pal_v <- distinct_palette(ng)
-                    ylab <- if (metric == "Observed_rarefied") "Observed ASV richness (rarefied)"
-                            else "Shannon diversity (rarefied)"
-                    pv <- ggplot(dv2, aes(x = .data[[v]], y = .data[[metric]],
-                                          fill = .data[[v]])) +
-                        geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-                        geom_jitter(aes(colour = .data[[v]]), width = 0.15, size = 1.0,
-                                    alpha = 0.8) +
-                        scale_fill_manual(values = pal_v) +
-                        scale_colour_manual(values = pal_v) +
-                        labs(x = v, y = ylab, title = sprintf("%s by %s", ylab, v),
-                             subtitle = sprintf(paste("Rarefied to %d reads; n = %d;",
-                                                      "Kruskal-Wallis H = %.3f, df = %d, p = %.3g"),
-                                                rarefaction_depth, nrow(dv2),
-                                                kt$statistic, kt$parameter, kt$p.value)) +
-                        theme_pipeline_classic() +
-                        theme(axis.text.x = element_text(angle = 45, hjust = 1),
-                              legend.position = "none")
-                    save_nature_figure(
-                        file.path(output_dir,
-                                  sprintf("rarefied_%s_by_%s_depth%d.tiff",
-                                          sub("_rarefied$", "", tolower(metric)),
-                                          rare_slug(v), rarefaction_depth)),
-                        pv, kind = if (ng > 8) "wide" else "standard")
                 }
             }
+            # Per-group summary of every index at this depth, for reporting.
+            rare_summary <- purrr::map(rare_metrics, function(metric) {
+                rarefied_df |>
+                    # .env: rarefied_df has its own rarefaction_depth COLUMN, which would
+                    # otherwise be picked up and return one row per sample
+                    dplyr::summarise(depth = .env$rarefaction_depth,
+                                     metric = sub("_rarefied$", "", .env$metric),
+                                     n = sum(!is.na(.data[[metric]])),
+                                     median = median(.data[[metric]], na.rm = TRUE),
+                                     q25 = unname(quantile(.data[[metric]], 0.25, na.rm = TRUE)),
+                                     q75 = unname(quantile(.data[[metric]], 0.75, na.rm = TRUE)),
+                                     mean = mean(.data[[metric]], na.rm = TRUE),
+                                     sd = sd(.data[[metric]], na.rm = TRUE),
+                                     .by = dplyr::all_of(group_col))
+            }) |> purrr::list_rbind()
+            readr::write_csv(rare_summary,
+                             file.path(tables_dir,
+                                       sprintf("rarefied_alpha_summary_depth%d.csv",
+                                               rarefaction_depth)))
             if (length(rare_tests)) {
                 readr::write_csv(do.call(rbind, rare_tests),
                                  file.path(tables_dir,
                                            sprintf("rarefied_alpha_tests_depth%d.csv",
                                                    rarefaction_depth)))
-                cat(sprintf("    %d by-variable panels + Kruskal-Wallis table\n",
+                cat(sprintf("    %d Kruskal-Wallis tests tabulated\n",
                             length(rare_tests)))
             }
         }
@@ -3799,9 +3517,10 @@ cat("Computing rarefied alpha diversity...\n")
 #   500  - the config's min_library_size, keeps 1,851 of 1,886 samples (98.1%)
 #   1000 - stricter, keeps 1,760 (93.3%), so richness is estimated from twice the reads
 # If the stage difference holds at both, it is not an artefact of the depth chosen.
-rare_depth <- config$filters$min_library_size
-if (is.null(rare_depth)) rare_depth <- 500
-rare_depths <- sort(unique(c(rare_depth, 1000)))
+# Read from filters.rarefaction_depths so Part 2 draws exactly the depths written here;
+# the first (shallowest) is the primary depth.
+rare_depths <- sort(unique(as.integer(config$filters$rarefaction_depths)))
+if (!length(rare_depths)) stop("config filters.rarefaction_depths is empty")
 
 rarefied_alpha_results <- lapply(rare_depths, function(dp) {
     r <- compute_rarefied_alpha(ps, rarefaction_depth = dp, group_col = group_col,
@@ -3815,6 +3534,74 @@ rarefied_alpha_results <- lapply(rare_depths, function(dp) {
 names(rarefied_alpha_results) <- paste0("depth", rare_depths)
 # kept for the downstream status block, which reports the primary depth
 rarefied_alpha_result <- rarefied_alpha_results[[1]]
+```
+
+### Alpha Diversity Findings
+
+```{r alpha-findings}
+# Table of record for every alpha-diversity test: unrarefied ("none") and each
+# rarefaction depth, for all five indices. "overall" rows test each grouping variable
+# across all samples. Per-study rows test developmental stage within each study that
+# sampled both stages: study is a confounder in a meta-analysis, and the pooled stage
+# test is dominated by the largest study. Part 2 reads this table to annotate the
+# alpha-diversity figure instead of recomputing anything.
+alpha_metrics <- c("Observed", "Shannon", "Simpson", "Fisher", "Evenness")
+stage_levels <- config$differential_abundance$groups
+
+kw_row <- function(d, scope, depth, variable, metric) {
+    d <- d[!is.na(d[[variable]]) & d[[variable]] != "" & !is.na(d[[metric]]), , drop = FALSE]
+    k <- dplyr::n_distinct(d[[variable]])
+    if (k < 2) return(NULL)
+    kt <- stats::kruskal.test(d[[metric]] ~ factor(d[[variable]]))
+    H <- unname(kt$statistic); n <- nrow(d)
+    out <- data.frame(scope = scope, depth = depth, variable = variable, metric = metric,
+                      groups = k, n = n, H = H, df = unname(kt$parameter), p = kt$p.value,
+                      # (H - k + 1) / (n - k): the H-based effect size already used in
+                      # the audit's TableS1 under this column name
+                      epsilon_sq = (H - k + 1) / (n - k),
+                      seed_median = NA_real_, seedling_median = NA_real_,
+                      direction = NA_character_)
+    if (identical(variable, group_col)) {
+        out$seed_median <- median(d[[metric]][d[[variable]] == stage_levels[1]])
+        out$seedling_median <- median(d[[metric]][d[[variable]] == stage_levels[2]])
+        out$direction <- dplyr::case_when(out$seedling_median > out$seed_median ~ "increase",
+                                          out$seedling_median < out$seed_median ~ "decrease",
+                                          .default = "none")
+    }
+    out
+}
+
+alpha_findings_result <- tryCatch({
+    if (is.null(group_col) || is.null(alpha_result$alpha_df)) stop("no grouping variable or alpha table")
+    alpha_by_depth <- list(none = cbind(as(sample_data(ps), "data.frame"), alpha_result$alpha_df))
+    for (dp in rare_depths) {
+        f <- file.path(tables_dir, sprintf("rarefied_alpha_diversity_depth%d.csv", dp))
+        if (!file.exists(f)) next
+        d <- read.csv(f, check.names = FALSE)
+        names(d) <- sub("_rarefied$", "", names(d))
+        alpha_by_depth[[as.character(dp)]] <- d
+    }
+    alpha_findings <- purrr::imap(alpha_by_depth, function(d, depth) {
+        vars <- intersect(c(group_col, "study_alias", "Author", "Scientific_Name",
+                            "Cultivar", "Geography"), names(d))
+        overall <- purrr::map(vars, function(v) {
+            purrr::map(alpha_metrics, function(m) kw_row(d, "overall", depth, v, m)) |>
+                purrr::list_rbind()
+        }) |> purrr::list_rbind()
+        per_study <- purrr::map(split(d, d$study_alias), function(ds) {
+            purrr::map(alpha_metrics, function(m) {
+                kw_row(ds, ds$study_alias[1], depth, group_col, m)
+            }) |> purrr::list_rbind()
+        }) |> purrr::list_rbind()
+        dplyr::bind_rows(overall, per_study)
+    }) |> purrr::list_rbind()
+    readr::write_csv(alpha_findings, file.path(tables_dir, "alpha_diversity_findings.csv"))
+    list(status = "completed", n_tests = nrow(alpha_findings))
+}, error = function(e) {
+    message("Alpha findings error: ", conditionMessage(e))
+    list(status = "failed", error = conditionMessage(e))
+})
+cat("  Alpha diversity findings:", alpha_findings_result$status, "\n")
 ```
 
 ### Faith's Phylogenetic Diversity
@@ -4627,50 +4414,6 @@ prepare_variable_samples <- function(ps, variable, min_group_n = 3) {
     )
 }
 
-plot_variable_alpha <- function(alpha_df, variable, output_dir) {
-    safe_var <- safe_file_label(variable)
-    n_groups <- dplyr::n_distinct(alpha_df$group)
-    pal <- named_variable_palette(alpha_df$group, "alpha_diversity")
-    # Same tightening as the Part 2 panels, so both generators space boxes alike.
-    plot_width <- max(6, min(12, n_groups * 0.30 + 3.5))
-
-    # Ascending median order, via the shared helper so the direction cannot drift
-    # between this and the canonical Part 2 figures.
-    alpha_obs <- alpha_df
-    alpha_obs$group <- order_by_median(alpha_df$group, alpha_df$Observed)
-    alpha_sh <- alpha_df
-    alpha_sh$group <- order_by_median(alpha_df$group, alpha_df$Shannon)
-
-    p_obs <- ggplot(alpha_obs, aes(x = group, y = Observed, fill = group)) +
-        geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-        geom_jitter(aes(color = group), width = 0.15, size = 1.2, alpha = 0.95) +
-        scale_fill_manual(values = pal) +
-        scale_color_manual(values = pal) +
-        labs(x = variable, y = "Observed ASV Richness",
-             title = paste("Observed ASV Richness by", variable)) +
-        theme_pipeline_classic() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
-
-    p_sh <- ggplot(alpha_sh, aes(x = group, y = Shannon, fill = group)) +
-        geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-        geom_jitter(aes(color = group), width = 0.15, size = 1.2, alpha = 0.95) +
-        scale_fill_manual(values = pal) +
-        scale_color_manual(values = pal) +
-        labs(x = variable, y = "Shannon Diversity Index",
-             title = paste("Shannon Diversity by", variable)) +
-        theme_pipeline_classic() +
-        theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
-
-    if ("Developmental_Stage" %in% colnames(alpha_df) && variable != "Developmental_Stage") {
-        p_obs <- p_obs + facet_wrap(~Developmental_Stage, scales = "free_x")
-        p_sh <- p_sh + facet_wrap(~Developmental_Stage, scales = "free_x")
-    }
-
-    ggsave(file.path(output_dir, paste0("alpha_observed_by_", safe_var, ".tiff")),
-           p_obs, width = plot_width, height = 5.2, dpi = 300)
-    ggsave(file.path(output_dir, paste0("alpha_shannon_by_", safe_var, ".tiff")),
-           p_sh, width = plot_width, height = 5.2, dpi = 300)
-}
 
 plot_variable_pcoa <- function(dist_sub, meta_sub, variable, output_dir) {
     safe_var <- safe_file_label(variable)
@@ -4805,7 +4548,7 @@ assess_metadata_variable <- function(ps_alpha, variable,
         n_groups = dplyr::n_distinct(alpha_df$group)
     )
 
-    plot_variable_alpha(alpha_df, variable, figures_dir)
+    # alpha boxplots removed: alpha diversity is represented by the two richness figures
 
     beta_sample_ids <- intersect(sample_ids, labels(beta_stats_dist))
     if (length(beta_sample_ids) < 4) {
@@ -4960,21 +4703,11 @@ variable_assessment_figure_manifest <- purrr::map(
         safe_var <- safe_file_label(var)
         tibble::tibble(
             variable = var,
-            figure_type = c(
-                "Observed alpha diversity",
-                "Shannon alpha diversity",
-                "Genus-level Bray-Curtis PCoA community clustering"
-            ),
-            file = c(
-                file.path(figures_dir, paste0("alpha_observed_by_", safe_var, ".tiff")),
-                file.path(figures_dir, paste0("alpha_shannon_by_", safe_var, ".tiff")),
-                file.path(figures_dir, paste0("pcoa_bray_genus_by_", safe_var, ".tiff"))
-            ),
-            interpretation_detail = c(
-                "Within-sample richness distribution across retained groups.",
-                "Within-sample diversity distribution across retained groups.",
-                "Between-sample community clustering computed after genus-level aggregation, using Bray-Curtis distance."
-            )
+            # The per-variable alpha panels were removed; alpha diversity is now carried by
+            # the two rarefied richness figures alone. Only the ordination remains here.
+            figure_type = "Genus-level Bray-Curtis PCoA community clustering",
+            file = file.path(figures_dir, paste0("pcoa_bray_genus_by_", safe_var, ".tiff")),
+            interpretation_detail = "Between-sample community clustering computed after genus-level aggregation, using Bray-Curtis distance."
         )
     }
 ) |>
@@ -5003,11 +4736,7 @@ render_relative_path <- function(path) {
 
 for (var in selected_assessment_vars) {
     safe_var <- safe_file_label(var)
-    var_figures <- c(
-        file.path(figures_dir, paste0("alpha_observed_by_", safe_var, ".tiff")),
-        file.path(figures_dir, paste0("alpha_shannon_by_", safe_var, ".tiff")),
-        file.path(figures_dir, paste0("pcoa_bray_genus_by_", safe_var, ".tiff"))
-    )
+    var_figures <- file.path(figures_dir, paste0("pcoa_bray_genus_by_", safe_var, ".tiff"))
     var_figures <- var_figures[file.exists(var_figures)]
 
     if (length(var_figures) == 0) next
@@ -5546,10 +5275,13 @@ nature_figure_plan <- purrr::list_rbind(list(
     ),
     nature_record(
         "Figure 3",
-        "Alpha diversity by developmental stage",
-        file.path(figures_dir, "alpha_combined.tiff"),
-        "Quantify within-sample diversity and group differences.",
-        if (file.exists(file.path(figures_dir, "alpha_combined.tiff"))) "available" else "pending"
+        "Rarefied ASV richness by host species and study",
+        file.path(figures_dir, sprintf("alpha_richness_by_species_depth%d.tiff", rare_depths[1])),
+        "Quantify within-sample diversity and its heterogeneity between studies.",
+        # drawn in Part 2, after this runs - fx-manifest re-checks every row's status
+        if (file.exists(file.path(figures_dir,
+                                  sprintf("alpha_richness_by_species_depth%d.tiff", rare_depths[1]))))
+            "available" else "pending"
     ),
     nature_record(
         "Figure 4",
@@ -5684,8 +5416,10 @@ manuscript_layout_plan <- c(
     "   - Keep the phylum Sankey and rank-specific Sankey panels in the supplement unless they are needed to support a specific composition claim.",
     "",
     "3. Alpha diversity",
-    "   - Use `alpha_richness_by_species.tiff` as the primary alpha-diversity figure.",
-    "   - Use `alpha_richness_by_cultivar.tiff` as the companion panel or move it to the supplement if space is limited.",
+    sprintf("   - Use `alpha_richness_by_species_depth%d.tiff` as the primary alpha-diversity figure.",
+            rare_depths[1]),
+    sprintf("   - Put %s in the supplement as the rarefaction-depth sensitivity check; the stage contrast in richness depends on depth.",
+            paste0("`alpha_richness_by_species_depth", rare_depths[-1], ".tiff`", collapse = ", ")),
     "   - Keep developmental-stage faceting in both plots.",
     "",
     "4. Beta diversity",
@@ -6157,19 +5891,6 @@ if (!is.null(ps)) {
     meta <- NULL
     cat("ps_clean.rds absent - object-derived figures will be skipped\n")
 }
-
-# Alpha diversity recomputed from the filtered object: tables/alpha_diversity.csv
-# carries no sample id, so it cannot be joined to metadata for by-variable panels.
-alpha <- NULL
-if (!is.null(ps)) {
-    rich <- estimate_richness(ps, measures = c("Observed", "Shannon", "Simpson"))
-    alpha <- tibble(sample_id = rownames(rich),
-                    Observed = rich$Observed,
-                    Shannon = rich$Shannon,
-                    Simpson = rich$Simpson) |>
-        left_join(meta, by = "sample_id")
-    cat(sprintf("alpha diversity: %d samples\n", nrow(alpha)))
-}
 ```
 
 ## 1. Quality control
@@ -6262,194 +5983,399 @@ fig_section("top_genus_composition", needs = res("tables", "top_genus_summary.cs
 })
 ```
 
+```{r fx-fig-alluvial-stage}
+# Seed-to-seedling composition as an alluvial (Sankey-style) diagram.
+#
+# IMPORTANT, and stated in the caption: seeds and seedlings are DIFFERENT samples, not
+# paired ones. A ribbon links the same genus name at the two stages - it does not show
+# that those cells persisted, were inherited or were transmitted. With unpaired samples
+# "composition at each stage" is the strongest claim available, so the figure never says
+# "transition". Groups are restricted to those holding both stages; a group with one
+# stage has no transition to draw.
+
+# Built once for every genus figure in this chunk: the per-sample genus table collapsed
+# to one shared set of top genera, and one genus -> colour map. Choosing the genera and
+# colours inside each figure let the same genus change colour between the family and
+# host-species alluvials (Erwinia green in one, brown in the other).
+GENUS_LONG <- NULL
+if (!is.null(ps)) {
+    otu <- as(otu_table(ps), "matrix")
+    if (!taxa_are_rows(ps)) otu <- t(otu)
+    tx <- as.data.frame(as(tax_table(ps), "matrix"), stringsAsFactors = FALSE)
+    blank <- function(x) is.na(x) | x == "" |
+        grepl("^(Unassigned|unidentified|uncultured|metagenome)$", x, ignore.case = TRUE)
+    g <- !blank(tx$Genus)
+    gen <- rowsum(otu[g, , drop = FALSE], group = tx$Genus[g])
+    md <- as(sample_data(ps), "data.frame")
+    keep <- colSums(gen) > 0 & md[[PRIMARY]] %in% STAGES
+    gen <- gen[, keep, drop = FALSE]; md <- md[keep, , drop = FALSE]
+    rel <- sweep(gen, 2, colSums(gen), "/")
+
+    # Top genera by the mean of study x stage means, so no single large study picks them.
+    study_stage <- interaction(md$study_alias, md[[PRIMARY]], drop = TRUE)
+    ss_mean <- rowsum(t(rel), study_stage) / as.vector(table(study_stage))
+    GENUS_TOP <- names(sort(colMeans(ss_mean), decreasing = TRUE))[seq_len(TOP_TAXA_N)]
+    GENUS_PAL <- stats::setNames(c(distinct_palette(TOP_TAXA_N), "#9E9E9E"),
+                                 c(GENUS_TOP, "Other"))
+
+    rel_top <- rbind(rel[GENUS_TOP, , drop = FALSE],
+                     Other = colSums(rel[!rownames(rel) %in% GENUS_TOP, , drop = FALSE]))
+    GENUS_LONG <- as.data.frame(as.table(rel_top), stringsAsFactors = FALSE) |>
+        setNames(c("Taxon", "sample_id", "rel")) |>
+        dplyr::left_join(tibble::tibble(
+            sample_id = rownames(md), Stage = md[[PRIMARY]], study = md$study_alias,
+            Scientific_Name = md$Scientific_Name,
+            Plant_Family = dplyr::coalesce(
+                family_map$Family[match(md$Scientific_Name, family_map$Scientific_Name)],
+                "Other")), by = "sample_id")
+    rm(otu, gen, rel, rel_top)
+}
+
+# Study means per group x stage x genus, restricted to studies that sampled BOTH stages
+# of that group. A plain mean over samples would let Chesneau et al. 2022 (1,352 of 1,886
+# samples) speak for Brassicaceae and Fabaceae; a mean over every study would build the
+# seed and seedling bars from different studies (Chandel et al. 2022a/b and Nunes et al.
+# 2022 sampled seedlings only), so the stage contrast would partly be a study contrast.
+# Pairing within study removes both, and every contributing study counts equally.
+paired_study_means <- function(group_col) {
+    GENUS_LONG |>
+        dplyr::mutate(grp = .data[[group_col]]) |>
+        dplyr::filter(!is.na(grp), grp != "") |>
+        dplyr::summarise(rel = mean(rel), .by = c(Plant_Family, grp, study, Stage, Taxon)) |>
+        dplyr::filter(dplyr::n_distinct(Stage) == 2, .by = c(grp, study))
+}
+
+# Returns the plot, or a character reason when there is nothing to draw, which the
+# caller records as a skip so the figure manifest still accounts for it.
+build_alluvial <- function(group_col, group_name, width = 11, height = 6.2) {
+    if (!requireNamespace("ggalluvial", quietly = TRUE)) return("ggalluvial not installed")
+    per_study <- paired_study_means(group_col)
+    if (!nrow(per_study)) return(sprintf("no %s has a study sampling both stages", group_name))
+
+    # Panels in family order, so host species of one family sit together.
+    lab <- per_study |>
+        dplyr::summarise(k = dplyr::n_distinct(study), .by = c(Plant_Family, grp)) |>
+        dplyr::arrange(Plant_Family, grp) |>
+        dplyr::mutate(label = if (group_col == "Plant_Family")
+                                  sprintf("%s\n(n = %d)", grp, k)
+                              else sprintf("%s\n%s, n = %d", grp, Plant_Family, k))
+    d <- per_study |>
+        dplyr::summarise(rel = mean(rel), .by = c(grp, Stage, Taxon)) |>
+        dplyr::mutate(rel = rel / sum(rel), .by = c(grp, Stage)) |>
+        dplyr::mutate(grp = factor(lab$label[match(grp, lab$grp)], levels = lab$label),
+                      Stage = factor(Stage, levels = STAGES),
+                      Taxon = factor(Taxon, levels = names(GENUS_PAL)))
+
+    p <- ggplot(d, aes(x = Stage, stratum = Taxon, alluvium = Taxon,
+                       y = rel, fill = Taxon)) +
+        # Wider strata pull the two bars toward each other: the centres are a fixed unit
+        # apart on a discrete axis, so the only way to close the gap is to widen the bars.
+        ggalluvial::geom_flow(alpha = 0.55, width = 0.46, curve_type = "sigmoid") +
+        ggalluvial::geom_stratum(width = 0.46, colour = "grey25", linewidth = 0.25) +
+        facet_wrap(~grp, nrow = if (nrow(lab) > 8) 2 else 1) +
+        # trim the outer padding too, so the pair sits compactly in each panel
+        scale_x_discrete(expand = expansion(add = 0.08)) +
+        scale_fill_manual(values = GENUS_PAL) +
+        scale_y_continuous(labels = scales::percent,
+                           expand = expansion(mult = c(0, 0.02))) +
+        labs(x = NULL, y = "Mean relative abundance", fill = NULL,
+             title = sprintf("Genus composition at each stage, by %s", group_name),
+             subtitle = paste("Only studies that sampled both stages (n); each averaged",
+                              "within, then across, so every study counts equally.",
+                              "\nRibbons link the same genus across stages, not individual cells.")) +
+        theme_classic(base_size = 11, base_family = "Helvetica") +
+        theme(strip.background = element_rect(fill = "grey94", colour = NA),
+              strip.text = element_text(face = "bold", size = 9,
+                                        margin = margin(2, 2, 2, 2)),
+              # tight panel gutters: the ribbons carry the comparison, so wide gaps
+              # between families only push the panels apart and shrink the flows
+              panel.spacing = unit(2, "pt"),
+              legend.position = "bottom", legend.key.size = unit(10, "pt"),
+              plot.background = element_rect(fill = "white", colour = NA))
+    list(plot = p, groups = nrow(lab), width = width, height = height)
+}
+
+# Sized in inches by the caller rather than through save_nature_figure(), whose fixed
+# kinds top out at 8.8 in wide - too narrow for six to twelve alluvial panels.
+fig_section("fig_alluvial_genus_by_plant_family", needs = PS_CLEAN, {
+    a <- build_alluvial("Plant_Family", "plant family")
+    if (is.character(a)) record("fig_alluvial_genus_by_plant_family", "skipped", a) else {
+        print(a$plot)
+        ggsave(fig("fig_alluvial_genus_by_plant_family"), a$plot,
+               width = a$width, height = a$height, dpi = 300, compression = "lzw", bg = "white")
+    }
+})
+
+# Supplementary: the same view per host species, for those carrying both stages.
+fig_section("fig_alluvial_genus_by_host_species", needs = PS_CLEAN, {
+    a <- build_alluvial("Scientific_Name", "host species", width = 13, height = 8.4)
+    if (is.character(a)) record("fig_alluvial_genus_by_host_species", "skipped", a) else {
+        print(a$plot)
+        ggsave(fig("fig_alluvial_genus_by_host_species"), a$plot,
+               width = a$width, height = a$height, dpi = 300, compression = "lzw", bg = "white")
+    }
+})
+
+# Seedling relative to seed per host species: the same paired study means and the same
+# genera as the alluvials, as a log2 ratio. Genera absent at one stage need a floor;
+# 1e-4 (0.01%) is stated in the caption, because a ratio against a near-zero stage mostly
+# reflects that floor rather than a measured change.
+fig_section("fig_genus_seedling_vs_seed_by_species", needs = PS_CLEAN, {
+    pseudo <- 1e-4
+    seed <- STAGES[1]; sdlg <- STAGES[2]
+    dd <- paired_study_means("Scientific_Name") |>
+        dplyr::filter(Taxon != "Other") |>
+        dplyr::summarise(rel = mean(rel), n_studies = dplyr::n_distinct(study),
+                         .by = c(Plant_Family, grp, Stage, Taxon)) |>
+        tidyr::pivot_wider(names_from = Stage, values_from = rel) |>
+        dplyr::mutate(log2FC = log2((.data[[sdlg]] + pseudo) / (.data[[seed]] + pseudo)),
+                      peak = pmax(.data[[seed]], .data[[sdlg]])) |>
+        dplyr::rename(Scientific_Name = grp)
+    readr::write_csv(dd, res("tables", "genus_seedling_vs_seed_by_species.csv"))
+
+    rows <- dd |> dplyr::distinct(Plant_Family, Scientific_Name) |>
+        dplyr::arrange(Plant_Family, Scientific_Name)
+    dd <- dd |> dplyr::mutate(
+        Scientific_Name = factor(Scientific_Name, levels = rev(rows$Scientific_Name)),
+        Taxon = factor(Taxon, levels = GENUS_TOP),
+        fc = pmax(pmin(log2FC, 6), -6))
+    p <- ggplot(dd, aes(x = Taxon, y = Scientific_Name)) +
+        geom_point(aes(size = peak, fill = fc), shape = 21, colour = "grey30", stroke = 0.25) +
+        facet_grid(Plant_Family ~ ., scales = "free_y", space = "free_y", switch = "y") +
+        scale_fill_gradient2(low = "#2166AC", mid = "grey95", high = "#B2182B",
+                             midpoint = 0, limits = c(-6, 6), breaks = c(-6, -3, 0, 3, 6),
+                             labels = c("-6", "-3", "0", "+3", "+6"),
+                             # ASCII only: the default pdf device cannot encode <= / >=
+                             name = "log2(seedling / seed)\ncapped at +/-6") +
+        scale_size_area(max_size = 6, limits = c(0, 1), breaks = c(0.01, 0.25, 0.5, 1),
+                        labels = scales::percent, name = "Peak mean\nrelative abundance") +
+        labs(x = NULL, y = NULL,
+             title = "Seedling relative to seed, per host species",
+             subtitle = "Red: enriched in seedlings. Blue: depleted. Studies sampling both stages only.") +
+        theme_pipeline_classic(8) +
+        theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, face = "italic"),
+              axis.text.y = element_text(face = "italic"),
+              plot.subtitle = element_text(size = 7, hjust = 0.5, margin = margin(b = 6)),
+              strip.placement = "outside",
+              strip.text.y.left = element_text(angle = 0, hjust = 1, face = "bold"),
+              strip.background = element_rect(fill = "grey94", colour = NA),
+              panel.spacing.y = unit(2, "pt"))
+    print(p)
+    save_nature_figure(fig("fig_genus_seedling_vs_seed_by_species"), p, "standard")
+})
+```
+
+
 
 ## 3. Alpha diversity
 
-```{r fx-fig-alpha-overall}
-fig_section("alpha_observed", needs = PS_CLEAN, {
-    a <- alpha; a[[PRIMARY]] <- order_by_median(a[[PRIMARY]], a$Observed)
-    p <- ggplot(a, aes(x = .data[[PRIMARY]], y = Observed, fill = .data[[PRIMARY]])) +
-        geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-        geom_jitter(aes(colour = .data[[PRIMARY]]), width = 0.15, size = 1.1, alpha = 0.95) +
+<!-- removed: fx-fig-alpha-overall - alpha_observed / alpha_shannon / alpha_combined. Alpha diversity is now represented only by the two richness figures; see tables/alpha_diversity_findings.csv for the statistics these carried. -->
+
+<!-- removed: fx-fig-alpha-by-variable - alpha_*_by_* boxplots. Alpha diversity is now represented only by the two richness figures; see tables/alpha_diversity_findings.csv for the statistics these carried. -->
+
+```{r fx-fig-alpha-indices}
+# Alpha-diversity indices by developmental stage at each rarefaction depth, one row per
+# index. The test printed in each panel is read from tables/alpha_diversity_findings.csv
+# (Part 1), not recomputed here. Fisher's alpha is left out: with every sample at the
+# same read count it ranks samples exactly as observed richness does, so its panel and
+# test would duplicate the richness row. It stays in the tables.
+.depths <- sort(unique(as.integer(config$filters$rarefaction_depths)))
+.findings <- res("tables", "alpha_diversity_findings.csv")
+fig_section("alpha_indices_by_stage_rarefied",
+            needs = c(res("tables", sprintf("rarefied_alpha_diversity_depth%d.csv", .depths)),
+                      .findings), {
+    index_labels <- c(Observed = "Observed ASV richness", Shannon = "Shannon",
+                      Simpson = "Simpson", Evenness = "Pielou's evenness")
+    d <- purrr::map(.depths, function(dp) {
+        read_csv(res("tables", sprintf("rarefied_alpha_diversity_depth%d.csv", dp)),
+                 show_col_types = FALSE) |>
+            dplyr::select(sample_id, stage = dplyr::all_of(PRIMARY),
+                          dplyr::ends_with("_rarefied")) |>
+            dplyr::mutate(depth = dp)
+    }) |> list_rbind() |>
+        tidyr::pivot_longer(dplyr::ends_with("_rarefied"), names_to = "metric",
+                            values_to = "value") |>
+        dplyr::mutate(metric = sub("_rarefied$", "", metric)) |>
+        dplyr::filter(metric %in% names(index_labels), stage %in% STAGES, !is.na(value))
+    # column strips carry the sample counts, which differ between depths
+    depth_labels <- d |> dplyr::filter(metric == "Observed") |>
+        dplyr::summarise(lab = sprintf("%s reads (%s seeds, %s seedlings)", comma(depth[1]),
+                                       comma(sum(stage == STAGES[1])),
+                                       comma(sum(stage == STAGES[2]))), .by = depth)
+    as_panel <- function(x) dplyr::mutate(x,
+        depth = factor(depth, levels = depth_labels$depth, labels = depth_labels$lab),
+        metric = factor(metric, levels = names(index_labels), labels = index_labels))
+    ann <- read_csv(.findings, show_col_types = FALSE, col_types = cols(depth = "c")) |>
+        dplyr::filter(scope == "overall", variable == PRIMARY,
+                      depth %in% as.character(.depths), metric %in% names(index_labels)) |>
+        # plotmath, so the label needs no non-ASCII glyph on any device
+        dplyr::mutate(depth = as.integer(depth),
+                      label = sprintf('italic(p)~"%s"*","~~epsilon^2=="%.3f"',
+                                      ifelse(p < 0.001, "< 0.001", sprintf("= %.3f", p)),
+                                      # the estimator dips just below 0 when there is
+                                      # no effect; print that as 0
+                                      pmax(epsilon_sq, 0))) |>
+        as_panel()
+    p <- ggplot(as_panel(d), aes(x = factor(stage, levels = STAGES), y = value)) +
+        geom_boxplot(aes(fill = stage), outlier.size = 0.3, outlier.alpha = 0.4,
+                     linewidth = 0.3, width = 0.6) +
+        geom_text(data = ann, aes(x = 1.5, y = Inf, label = label), parse = TRUE,
+                  vjust = 1.5, size = 2.4) +
+        facet_grid(metric ~ depth, scales = "free_y", switch = "y") +
         scale_fill_manual(values = STAGE_PELLET) +
-        scale_colour_manual(values = STAGE_PELLET) +
-        labs(x = PRIMARY, y = "Observed ASV richness",
-             title = paste("Observed ASV richness by", PRIMARY)) +
-        theme_pipeline_classic() + theme(legend.position = "none")
+        # headroom above the boxes for the test label
+        scale_y_continuous(expand = expansion(mult = c(0.05, 0.22))) +
+        labs(x = NULL, y = NULL,
+             title = "Alpha diversity by developmental stage after rarefaction",
+             subtitle = "Kruskal-Wallis test of stage in each panel, all studies pooled") +
+        theme_pipeline_faceted() +
+        theme(legend.position = "none", strip.placement = "outside",
+              strip.text.x = element_text(margin = margin(b = 3)),
+              plot.subtitle = element_text(size = 7, hjust = 0.5, margin = margin(b = 6)))
     print(p)
-    save_nature_figure(fig("alpha_observed"), p, "standard")
+    save_nature_figure(fig("alpha_indices_by_stage_rarefied"), p, "tall")
 })
-
-fig_section("alpha_shannon", needs = PS_CLEAN, {
-    a <- alpha; a[[PRIMARY]] <- order_by_median(a[[PRIMARY]], a$Shannon)
-    p <- ggplot(a, aes(x = .data[[PRIMARY]], y = Shannon, fill = .data[[PRIMARY]])) +
-        geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-        geom_jitter(aes(colour = .data[[PRIMARY]]), width = 0.15, size = 1.1, alpha = 0.95) +
-        scale_fill_manual(values = STAGE_PELLET) +
-        scale_colour_manual(values = STAGE_PELLET) +
-        labs(x = PRIMARY, y = "Shannon diversity",
-             title = paste("Shannon diversity by", PRIMARY)) +
-        theme_pipeline_classic() + theme(legend.position = "none")
-    print(p)
-    save_nature_figure(fig("alpha_shannon"), p, "standard")
-})
-
-fig_section("alpha_combined", needs = PS_CLEAN, {
-    kw_obs <- kruskal.test(reformulate(PRIMARY, "Observed"), data = alpha)
-    kw_sh  <- kruskal.test(reformulate(PRIMARY, "Shannon"), data = alpha)
-    lab <- function(k) sprintf("Kruskal-Wallis H = %.3f, p = %.3g", k$statistic, k$p.value)
-    a1 <- alpha; a1[[PRIMARY]] <- order_by_median(a1[[PRIMARY]], a1$Observed)
-    a2 <- alpha; a2[[PRIMARY]] <- order_by_median(a2[[PRIMARY]], a2$Shannon)
-    p1 <- ggplot(a1, aes(x = .data[[PRIMARY]], y = Observed, fill = .data[[PRIMARY]])) +
-        geom_boxplot(alpha = 0.8, outlier.size = 0.4, width = 0.55) +
-        scale_fill_manual(values = STAGE_PELLET) +
-        labs(x = NULL, y = "Observed ASVs", subtitle = lab(kw_obs)) +
-        theme_pipeline_classic() + theme(legend.position = "none")
-    p2 <- ggplot(a2, aes(x = .data[[PRIMARY]], y = Shannon, fill = .data[[PRIMARY]])) +
-        geom_boxplot(alpha = 0.8, outlier.size = 0.4, width = 0.55) +
-        scale_fill_manual(values = STAGE_PELLET) +
-        labs(x = NULL, y = "Shannon", subtitle = lab(kw_sh)) +
-        theme_pipeline_classic() + theme(legend.position = "none")
-    p <- (p1 | p2) + patchwork::plot_annotation(
-        title = "Alpha diversity by developmental stage", tag_levels = "a")
-    print(p)
-    save_nature_figure(fig("alpha_combined"), p, "wide")
-})
-```
-
-```{r fx-fig-alpha-by-variable}
-# One panel pair per grouping variable, matching plot_variable_alpha() in the pipeline.
-alpha_by_variable <- function(variable) {
-    if (is.null(alpha) || !variable %in% names(alpha)) return(invisible(NULL))
-    dat <- alpha |> dplyr::filter(!is.na(.data[[variable]])) |> mutate(group = as.factor(.data[[variable]]))
-    # Studies are named by their reference on the axis, not their accession.
-    if (variable == "study_alias" && all(c("study_alias", "Author") %in% names(alpha))) {
-        dat$group <- factor(as_study_ref(dat$group, alpha$study_alias, alpha$Author))
-    }
-    if (dplyr::n_distinct(dat$group) < 2) return(invisible(NULL))
-    pal <- get_palette(dplyr::n_distinct(dat$group))
-    # Panel width sets how far apart the boxes sit: on a discrete axis the categories are
-    # one unit apart, so a wider canvas spreads them out. Tightened from
-    # (2.2 + 0.42/group, floor 7.0) to close the gaps without widening the boxes
-    # themselves, which would undo the 0.55 box width.
-    width <- max(5.0, min(10.0, 1.6 + 0.28 * dplyr::n_distinct(dat$group)))
-    sv <- safe_file_label(variable)
-
-    for (metric in c("Observed", "Shannon")) {
-        nm <- sprintf("alpha_%s_by_%s", tolower(metric), sv)
-        fig_section(nm, needs = PS_CLEAN, {
-            # Groups ordered by ascending median of the metric being plotted, via the
-            # shared helper, so the ranking reads straight off the axis.
-            dat_m <- dat
-            dat_m$group <- order_by_median(dat$group, dat[[metric]])
-            p <- ggplot(dat_m, aes(x = group, y = .data[[metric]], fill = group)) +
-                geom_boxplot(alpha = 0.8, outlier.shape = NA, width = 0.55) +
-                geom_jitter(aes(colour = group), width = 0.15, size = 1.0, alpha = 0.95) +
-                scale_fill_manual(values = pal) + scale_colour_manual(values = pal) +
-                labs(x = variable,
-                     y = if (metric == "Observed") "Observed ASV richness" else "Shannon diversity",
-                     title = sprintf("%s by %s",
-                                     if (metric == "Observed") "Observed ASV richness" else "Shannon diversity",
-                                     variable)) +
-                theme_pipeline_classic() +
-                theme(axis.text.x = element_text(angle = 45, hjust = 1), legend.position = "none")
-            if (PRIMARY %in% names(dat) && variable != PRIMARY) {
-                p <- p + facet_wrap(vars(.data[[PRIMARY]]), scales = "free_x")
-            }
-            print(p)
-            ggsave(fig(nm), p, width = width, height = 5.2, dpi = 300,
-                   compression = "lzw")
-            fig(nm)
-        })
-    }
-}
-
-for (v in unique(c(PRIMARY, SECONDARY, "Cultivar", "Author"))) alpha_by_variable(v)
 ```
 
 ```{r fx-fig-alpha-richness-faceted}
-fig_section("alpha_richness_by_species", needs = PS_CLEAN, {
-    dat <- alpha |> dplyr::filter(!is.na(Scientific_Name), !is.na(study_alias)) |>
-        dplyr::mutate(study_alias = as_study_ref(study_alias, alpha$study_alias, alpha$Author))
-    med <- dat |> summarise(m = median(Observed), .by = Scientific_Name)
-    # Facets ascend by median richness, matching every other alpha-diversity figure.
-    # They were alphabetical, which carried no information.
-    dat$Scientific_Name <- order_by_median(dat$Scientific_Name, dat$Observed)
-    med$Scientific_Name <- factor(med$Scientific_Name, levels = levels(dat$Scientific_Name))
-    p <- ggplot(dat, aes(x = Observed, y = study_alias, colour = Scientific_Name)) +
-        geom_jitter(alpha = 0.95, size = 1.2) +
-        geom_vline(data = med, aes(xintercept = m), linewidth = 0.5, colour = "black") +
-        facet_grid(Scientific_Name ~ .data[[PRIMARY]], scales = "free", space = "free") +
-        scale_x_log10() +
-        labs(x = "Observed ASV richness", y = "Studies",
-             title = "Bacterial ASV richness by plant species",
-             subtitle = "Vertical lines are per-species medians") +
-        theme_pipeline_faceted() +
-        theme(strip.text.y = element_text(size = 6, angle = 0, face = "bold.italic"),
-              legend.position = "none")
-    print(p)
-    save_nature_figure(fig("alpha_richness_by_species"), p, "tall")
-})
+# Observed richness by host species, at each rarefaction depth. Both depths are shown because the stage contrast in richness
+# depends on which is chosen - Kruskal-Wallis p = 0.0095 at 500 reads but p = 0.958 at
+# 1000, while Shannon holds at both. The pair is a depth-sensitivity comparison, not two
+# views of one result. Statistics are in tables/alpha_diversity_findings.csv.
+# Depths from the config, the same list Part 1 rarefied to.
+for (.dp in sort(unique(as.integer(config$filters$rarefaction_depths)))) {
+    .src <- res("tables", sprintf("rarefied_alpha_diversity_depth%d.csv", .dp))
 
-fig_section("alpha_richness_by_cultivar", needs = PS_CLEAN, {
-    # The y axis carries bare ENA/SRA accessions, which do not tell a reader whose
-    # samples these are. tidy_ref() (Part 1) repairs the Mac Roman byte in the Author
-    # field before shortening, so "Acuna" comes back as the correct surname.
-    ref_of <- if (exists("tidy_ref")) tidy_ref else function(x) as.character(x)
-    dat <- alpha |> dplyr::filter(!is.na(Cultivar), !is.na(study_alias)) |>
-        dplyr::mutate(reference = ref_of(Author),
-                      study_alias = as_study_ref(study_alias, alpha$study_alias, alpha$Author))
-    med <- dat |> summarise(m = median(Observed), .by = Cultivar)
-    # Same ascending-median facet order as the species figure.
-    dat$Cultivar <- order_by_median(dat$Cultivar, dat$Observed)
-    med$Cultivar <- factor(med$Cultivar, levels = levels(dat$Cultivar))
-    p <- ggplot(dat, aes(x = Observed, y = study_alias, colour = Cultivar)) +
-        geom_jitter(alpha = 0.95, size = 1.2) +
-        geom_vline(data = med, aes(xintercept = m), linewidth = 0.5, colour = "black") +
-        facet_grid(Cultivar ~ .data[[PRIMARY]], scales = "free", space = "free") +
-        scale_x_log10() +
-        labs(x = "Observed ASV richness", y = "Studies",
-             title = "Bacterial ASV richness by cultivar",
-             subtitle = "Vertical lines are per-cultivar medians") +
-        theme_pipeline_faceted() +
-        theme(strip.text.y = element_text(size = 6, angle = 0),
-              legend.position = "none")
+    fig_section(sprintf("alpha_richness_by_species_depth%d", .dp), needs = .src, {
+        d <- read_csv(.src, show_col_types = FALSE) |>
+            dplyr::filter(!is.na(Scientific_Name), Scientific_Name != "",
+                          !is.na(study_alias), study_alias != "") |>
+            dplyr::mutate(accession = study_alias,
+                          study_alias = as_study_ref(study_alias, study_alias, Author),
+                          # the axis label, a/b suffix included, so the table below names
+                          # Chandel et al. 2022a and 2022b exactly as the axis does
+                          reference = study_alias,
+                          Plant_Family = family_map$Family[match(Scientific_Name,
+                                                                 family_map$Scientific_Name)],
+                          Plant_Family = dplyr::coalesce(Plant_Family, "Other"),
+                          # Seeds column first, in developmental order
+                          dplyr::across(dplyr::all_of(PRIMARY), ~ factor(.x, levels = STAGES)))
+        # One median per species AND stage, drawn only in that stage's column. A median
+        # pooled over both stages was drawn in both columns, so it sat nowhere near the
+        # data (Medicago sativa seeds ~180 ASVs, line at ~14) and appeared in columns
+        # with no samples at all.
+        med <- d |> dplyr::summarise(m = median(Observed_rarefied),
+                                     .by = c(Scientific_Name, dplyr::all_of(PRIMARY)))
+        d$Scientific_Name <- order_by_median(d$Scientific_Name, d$Observed_rarefied)
+        med$Scientific_Name <- factor(med$Scientific_Name, levels = levels(d$Scientific_Name))
+        # Row strips read left to right as plant family then species, so the host taxonomy
+        # is nested and legible without a legend; the study/reference axis moves to the
+        # right so the two labelled edges do not compete.
+        med$Plant_Family <- d$Plant_Family[match(med$Scientific_Name, d$Scientific_Name)]
+        d$Plant_Family <- order_by_median(d$Plant_Family, d$Observed_rarefied)
+        med$Plant_Family <- factor(med$Plant_Family, levels = levels(d$Plant_Family))
+        p <- ggplot(d, aes(x = Observed_rarefied, y = study_alias)) +
+            # Box and whisker per study within each species row, points over the top.
+            # The boxes carry the quartiles the jitter alone could not show.
+            geom_boxplot(aes(group = study_alias), orientation = "y", width = 0.55,
+                         outlier.shape = NA, fill = NA, colour = "grey35",
+                         linewidth = 0.3) +
+            geom_jitter(aes(colour = Scientific_Name), alpha = 0.85, size = 1.0,
+                        height = 0.18) +
+            geom_vline(data = med, aes(xintercept = m), linewidth = 0.5, colour = "black") +
+            # free_y only: the two stage columns share one x axis, so a position means the
+            # same richness in both - the comparison this figure exists to make
+            facet_grid(Plant_Family + Scientific_Name ~ .data[[PRIMARY]],
+                       scales = "free_y", space = "free_y", switch = "y") +
+            scale_x_log10() +
+            # Study labels on the right; the left axis carries no ticks, only the title
+            # "Plant family", which names what the two strip columns on that side encode.
+            scale_y_discrete(position = "right") +
+            scale_colour_manual(values = distinct_palette(nlevels(d$Scientific_Name))) +
+            labs(x = sprintf("Observed ASV richness (rarefied to %d reads)", .dp),
+                 y = "Study",
+                 title = "Bacterial ASV richness by plant family and species",
+                 subtitle = sprintf("Rarefied to %d reads, n = %d. Boxes are per-study quartiles; black lines are species medians at each stage.",
+                                    .dp, nrow(d))) +
+            theme_pipeline_faceted() +
+            theme(strip.placement = "outside",
+                  # margin keeps the family strip off the species strip; without it they
+                  # render as one run-together string ("SolanaceaeSolanum lycopersicum")
+                  strip.text.y.left = element_text(size = 6, angle = 0, hjust = 1,
+                                                   margin = margin(r = 5, l = 5)),
+                  strip.background.y = element_rect(fill = "grey95", colour = NA),
+                  panel.spacing.y = unit(2, "pt"),
+                  axis.text.y.right = element_text(size = 6),
+                  axis.title.y.right = element_text(size = 10, face = "bold",
+                                                    margin = margin(l = 6)),
+                  legend.position = "none")
 
-    # Author summary panel, keyed to the accessions on the y axis above. Reference and
-    # accession are separate columns on purpose: Chandel et al. 2022 contributed two
-    # BioProjects, so reference alone would not identify a row.
-    auth <- dat |>
-        dplyr::summarise(Samples = dplyr::n(),
-                         Cultivars = dplyr::n_distinct(Cultivar),
-                         Seeds = sum(.data[[PRIMARY]] == "Seeds", na.rm = TRUE),
-                         Seedlings = sum(.data[[PRIMARY]] == "Seedlings", na.rm = TRUE),
-                         Median = round(median(Observed)),
-                         .by = c(reference, study_alias)) |>
-        dplyr::arrange(dplyr::desc(Samples))
-    readr::write_csv(auth, res("tables", "alpha_richness_cultivar_studies.csv"))
+        # Contributing-studies panel, moved here from the cultivar figure when that was
+        # retired, so the reference/accession/sample-count summary survives.
+        auth <- d |>
+            dplyr::summarise(Samples = dplyr::n(),
+                             Species = dplyr::n_distinct(Scientific_Name),
+                             Seeds = sum(.data[[PRIMARY]] == "Seeds", na.rm = TRUE),
+                             Seedlings = sum(.data[[PRIMARY]] == "Seedlings", na.rm = TRUE),
+                             Median = round(median(Observed_rarefied)),
+                             # the accession, not the relabelled study column - that now
+                             # holds the reference and would duplicate the first column
+                             .by = c(reference, accession)) |>
+            dplyr::arrange(dplyr::desc(Samples))
+        readr::write_csv(auth, res("tables",
+                         sprintf("alpha_richness_species_studies_depth%d.csv", .dp)))
 
-    hdr <- c("Reference", "Accession", "n", "Cultivars", "Seeds", "Seedlings", "Median")
-    cells <- auth |> dplyr::mutate(dplyr::across(dplyr::everything(), as.character))
-    long <- do.call(rbind, lapply(seq_len(ncol(cells)), function(j)
-        data.frame(col = j, row = seq_len(nrow(cells)), txt = cells[[j]])))
-    long <- rbind(data.frame(col = seq_along(hdr), row = 0, txt = hdr), long)
-    long$x  <- c(0, 0.34, 0.55, 0.67, 0.78, 0.90, 1.0)[long$col]
-    long$hj <- ifelse(long$col <= 2, 0, 1)
-    tab <- ggplot(long, aes(x, -row, label = txt)) +
-        geom_text(aes(hjust = hj, fontface = ifelse(row == 0, "bold", "plain")),
-                  size = 2.9, family = "Helvetica") +
-        geom_hline(yintercept = -0.5, linewidth = 0.4) +
-        scale_x_continuous(limits = c(-0.02, 1.05)) +
-        labs(title = "Contributing studies") +
-        theme_void(base_size = 11) +
-        theme(plot.title = element_text(face = "bold", size = 11, family = "Helvetica",
-                                        margin = margin(b = 6)),
-              plot.margin = margin(10, 8, 10, 8))
+        # One monospaced string per row with fixed field widths. Positioning seven columns
+        # by x coordinate kept colliding once the reference and accession were both long
+        # ("Chesneau et al. 2022PRJEB450791344"); fixed widths cannot overlap by
+        # construction, whatever the content.
+        # Field widths sized to the panel: patchwork aligns this table to the plot panel
+        # above, which the two left strip columns have narrowed, so a 77-character row
+        # overflowed and clipped after "Species". 64 characters fits.
+        # The reference is padded with str_pad(), not sprintf's %-20s: sprintf pads by
+        # BYTES, so "Acuña" (n-tilde is two bytes) came out a column short and shifted
+        # every field after it.
+        row_fmt <- "%s %-11s %5s %4s %5s %5s %5s"
+        pad_ref <- function(x) stringr::str_pad(x, 20, side = "right")
+        hdr <- sprintf(row_fmt, pad_ref("Reference"), "Accession", "n", "Spp",
+                       "Seed", "Sdlg", "Med")
+        body <- auth |>
+            dplyr::mutate(txt = sprintf(row_fmt, pad_ref(reference), accession, Samples,
+                                        Species, Seeds, Seedlings, Median)) |>
+            dplyr::pull(txt)
+        long <- data.frame(row = seq_along(c(hdr, body)) - 1L, txt = c(hdr, body))
+        tab <- ggplot(long, aes(0, -row, label = txt)) +
+            geom_text(aes(fontface = ifelse(row == 0, "bold", "plain")),
+                      hjust = 0, size = 2.5, family = "mono") +
+            geom_hline(yintercept = -0.5, linewidth = 0.4) +
+            scale_x_continuous(limits = c(-0.02, 1.05)) +
+            # clip = "off": the row is drawn as one string, so if it runs a few characters
+            # past the panel edge it must still render rather than losing a column.
+            coord_cartesian(clip = "off") +
+            labs(title = "Contributing studies") +
+            theme_void(base_size = 11) +
+            theme(plot.title = element_text(face = "bold", size = 11, family = "Helvetica",
+                                            margin = margin(b = 4)),
+                  plot.margin = margin(4, 8, 2, 8))
 
-    combined <- p / tab + patchwork::plot_layout(heights = c(5, 1.25))
-    print(combined)
-    save_nature_figure(fig("alpha_richness_by_cultivar"), combined, "tall")
-})
+        left_title <- ggplot() +
+            annotate("text", x = 0, y = 0, label = "Plant family", angle = 90,
+                     size = 3.6, fontface = "bold", family = "Helvetica") +
+            # the strip is narrower than the rotated text is tall, so an unclipped panel
+            # is what keeps the "y" descender ("Plant familv" when clipped)
+            coord_cartesian(clip = "off") +
+            theme_void()
+        # Height split sized to the ink: the plot carries 16 faceted rows, the table 9
+        # lines. At 6:1.1 the table held ~22% of the canvas for ~8% of the content and
+        # squeezed the plot; at 9:1 with a larger face the rows collided because nine
+        # lines no longer fitted the height. 7:1.2 at size 2.5 clears both.
+        combined <- ((left_title | p) + patchwork::plot_layout(widths = c(0.035, 1))) /
+                    tab + patchwork::plot_layout(heights = c(7, 1.2))
+        print(combined)
+        save_nature_figure(fig(sprintf("alpha_richness_by_species_depth%d", .dp)),
+                           combined, "tall")
+    })
+}
 ```
 
 ## 4. Beta diversity
@@ -6633,6 +6559,16 @@ cat(sprintf("\nwritten: %d   skipped: %d   failed: %d\n",
             sum(manifest$status == "skipped"),
             sum(manifest$status == "failed")))
 cat(sprintf("figures directory: %s\n", FIGS))
+
+# Part 1 writes the figure plan before this Part has drawn most of what it lists (Figure
+# 3's richness figure among them), so its status column was stale: "pending" on a clean
+# run, or "available" from a previous run's file. Re-check every row now.
+plan_path <- res("manuscript", "nature_figure_plan.csv")
+if (file.exists(plan_path)) {
+    read_csv(plan_path, show_col_types = FALSE) |>
+        dplyr::mutate(status = ifelse(file.exists(evidence_file), "available", "pending")) |>
+        write_csv(plan_path)
+}
 ```
 
 

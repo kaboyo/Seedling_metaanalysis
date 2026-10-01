@@ -7,6 +7,10 @@
   },
   "filters": {
     "min_library_size": 500,
+    "rarefaction_depths": [
+      500,
+      1000
+    ],
     "min_feature_prevalence": 3,
     "min_feature_total_count": 10,
     "max_retained_features": null,
