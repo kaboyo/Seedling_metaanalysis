@@ -52,3 +52,14 @@ analysis_results_smoke/
 #   analysis_results/validation/   audit tables, figures and memo
 #   analysis_results/differential_abundance/
 #   tasks/plans/                   plans and the archived pre-merge sources
+
+# Downloaded reference data (Greengenes, BugBase, FAPROTAX ...); fetched, never committed
+resources/
+
+# ── Added 2026-10-28 ───────────────────────────────────────────────────────
+# PICRUSt2 intermediates (alignments up to 62 MB); rebuilt by ko_predict.sh
+analysis_results/picrust2/intermediate/
+# local copies of manuscript versions and scratch renders
+tasks/backups/
+tasks/tmp_view/
+Rplots*.pdf

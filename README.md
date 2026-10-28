@@ -1,21 +1,86 @@
-# Seedling Meta-analysis Project
+# Seed and seedling microbiome meta-analysis
 
-This repository contains scripts and metadata for the meta-analysis of seedling data. The primary goal is to process raw sequencing data, prepare it for analysis with QIIME2, and perform subsequent analyses.
+A meta-analysis of the bacterial communities (16S rRNA gene amplicons) of seeds and seedlings,
+compiled from eight published studies: 1,886 samples from 16 host plant species in six plant
+families after filtering. It asks how developmental stage, host (plant family and host genus) and
+host phylogeny shape the seed and seedling microbiota, which bacteria are host generalists or
+specialists, and what functions they are predicted to carry.
 
-## Repository Contents
+## How the analysis is organised
 
-- `Metadata_seedlings.csv` / `Metadata_seedlings.xlsx`: The sample metadata for the project, detailing each sample's properties.
-- `generate_qiime2_manifest.py`: A Python script to generate the manifest file required by QIIME2 to import data.
-- `merge_fastp.sh`: A shell script for merging paired-end reads using `fastp`.
-- `merge_with_fastp_bash`: Another script related to `fastp` merging.
-- `merge_with_fastp_multisamples_bash`: A script for running `fastp` on multiple samples.
-- `script_multiqc.sh`: A script to run MultiQC for quality control analysis on the processed data.
-- `elisabeth_script.md`: Markdown file containing notes or scripts from Elisabeth.
+Everything is driven by one configuration file and one Quarto document.
 
-## Workflow
+| File | Role |
+| --- | --- |
+| `analysis_config.json` | Single source of truth: paths, filters, grouping variables, permutations, figure layout and colour palette. |
+| `analysis_config.smoke.json` | The same, for a fast test run (120 samples, 99 permutations). Edit both together. |
+| `seedling_analysis_master.qmd` | The whole analysis. Part 1 is the pipeline (filtering, diversity, ordination, PERMANOVA, stage effects, host phylogeny, generalists and specialists, predicted functions); Part 2 draws every figure from the stored results; Part 3 rebuilds the audit figures. Parts 4–9 are archived earlier code, kept with `eval = FALSE`. |
+| `validation/verify_manuscript.py` | An independent audit: recomputes the headline statistics from the raw inputs in numpy/scipy, deliberately without the pipeline's code. |
 
-1.  **Prepare Metadata**: Ensure `Metadata_seedlings.csv` is up-to-date.
-2.  **Generate Manifest**: Run `generate_qiime2_manifest.py` to create the QIIME2 manifest file.
-3.  **Process Raw Data**: Use the `merge_...` scripts to process raw sequencing reads.
-4.  **Quality Control**: Run `script_multiqc.sh` to generate a MultiQC report.
-5.  **QIIME2 Analysis**: Use the generated manifest to import data into QIIME2 and proceed with analysis.
+Scripts the master document calls:
+
+- `host_phylosignal.R`, `host_phylosymbiosis.R`: phylogenetic signal of alpha diversity, and phylosymbiosis (Mantel and MRM tests, variance partitioning).
+- `predicted_traits.py`, `predicted_trait_tests.R`, `ko_predict.sh`, `ko_breadth_tests.R`, `special_groups.R`, `functional_stage_effects.R`: predicted traits (BugBase, FAPROTAX, metaTraits), KEGG orthologues (PICRUSt2) and their tests.
+- `generalist_specialist_trees.sh`, `generalist_specialist_itol.R`: phylogenies of host generalist and specialist ASVs.
+- `microbiome_analysis.py`, `phyloseq_analysis.R`: a dependency-light Python version of the core pipeline and its R sidecar (Faith's PD, DESeq2).
+
+Upstream read processing (run on HPC; produced the input tables): `merge_fastp.sh`,
+`script_multiqc.sh`, `qiime_processor.py`, `generate_qiime2_manifest_tsv.py`,
+`rename_clean_fastq.py`, `convert_seedling_tables.py`.
+
+## Running it
+
+```bash
+# Whole analysis, figures included
+quarto render seedling_analysis_master.qmd -P config:analysis_config.json
+
+# Fast check on a subset
+quarto render seedling_analysis_master.qmd -P config:analysis_config.smoke.json
+
+# Rebuild figures only, from stored results (minutes, no statistics rerun)
+Rscript make_main_figures.R          # merged main and supplementary figures
+Rscript make_analysis_folders.R      # sort figures and tables into by_analysis/
+# also make_composition.R, make_alpha_tests.R, make_beta_figures.R, make_stage_effects.R,
+# make_trait_figures.R, make_tree_figures.R, make_overview_figure.R, make_generalist_specialist.R
+
+# Independent audit of the reported statistics
+python3 validation/verify_manuscript.py --config analysis_config.json
+
+# Tests
+python3 -m pytest tests/ -q
+```
+
+Requirements: R 4.3 (phyloseq, vegan, DESeq2, metafor, ape, phytools, ggtree, ggtreeExtra,
+patchwork, tidyverse), Quarto 1.7, Python 3.11+ with the packages in
+`requirements-microbiome.txt`.
+
+## Inputs
+
+The input tables live in `Datesets/` (spelled so on purpose): `asv-counts.csv` (2,456 samples ×
+129,070 ASVs), `taxa.csv`, `metadata.csv` and `tree.nexus`. They total about 2.6 GB and are
+**not** in this repository (GitHub's 100 MB file limit); the raw reads are public under the study
+accessions listed in `metadata.csv`. The sample key throughout is `run_accession`.
+
+## Outputs
+
+`analysis_results/`:
+
+- `by_analysis/` holds every figure beside its tables, one folder per analysis
+  (`01_data_and_filtering` … `12_predicted_functions`); `00_main_figures/` and
+  `00_supplementary_figures/` hold the merged manuscript figures and their legends.
+- `tables/` holds every result table that later steps and figures read.
+- `methodology.md`, `methodology_detailed.md`: methods text.
+- `validation/`: the audit's tables of record and `discrepancy_audit.csv`.
+
+Caches, ordination files and intermediate PICRUSt2 files are regenerated by a render and are not
+tracked.
+
+## Conventions
+
+- Developmental stage (seeds vs seedlings) is the primary grouping; host is tested as plant family
+  and host genus; study is treated as a confounder (random effect in the meta-analyses).
+  Country of origin is descriptive only.
+- Taxonomy filtering keeps Bacteria and removes chloroplasts, mitochondria and Cyanobacteria.
+- Compositional results are not rarefied; rarefaction (500 and 1,000 reads) is a sensitivity
+  analysis for alpha diversity.
+- Every colour comes from the `palette` section of the config: seeds orange, seedlings teal.
