@@ -6,6 +6,72 @@ families after filtering. It asks how developmental stage, host (plant family an
 host phylogeny shape the seed and seedling microbiota, which bacteria are host generalists or
 specialists, and what functions they are predicted to carry.
 
+## Repository tree
+
+```text
+Seedling_metaanalysis/
+├── seedling_analysis_master.qmd     # the whole analysis: pipeline, figures, audit figures
+├── analysis_config.json             # settings for the full run (single source of truth)
+├── analysis_config.smoke.json       # the same, for a fast test run
+│
+├── host_phylosignal.R               # phylogenetic signal of alpha diversity
+├── host_phylosymbiosis.R            # phylosymbiosis: Mantel, MRM, variance partitioning
+├── predicted_traits.py              # trait prediction (BugBase, FAPROTAX, metaTraits)
+├── predicted_trait_tests.R          # traits against host breadth
+├── ko_predict.sh                    # KEGG orthologues with PICRUSt2
+├── ko_breadth_tests.R               # orthologues against host breadth
+├── special_groups.R                 # anaerobic, nitrogen-fixing and small-genome bacteria
+├── functional_stage_effects.R       # predicted functions between developmental stages
+├── generalist_specialist_trees.sh   # phylogenies of host generalist and specialist ASVs
+├── generalist_specialist_itol.R     # iTOL annotation files for those trees
+├── make_*.R                         # launchers that rebuild parts of the master without a full render
+│
+├── microbiome_analysis.py           # dependency-light Python version of the core pipeline
+├── phyloseq_analysis.R              # its R sidecar (Faith's PD, DESeq2)
+├── requirements-microbiome.txt      # Python packages
+├── wildagain_joint_pellet.R         # colour helpers
+│
+├── merge_fastp.sh, script_multiqc.sh, qiime_*.slurm, tree.slurm,
+│   qiime_processor.py, generate_qiime2_manifest_tsv.py,
+│   rename_clean_fastq.py, convert_seedling_tables.py
+│                                    # upstream read processing on HPC (produced Datesets/)
+│
+├── analysis_results/
+│   ├── by_analysis/                 # every figure beside its tables, one folder per analysis
+│   │   ├── 00_main_figures/         # Figures 1–5 and their legends
+│   │   ├── 00_supplementary_figures/# Figures S1–S5 and their legends
+│   │   ├── 01_data_and_filtering/
+│   │   ├── 02_alpha_diversity/
+│   │   ├── 03_beta_diversity/
+│   │   ├── 04_composition/
+│   │   ├── 05_cooccurrence_network/
+│   │   ├── 06_taxon_stage_associations/
+│   │   ├── 07_host_phylogenetic_signal/
+│   │   ├── 08_phylosymbiosis/
+│   │   ├── 09_stage_generalists_specialists_clam/
+│   │   ├── 10_host_generalists_specialists/
+│   │   ├── 11_trees_and_class_comparison/
+│   │   └── 12_predicted_functions/
+│   ├── tables/                      # every result table (read by the figures)
+│   ├── manuscript/                  # manuscript and supplementary tables of record
+│   ├── validation/                  # the independent audit's tables and discrepancy log
+│   ├── trees/, itol/                # ASV phylogenies and iTOL annotations
+│   ├── picrust2/, picrust2_input/   # PICRUSt2 outputs and inputs (intermediates not tracked)
+│   ├── differential_abundance/
+│   └── methodology.md, methodology_detailed.md
+│
+├── validation/verify_manuscript.py  # independent recomputation of the reported statistics
+├── tests/test_microbiome_analysis.py# tests of the Python pipeline
+├── tasks/                           # plans, lessons and helper scripts
+├── plan.md                          # living plan of the analysis
+│
+└── Datesets/                        # input tables (2.6 GB) — NOT in the repository
+    ├── asv-counts.csv               # 2,456 samples × 129,070 ASVs
+    ├── taxa.csv
+    ├── metadata.csv
+    └── tree.nexus
+```
+
 ## How the analysis is organised
 
 Everything is driven by one configuration file and one Quarto document.
