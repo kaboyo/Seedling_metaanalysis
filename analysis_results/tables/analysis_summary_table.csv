@@ -1,6 +1,6 @@
 section,metric,value
 Dataset scope,Filtered samples,1886
-Dataset scope,Filtered taxa,2000
+Dataset scope,Filtered taxa,2823
 Composition,Core taxa,NA
 Alpha diversity,Alpha status,completed
 Beta diversity,PERMANOVA status,failed

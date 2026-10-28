@@ -1,0 +1,203 @@
+folder,methods_paragraph,analysis,kind,file,source,status,arrival
+01_data_and_filtering,1,Data and filtering,figure,study_overview.tiff,figures/study_overview.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,figure,study_scope.tiff,figures/study_scope.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,figure,fig1_geographic_distribution.tiff,figures/fig1_geographic_distribution.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,figure,geographic_distribution_map.tiff,figures/geographic_distribution_map.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,figure,sample_provenance_by_country.tiff,figures/sample_provenance_by_country.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,figure,library_sizes.tiff,figures/library_sizes.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,figure,sequencing_depth_histogram.tiff,figures/sequencing_depth_histogram.tiff,deposited,already in folder
+01_data_and_filtering,1,Data and filtering,table,host_plant_species.csv,tables/host_plant_species.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,host_plant_species.md,tables/host_plant_species.md,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,metadata_overview_publication.csv,tables/metadata_overview_publication.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,metadata_overview_publication.md,tables/metadata_overview_publication.md,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,meta_analysis_overview_table.csv,tables/meta_analysis_overview_table.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,meta_analysis_scope_summary.csv,tables/meta_analysis_scope_summary.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,metadata_group_summary.csv,tables/metadata_group_summary.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,analysis_summary_table.csv,tables/analysis_summary_table.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,fig1_study_table.csv,tables/fig1_study_table.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,study_level_audit.csv,tables/study_level_audit.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,sequencing_depth_summary.csv,tables/sequencing_depth_summary.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,taxonomy_filtered_features.csv,tables/taxonomy_filtered_features.csv,deposited,copied
+01_data_and_filtering,1,Data and filtering,table,sample_statistics.csv,setup/sample_statistics.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,figure,alpha_evenness_by_species_depth1000.tiff,figures/alpha_evenness_by_species_depth1000.tiff,deposited,already in folder
+02_alpha_diversity,2,Alpha diversity,figure,alpha_evenness_by_species_depth500.tiff,figures/alpha_evenness_by_species_depth500.tiff,deposited,already in folder
+02_alpha_diversity,2,Alpha diversity,figure,alpha_indices_by_stage_rarefied.tiff,figures/alpha_indices_by_stage_rarefied.tiff,deposited,already in folder
+02_alpha_diversity,2,Alpha diversity,figure,alpha_richness_by_species_depth1000.tiff,figures/alpha_richness_by_species_depth1000.tiff,deposited,already in folder
+02_alpha_diversity,2,Alpha diversity,figure,alpha_richness_by_species_depth500.tiff,figures/alpha_richness_by_species_depth500.tiff,deposited,already in folder
+02_alpha_diversity,2,Alpha diversity,figure,alpha_stage_effect_heatmap.tiff,figures/alpha_stage_effect_heatmap.tiff,deposited,already in folder
+02_alpha_diversity,2,Alpha diversity,table,alpha_diversity.csv,tables/alpha_diversity.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_diversity_findings.csv,tables/alpha_diversity_findings.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_evenness_species_studies_depth1000.csv,tables/alpha_evenness_species_studies_depth1000.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_evenness_species_studies_depth500.csv,tables/alpha_evenness_species_studies_depth500.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_richness_species_studies_depth1000.csv,tables/alpha_richness_species_studies_depth1000.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_richness_species_studies_depth500.csv,tables/alpha_richness_species_studies_depth500.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_stage_effect_by_stratum.csv,tables/alpha_stage_effect_by_stratum.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_stage_effect_pooled.csv,tables/alpha_stage_effect_pooled.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,alpha_summary.csv,tables/alpha_summary.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_diversity.csv,tables/rarefied_alpha_diversity.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_diversity_depth1000.csv,tables/rarefied_alpha_diversity_depth1000.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_diversity_depth500.csv,tables/rarefied_alpha_diversity_depth500.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_summary_depth1000.csv,tables/rarefied_alpha_summary_depth1000.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_summary_depth500.csv,tables/rarefied_alpha_summary_depth500.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_tests_depth1000.csv,tables/rarefied_alpha_tests_depth1000.csv,deposited,copied
+02_alpha_diversity,2,Alpha diversity,table,rarefied_alpha_tests_depth500.csv,tables/rarefied_alpha_tests_depth500.csv,deposited,copied
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_by_stage_study.tiff,figures/pcoa_css_by_stage_study.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_asv_by_stage.tiff,figures/pcoa_css_asv_by_stage.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,beta_variance_explained.tiff,figures/beta_variance_explained.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_bray_genus_by_author.tiff,figures/pcoa_css_bray_genus_by_author.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_bray_genus_by_developmental_stage.tiff,figures/pcoa_css_bray_genus_by_developmental_stage.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_bray_genus_by_family.tiff,figures/pcoa_css_bray_genus_by_family.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_bray_genus_by_host_genus.tiff,figures/pcoa_css_bray_genus_by_host_genus.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_bray_genus_by_study_alias.tiff,figures/pcoa_css_bray_genus_by_study_alias.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_by_stage.tiff,figures/pcoa_css_by_stage.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",figure,pcoa_css_stage_unit_sensitivity.tiff,figures/pcoa_css_stage_unit_sensitivity.tiff,deposited,already in folder
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",table,permanova_css_by_unit.csv,diversity/permanova_css_by_unit.csv,deposited,copied
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",table,pcoa_css_genus_by_stage.csv,diversity/pcoa_css_genus_by_stage.csv,deposited,copied
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",table,permanova_css_genus_by_stage.csv,diversity/permanova_css_genus_by_stage.csv,deposited,copied
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",table,pcoa_css_asv_by_stage.csv,diversity/pcoa_css_asv_by_stage.csv,deposited,copied
+03_beta_diversity,2,"Beta diversity (CSS, Bray-Curtis, PERMANOVA)",table,permanova_css_asv_by_stage.csv,diversity/permanova_css_asv_by_stage.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,top_phylum_summary.csv,tables/top_phylum_summary.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,composition_by_stage.csv,tables/composition_by_stage.csv,deposited,copied
+04_composition,2,Taxonomic composition,figure,composition_dendrogram.tiff,figures/composition_dendrogram.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,table,composition_dendrogram_tips.csv,tables/composition_dendrogram_tips.csv,deposited,copied
+04_composition,2,Taxonomic composition,figure,top_class_composition.tiff,figures/top_class_composition.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,top_genus_composition.tiff,figures/top_genus_composition.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_class.tiff,figures/fig_taxa_strips_class.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_class_by_host_species.tiff,figures/fig_taxa_strips_class_by_host_species.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_class_by_plant_family.tiff,figures/fig_taxa_strips_class_by_plant_family.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_family.tiff,figures/fig_taxa_strips_family.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_family_by_host_species.tiff,figures/fig_taxa_strips_family_by_host_species.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_family_by_plant_family.tiff,figures/fig_taxa_strips_family_by_plant_family.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_genus.tiff,figures/fig_taxa_strips_genus.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_genus_by_host_species.tiff,figures/fig_taxa_strips_genus_by_host_species.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_taxa_strips_genus_by_plant_family.tiff,figures/fig_taxa_strips_genus_by_plant_family.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_alluvial_class_by_plant_family.tiff,figures/fig_alluvial_class_by_plant_family.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_alluvial_genus_by_host_species.tiff,figures/fig_alluvial_genus_by_host_species.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_alluvial_genus_by_plant_family.tiff,figures/fig_alluvial_genus_by_plant_family.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,figure,fig_genus_seedling_vs_seed_by_species.tiff,figures/fig_genus_seedling_vs_seed_by_species.tiff,deposited,already in folder
+04_composition,2,Taxonomic composition,table,top_class_summary.csv,tables/top_class_summary.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,top_genus_summary.csv,tables/top_genus_summary.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_class.csv,tables/taxa_strips_class.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_class_by_host_species.csv,tables/taxa_strips_class_by_host_species.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_class_by_plant_family.csv,tables/taxa_strips_class_by_plant_family.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_family.csv,tables/taxa_strips_family.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_family_by_host_species.csv,tables/taxa_strips_family_by_host_species.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_family_by_plant_family.csv,tables/taxa_strips_family_by_plant_family.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_genus.csv,tables/taxa_strips_genus.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_genus_by_host_species.csv,tables/taxa_strips_genus_by_host_species.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,taxa_strips_genus_by_plant_family.csv,tables/taxa_strips_genus_by_plant_family.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,genus_composition_change_by_family.csv,tables/genus_composition_change_by_family.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,genus_dominance_overall.csv,tables/genus_dominance_overall.csv,deposited,copied
+04_composition,2,Taxonomic composition,table,genus_seedling_vs_seed_by_species.csv,tables/genus_seedling_vs_seed_by_species.csv,deposited,copied
+05_cooccurrence_network,2,Co-occurrence network,figure,cooccurrence_network.tiff,figures/cooccurrence_network.tiff,deposited,already in folder
+05_cooccurrence_network,2,Co-occurrence network,table,cooccurrence_edges.csv,tables/cooccurrence_edges.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),figure,stage_screen.tiff,figures/stage_screen.tiff,deposited,already in folder
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),figure,stage_effect_heatmap.tiff,figures/stage_effect_heatmap.tiff,deposited,already in folder
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),figure,indicator_species_plot.tiff,figures/indicator_species_plot.tiff,deposited,already in folder
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),figure,volcano_deseq2.tiff,figures/volcano_deseq2.tiff,deposited,already in folder
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_screen_asvs.csv,tables/stage_screen_asvs.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_effect_by_host_genus_genus.csv,tables/stage_effect_by_host_genus_genus.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_effect_by_plant_family_genus.csv,tables/stage_effect_by_plant_family_genus.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_effect_leave_one_out_by_host_genus_genus.csv,tables/stage_effect_leave_one_out_by_host_genus_genus.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_effect_leave_one_out_by_plant_family_genus.csv,tables/stage_effect_leave_one_out_by_plant_family_genus.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_effect_pooled_by_host_genus_genus.csv,tables/stage_effect_pooled_by_host_genus_genus.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,stage_effect_pooled_by_plant_family_genus.csv,tables/stage_effect_pooled_by_plant_family_genus.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,indicator_species_phi.csv,tables/indicator_species_phi.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,indicator_species_significant.csv,tables/indicator_species_significant.csv,deposited,copied
+06_taxon_stage_associations,3,Taxon-stage associations (two steps),table,deseq2_results.csv,differential_abundance/deseq2_results.csv,deposited,copied
+07_host_phylogenetic_signal,4,Host phylogenetic signal in alpha diversity,figure,host_phylosignal.tiff,figures/host_phylosignal.tiff,deposited,already in folder
+07_host_phylogenetic_signal,4,Host phylogenetic signal in alpha diversity,figure,prunetree.png,figures/prunetree.png,deposited,already in folder
+07_host_phylogenetic_signal,4,Host phylogenetic signal in alpha diversity,table,host_phylosignal.csv,tables/host_phylosignal.csv,deposited,copied
+07_host_phylogenetic_signal,4,Host phylogenetic signal in alpha diversity,table,host_phylosignal_species_means.csv,tables/host_phylosignal_species_means.csv,deposited,copied
+07_host_phylogenetic_signal,4,Host phylogenetic signal in alpha diversity,other,host_phylosignal_tree.nwk,tables/host_phylosignal_tree.nwk,deposited,copied
+07_host_phylogenetic_signal,4,Host phylogenetic signal in alpha diversity,other,host_plant_species.nwk,../Datesets/host_plant_species.nwk,deposited,copied
+08_phylosymbiosis,4,"Phylosymbiosis, marginal PERMANOVA and variance partitioning",figure,host_phylosymbiosis_scatter.tiff,figures/host_phylosymbiosis_scatter.tiff,deposited,already in folder
+08_phylosymbiosis,4,"Phylosymbiosis, marginal PERMANOVA and variance partitioning",table,host_phylosymbiosis_pairs.csv,tables/host_phylosymbiosis_pairs.csv,deposited,copied
+08_phylosymbiosis,4,"Phylosymbiosis, marginal PERMANOVA and variance partitioning",table,host_phylosymbiosis_tests.csv,tables/host_phylosymbiosis_tests.csv,deposited,copied
+08_phylosymbiosis,4,"Phylosymbiosis, marginal PERMANOVA and variance partitioning",table,host_beta_permanova.csv,tables/host_beta_permanova.csv,deposited,copied
+08_phylosymbiosis,4,"Phylosymbiosis, marginal PERMANOVA and variance partitioning",table,host_beta_variance_partition.csv,tables/host_beta_variance_partition.csv,deposited,copied
+08_phylosymbiosis,4,"Phylosymbiosis, marginal PERMANOVA and variance partitioning",other,host_phylosignal_tree.nwk,tables/host_phylosignal_tree.nwk,deposited,copied
+09_stage_generalists_specialists_clam,5,"Stage generalists and specialists (CLAM), genera",figure,tree_generalist_specialist_genus.tiff,figures/tree_generalist_specialist_genus.tiff,deposited,already in folder
+09_stage_generalists_specialists_clam,5,"Stage generalists and specialists (CLAM), genera",table,tree_generalist_specialist_genus.csv,tables/tree_generalist_specialist_genus.csv,deposited,copied
+09_stage_generalists_specialists_clam,5,"Stage generalists and specialists (CLAM), genera",table,generalist_specialist_genus.csv,tables/generalist_specialist_genus.csv,deposited,copied
+10_host_generalists_specialists,6,Host generalists and specialists (two-step screen),figure,host_breadth_null.tiff,figures/host_breadth_null.tiff,deposited,already in folder
+10_host_generalists_specialists,6,Host generalists and specialists (two-step screen),table,generalist_specialist_asv_host_screen.csv,tables/generalist_specialist_asv_host_screen.csv,deposited,copied
+10_host_generalists_specialists,6,Host generalists and specialists (two-step screen),table,generalist_specialist_breadth_null.csv,tables/generalist_specialist_breadth_null.csv,deposited,copied
+10_host_generalists_specialists,6,Host generalists and specialists (two-step screen),table,generalist_specialist_clustered_taxa.csv,tables/generalist_specialist_clustered_taxa.csv,deposited,copied
+10_host_generalists_specialists,6,Host generalists and specialists (two-step screen),table,generalist_specialist_summary.csv,tables/generalist_specialist_summary.csv,deposited,copied
+10_host_generalists_specialists,6,Host generalists and specialists (two-step screen),other,host_phylosignal_tree.nwk,tables/host_phylosignal_tree.nwk,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",figure,host_class_composition.tiff,figures/host_class_composition.tiff,deposited,already in folder
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",figure,host_breadth_top_genera.tiff,figures/host_breadth_top_genera.tiff,deposited,already in folder
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",figure,tree_generalist_specialist.tiff,figures/tree_generalist_specialist.tiff,deposited,already in folder
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",figure,tree_host_generalists.tiff,figures/tree_host_generalists.tiff,deposited,already in folder
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",figure,tree_host_specialists.tiff,figures/tree_host_specialists.tiff,deposited,already in folder
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",table,tree_generalist_specialist.csv,tables/tree_generalist_specialist.csv,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",table,generalist_specialist_composition_tests.csv,tables/generalist_specialist_composition_tests.csv,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",table,generalist_specialist_exclusive_taxa.csv,tables/generalist_specialist_exclusive_taxa.csv,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",table,generalist_specialist_top_genera.csv,tables/generalist_specialist_top_genera.csv,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",table,generalist_specialist_breadth_abundance.csv,tables/generalist_specialist_breadth_abundance.csv,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",table,tree_build_summary.csv,trees/tree_build_summary.csv,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,combined_tree.nwk,trees/combined/tree.nwk,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_tree.nwk,trees/generalists/tree.nwk,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_tree.nwk,trees/specialists/tree.nwk,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,combined_trimmed.fasta,trees/combined/trimmed.fasta,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_trimmed.fasta,trees/generalists/trimmed.fasta,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_trimmed.fasta,trees/specialists/trimmed.fasta,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,iqtree.iqtree,trees/generalists/iqtree.iqtree,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_1_phylum.txt,itol/generalists/1_phylum.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_2_class.txt,itol/generalists/2_class.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_3_predicted_aerobic_type.txt,itol/generalists/3_predicted_aerobic_type.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_4_predicted_gram_type.txt,itol/generalists/4_predicted_gram_type.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_5_predicted_biofilm_formation.txt,itol/generalists/5_predicted_biofilm_formation.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_6_n_hosts.txt,itol/generalists/6_n_hosts.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,generalists_README.txt,itol/generalists/README.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_1_phylum.txt,itol/specialists/1_phylum.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_2_class.txt,itol/specialists/2_class.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_3_predicted_aerobic_type.txt,itol/specialists/3_predicted_aerobic_type.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_4_predicted_gram_type.txt,itol/specialists/4_predicted_gram_type.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_5_predicted_biofilm_formation.txt,itol/specialists/5_predicted_biofilm_formation.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_6_n_hosts.txt,itol/specialists/6_n_hosts.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,7_host_plant_family.txt,itol/specialists/7_host_plant_family.txt,deposited,copied
+11_trees_and_class_comparison,7,"Trees of host generalists and specialists, and their comparison",other,specialists_README.txt,itol/specialists/README.txt,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,ko_kegg_category_heatmap.tiff,figures/ko_kegg_category_heatmap.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,trait_breadth_forest.tiff,figures/trait_breadth_forest.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,ko_function_bars.tiff,figures/ko_function_bars.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,trait_numeric_volcano.tiff,figures/trait_numeric_volcano.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,trait_binary_volcano.tiff,figures/trait_binary_volcano.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,ko_volcano.tiff,figures/ko_volcano.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,functional_host_breadth_heatmaps.tiff,figures/functional_host_breadth_heatmaps.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,functional_stage_heatmaps.tiff,figures/functional_stage_heatmaps.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",figure,special_group_heatmaps.tiff,figures/special_group_heatmaps.tiff,deposited,already in folder
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,predicted_trait_breadth_tests.csv,tables/predicted_trait_breadth_tests.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,predicted_trait_stage_effect_by_plant_family.csv,tables/predicted_trait_stage_effect_by_plant_family.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,predicted_trait_stage_effect_pooled.csv,tables/predicted_trait_stage_effect_pooled.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,predicted_traits_asv.csv,tables/predicted_traits_asv.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,predicted_traits_catalogue.csv,tables/predicted_traits_catalogue.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,functional_trait_heatmap_matrix.csv,tables/functional_trait_heatmap_matrix.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,ko_breadth_tests.csv,tables/ko_breadth_tests.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,ko_category_stage_effect_by_plant_family.csv,tables/ko_category_stage_effect_by_plant_family.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,ko_category_stage_effect_pooled.csv,tables/ko_category_stage_effect_pooled.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,ko_enrichment_summary.csv,tables/ko_enrichment_summary.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_heatmap_matrix.csv,tables/special_group_heatmap_matrix.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_host_loading.csv,tables/special_group_host_loading.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_host_loading_tests.csv,tables/special_group_host_loading_tests.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_host_order_tests.csv,tables/special_group_host_order_tests.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_order_composition.csv,tables/special_group_order_composition.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_sample_abundance.csv,tables/special_group_sample_abundance.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_stage_effect_by_plant_family.csv,tables/special_group_stage_effect_by_plant_family.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_stage_effect_pooled.csv,tables/special_group_stage_effect_pooled.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",table,special_group_summary.csv,tables/special_group_summary.csv,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",other,bac_KO_predicted.tsv.gz,picrust2/bac_KO_predicted.tsv.gz,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",other,combined_marker_predicted_and_nsti.tsv.gz,picrust2/combined_marker_predicted_and_nsti.tsv.gz,deposited,copied
+12_predicted_functions,8,"Predicted traits, gene content and special groups",other,bac.tre,picrust2/bac.tre,deposited,copied
+NA,NA,NA,table,external_analyses_status.csv,tables/external_analyses_status.csv,not assigned to a folder,NA
+NA,NA,NA,table,figure_captions.csv,tables/figure_captions.csv,not assigned to a folder,NA
+NA,NA,NA,table,figure_captions.md,tables/figure_captions.md,not assigned to a folder,NA
+NA,NA,NA,table,figure_legends.md,tables/figure_legends.md,not assigned to a folder,NA
+NA,NA,NA,table,figure_manifest.csv,tables/figure_manifest.csv,not assigned to a folder,NA
+NA,NA,NA,table,rendered_figure_manifest.csv,tables/rendered_figure_manifest.csv,not assigned to a folder,NA
+NA,NA,NA,table,variable_assessment_alpha_tests.csv,tables/variable_assessment_alpha_tests.csv,not assigned to a folder,NA
+NA,NA,NA,table,variable_assessment_beta_tests.csv,tables/variable_assessment_beta_tests.csv,not assigned to a folder,NA
+NA,NA,NA,table,variable_assessment_figure_manifest.csv,tables/variable_assessment_figure_manifest.csv,not assigned to a folder,NA
+NA,NA,NA,table,variable_assessment_group_counts.csv,tables/variable_assessment_group_counts.csv,not assigned to a folder,NA
+NA,NA,NA,table,variable_assessment_status.csv,tables/variable_assessment_status.csv,not assigned to a folder,NA

@@ -1,0 +1,52 @@
+analysis,scope,class,n_genera
+stage_CLAM,both-stage studies pooled,Generalist,58
+stage_CLAM,both-stage studies pooled,Specialist_Seedlings,40
+stage_CLAM,both-stage studies pooled,Specialist_Seeds,152
+stage_CLAM,both-stage studies pooled,Too_rare,5
+stage_CLAM,PRJEB45079,Generalist,17
+stage_CLAM,PRJEB45079,Specialist_Seedlings,19
+stage_CLAM,PRJEB45079,Specialist_Seeds,42
+stage_CLAM,PRJEB45079,Too_rare,12
+stage_CLAM,PRJEB6729,Generalist,28
+stage_CLAM,PRJEB6729,Specialist_Seedlings,9
+stage_CLAM,PRJEB6729,Specialist_Seeds,86
+stage_CLAM,PRJEB6729,Too_rare,2
+stage_CLAM,PRJNA735565,Generalist,11
+stage_CLAM,PRJNA735565,Specialist_Seedlings,17
+stage_CLAM,PRJNA735565,Specialist_Seeds,139
+stage_CLAM,PRJNA735565,Too_rare,1
+stage_CLAM,PRJNA784432,Generalist,7
+stage_CLAM,PRJNA784432,Specialist_Seedlings,19
+stage_CLAM,PRJNA784432,Specialist_Seeds,18
+stage_CLAM,PRJNA784432,Too_rare,3
+stage_CLAM,PRJNA926007,Generalist,1
+stage_CLAM,PRJNA926007,Specialist_Seedlings,4
+stage_CLAM,PRJNA926007,Specialist_Seeds,3
+stage_CLAM,PRJNA926007,Too_rare,1
+host_breadth_Levins,all studies,Generalist,6
+host_breadth_Levins,all studies,Neither,151
+host_breadth_Levins,all studies,Specialist,25
+host_breadth_Levins,all studies,Too_rare,100
+host_double_screen,"genus level, threshold 7 hosts",Generalist,53
+host_double_screen,"genus level, threshold 7 hosts",Intermediate,88
+host_double_screen,"genus level, threshold 7 hosts",Specialist,141
+host_double_screen,"genus level, threshold 7 hosts",Pseudo-generalist (in Intermediate),0
+host_double_screen,"ASV level, threshold 6 hosts",Generalist,241
+host_double_screen,"ASV level, threshold 6 hosts",Intermediate,1462
+host_double_screen,"ASV level, threshold 6 hosts",Specialist,1120
+host_double_screen,"ASV level, threshold 6 hosts",Pseudo-generalist (in Intermediate),22
+composition_Fisher_ASV,Phylum level,"differs, q < 0.05",7
+composition_Fisher_ASV,Phylum level,only in generalists,0
+composition_Fisher_ASV,Phylum level,only in specialists,15
+composition_Fisher_ASV,Class level,"differs, q < 0.05",5
+composition_Fisher_ASV,Class level,only in generalists,0
+composition_Fisher_ASV,Class level,only in specialists,36
+composition_Fisher_ASV,Order level,"differs, q < 0.05",5
+composition_Fisher_ASV,Order level,only in generalists,1
+composition_Fisher_ASV,Order level,only in specialists,85
+composition_Fisher_ASV,Family level,"differs, q < 0.05",6
+composition_Fisher_ASV,Family level,only in generalists,3
+composition_Fisher_ASV,Family level,only in specialists,123
+composition_Fisher_ASV,Genus level,"differs, q < 0.05",10
+composition_Fisher_ASV,Genus level,only in generalists,4
+composition_Fisher_ASV,Genus level,only in specialists,210

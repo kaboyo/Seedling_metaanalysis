@@ -1,0 +1,109 @@
+z,group,pseudocount,label,host_genus,mean_relative_abundance
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Arabidopsis,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Arabidopsis,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Arabidopsis,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Arabidopsis,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Arabidopsis,0
+1.5962560123305451,anaerobic,1.3597713669056838e-6,Corynebacterium,Brassica,9.133263214753365e-4
+2.1386118698343504,anaerobic,1.3597713669056838e-6,Dolosigranulum,Brassica,0.0014275529459706368
+0.9528075922780601,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Brassica,3.1923287737241225e-5
+-0.054631261806889805,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Brassica,2.7195427338113676e-6
+1.6416537228757553,anaerobic,1.3597713669056838e-6,Terribacillus,Brassica,0.003949683422518803
+0.5751371080101547,anaerobic,1.3597713669056838e-6,Corynebacterium,Daucus,4.7865538863398594e-5
+0.19039536198087967,anaerobic,1.3597713669056838e-6,Dolosigranulum,Daucus,6.837934123342656e-6
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Daucus,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Daucus,0
+-0.03658469704121921,anaerobic,1.3597713669056838e-6,Terribacillus,Daucus,1.3186832508179498e-5
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Diplotaxis,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Diplotaxis,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Diplotaxis,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Diplotaxis,0
+1.3581842529496746,anaerobic,1.3597713669056838e-6,Terribacillus,Diplotaxis,0.001531829737997482
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Glycine,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Glycine,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Glycine,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Glycine,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Glycine,0
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Lactuca,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Lactuca,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Lactuca,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Lactuca,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Lactuca,0
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Medicago,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Medicago,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Medicago,0
+2.8341251197003157,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Medicago,0.017517790046805613
+1.1783561282102444,anaerobic,1.3597713669056838e-6,Terribacillus,Medicago,8.396305625524769e-4
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Petroselinum,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Petroselinum,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Petroselinum,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Petroselinum,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Petroselinum,0
+0.35558631352430414,anaerobic,1.3597713669056838e-6,Corynebacterium,Phaseolus,2.4901924681685894e-5
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Phaseolus,0
+0.29639069114530164,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Phaseolus,6.139470309979635e-6
+1.1266759943242644,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Phaseolus,1.234388318734541e-4
+1.0824674273408519,anaerobic,1.3597713669056838e-6,Terribacillus,Phaseolus,6.091935035202073e-4
+0.04326081394899036,anaerobic,1.3597713669056838e-6,Corynebacterium,Raphanus,9.383914718983035e-6
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Raphanus,0
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Raphanus,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Raphanus,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Raphanus,0
+2.1829595845264573,anaerobic,1.3597713669056838e-6,Corynebacterium,Solanum,0.004901489675821595
+2.0611993764173424,anaerobic,1.3597713669056838e-6,Dolosigranulum,Solanum,0.0011626241649782612
+-0.455714504760082,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Solanum,0
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Solanum,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Solanum,0
+-0.6790285474772076,anaerobic,1.3597713669056838e-6,Corynebacterium,Triticum,0
+-0.4878007342480638,anaerobic,1.3597713669056838e-6,Dolosigranulum,Triticum,0
+2.8522322594173772,anaerobic,1.3597713669056838e-6,f: Peptostreptococcaceae,Triticum,0.002481742897086664
+-0.4340188724686324,anaerobic,1.3597713669056838e-6,o: Vicinamibacterales,Triticum,0
+-0.7462966906193299,anaerobic,1.3597713669056838e-6,Terribacillus,Triticum,0
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Arabidopsis,0
+-0.7686912451077357,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Arabidopsis,0
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Arabidopsis,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Arabidopsis,0
+1.5594228360033258,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Brassica,7.49927864795438e-5
+-0.11093885584080142,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Brassica,6.292958397928637e-6
+1.062626365279465,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Brassica,1.7447820112974636e-5
+0.9855649581345357,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Brassica,6.84825892540059e-5
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Daucus,0
+-0.7686912451077357,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Daucus,0
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Daucus,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Daucus,0
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Diplotaxis,0
+1.7660145499922622,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Diplotaxis,0.0011406296964505897
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Diplotaxis,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Diplotaxis,0
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Glycine,0
+0.9563656876279021,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Glycine,1.301490726145363e-4
+2.2870731968222,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Glycine,1.2692282333247505e-4
+2.3304488426234204,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Glycine,0.001970505323389064
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Lactuca,0
+-0.7686912451077357,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Lactuca,0
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Lactuca,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Lactuca,0
+1.8823074178079267,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Medicago,1.3684722219157853e-4
+0.6782667234204618,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Medicago,6.125089107530408e-5
+0.9064611444162566,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Medicago,1.336898395721925e-5
+1.1949650643553682,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Medicago,1.1611120007723089e-4
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Petroselinum,0
+-0.7686912451077357,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Petroselinum,0
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Petroselinum,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Petroselinum,0
+0.6503768888127238,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Phaseolus,1.3030875666010264e-5
+1.679665504413327,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Phaseolus,9.054979671537793e-4
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Phaseolus,0
+0.3975378575074571,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Phaseolus,1.4881760039497942e-5
+1.1063853610285963,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Raphanus,3.186127268670782e-5
+-0.3572261389667352,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Raphanus,2.6273262510834982e-6
+0.7939993680658649,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Raphanus,1.0992865942141717e-5
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Raphanus,0
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Solanum,0
+-0.7686912451077357,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Solanum,0
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Solanum,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Solanum,0
+-0.6498115629565719,nitrogen_fixing,1.3136631255417491e-6,Achromobacter,Triticum,0
+-0.7686912451077357,nitrogen_fixing,1.3136631255417491e-6,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Triticum,0
+-0.6312700093229733,nitrogen_fixing,1.3136631255417491e-6,Azospirillum,Triticum,0
+-0.6135645903275978,nitrogen_fixing,1.3136631255417491e-6,Bradyrhizobium,Triticum,0

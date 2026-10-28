@@ -1,0 +1,465 @@
+study_alias,ref,row_val,Stage,n,Taxon,rel
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Other,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Bacillus,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Enhydrobacter,0.061258278145695365
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Massilia,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Paenibacillus,0.6887417218543046
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Pantoea,0.25
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Stenotrophomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seed,4,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Other,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Bacillus,0.5000000000000001
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Enhydrobacter,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Massilia,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Paenibacillus,0.35526315789473684
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Pantoea,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Pseudarthrobacter,0.14473684210526316
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Stenotrophomonas,0
+PRJNA926007,Acuña et al. 2023,Brassicaceae,Seedling,2,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Other,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Bacillus,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Enhydrobacter,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Massilia,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Paenibacillus,0.27504603208281164
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Pantoea,0.6166243404932312
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Pseudomonas,0.06542593444785288
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Stenotrophomonas,0.042903692976104274
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seed,4,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Other,0.007755630186609672
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Bacillus,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Enhydrobacter,0.07716371220020855
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Massilia,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Paenibacillus,0.49426485922836283
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Pantoea,0.41901659003649216
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Stenotrophomonas,0.0017992083483267362
+PRJNA926007,Acuña et al. 2023,Apiaceae,Seedling,7,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Other,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Bacillus,0.0034514144539966258
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Enhydrobacter,0.9965485855460033
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Massilia,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Paenibacillus,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Pantoea,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Stenotrophomonas,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seed,7,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Other,0.0064516129032258064
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Bacillus,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Enhydrobacter,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Massilia,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Paenibacillus,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Pantoea,0.6081846355241471
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Sphingomonas,0.38315412186379927
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Stenotrophomonas,0.002209629708827827
+PRJNA926007,Acuña et al. 2023,Asteraceae,Seedling,3,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Other,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Bacillus,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Enhydrobacter,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Massilia,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Paenibacillus,1
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Pantoea,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Stenotrophomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seed,3,Xanthomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Other,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Bacillus,1
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Enhydrobacter,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Enterobacter,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Erwinia,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Klebsiella,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Kosakonia,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Massilia,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Methylobacterium-Methylorubrum,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Paenibacillus,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Pantoea,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Pseudarthrobacter,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Pseudomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Sphingomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Stenotrophomonas,0
+PRJNA926007,Acuña et al. 2023,Solanaceae,Seedling,3,Xanthomonas,0
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Other,0.09544853443770025
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Bacillus,0.027111254963086466
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Enhydrobacter,0
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Enterobacter,0
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Erwinia,0.07975335177898005
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Klebsiella,0.0019370588547471211
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Kosakonia,0
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Massilia,0.00637936473251153
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Methylobacterium-Methylorubrum,0.003861838417100726
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Paenibacillus,0.02248268670718015
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Pantoea,0.2743084205767558
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Pseudarthrobacter,4.472350929381841e-4
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Pseudomonas,0.472013953024802
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Sphingomonas,0.01394892875711048
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Stenotrophomonas,0.002307372657087243
+PRJNA811248,Chandel et al. 2022,Fabaceae,Seedling,33,Xanthomonas,0
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Other,0.4258746997804028
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Bacillus,0.0062312745796338585
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Enhydrobacter,0
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Enterobacter,0.0010385873908031961
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Erwinia,0.01730983480932642
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Klebsiella,9.676032110091744e-5
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Kosakonia,0
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Massilia,0.03348062011613717
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Methylobacterium-Methylorubrum,1.1180165071849003e-4
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Paenibacillus,0.3508172937184959
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Pantoea,0.07573186199987655
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Pseudarthrobacter,0
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Pseudomonas,0.08350222000464352
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Sphingomonas,0.0058050456288611055
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Stenotrophomonas,0
+PRJNA810761,Chandel et al. 2022,Fabaceae,Seedling,109,Xanthomonas,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Other,0.14824890943810254
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Bacillus,0.01805095248634813
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Enhydrobacter,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Enterobacter,0.11772514905964675
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Erwinia,0.022193796624049078
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Klebsiella,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Kosakonia,0.021787528070355812
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Massilia,0.08979555698777887
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Methylobacterium-Methylorubrum,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Paenibacillus,0.058657417094361904
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Pantoea,0.3237395059588767
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Pseudarthrobacter,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Pseudomonas,0.17646023738087316
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Sphingomonas,0.0016375453729602976
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Stenotrophomonas,0.021703401526646786
+PRJNA784432,Cui et al. 2023,Poaceae,Seedling,47,Xanthomonas,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Other,0.5278324468200554
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Bacillus,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Enhydrobacter,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Enterobacter,0.08044421122998091
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Erwinia,0.004634186351706037
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Klebsiella,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Kosakonia,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Massilia,0.004075827571817425
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Methylobacterium-Methylorubrum,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Paenibacillus,0.0011750881316098707
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Pantoea,0.2831892977910385
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Pseudarthrobacter,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Pseudomonas,0.03253483054623165
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Sphingomonas,0
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Stenotrophomonas,0.06611411155756018
+PRJNA784432,Cui et al. 2023,Poaceae,Seed,12,Xanthomonas,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Other,0.06847914129714142
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Bacillus,7.704644969276762e-4
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Enhydrobacter,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Enterobacter,0.40211213011882013
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Erwinia,0.009806503466741686
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Klebsiella,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Kosakonia,0.38411020168713894
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Massilia,0.00428225638645447
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Methylobacterium-Methylorubrum,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Paenibacillus,0.006633978766189761
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Pantoea,0.07332269957199873
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Pseudarthrobacter,1.2769673619542315e-5
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Pseudomonas,0.047514161813217534
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Sphingomonas,3.179118750243427e-4
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Stenotrophomonas,0.002527136839682995
+PRJNA735565,Kim et al. 2022,Fabaceae,Seedling,26,Xanthomonas,1.1064400704277787e-4
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Other,0.8602608310060768
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Bacillus,0.0023181442963472374
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Enhydrobacter,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Enterobacter,0.010947513494302341
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Erwinia,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Klebsiella,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Kosakonia,0.02439495870056014
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Massilia,0.013024528566145645
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Methylobacterium-Methylorubrum,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Paenibacillus,0
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Pantoea,0.028952125523071234
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Pseudarthrobacter,0.008808720250654881
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Pseudomonas,0.009591186528581815
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Sphingomonas,0.04121702523878768
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Stenotrophomonas,4.849663954722321e-4
+PRJNA735565,Kim et al. 2022,Fabaceae,Seed,5,Xanthomonas,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Other,0.14675300398832475
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Bacillus,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Enhydrobacter,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Enterobacter,0.1305262620903404
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Erwinia,0.09177427514093804
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Klebsiella,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Kosakonia,0.0028838722669904523
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Massilia,0.014076327199677377
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Methylobacterium-Methylorubrum,0.01132865352550576
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Paenibacillus,0.0039313757582152276
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Pantoea,0.41805939674921894
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Pseudarthrobacter,0.0017961004801411455
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Pseudomonas,0.1239936586543815
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Sphingomonas,0.03421858210114782
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Stenotrophomonas,0.020347782937889438
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seed,7,Xanthomonas,3.1070910722916527e-4
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Other,0.06025764364443002
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Bacillus,0.006365820470065237
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Enhydrobacter,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Enterobacter,0.2297168405543951
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Erwinia,3.7753148342906456e-5
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Klebsiella,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Kosakonia,0.005513199758690785
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Massilia,0.033966642394718846
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Methylobacterium-Methylorubrum,3.386779355684949e-5
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Paenibacillus,0.04485285469030355
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Pantoea,0.24190056312955857
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Pseudarthrobacter,0
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Pseudomonas,0.3543455272561653
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Sphingomonas,0.002718831249865909
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Stenotrophomonas,0.005383172203127869
+PRJNA735565,Kim et al. 2022,Brassicaceae,Seedling,47,Xanthomonas,0.014907283706779045
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Other,0.22373299599324875
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Bacillus,0.07046527256230489
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Enhydrobacter,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Enterobacter,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Erwinia,0.005708355136498562
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Klebsiella,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Kosakonia,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Massilia,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Methylobacterium-Methylorubrum,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Paenibacillus,0.002251854653257893
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Pantoea,0.24390004512789598
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Pseudarthrobacter,0.06309536489385029
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Pseudomonas,0.30729024576246056
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Sphingomonas,0.08355586587048311
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Stenotrophomonas,0
+PRJNA649549,Nunes et al. 2022,Poaceae,Seedling,53,Xanthomonas,0
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Other,0.28785078135907627
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Bacillus,0.027522600674595176
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Enhydrobacter,0.0019692411319356595
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Enterobacter,0.00845883773221089
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Erwinia,0.05421319371317633
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Klebsiella,0.013699735442132117
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Kosakonia,4.7465261710913175e-4
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Massilia,0.037315211294249744
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Methylobacterium-Methylorubrum,0.03249839431220854
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Paenibacillus,0.010936486629355984
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Pantoea,0.17065839804645583
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Pseudarthrobacter,0.01548267466029382
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Pseudomonas,0.23427209041960775
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Sphingomonas,0.0698679759506261
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Stenotrophomonas,0.021457255333189384
+PRJEB6729,metaSEED,Brassicaceae,Seed,40,Xanthomonas,0.013322470683777256
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Other,0.09476543197035468
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Bacillus,0.07990865854265228
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Enhydrobacter,5.043922837531926e-4
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Enterobacter,0.007399122470023693
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Erwinia,0.047489836573291935
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Klebsiella,0.016367864694854514
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Kosakonia,0.0018339397497363912
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Massilia,0.049434081829868484
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Methylobacterium-Methylorubrum,0.012017294606885765
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Paenibacillus,0.06684222607640711
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Pantoea,0.17208040565829869
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Pseudarthrobacter,0.003737593186378298
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Pseudomonas,0.42293391982041967
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Sphingomonas,0.014661508424920915
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Stenotrophomonas,0.0034749108770021717
+PRJEB6729,metaSEED,Brassicaceae,Seedling,77,Xanthomonas,0.006548813235152188
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Other,0.05090475745381995
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Bacillus,0
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Enhydrobacter,0
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Enterobacter,0.0010010280828959472
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Erwinia,0.04088312685496705
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Klebsiella,0.005613613067787472
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Kosakonia,0
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Massilia,0.016478883985958228
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Methylobacterium-Methylorubrum,0.006507234889224091
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Paenibacillus,0.006123579720353619
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Pantoea,0.12600805446775748
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Pseudarthrobacter,2.1643850440993453e-4
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Pseudomonas,0.23633182446436551
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Sphingomonas,0.06737501376830325
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Stenotrophomonas,0
+PRJEB6729,metaSEED,Apiaceae,Seed,4,Xanthomonas,0.44255644474015743
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Other,0.035240465220873256
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Bacillus,0
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Enhydrobacter,5.176412125227762e-5
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Enterobacter,0.003670105300678648
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Erwinia,0.0906107134089331
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Klebsiella,0.007356804562329837
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Kosakonia,0
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Massilia,0.04689821989514056
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Methylobacterium-Methylorubrum,0.003540312179584693
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Paenibacillus,0.008604197439204283
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Pantoea,0.28293906423475573
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Pseudarthrobacter,0
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Pseudomonas,0.4506595912144733
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Sphingomonas,0.02335554478060311
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Stenotrophomonas,0.0027877764412045157
+PRJEB6729,metaSEED,Apiaceae,Seedling,8,Xanthomonas,0.0442854412009667
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Other,0.11355500747882931
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Bacillus,0.09128600632342271
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Enhydrobacter,0.0021170237537507393
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Enterobacter,0.0059042842854721955
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Erwinia,0.06713459002735421
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Klebsiella,0.010137439599754655
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Kosakonia,0
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Massilia,0.015772433907574022
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Methylobacterium-Methylorubrum,0.03150354202647448
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Paenibacillus,0.013294244975036215
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Pantoea,0.23369036935683507
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Pseudarthrobacter,0.022920755032275565
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Pseudomonas,0.3642578746480925
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Sphingomonas,0.02694948818977712
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Stenotrophomonas,4.2169718675986366e-4
+PRJEB6729,metaSEED,Fabaceae,Seedling,14,Xanthomonas,0.0010552432085913
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Other,0.35456788821815627
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Bacillus,0.03881325618679117
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Enhydrobacter,0
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Enterobacter,0.0018412137280895567
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Erwinia,0.01680880056608203
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Klebsiella,0
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Kosakonia,9.428032683846638e-4
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Massilia,0.035047550042073494
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Methylobacterium-Methylorubrum,0.16286553380978408
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Paenibacillus,0.0026551392684608737
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Pantoea,0.07842783986243818
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Pseudarthrobacter,0.06491996981940985
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Pseudomonas,0.08484940714827299
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Sphingomonas,0.1301591440456967
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Stenotrophomonas,0.028101454036360142
+PRJEB6729,metaSEED,Fabaceae,Seed,6,Xanthomonas,0
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Other,0.1993275932410817
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Bacillus,0
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Enhydrobacter,0.005912416882434147
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Enterobacter,0.17805932398893926
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Erwinia,0.016567411532992356
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Klebsiella,0.2993298401210374
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Kosakonia,0.003949453399677613
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Massilia,0.011237882235052711
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Methylobacterium-Methylorubrum,0.029923081839781644
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Paenibacillus,0.004576159938251292
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Pantoea,0.03395709589433697
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Pseudarthrobacter,1.5251342118106394e-4
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Pseudomonas,0.11106260321490558
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Sphingomonas,0.03480175203087851
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Stenotrophomonas,0.0068547305230275135
+PRJEB6729,metaSEED,Solanaceae,Seed,4,Xanthomonas,0.06428814173642222
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Other,0.3110015994984067
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Bacillus,0
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Enhydrobacter,0.0018794961939900994
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Enterobacter,0.008965113230864706
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Erwinia,0.018893445226331566
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Klebsiella,0.014274899822917948
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Kosakonia,0.004254293749342407
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Massilia,0.025525484665415564
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Methylobacterium-Methylorubrum,0.010355143850415745
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Paenibacillus,0.0056954363995078885
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Pantoea,0.11536654853459707
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Pseudarthrobacter,0
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Pseudomonas,0.43198258740053513
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Sphingomonas,0.007925423195237308
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Stenotrophomonas,0.0025419335610364995
+PRJEB6729,metaSEED,Solanaceae,Seedling,8,Xanthomonas,0.04133859467140136
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Other,0.22901403473939602
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Bacillus,0.033381087685489065
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Enhydrobacter,0.00232633421531203
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Enterobacter,0.004599626220418055
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Erwinia,0.13107444742933955
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Klebsiella,0.00880884175659814
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Kosakonia,0.006151694742590376
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Massilia,0.014379855723431544
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Methylobacterium-Methylorubrum,3.086078495915272e-4
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Paenibacillus,0.00843684930070041
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Pantoea,0.336700329580856
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Pseudarthrobacter,0.001740478005882395
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Pseudomonas,0.18968388379414236
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Sphingomonas,0.022890365334606002
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Stenotrophomonas,0.008378478665605683
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seed,567,Xanthomonas,0.0021250849560408495
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Other,0.3890797098222042
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Bacillus,0.03125635565398002
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Enhydrobacter,9.830029860777106e-5
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Enterobacter,0.0013142665928032927
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Erwinia,0.1207323043034012
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Klebsiella,0.0014898002421244263
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Kosakonia,0.011361873359262635
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Massilia,0.05070015916565089
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Methylobacterium-Methylorubrum,0.00950014737517982
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Paenibacillus,0.011653916251363835
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Pantoea,0.12104957246123413
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Pseudarthrobacter,0.03733943585048486
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Pseudomonas,0.1297049616346598
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Sphingomonas,0.07150466670042074
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Stenotrophomonas,0.009933424090635712
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seed,619,Xanthomonas,0.003281106197986626
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Other,0.24025221811554823
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Bacillus,0.0019067984976948364
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Enhydrobacter,6.321060168620386e-5
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Enterobacter,0.0014581554035536953
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Erwinia,0.10882403916250448
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Klebsiella,0.0028030714378288815
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Kosakonia,0.03852022435973971
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Massilia,0.031729864186391926
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Methylobacterium-Methylorubrum,5.831855929831109e-6
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Paenibacillus,8.606828748103883e-4
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Pantoea,0.30227710289155
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Pseudarthrobacter,0.0013538411206102403
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Pseudomonas,0.1510800149699554
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Sphingomonas,0.01705863130808267
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Stenotrophomonas,0.09963734372534538
+PRJEB45079,Chesneau et al. 2022,Brassicaceae,Seedling,84,Xanthomonas,0.0021689694887681086
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Other,0.39579337621233934
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Bacillus,0.1307569953998641
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Enhydrobacter,0.015771574079535267
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Enterobacter,0
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Erwinia,0.00434406937332763
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Klebsiella,5.3770378973631e-6
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Kosakonia,0
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Massilia,0
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Methylobacterium-Methylorubrum,0.09635799503084781
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Paenibacillus,0.0446819924170967
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Pantoea,0.01107900210499956
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Pseudarthrobacter,0.03621052442727237
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Pseudomonas,0.04403952502217401
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Sphingomonas,0.1582494208036401
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Stenotrophomonas,0.06271014809100577
+PRJEB45079,Chesneau et al. 2022,Fabaceae,Seedling,81,Xanthomonas,0

@@ -1,0 +1,143 @@
+TY  - BOOK
+AU  - Aitchison, John
+TI  - The statistical analysis of compositional data
+PY  - 1986
+PB  - Chapman and Hall
+CY  - London
+ER  - 
+
+TY  - JOUR
+AU  - Anderson, Marti J.
+TI  - A new method for non-parametric multivariate analysis of variance
+PY  - 2001
+T2  - Austral Ecology
+VL  - 26
+IS  - 1
+DO  - 10.1111/j.1442-9993.2001.01070.pp.x
+SP  - 32
+EP  - 46
+ER  - 
+
+TY  - JOUR
+AU  - Bray, J. Roger
+AU  - Curtis, J. T.
+TI  - An ordination of the upland forest communities of southern Wisconsin
+PY  - 1957
+T2  - Ecological Monographs
+VL  - 27
+IS  - 4
+DO  - 10.2307/1942268
+SP  - 325
+EP  - 349
+ER  - 
+
+TY  - JOUR
+AU  - Cochran, William G.
+TI  - The combination of estimates from different experiments
+PY  - 1954
+T2  - Biometrics
+VL  - 10
+IS  - 1
+DO  - 10.2307/3001666
+SP  - 101
+EP  - 129
+ER  - 
+
+TY  - BOOK
+AU  - Cohen, Jacob
+TI  - Statistical power analysis for the behavioral sciences
+PY  - 1988
+PB  - Lawrence Erlbaum Associates
+CY  - Hillsdale, NJ
+ET  - 2
+ER  - 
+
+TY  - JOUR
+AU  - Gloor, Gregory B.
+AU  - Macklaim, Jean M.
+AU  - Pawlowsky-Glahn, Vera
+AU  - Egozcue, Juan J.
+TI  - Microbiome datasets are compositional: and this is not optional
+PY  - 2017
+T2  - Frontiers in Microbiology
+VL  - 8
+DO  - 10.3389/fmicb.2017.02224
+SP  - 2224
+ER  - 
+
+TY  - BOOK
+AU  - Hedges, Larry V.
+AU  - Olkin, Ingram
+TI  - Statistical methods for meta-analysis
+PY  - 1985
+PB  - Academic Press
+CY  - Orlando, FL
+ER  - 
+
+TY  - JOUR
+AU  - Knapp, Guido
+AU  - Hartung, Joachim
+TI  - Improved tests for a random effects meta-regression with a single covariate
+PY  - 2003
+T2  - Statistics in Medicine
+VL  - 22
+IS  - 17
+DO  - 10.1002/sim.1482
+SP  - 2693
+EP  - 2710
+ER  - 
+
+TY  - BOOK
+AU  - Levins, Richard
+TI  - Evolution in changing environments: some theoretical explorations
+PY  - 1968
+PB  - Princeton University Press
+CY  - Princeton, NJ
+ER  - 
+
+TY  - JOUR
+AU  - Pielou, E. C.
+TI  - The measurement of diversity in different types of biological collections
+PY  - 1966
+T2  - Journal of Theoretical Biology
+VL  - 13
+DO  - 10.1016/0022-5193(66)90013-0
+SP  - 131
+EP  - 144
+ER  - 
+
+TY  - JOUR
+AU  - Shannon, Claude E.
+TI  - A mathematical theory of communication
+PY  - 1948
+T2  - Bell System Technical Journal
+VL  - 27
+IS  - 3
+DO  - 10.1002/j.1538-7305.1948.tb01338.x
+SP  - 379
+EP  - 423
+ER  - 
+
+TY  - JOUR
+AU  - Tomczak, Maciej
+AU  - Tomczak, Ewa
+TI  - The need to report effect size estimates revisited. An overview of some recommended measures of effect size
+PY  - 2014
+T2  - Trends in Sport Sciences
+VL  - 21
+IS  - 1
+SP  - 19
+EP  - 25
+ER  - 
+
+TY  - JOUR
+AU  - Viechtbauer, Wolfgang
+TI  - Conducting meta-analyses in R with the metafor package
+PY  - 2010
+T2  - Journal of Statistical Software
+VL  - 36
+IS  - 3
+DO  - 10.18637/jss.v036.i03
+SP  - 1
+EP  - 48
+ER  - 

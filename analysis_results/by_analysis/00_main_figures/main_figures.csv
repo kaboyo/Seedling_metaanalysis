@@ -1,0 +1,6 @@
+figure,status,panels,height_in,width_in
+Figure_1,written,study_overview.tiff,3.16,7.08
+Figure_2,written,composition_dendrogram.tiff + pcoa_css_by_stage.tiff,6.66,7.04
+Figure_3,written,host_phylosignal.tiff + alpha_stage_effect_heatmap.tiff,8.93,7.08
+Figure_4,written,host_phylosymbiosis_scatter.tiff + stage_effect_heatmap.tiff,7.6,7.13
+Figure_5,written,tree_host_generalists.tiff + tree_host_specialists.tiff + host_breadth_top_genera.tiff + trait_breadth_forest.tiff + ko_function_bars.tiff,9.3,7.16

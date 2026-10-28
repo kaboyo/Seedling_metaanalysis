@@ -1,0 +1,4 @@
+group,definition,n_asvs,share_of_asvs,generalists,intermediate,specialists,samples_with_group,median_relative_abundance,mean_relative_abundance,max_relative_abundance
+anaerobic,BugBase Anaerobic == TRUE,154,0.05455189514700673,0,43,111,181,0,0.003668529875122742,0.44136460554371
+nitrogen_fixing,FAPROTAX nitrogen_fixation == TRUE,23,0.008147360963513992,0,14,9,69,0,8.911293739013513e-4,0.46273637374860954
+small_genome,smallest 1% of non-NA metaTraits genome sizes,22,0.0077931278781438185,0,9,13,61,0,6.086867921401783e-4,0.25443786982248523

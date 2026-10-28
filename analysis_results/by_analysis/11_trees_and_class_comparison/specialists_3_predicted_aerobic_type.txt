@@ -1,0 +1,1138 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	3_predicted_aerobic_type
+COLOR	#ff0000
+LEGEND_TITLE	value
+LEGEND_POSITION_X	100
+LEGEND_POSITION_Y	100
+LEGEND_HORIZONTAL	1
+LEGEND_SHAPES	1	1	1	1	1
+LEGEND_COLORS	#a6cee3	#1f78b4	#b2df8a	#33a02c	#fb9a99
+LEGEND_LABELS	Aerobic	Anaerobic	Facultatively anaerobic	No Greengenes match	None predicted
+SHOW_INTERNAL	0
+MARGIN	0
+BORDER_WIDTH	1
+BORDER_COLOR	#000
+STRIP_WIDTH	25
+COLOR_BRANCHES	1
+DATA
+5e1a4019a5115dbf8feda0550b928a08	#b2df8a	Facultatively anaerobic
+e2ce9c3489cef6733f554e97fae8e73b	#b2df8a	Facultatively anaerobic
+3fc3eeee16583bbb3999819d982f443a	#b2df8a	Facultatively anaerobic
+41d0926fe4adaf15a1a6da7801531b76	#b2df8a	Facultatively anaerobic
+2aba8588a384df44c13ea262ccb42dba	#b2df8a	Facultatively anaerobic
+fedae813d4395138be7e12d3b5eae501	#b2df8a	Facultatively anaerobic
+5da4d5be5a5e875cdae4d51c31c31776	#b2df8a	Facultatively anaerobic
+b3dc4eb873a1c0f44608451fd1693dda	#b2df8a	Facultatively anaerobic
+81f9ec4f2987443bcf251551383e4f3d	#b2df8a	Facultatively anaerobic
+f6bdb7d668baf5fd9fee9c2c9ea63913	#b2df8a	Facultatively anaerobic
+11aece8715afbce92f9fb7e7b7f7c746	#b2df8a	Facultatively anaerobic
+4713516390e645bab012d2e6103d3be9	#b2df8a	Facultatively anaerobic
+3fda0b8e1a264492274755d9c962b785	#b2df8a	Facultatively anaerobic
+22ff6c51f8964db3eab9cb72b3e42997	#b2df8a	Facultatively anaerobic
+7d58b73b13de6e7980febf7dd1a7fe76	#b2df8a	Facultatively anaerobic
+5473c224f739cb4b6ff3265bbc140a4c	#b2df8a	Facultatively anaerobic
+44c9f59231dd703269388032da1d5a98	#b2df8a	Facultatively anaerobic
+24034a8cc90f0328d2a27ba98b1121c6	#b2df8a	Facultatively anaerobic
+40c00caf4aba9abc8cf5384e6e8e438c	#b2df8a	Facultatively anaerobic
+29d364da55321dc6a453dd21103e5cb2	#b2df8a	Facultatively anaerobic
+0d64a6e51dece0cbd18a3d1c5c28d450	#b2df8a	Facultatively anaerobic
+1b3188588b028d6f7212aec557fed8a8	#b2df8a	Facultatively anaerobic
+ee0f54fda0b407b349420513a712388e	#b2df8a	Facultatively anaerobic
+0adc01eb597cb473e24b106fb59eddd6	#b2df8a	Facultatively anaerobic
+b9f3ada92b1790c81639bf66b8c3cf66	#b2df8a	Facultatively anaerobic
+3c8deb3502b34cbca78352ba92e498ba	#b2df8a	Facultatively anaerobic
+590ad5722e3538bed12f6a912bebd43b	#b2df8a	Facultatively anaerobic
+069c27b7b9944c8210af97e06ef46355	#b2df8a	Facultatively anaerobic
+90dd32a7e1feafcc45de83a267b39f07	#b2df8a	Facultatively anaerobic
+89c2c5b54b7fd93f4052c7a84f77aed5	#b2df8a	Facultatively anaerobic
+c187ec77b08c325fe724d7a090480aec	#b2df8a	Facultatively anaerobic
+444f2ee01848661c422206a4a315c89d	#b2df8a	Facultatively anaerobic
+1e4b7f0dbf0505d821929958a55d5e4b	#b2df8a	Facultatively anaerobic
+50640d319c60b01014fc92f8d164ecf9	#b2df8a	Facultatively anaerobic
+98c189309ec0077a87844aa470a302f4	#33a02c	No Greengenes match
+62958e9d3914fa2d0693a004cb908f83	#b2df8a	Facultatively anaerobic
+db8c4a20c7147013214e3a9fab747c3d	#b2df8a	Facultatively anaerobic
+838b5611f3825fe54ca223bb366c010f	#33a02c	No Greengenes match
+575383956f5a11a07ba54cc8faadd077	#33a02c	No Greengenes match
+c72e583b4858d73bfb51cf8fd8be8ce0	#33a02c	No Greengenes match
+6a4f7adf121a1968a6f1e9ca115c20eb	#33a02c	No Greengenes match
+312c68e6fabf5b53228b02c088e97633	#33a02c	No Greengenes match
+d009af238de8aeea0a70650d45313bdf	#33a02c	No Greengenes match
+6b721fc87ab731b53e890f51fc421e4b	#b2df8a	Facultatively anaerobic
+570d347d410e3cda60cda7c093e19fb6	#b2df8a	Facultatively anaerobic
+d99590a4b93656a6b2b1ee2d71d8a05f	#b2df8a	Facultatively anaerobic
+c79c021a5e18c94408af2e9ce94b2091	#b2df8a	Facultatively anaerobic
+ce49318b84fc1a376fbcb58bc38a5a83	#b2df8a	Facultatively anaerobic
+754c222439d07aa0c80a48d5b82ad0f8	#b2df8a	Facultatively anaerobic
+9c6b1dbc28f791992b344b973291290c	#b2df8a	Facultatively anaerobic
+66b4105e158c5a07fbaadc16e908fff0	#b2df8a	Facultatively anaerobic
+5c299627333a2adf81667b01d53f5290	#b2df8a	Facultatively anaerobic
+add24eed8afedee542c739d0d13d0bf7	#b2df8a	Facultatively anaerobic
+4312244ec726c2ee26578d6bbe214a2f	#b2df8a	Facultatively anaerobic
+cc51dc1dcbb0770f7d7bfe30832f0ab5	#b2df8a	Facultatively anaerobic
+f776f17911efdc448a9e560cb6c96d84	#b2df8a	Facultatively anaerobic
+a87af8e89ba9e5e52b40bafa76e2e536	#b2df8a	Facultatively anaerobic
+aa4f2f3f3f3f93e7137936c330fcd723	#b2df8a	Facultatively anaerobic
+9b025c8b2cbb74beb807e3ca8d610529	#b2df8a	Facultatively anaerobic
+c3db9c177b9fb260b307af355195070c	#b2df8a	Facultatively anaerobic
+cffca597bc51f2b1b469eb753c39c3cc	#b2df8a	Facultatively anaerobic
+fde6a4f80210e261b5354bd9ba4fff39	#b2df8a	Facultatively anaerobic
+b775f9263ad29813819ba5f06ed0ac00	#b2df8a	Facultatively anaerobic
+7658a9af35cd380b358f49cf223d703b	#b2df8a	Facultatively anaerobic
+dc19d1268fa63c5f4407305de3599443	#b2df8a	Facultatively anaerobic
+0bc121bf99890e10097190999d095f7b	#b2df8a	Facultatively anaerobic
+3629653f043e0b3d0beec8aa244053f3	#b2df8a	Facultatively anaerobic
+021180ba8bcdcae46fb9bfb9ca501eb0	#b2df8a	Facultatively anaerobic
+5530e4382697209868f43fecf3fc063b	#b2df8a	Facultatively anaerobic
+c96f5bb2a740d5ae22298a4ca42f5646	#b2df8a	Facultatively anaerobic
+2b3100ca39685e0076647ec121edf9d8	#b2df8a	Facultatively anaerobic
+8aa95a9709a2f7dc9fdc2312ec35e3aa	#b2df8a	Facultatively anaerobic
+a3d30b5eefb723045def6f1eccde3880	#b2df8a	Facultatively anaerobic
+55e9d224e6823be3a4db1b4a12888dfe	#b2df8a	Facultatively anaerobic
+c3f640f926cd368355c2992c93fdbe61	#b2df8a	Facultatively anaerobic
+a02f92154e01ceed7730ab9e059582fc	#b2df8a	Facultatively anaerobic
+1159b19737bec37a5767704de2ae5d41	#b2df8a	Facultatively anaerobic
+eb26749b8ecda9b231535f39631171f4	#b2df8a	Facultatively anaerobic
+842a9a77efef4909e73470b709cacdf0	#b2df8a	Facultatively anaerobic
+eb21f6fb86efb4086eb401ed426d1a1b	#b2df8a	Facultatively anaerobic
+8959500506f3188c5516c0f6299b7b3e	#b2df8a	Facultatively anaerobic
+c2b64d2775cbe7a6e715dc9cc99c862b	#b2df8a	Facultatively anaerobic
+8aa240a45fc4dda6080ae2730924975b	#b2df8a	Facultatively anaerobic
+cb2c7e4359f24df0e26aa8801843bb95	#b2df8a	Facultatively anaerobic
+3f1a732f9f067da040d9ce8b03e24d84	#a6cee3	Aerobic
+b7567a1e8444e7c19c259631fcb44c67	#a6cee3	Aerobic
+dca8e5a50433d3f14bc8cd62184df801	#a6cee3	Aerobic
+c83b4dcb8f41fd68e5d6c75cddc76a0e	#a6cee3	Aerobic
+bed912e2c9e23db3e9be6fa9074fa24a	#a6cee3	Aerobic
+2085a9bb30b04092830a48807a5b9974	#a6cee3	Aerobic
+dd15cc49b2ad03fa4dcf13b549aa9a47	#a6cee3	Aerobic
+e27d7465e0204aabd7ef9cb1fbefc022	#a6cee3	Aerobic
+ac61dc691424c4bf7c4c0c7b7b0c9bfb	#a6cee3	Aerobic
+1508c5c1cfb1a6f872e4ecb59856c8c6	#a6cee3	Aerobic
+c0b9998d2d84aeaf44e248bda5400987	#a6cee3	Aerobic
+4d237027dd7b22442d71e98ef6d35bf5	#a6cee3	Aerobic
+551e7423c41be3b2e0b26d3637449574	#a6cee3	Aerobic
+ea403646ed22d679fa4586263d8fc32f	#a6cee3	Aerobic
+503b845eec9027435f60d0011301cb3e	#a6cee3	Aerobic
+1f0f89eac079917ac58499d5e2f68a51	#a6cee3	Aerobic
+2d60c5941685b39719a9ab2db83b3b05	#1f78b4	Anaerobic
+ac68c7c702432c26bc13677cb4c1ea8f	#a6cee3	Aerobic
+5e616c0a99413e29f72efd5e9c67497a	#a6cee3	Aerobic
+f9addd8a736ba8f99f715836c4086005	#a6cee3	Aerobic
+344dafe7bf37ec053b3ef832bedcafb8	#a6cee3	Aerobic
+9555acec6ec3beb981603408e9e883a8	#a6cee3	Aerobic
+12e14fba675eb6a0c892a6a4155d78a4	#a6cee3	Aerobic
+3725e63715d30df08b67d09db5ca80c4	#a6cee3	Aerobic
+685899ab474306d2bcf8f7ff67795e2b	#a6cee3	Aerobic
+4a6086b0d2aac9c15dcc4c55f3c38f79	#a6cee3	Aerobic
+318731df8b5243f85b944770513f061e	#a6cee3	Aerobic
+b5f97198a5c9321c9096cb7d32ba29f0	#a6cee3	Aerobic
+52fca7032a3156be06f7e7376a6c52c2	#a6cee3	Aerobic
+f23ae79b8e8f9da6aacd23180c2361db	#a6cee3	Aerobic
+bd078ce71812fc177de340164b515964	#a6cee3	Aerobic
+e243a81f47f66f6c6904f6e6e6fd0f08	#a6cee3	Aerobic
+7f669fb027599b7d197b99a4f691532c	#a6cee3	Aerobic
+698ede169cc9c326fb78b97e85683800	#a6cee3	Aerobic
+45a5b937529debcc980ba40152dc0103	#a6cee3	Aerobic
+549962ace793258897c214e16c8199ab	#a6cee3	Aerobic
+80156a49f74e047e7ce75972ecfaf2d5	#a6cee3	Aerobic
+f9a2e5ce7fa3a89aa9957ddc344609f1	#a6cee3	Aerobic
+289c294a3963b6e58cb16f57aca2cf14	#a6cee3	Aerobic
+475fd32bbe85633e19b9033890e663c0	#a6cee3	Aerobic
+24bc91eebc53a8eca054504358c0f290	#a6cee3	Aerobic
+0d34e514b2d0d3a14fbfa27a9717f5ae	#a6cee3	Aerobic
+c6fa5fd77a5483314afc1d62c03864eb	#a6cee3	Aerobic
+d8955939438035414f9a68eb3688782c	#a6cee3	Aerobic
+1634ba7200245febae311caf7f170e15	#a6cee3	Aerobic
+74c6ddfe28b19da4ffe2491105dbdc05	#a6cee3	Aerobic
+8d510ac021b634b91d3ec659521accd9	#a6cee3	Aerobic
+95316d7724765b5fed9948f5cdff66b6	#a6cee3	Aerobic
+e0df36b5d8845362c8ade91c634eba98	#33a02c	No Greengenes match
+8e17971c74c92ba71b2405bf1634ee29	#33a02c	No Greengenes match
+79f2ce3e64c66106b3caa6c956520441	#33a02c	No Greengenes match
+cdf6698b742f5fdb42ed90b46cff4d32	#a6cee3	Aerobic
+9fe47b03d6b861867cce6698dfa448c9	#a6cee3	Aerobic
+c750b3f5d0ddd55e03e738aed60ddee8	#33a02c	No Greengenes match
+5b6a46c214be400c810773a867ffb027	#33a02c	No Greengenes match
+eccd9a63335490600e8ae94b5d207f63	#a6cee3	Aerobic
+5b824059f35b2d1a22e2ce26ab79ede0	#a6cee3	Aerobic
+47f2617de53ce85d035fd4d1cc587272	#a6cee3	Aerobic
+af5a1564ed9de77e6cc208f83e9a15c1	#a6cee3	Aerobic
+8678dea077ece20287b950cd5bc66db8	#a6cee3	Aerobic
+eced797b352323bb4a82eae6bdde773b	#a6cee3	Aerobic
+e07719f4be1c88d455837c0779481019	#a6cee3	Aerobic
+67e9d5be132bb76e7d01c3916f034994	#a6cee3	Aerobic
+b939a2eac1f90203c14cab0d23755a3c	#a6cee3	Aerobic
+3a243c419f242f78d33de701e1c590d0	#a6cee3	Aerobic
+fd9566a2b963a28558617cdfa8809ca1	#a6cee3	Aerobic
+cfc806a9950faf41f6cf3c8534a63c82	#a6cee3	Aerobic
+e6a068593f205d08039ff051787368b7	#a6cee3	Aerobic
+0e9ae3d0137092a4fbf8d113097c38af	#a6cee3	Aerobic
+f716ca223786d697f2f0961c1e8ef9d1	#a6cee3	Aerobic
+936b5432181af9733d03fc6416cc1ee5	#a6cee3	Aerobic
+68d1643e66a570ba966aafab70029cce	#a6cee3	Aerobic
+e24d939fbbcd56596add346334368a3a	#a6cee3	Aerobic
+422a3c019dbe1b529c87ac238b5bafd5	#a6cee3	Aerobic
+a11f6576ed07dda68f4187d8839b584b	#a6cee3	Aerobic
+e28f6a6fc49aecf0b2c5d03916c919f4	#a6cee3	Aerobic
+25356bc436963f8584df134a9ac4025e	#a6cee3	Aerobic
+c665d42dafe2e0e550bbe6d2ad62d444	#a6cee3	Aerobic
+556d0c34540705317284deac4acc8eef	#a6cee3	Aerobic
+90fa27753cbfa0b91760ded4f666b8a5	#a6cee3	Aerobic
+9abda72952d13fd5c4d697d36481f69d	#a6cee3	Aerobic
+414fe0d999c5b4efa147efb33235bc39	#a6cee3	Aerobic
+9fb877df89cff6487d4371a1444880f8	#fb9a99	None predicted
+892a0fc53b26d6a2c193d145b2464da7	#fb9a99	None predicted
+3b2dc6b7b136c4657e24edbe463aa8f7	#fb9a99	None predicted
+b496a7902ac6c1d6828db7614b270efa	#fb9a99	None predicted
+7f9af2f2d8e97540a52f8a967ef583e4	#fb9a99	None predicted
+cb41c5340797d97fb63c4aebcd89ad4d	#fb9a99	None predicted
+7dc105c5eb1c0a543b4e334d14f27fc2	#fb9a99	None predicted
+9b86de54891d33904c43d3dfd06b477a	#fb9a99	None predicted
+30cdf280549530143e15e33cb14d8535	#fb9a99	None predicted
+a2b4852c9f63a7b103397e02c210f7a4	#fb9a99	None predicted
+b5a43cda51f52bb58a1a7be72d32c71b	#fb9a99	None predicted
+54b965c6f0a00ed8ad444f7c60e8eeab	#fb9a99	None predicted
+378bd194bac529852174a579fa666d8f	#fb9a99	None predicted
+198dd6d253141800219d2d7e81b23279	#fb9a99	None predicted
+0033ccc9b36c2fc94e1975501b9b5552	#fb9a99	None predicted
+2c9783ac184a9526ae156c27d990bf7f	#fb9a99	None predicted
+7eade307c998285fbb669287f9351e15	#fb9a99	None predicted
+791e233ef27f1ed7439e9b4781dbee4c	#fb9a99	None predicted
+ab8cb8f8a86f08ebc2084a1fe785ae63	#fb9a99	None predicted
+58f19b49464bde30cb9fca88349d121b	#33a02c	No Greengenes match
+f802a398d82b1da667ec935f6e9b94f7	#1f78b4	Anaerobic
+6399b8c746c93ae15341aa7aa79c0e3a	#1f78b4	Anaerobic
+04a67f30b722a5aee59c22dd6642112d	#1f78b4	Anaerobic
+a4af9c363601f6ddefd0878bb31510d6	#1f78b4	Anaerobic
+5b46da51ed75ea34c50eb30e475b97e3	#1f78b4	Anaerobic
+58a3744edd2cb95e00bf16cd42fdb2df	#1f78b4	Anaerobic
+73e4aa40678b6394e1f9626439f1c1bf	#1f78b4	Anaerobic
+923b2d72e02c1fd5147aa205c0d032be	#1f78b4	Anaerobic
+fe534c698aa8d269605fb5f310f371c9	#1f78b4	Anaerobic
+794846a8cb277bce66fa2f98f0450a1c	#1f78b4	Anaerobic
+111e4ccbd37b130eccc2912060aa6173	#1f78b4	Anaerobic
+4d4013a27176f943a56ac6c5e84cfa2b	#33a02c	No Greengenes match
+6926f0744c3f537cf7f4d0d0ad76db93	#a6cee3	Aerobic
+4e2ba7432fac27a2857ad296d9977ce8	#1f78b4	Anaerobic
+f23469223e52c71c570adc727e2a0ef1	#1f78b4	Anaerobic
+bd5a04baae7e047b82923910cdc01e9d	#1f78b4	Anaerobic
+101055c758a616428018175658ac0808	#1f78b4	Anaerobic
+2196e25eb0b8187130aacc217e223a46	#1f78b4	Anaerobic
+eac8731fbff44802dffee728e0e8a520	#1f78b4	Anaerobic
+4848e0ec9978f8585cb530ff7d0a3dbd	#1f78b4	Anaerobic
+17579f50a98bba3610707dacd6df9875	#1f78b4	Anaerobic
+f4367de8194454c4667ac27dcc80fe92	#fb9a99	None predicted
+f8bfd6ac0f2f109b8424863d175621e8	#fb9a99	None predicted
+fd1098cd571337c869bc804919b0f630	#b2df8a	Facultatively anaerobic
+a640cbdccefc0744d84aa41dff1f1e90	#b2df8a	Facultatively anaerobic
+b67006200f440123ea7c71b57e304cf1	#b2df8a	Facultatively anaerobic
+f2bbdabb3218b6c0bac5fb988ad2a374	#fb9a99	None predicted
+4aaa6487088b5acc8d2923865b0d3f1e	#fb9a99	None predicted
+2afcc303b2540fa208b0d2ddf704212e	#fb9a99	None predicted
+9c9ae81141788affc9852a16e5d6e2c4	#b2df8a	Facultatively anaerobic
+0a45de1f0b92a201ed762e292aed7ccc	#b2df8a	Facultatively anaerobic
+daaec15dc9855156770a5ee7ec5c81e4	#fb9a99	None predicted
+b5980931fa3ec97aac8185639c5aa0fb	#fb9a99	None predicted
+1469653e82f0361a67c10e5ec70b9bd0	#fb9a99	None predicted
+535976fd0c4adb39dec4566af333faa9	#fb9a99	None predicted
+92840aa9af386d17c72adf6da6b36511	#fb9a99	None predicted
+1c952c4f3636cb2dc8935096e39085c5	#fb9a99	None predicted
+28f467e631032bc064ea9bf25abb25a3	#b2df8a	Facultatively anaerobic
+2a2cd9817264eed6cb2db01618ae156e	#fb9a99	None predicted
+95f9081f19b91e6f978cc4fdd2282d16	#fb9a99	None predicted
+df59a336fdb309424b75dade5f1fea32	#fb9a99	None predicted
+d07add659a53b4697a0f51d0332f7575	#b2df8a	Facultatively anaerobic
+b4c361a1a2fc72e40e86b59c5daaa6dc	#b2df8a	Facultatively anaerobic
+0fef413fbd24152aacb396dc83d202cd	#b2df8a	Facultatively anaerobic
+2dacc836245df77831a7b534d9bc2a75	#b2df8a	Facultatively anaerobic
+05e25869b50d6491d88718723b7b1bc6	#b2df8a	Facultatively anaerobic
+8b96de7d3e8f983ab8ddd27bbd45d1e8	#fb9a99	None predicted
+0a0256973d8ff5b94395bf808a00e81c	#b2df8a	Facultatively anaerobic
+a5c06fb7901873f2ec63b38bea44295e	#b2df8a	Facultatively anaerobic
+66c803bd5833f9ab29204db87ee041b7	#fb9a99	None predicted
+e6875fb3c36af502c436c8b03c86b8b7	#b2df8a	Facultatively anaerobic
+0677c5d745525e813b050c5b09d365bb	#b2df8a	Facultatively anaerobic
+bc690029a91dcc10db34c95d76d3d25d	#b2df8a	Facultatively anaerobic
+a7634c9fdc21b123ac3a67432d3a5a0e	#b2df8a	Facultatively anaerobic
+56aa67b3a8cdd95d24bef401872d49f0	#b2df8a	Facultatively anaerobic
+6f8340b1648604113fc685724d35aefb	#b2df8a	Facultatively anaerobic
+9228cdb5dd79d11fe96d44ed2b406420	#b2df8a	Facultatively anaerobic
+83840f26c89e5995ca289157b62fc3ee	#b2df8a	Facultatively anaerobic
+0dcc10691abb8736134132f3166afeb6	#b2df8a	Facultatively anaerobic
+108b88411370d75b42c9bdbe4e263857	#fb9a99	None predicted
+dcc117d5b6d0440929bd0ef198244cd6	#fb9a99	None predicted
+a2a129fb0c1efccbc495919da7971488	#fb9a99	None predicted
+b50e8a26ba8185a40fe67677ec8facdb	#fb9a99	None predicted
+b3bf9b6190c6e6940f7746f7df02e552	#fb9a99	None predicted
+8a31c028cb9ed974d954da796dea40cb	#fb9a99	None predicted
+feff6031d205234f1f9057d7838e76c8	#fb9a99	None predicted
+17eb5f71483183061f56b89fac05ceae	#fb9a99	None predicted
+b383a0f98e44fe8a7452ebf944105c48	#fb9a99	None predicted
+af7aa0fc0488b52a0b2f03b235837079	#fb9a99	None predicted
+3a5f099a662dc4f62a1b37e1eba1588a	#fb9a99	None predicted
+8327feae65c5b814cd8e0d5a5cd01060	#fb9a99	None predicted
+f0266522fdc33b87f763d9f2b7fe498a	#fb9a99	None predicted
+88fb1936780e46b5aabf0e296b7fcd2d	#fb9a99	None predicted
+22d23d7974aed4cca1781e52b8ca2f77	#fb9a99	None predicted
+73fe74833ba0f218b0161a83bde9c5da	#fb9a99	None predicted
+48472c7310804351e4b26d61fb76bc2e	#1f78b4	Anaerobic
+9b9c9a82270065025609244c3c658cb4	#fb9a99	None predicted
+7d49ab138848c70c55a5cbd28871e97a	#fb9a99	None predicted
+766dd5c2526a43e39ef1523abaeab832	#fb9a99	None predicted
+fda44b2ffb749c199b845b5bef40ada7	#fb9a99	None predicted
+1fd4acd16f8f218329f05139e72253a9	#fb9a99	None predicted
+9a16b13109f6cd0affa2ceeb95d56fde	#fb9a99	None predicted
+1ee3c120febcda70b14332a67c4fa5ba	#fb9a99	None predicted
+26b5bc6d783f570f82a4e484661e9403	#fb9a99	None predicted
+7d041df433f6676b18a5b2916bcfb95b	#fb9a99	None predicted
+5ae32e8bd3567198ca921d9f7078fcce	#fb9a99	None predicted
+df877970020e6887ddc2e536972d03ef	#fb9a99	None predicted
+99f3c41110778146181d2943199a402f	#fb9a99	None predicted
+aca3b536a262ef2f5ed492e111160dee	#fb9a99	None predicted
+d4cbfc18dbf6af7bd42652f6907e45ed	#fb9a99	None predicted
+0f09998f67118cba87d46286b76d193c	#fb9a99	None predicted
+7e3c9b5d25377c891d11981d1eb61428	#fb9a99	None predicted
+7fed5da6b10c1368f69f57d3659a3d1e	#fb9a99	None predicted
+b0cab519a7f6ab013bbe571f3c56c7ad	#fb9a99	None predicted
+c349ebf3f9e29a11fd00eb7004923d96	#fb9a99	None predicted
+21b19f64e6affc9531a58a1611b5c980	#fb9a99	None predicted
+fd989cc6b1f34a24bcbb49aa914dca12	#fb9a99	None predicted
+db1dd17a7ff61cf926ea9945e1a66fc7	#fb9a99	None predicted
+2f01e178a27cc462499d0482100a7837	#fb9a99	None predicted
+acaa98b5f63c1a402ecbea10fae75f73	#fb9a99	None predicted
+4be6768d77bafbf922c12cb04c6e841f	#b2df8a	Facultatively anaerobic
+68cb4d923f982e6626202fb007d5274f	#b2df8a	Facultatively anaerobic
+0f65fc02b722b0c980c9312e6f9e9f3b	#fb9a99	None predicted
+bc56bc77c1e7a1e067ec9c3ca442e3b0	#fb9a99	None predicted
+1aadec5bb68a99d9d469e337e6aaa9cd	#fb9a99	None predicted
+dee4217b4501c00cf7b62eac9e9bc8b9	#fb9a99	None predicted
+c262225c533377e35bd4e45eab4393e2	#fb9a99	None predicted
+3fa09209c9019a7f6091642d2a5f4187	#fb9a99	None predicted
+86de591cf871a0ac6f8286456f86a1be	#fb9a99	None predicted
+fc38b9a5a9bb18378b8b524fcec6d340	#fb9a99	None predicted
+d81f0023f81f9e13abb820c99529ea27	#fb9a99	None predicted
+feb536c2b3865ee3aaa018e58650119e	#fb9a99	None predicted
+021776275c6edf2c33936a9fd348a086	#fb9a99	None predicted
+4cd0e79d62c58d8bae2f76e1b1a423a0	#fb9a99	None predicted
+27f8c57bcb5a32b92e13e65c479511e9	#fb9a99	None predicted
+89e52d6f9bd03cad6e02f67c7fc893c7	#fb9a99	None predicted
+f8e8139512c122295420b1af3ac0b1eb	#fb9a99	None predicted
+857805dbb2ebd60a913603dcce4b483a	#fb9a99	None predicted
+a50c50bac1a4fa3df6e7a0fb54517261	#fb9a99	None predicted
+52efa5417f31eff63a67abb3acb1215e	#fb9a99	None predicted
+d4c217e0ae28535f28d2ddee5dc8a0c9	#fb9a99	None predicted
+b9e6290688959e7c2b5accfc52ab6c21	#fb9a99	None predicted
+009aed121a4626abf9277beff02418a1	#fb9a99	None predicted
+37c04e9285ba4fbcbe37282e8e1100eb	#fb9a99	None predicted
+231c996000c45b4c4cc15dd3cb2dbaa7	#fb9a99	None predicted
+c2996d1099dde672bc71560e27a9de49	#fb9a99	None predicted
+c65a0cd6c09e26f3e1c710d2ac819b5a	#fb9a99	None predicted
+ee8065fef3dc7d37cbfebbb5872129a3	#fb9a99	None predicted
+d1adc665c21ecb15db983a0c309843c6	#fb9a99	None predicted
+f50499815eabb3a175db30609fd41479	#fb9a99	None predicted
+f3afaa59b365614546d64675f40235a9	#fb9a99	None predicted
+991a50799f257fc1c148de636a050ad4	#fb9a99	None predicted
+9a47d7c5b1470a224bf2dd38389cef17	#fb9a99	None predicted
+3fcb22961a6b7289f95472d822d28591	#fb9a99	None predicted
+952ce6d6750408d93407873b994aa675	#fb9a99	None predicted
+23053d46ca5c5729043c94cece722558	#fb9a99	None predicted
+740d8ac1a40f12fb314e0b011ca24a03	#fb9a99	None predicted
+a3c60c802f74c8f2ee8498a6083b808f	#fb9a99	None predicted
+4defb6f2d16b7ba1e7baf695edf165af	#fb9a99	None predicted
+a2244adbf7b994366ac327e35fc1ceb1	#b2df8a	Facultatively anaerobic
+d114fb4c335125128be28401522dd41a	#fb9a99	None predicted
+63165aabfe252f695caa19f282375e06	#fb9a99	None predicted
+35cfe09337e288473ae84ac738abf2e7	#fb9a99	None predicted
+b3f74a2e1bd30955529ddca7b9e0fa37	#a6cee3	Aerobic
+ba190cbaf6752710b1895e5b76ebc383	#a6cee3	Aerobic
+88d7f2d77979a4b3dfdfafa15c330e9e	#a6cee3	Aerobic
+e1481d9ad61d5be56f79ee97e18d2dd8	#b2df8a	Facultatively anaerobic
+5861ab0625dfdd7175c8de5fa1cdd31d	#b2df8a	Facultatively anaerobic
+eb2190bc19ca7de278bb918b774dc07b	#a6cee3	Aerobic
+d041d9308e01f4360cedb1efcd05857f	#a6cee3	Aerobic
+5f2548d67c8bd16e7397f88fad807197	#b2df8a	Facultatively anaerobic
+f6ad1bdd2d398ad50b6484f1bd900b19	#1f78b4	Anaerobic
+832ef2087adeb9e4cc816600b055cb56	#1f78b4	Anaerobic
+0abb356d9dedc1c54159c3a158d29eb2	#1f78b4	Anaerobic
+f5dd22bcc75775dbbbff45ff6917c750	#1f78b4	Anaerobic
+b05cad881995a3d5767d54ed1aa5abf5	#1f78b4	Anaerobic
+7b76ad8c6e9fac88fb20133b348abd1a	#1f78b4	Anaerobic
+ddf94483144a2f2b43838d1e9553f882	#1f78b4	Anaerobic
+aa441ccaffa9c33d44bfaf008a3cbc22	#b2df8a	Facultatively anaerobic
+65f3bc04e6d68755f1b889edc8f64cc8	#b2df8a	Facultatively anaerobic
+bc84c01dbfc576927c9a43ad8a4fbf8f	#b2df8a	Facultatively anaerobic
+962c8c92d05611cd83986f7461ce0187	#b2df8a	Facultatively anaerobic
+c43ccad8f58430e360c76332e20e3172	#b2df8a	Facultatively anaerobic
+ca062221b62b696374ab9857e0e08144	#b2df8a	Facultatively anaerobic
+0a023b056a85b92a1ca8214e78a9c45a	#b2df8a	Facultatively anaerobic
+d1f677a61cd89adfff6327a4518e5880	#b2df8a	Facultatively anaerobic
+0fa9b44d52836d2f173f4ac532f8a013	#b2df8a	Facultatively anaerobic
+6ef6d5c3eae0382dcab041d117724d50	#33a02c	No Greengenes match
+abf22e4d06624c53a8e4a69c0542300d	#b2df8a	Facultatively anaerobic
+93fa99be8ff07d8f368273a60a1e0fbc	#b2df8a	Facultatively anaerobic
+80b5123eeb23ddfddb90e3c07ab200b1	#b2df8a	Facultatively anaerobic
+583d98031ba7220cbfdd25393a3e2b9a	#b2df8a	Facultatively anaerobic
+b5960a7e93426b6faccd9f7a0a822a22	#b2df8a	Facultatively anaerobic
+1554b51b46c2fc6f9bff818049ee7c1e	#b2df8a	Facultatively anaerobic
+ce67df0775cc32145befb58d824f2afa	#33a02c	No Greengenes match
+7605ecf940c1843569a728c00cb6eb9d	#b2df8a	Facultatively anaerobic
+acfd2ebdc83fef3e582ca5fe9558fbb1	#b2df8a	Facultatively anaerobic
+d4acd758b69d325d87cee68ec99f3b31	#b2df8a	Facultatively anaerobic
+b0ce5c9314d3f2d1d8d999953d3f94f2	#b2df8a	Facultatively anaerobic
+f2dc00990da0c8e7079b7254337580d7	#b2df8a	Facultatively anaerobic
+274e61d7ce88871435c170e914017da1	#b2df8a	Facultatively anaerobic
+67dcf9f6bb6afacf257d3931196f12ed	#b2df8a	Facultatively anaerobic
+1b9b82444d4d216b95032bb22ee44a93	#b2df8a	Facultatively anaerobic
+4bcd0e6e567f5e378f88d14a83543195	#33a02c	No Greengenes match
+2f5a22680fc733973cff34cec9ffb1e7	#b2df8a	Facultatively anaerobic
+bf2040777648f4ecd2b84babf16a911a	#b2df8a	Facultatively anaerobic
+dafa9e64b59eff7067d069abcba07f66	#b2df8a	Facultatively anaerobic
+249c0140ac341b0bcb0f1eb995667800	#b2df8a	Facultatively anaerobic
+7b9099f474901941b6faf4132ef01b90	#33a02c	No Greengenes match
+1bd7ab3ed785f8ad6aaa14aacfe30c39	#33a02c	No Greengenes match
+f08f37d7ed59c2cd93ac689d3312cb7b	#a6cee3	Aerobic
+d417cb6e254b6183ab3782ab82a2337d	#a6cee3	Aerobic
+e91708ff8a064fb5ea8e8a1636a586e0	#a6cee3	Aerobic
+3f52f4b7bcc37b8011a92a6c26683a68	#33a02c	No Greengenes match
+54c3294b918e617365e3574c18d3dae6	#a6cee3	Aerobic
+beae2a5b28ca3f6de1a3f6e56ee9eae8	#33a02c	No Greengenes match
+5cf37e80516a615f77bd5e97f18ae417	#a6cee3	Aerobic
+0a165844daf38d8ce2008c94a5b4565e	#a6cee3	Aerobic
+5af8bc1b2da6dc0d77b2927b608b171b	#a6cee3	Aerobic
+61bb94d45cd3ee0fd482238d90b44f4d	#a6cee3	Aerobic
+cd4366f6b27538135aabfbd87b466c98	#a6cee3	Aerobic
+f830ff5918843d3aa8fe24f3142447b4	#a6cee3	Aerobic
+ffdf7a6a35808b6b3f891cf50e9324df	#a6cee3	Aerobic
+17edd50e238bbf5aebdc1a58f9e6ca2b	#a6cee3	Aerobic
+9c3f6af486818d549fe0f5c21a973f6c	#a6cee3	Aerobic
+989bd0d39b46393d43ef36a4a3328b89	#a6cee3	Aerobic
+4f56c9dd4d0931112b945f672ddcd781	#a6cee3	Aerobic
+292d9544a23e49de589bda23fa6e7bce	#a6cee3	Aerobic
+dc309858fd186e55543ab705e3fe27af	#a6cee3	Aerobic
+6662a00231531ac6cfdc1191a99809de	#a6cee3	Aerobic
+263f3c6b73d1f88dd5b197dabfa0f7f2	#a6cee3	Aerobic
+5c8074ba7aabc98e373235de11c69e0e	#a6cee3	Aerobic
+475be13c71b1218e9a795e99128d78f3	#a6cee3	Aerobic
+4a0adc19c05c726ce6adc553bce27e6b	#a6cee3	Aerobic
+5d0c6af420698f1cdff612c8f7960627	#a6cee3	Aerobic
+41fbd10965a9dcfd028875763746436c	#a6cee3	Aerobic
+10afda2baef44de4c584a6641de399b1	#a6cee3	Aerobic
+990f56ff9ac90bb3662e5688e5313556	#a6cee3	Aerobic
+ad70b60b1fde7afe8196f6a08ac272ad	#a6cee3	Aerobic
+5c7445c0af66365826dc7ead81776d2d	#a6cee3	Aerobic
+6c8b34267203cd0682f74ce856661c0f	#a6cee3	Aerobic
+188b35815d41929e048cd1d3995ac6a0	#a6cee3	Aerobic
+784083ef977c5d61c689daed53449fa3	#a6cee3	Aerobic
+b32ba9481b903379ecef98945614919b	#a6cee3	Aerobic
+2d16d001e21717f960cf771ae879b1dd	#a6cee3	Aerobic
+146011b4b3b1ac5bd7d8224c5d93209d	#a6cee3	Aerobic
+a831054ee802d48e933d003870c0d42c	#a6cee3	Aerobic
+0eedb25a12c4cc261190b69f3f82cc60	#a6cee3	Aerobic
+396c2d79acbe8883549b9049dddce9fb	#a6cee3	Aerobic
+e526b7bcb6bcc4067b9f0430c5399489	#a6cee3	Aerobic
+df6999e532c812cf009aee328f473077	#a6cee3	Aerobic
+81745b8abbb7ce630d6610083d59dbcf	#a6cee3	Aerobic
+4c157652314c993aa13b1178f85fe0e5	#a6cee3	Aerobic
+f000aa01d0eb374fadbcafb45e7f2dd1	#a6cee3	Aerobic
+414a7e3a617b2c666d57c7808dcefe2a	#a6cee3	Aerobic
+fe1900950f4269c0ab1ff3a9b45c4125	#a6cee3	Aerobic
+b867276ef61fdee848c1d4b268640323	#a6cee3	Aerobic
+a01118cd28756f3d534adf00c3bdc05b	#a6cee3	Aerobic
+20b2a1cd685acf58314fb59252a14448	#a6cee3	Aerobic
+d88fdd25cf0defbbeed5e4a61038ecee	#a6cee3	Aerobic
+4c89d54c8a191956b286cec583212fb2	#a6cee3	Aerobic
+92fcf0f4c930f5bc66515788741e3a98	#a6cee3	Aerobic
+a00207dac8cecfb280ee732df82bf536	#a6cee3	Aerobic
+69af3c35bf4904157910660ee924b3a6	#a6cee3	Aerobic
+d09c1310466ca54d42eb40883233547c	#a6cee3	Aerobic
+d5d5dbee2d550c1e5d320c9267090680	#a6cee3	Aerobic
+671a0b188956760dfe9d16a84c56b698	#33a02c	No Greengenes match
+2dd9e191a81b91117b77df5eac7e6048	#a6cee3	Aerobic
+655bfa7150ecaa5e3ece2f4f5ead0503	#a6cee3	Aerobic
+2be3f2360901e1e58aa9ee09285a1e2e	#a6cee3	Aerobic
+9ec52120ea52efa8321f3ec5294f3c56	#a6cee3	Aerobic
+446273c2dfec416b038c8aa366ec5400	#a6cee3	Aerobic
+8d9a7c573820a256585c501be88ea092	#33a02c	No Greengenes match
+de314f846d702c48b13ca241394fa653	#a6cee3	Aerobic
+498870164b93e8b0db543e9fc96155ce	#a6cee3	Aerobic
+344f977cfcf67c78fa2c77d1240ad04d	#a6cee3	Aerobic
+ad72127c01dac114c005c83404612b5d	#a6cee3	Aerobic
+e93ecff2f7d6ab84e9556e613393b854	#a6cee3	Aerobic
+919c69564d0e3dcfc1b863feaa22574c	#a6cee3	Aerobic
+c20a2840efa94731bcf98caf0ff4ac09	#a6cee3	Aerobic
+5b91e29a41439da341b2ac9349cce657	#a6cee3	Aerobic
+345c308f76539edd9e91d297e2d97c13	#a6cee3	Aerobic
+3016488652a94350725ec6a6217326cd	#a6cee3	Aerobic
+6de8fff163b98c8aa71aeec462c52f49	#a6cee3	Aerobic
+b8f8822e59cba100c57b1c771a96a5df	#b2df8a	Facultatively anaerobic
+b4b55462fc87503bdabeb19518353ef9	#b2df8a	Facultatively anaerobic
+928b67e64faa0e5503b45c9c643bdcdc	#b2df8a	Facultatively anaerobic
+9ebd4d47c25e82ab5fff6ca85f1ad499	#b2df8a	Facultatively anaerobic
+06c85ab33b6ef156967a7898b133a240	#a6cee3	Aerobic
+0ba210559c7884e7157bf87ac5a7acd8	#a6cee3	Aerobic
+8ded19ba3180f04fada2be334a33e2e6	#a6cee3	Aerobic
+892751e9e470eaf5f0a95dcf7589a852	#b2df8a	Facultatively anaerobic
+a20f4b5e93a49ea3098101c60983de82	#b2df8a	Facultatively anaerobic
+90aca794c7e30b8a77e87f13ffc9a5cc	#a6cee3	Aerobic
+d829bee4984f82ffc2453212157caf96	#b2df8a	Facultatively anaerobic
+7b9ce8e5c02aca74dd6c923413e99764	#b2df8a	Facultatively anaerobic
+a5ed1c3fbdb29651bc0b3cfde1a90b3b	#b2df8a	Facultatively anaerobic
+f5058befce1e42549993e3e4147ec678	#b2df8a	Facultatively anaerobic
+06d0165290de3bc1980514d3470b951e	#b2df8a	Facultatively anaerobic
+9fa2e499072a105f3bd8f37f3f0c258d	#b2df8a	Facultatively anaerobic
+0f4db40d459d55341c67b6ea5473b9cf	#b2df8a	Facultatively anaerobic
+79a79991cc02836372508cfc2eb01266	#b2df8a	Facultatively anaerobic
+050b3996f8c3d5b8369867fe3fb9a1da	#b2df8a	Facultatively anaerobic
+88f7a00a040d23fae0be9ea655208e22	#a6cee3	Aerobic
+b3dfbd7ba297e7fb963add515d86756d	#a6cee3	Aerobic
+d429091b3c9a62628eb535ab554cc753	#a6cee3	Aerobic
+17a463a2631a630bbfefac2b5c9037cf	#a6cee3	Aerobic
+1432af512120f8938cce97553915ab22	#a6cee3	Aerobic
+38926f45206d589e80afa0e540db6243	#a6cee3	Aerobic
+2d8c5d0bc7913288932ac52e7cb2b65a	#a6cee3	Aerobic
+851249f44eae25773448f3092a30e063	#fb9a99	None predicted
+445b4b68c699d3520e9097fefa08f58f	#fb9a99	None predicted
+ac96bd0169dbfa19efb6c406fde0001d	#fb9a99	None predicted
+4f54b7c1bd04f426bd5971e5625e4609	#fb9a99	None predicted
+0fa05de0ab92e77b36e9ab7975633275	#33a02c	No Greengenes match
+e84f141e50806d74f2e46162ed0c552f	#33a02c	No Greengenes match
+31d0e02fe7dea959901edd22ed875e11	#33a02c	No Greengenes match
+ed747edf937dcda2641f02af3683ea7a	#33a02c	No Greengenes match
+1a0db85f8cd3acf8f51934e333fb073d	#33a02c	No Greengenes match
+4bf92e2ec8708d1adfc8515877e7b657	#a6cee3	Aerobic
+8b49e37e3c87b34b3cf8fa98e87b9e56	#a6cee3	Aerobic
+c484a020638da1bd01cd2df6f1cdf307	#fb9a99	None predicted
+71a5753d4ed729be6a99181a1a8b2af3	#33a02c	No Greengenes match
+9a0fe2cda7a62be392d3d28ccb98cdc5	#fb9a99	None predicted
+00d95acb3cff5cfe27f89e3e91213611	#fb9a99	None predicted
+3443a946876aa9c922d9c50c6963b782	#fb9a99	None predicted
+e4d0937b69713698efbb066f6eb82bce	#fb9a99	None predicted
+655a92f7490158af04e61b724d720cbb	#33a02c	No Greengenes match
+a09866bd0a8a9eb09d730fff1bc63e7b	#33a02c	No Greengenes match
+10b03d5b098927f6a02f95e2d6f36105	#fb9a99	None predicted
+298e59ed47623a59c93050f8abafdf88	#33a02c	No Greengenes match
+aef9ba0908439d0896ca8cfc4db4dbcf	#a6cee3	Aerobic
+d63e3ee111f0d41a61942a4d040b4d1a	#a6cee3	Aerobic
+81ebc96bb244755085aef90afd8435af	#a6cee3	Aerobic
+8aaaa8d82e84f0578c2ed71c52346da9	#a6cee3	Aerobic
+25648685986d7c6c59055298cc1f672b	#33a02c	No Greengenes match
+c39e15de7f8295ecfed0969cd53b2126	#a6cee3	Aerobic
+bffd6e7320d0aa746feb22974f1388eb	#33a02c	No Greengenes match
+8413c208cd202bc5df988c40ecd48e0f	#33a02c	No Greengenes match
+adbbb85bea0c018e519c8cc8ddf12e13	#1f78b4	Anaerobic
+751da794f3162dbcb44c540641d1a077	#1f78b4	Anaerobic
+2dcd591300d2ce80ca6d98aba8965aa8	#33a02c	No Greengenes match
+ca89ab3792c3e5fbb3ae778b51c59d1d	#fb9a99	None predicted
+8a99025ba9415f84c3820348289ab75a	#a6cee3	Aerobic
+b019dd54338af8e51cf0d4cc28ded009	#a6cee3	Aerobic
+3da7ac3acd3262ea908d830836f822ad	#1f78b4	Anaerobic
+f6e00f86f8e59a7b131694ba0821efb9	#1f78b4	Anaerobic
+8c83fe5d444479bd20ab5ab54d7c689e	#a6cee3	Aerobic
+c85d1b78dc8077b2d72f6ffe73fd4783	#a6cee3	Aerobic
+e7c2c171be5ef785791bb5a3a49fb3b5	#a6cee3	Aerobic
+e3bbf1bd6c612fbffbbf88f4dc54b805	#33a02c	No Greengenes match
+f03c1ff4c0f4f52f62810ed5ccf71fe1	#a6cee3	Aerobic
+e024fec14b521ebf12c9b6ec926eaf9f	#33a02c	No Greengenes match
+cc2d00709262a1ad0b9dab66b6d8654f	#33a02c	No Greengenes match
+2f08f91319b71ff9612b3d665567644f	#a6cee3	Aerobic
+3a54d4e72af90b9c2fd50d7d1bb0336b	#a6cee3	Aerobic
+35f23ca925e88b47f5d3ec9f1c689432	#a6cee3	Aerobic
+376f4cbddad93a13137df6a6121abcae	#a6cee3	Aerobic
+95cb8d50efe6a49f60d2928bd1b57745	#a6cee3	Aerobic
+c6d338e9604be70d8140ea72728934fb	#a6cee3	Aerobic
+699326ed0d62e32d53f72d81e66719e9	#a6cee3	Aerobic
+2d10bf1bb7e2481d142e806beacbda47	#a6cee3	Aerobic
+4525d87b2aad8b69aec06e57b34dd87b	#a6cee3	Aerobic
+c49d0f2f4cc8c67198c6e128f0ee704f	#a6cee3	Aerobic
+09de3dde6c465b74bcb8e6f8a478e4e0	#a6cee3	Aerobic
+cff60bed359051dd65fe850fd0bd07e1	#a6cee3	Aerobic
+b2454af7c713c8f76c857b34224ae21f	#a6cee3	Aerobic
+8d010eac44909c4d2abe7931c6cef8df	#a6cee3	Aerobic
+6ef30ad70950c7994898405da4aa1f2a	#a6cee3	Aerobic
+86cdce355c8d35e9a5f9ff6f2c5c476a	#a6cee3	Aerobic
+50fb93dad525b440dc193bc631872eba	#a6cee3	Aerobic
+43198a949f79d6f51bbed979260a1f6e	#a6cee3	Aerobic
+146195f72933e590d98b89c38d6eda33	#a6cee3	Aerobic
+b8c4ed03d7d91546b9f6ad80b80135a3	#a6cee3	Aerobic
+ea42d04c88f5c0820d2dba0aebce86da	#a6cee3	Aerobic
+3f803c6a182a7484832b04d0550ce269	#a6cee3	Aerobic
+befd9c7580d0eeb76de178eaf089d4df	#a6cee3	Aerobic
+d66ddcf4c482277819ef5e864c0c976b	#a6cee3	Aerobic
+517ec93b563cd9303b71a6562834b39a	#a6cee3	Aerobic
+3d1cd2060471ac0f1b09cdf8637430b8	#a6cee3	Aerobic
+493220a81c1395a6c181f9846e7adac4	#a6cee3	Aerobic
+c48eee94428d70d09aac8654eca8e27f	#a6cee3	Aerobic
+763d3803acfcfc7e2de1453a352cebab	#a6cee3	Aerobic
+9e4422cc69c72721ac777f4a53b29c36	#a6cee3	Aerobic
+ca52e0ac788a83d5aa9bd76666e623f6	#a6cee3	Aerobic
+504dd758e9341ec287449f5414e775a5	#a6cee3	Aerobic
+3b7b05b9aa6fb8be658a0390f6330fc7	#a6cee3	Aerobic
+d7969032672b49ec1614196e1d3732ff	#a6cee3	Aerobic
+04413ce2fba5827dfd7e0900d22944e3	#a6cee3	Aerobic
+a716c7869bbacc6c89086f1825bf09a4	#a6cee3	Aerobic
+8bf9da688f2c10924022f0f00bc76b82	#a6cee3	Aerobic
+6ab7907310adfc2a1947e5e4d23b7855	#a6cee3	Aerobic
+90edf3556e4068b2106aa977681e681d	#a6cee3	Aerobic
+49aee11bd1846153699266f3bbcc0bab	#a6cee3	Aerobic
+5d550e83e364b390a1ceb9398683b9f5	#a6cee3	Aerobic
+63d96765d185f8ce65a557446a57285a	#a6cee3	Aerobic
+25497ad2d6667d529f6dd078cf115d7b	#a6cee3	Aerobic
+84ac452fb92c5375c7ee3aef7fb89e3e	#a6cee3	Aerobic
+b7211ad1b300bb5e2fcd677ff3d4f8e5	#a6cee3	Aerobic
+a20eb37d50abf4ef13197bd4a0ea8c84	#a6cee3	Aerobic
+c1c2319d0cc6dbfc5855669bb9bbfc2c	#a6cee3	Aerobic
+014dc21f3e8a9700b7ad26e9c418dd78	#a6cee3	Aerobic
+9f173ded7d0d3296f9c8dd1e0b437894	#a6cee3	Aerobic
+c48997a8c5a8413ad8ae65f7562a1063	#a6cee3	Aerobic
+6341aae5c9141dc72eaf6a375c36a92e	#a6cee3	Aerobic
+71b7bc617d7daf228f48f7492a7e58e9	#a6cee3	Aerobic
+00449567f2e6c1a9e9ae900fb703e436	#a6cee3	Aerobic
+c1fb9c5276758eb1a415b768601040f7	#b2df8a	Facultatively anaerobic
+d892d40bc79d0c356bd2886ce8d120ee	#b2df8a	Facultatively anaerobic
+6f3b5c2b84860cdec9290349880e6193	#fb9a99	None predicted
+9de2546e41da8232db3cb2d6c876d5e7	#b2df8a	Facultatively anaerobic
+eec241c3844e90fd9f12b955dd34b8ea	#b2df8a	Facultatively anaerobic
+01149117f02319f2f7e18d2a76b11562	#b2df8a	Facultatively anaerobic
+5c2586815a4b57fb70384794457c9a3a	#b2df8a	Facultatively anaerobic
+361aaaa433ac3746096fd3490ab90a5a	#b2df8a	Facultatively anaerobic
+564f3420d7e3227d19340cc8cac97a30	#b2df8a	Facultatively anaerobic
+cfed1f6f47e5fea60d8367e16c13140e	#b2df8a	Facultatively anaerobic
+043f7586d73fff12c1bf596b03505ad9	#b2df8a	Facultatively anaerobic
+9c670bffedec4173bf6274436ebecbc8	#b2df8a	Facultatively anaerobic
+d7afdeea87a63dfd8e366032a0afc40f	#fb9a99	None predicted
+e2589adc85d2ad2e2d65bfd1c3fcfa35	#fb9a99	None predicted
+fdad6a85a10b6db6cec485327a0edaff	#fb9a99	None predicted
+bd969543907f908045c156e352251863	#fb9a99	None predicted
+2b5b9e801ddbc2f28dac5d98f39d7a9f	#fb9a99	None predicted
+908615fff5be37d504dc9ddbdc7e4b22	#fb9a99	None predicted
+56b81411b11e6030a0875eeb373a52d2	#fb9a99	None predicted
+b163a0c87201b9e313755c62b7d5cadd	#fb9a99	None predicted
+e29184bbe1ae9db0e5c95bc98d611791	#fb9a99	None predicted
+5ac666df173cb8972cdbe6a129d18b97	#fb9a99	None predicted
+5c7bf45c446b1528780b0db82c4ce0ba	#fb9a99	None predicted
+b061eab0969a21ca7d3304e527eca041	#fb9a99	None predicted
+894d23cae6d3fcf9e0db83cc0db364cd	#fb9a99	None predicted
+3c40a6628726a88ac30702791538d0c7	#fb9a99	None predicted
+46f0ee51310d89d76b4c19557925d01d	#b2df8a	Facultatively anaerobic
+372652a6bb53287cd0b4684c0a110b15	#b2df8a	Facultatively anaerobic
+09fcfc99232a8211fc24af58233d5f0d	#b2df8a	Facultatively anaerobic
+515404b3833ab29b77a7a6293b989216	#a6cee3	Aerobic
+6f3ce5d1ced34ce17da79a51daf74eed	#a6cee3	Aerobic
+c69aa30a0b251d4ecf5114c9d4f4416d	#a6cee3	Aerobic
+c269de64ae2164c437a48fc858d6aa25	#a6cee3	Aerobic
+7e8cecd0ced894666039f5946836f2e4	#a6cee3	Aerobic
+8562afaf3955423d4eda6d71b8b277d8	#a6cee3	Aerobic
+5718174a13cca6ad8370916cb45e0132	#a6cee3	Aerobic
+6ba46f2b5eac60cd35b997c34e5e1c6a	#a6cee3	Aerobic
+28c9c933ef4fab3f4a31cd36416e8076	#a6cee3	Aerobic
+9b37dc6429783f397d7362485a4f9873	#a6cee3	Aerobic
+a652f496fb4f9105e6797d717c3926ef	#a6cee3	Aerobic
+31bcf0a5168e76f7e320deb6bca05160	#a6cee3	Aerobic
+4c687e9abe11199b993e2ab668384d5c	#fb9a99	None predicted
+fdbd907cb724db987496a9d1d58ef492	#33a02c	No Greengenes match
+cf42b637dee1ed585fccca9b967cbd35	#fb9a99	None predicted
+aedbcf471e8ee592b11ffe4729a69f6e	#a6cee3	Aerobic
+0b25dc772a69f85ed52ed792878bad1b	#33a02c	No Greengenes match
+b528a79845348b5b7831958a0b78c972	#a6cee3	Aerobic
+8470362fab9b39cb1e85d6b20d4523ed	#a6cee3	Aerobic
+a0b84d1e743c5c63fa472ebb0e5f920e	#a6cee3	Aerobic
+1e7e96e3a65b48b09ccff622deb0f9aa	#a6cee3	Aerobic
+3d8884f3e0e3b6decd0db35b6c77ca5d	#a6cee3	Aerobic
+132ffe9a542685a423a59236950b46b0	#fb9a99	None predicted
+e05e62b810a559e67a88ee632976a4ea	#fb9a99	None predicted
+0952299d87618319b70016986c74ab69	#a6cee3	Aerobic
+e822089db6514f39f52e73510975564e	#a6cee3	Aerobic
+6cad158df7966582e3719c3822c427f6	#a6cee3	Aerobic
+cefb6b4e5eb3c923fb5764ce36247945	#a6cee3	Aerobic
+e66e1e1921a905589dd1481e7ef235f3	#fb9a99	None predicted
+4b33522f5e5325271b522497cc6ff873	#1f78b4	Anaerobic
+d554f717d25d5f90590ec252d3c67d0d	#fb9a99	None predicted
+0086fa53b5f42b4c0c233a67c90836bc	#fb9a99	None predicted
+d51b0288df561c2acad1fcd1af2e6b2c	#fb9a99	None predicted
+e7d8240675c5b9a6d5f8794ecde8a6ef	#33a02c	No Greengenes match
+a5a1bd4689aceb78ad1b21e97eb24bc2	#1f78b4	Anaerobic
+5920b0b3be1452805523df5d624eeeef	#1f78b4	Anaerobic
+f6c7eed67ed0c3db8e5ada7b189f9dc6	#1f78b4	Anaerobic
+967b49e6487d86b1f97ad6a685716edf	#1f78b4	Anaerobic
+0a51bfb8e6104bbfba2d850e124b8dbb	#1f78b4	Anaerobic
+36d691af6b6c720d729801fb9f46a384	#1f78b4	Anaerobic
+3e5239fc12554565607b0987be7077bf	#33a02c	No Greengenes match
+c9cdb616b1f52d7bcedfdac7a59cdd47	#33a02c	No Greengenes match
+e6d4e63f6baead777f61c53b03caad1d	#1f78b4	Anaerobic
+26d3b88219bfb6a787c3ded6b2e83596	#1f78b4	Anaerobic
+02371acc2922a69f8d3a00b17f38f743	#1f78b4	Anaerobic
+a93031d75af80524132c586134517ab2	#1f78b4	Anaerobic
+73c809ac5107d2b83a165033c3816575	#1f78b4	Anaerobic
+16bc655530eb740e8bbeb113928ac60c	#1f78b4	Anaerobic
+7be8e9060944b7776dadd2d0a7445fec	#1f78b4	Anaerobic
+a5d168b2c676ee5b00d6b8b48fc19239	#1f78b4	Anaerobic
+e729d0fc77f098941a585f0db1bbcb4c	#a6cee3	Aerobic
+febfb4b28c826ca8aebab60c55e503e5	#a6cee3	Aerobic
+dbab222fa7d391384320dafcc46fccf5	#a6cee3	Aerobic
+d7e7a03a16ebcaaa0a6f7ce46811f84d	#a6cee3	Aerobic
+e0a789e8a8c319261322c2e5b892b72f	#a6cee3	Aerobic
+68272991438b211c4b9f653c55a25651	#33a02c	No Greengenes match
+3b0d7ea03342477888a73fa7fe55f717	#a6cee3	Aerobic
+72def892cc3af0e30e69f475aa16dc62	#a6cee3	Aerobic
+92198387a446dac7a0bc49a195bfa721	#1f78b4	Anaerobic
+6b87bba29fef340e0dde5ce404fe7c19	#1f78b4	Anaerobic
+478d04cabd3290a47509bddb00bdacc0	#1f78b4	Anaerobic
+d9727162db66dbffac8ca727a81c7182	#1f78b4	Anaerobic
+27790c0d23dd1c1080c574171123ab06	#1f78b4	Anaerobic
+33d58d7e02c979f21abbd21a38c25657	#1f78b4	Anaerobic
+6264b06be7cf94c79b21897849e4b434	#1f78b4	Anaerobic
+0921bfaaf0aa55277f6156005457a46c	#1f78b4	Anaerobic
+44ce6482692430da34be7e4359b43d08	#1f78b4	Anaerobic
+e7e7332909c66631ee441ca79af4234f	#1f78b4	Anaerobic
+cc9b06d29ba382d49e86f9a1e8c561d2	#1f78b4	Anaerobic
+69304d479a6cbf8e4d348d51bbdffe7a	#1f78b4	Anaerobic
+770bea6a3aeeef6984a4cdfca3975e93	#1f78b4	Anaerobic
+317865ea6c50e83c72a4d779d02d8b58	#1f78b4	Anaerobic
+f99ccaaf35afbf4166f84ccb6c357d31	#1f78b4	Anaerobic
+9b76e1edd022417a8f7e0722ca707f2c	#1f78b4	Anaerobic
+de31bb03f3d7398695aa04e993a77e12	#1f78b4	Anaerobic
+2610f7f6de6764188e36ee625ff434de	#1f78b4	Anaerobic
+4f856faa12011d6b010d1218d6af965c	#1f78b4	Anaerobic
+f0a46c6d8eb7f519a79113d33390d4d6	#1f78b4	Anaerobic
+6d01029368e4cc381d8e748ea1285708	#1f78b4	Anaerobic
+ddb7424c2d7c7513f56e68c80305e3ca	#1f78b4	Anaerobic
+337b14e1938677e488fda429b20b7e54	#1f78b4	Anaerobic
+80d14e7271265765ba657c10a59c4692	#1f78b4	Anaerobic
+493e67e00eb01c4232009a7ebf0f09cc	#1f78b4	Anaerobic
+c856e83fd500753d3d6723ca0ce6be7a	#1f78b4	Anaerobic
+1ee51409a28fff65c0ada46159ccac3f	#1f78b4	Anaerobic
+887070b273e401be76c2a78bdc542aa0	#1f78b4	Anaerobic
+4fbbbe7148d8ec0b18e6731be1e2b8ca	#1f78b4	Anaerobic
+10f0461cb8a244c14aa2fb73e127e9e5	#1f78b4	Anaerobic
+ad145b5c8b7c9b7ffb1c647fa0da640d	#1f78b4	Anaerobic
+bb1131467162ed41aff22490cc8f2979	#1f78b4	Anaerobic
+bd24b7966ce594d3534ff34d53c3e8da	#1f78b4	Anaerobic
+8e12e34659aeec298c5981d6534c055f	#1f78b4	Anaerobic
+cc428be3080c07135e48a37bc55c3556	#1f78b4	Anaerobic
+86eca251a79873cec5eafc313b8141a9	#1f78b4	Anaerobic
+0a60184eb11318c87e1a2328f8c95582	#1f78b4	Anaerobic
+3762c2b1e91eb8ff683a092954d47027	#1f78b4	Anaerobic
+f8cefd85f37758531fffe1f5fa4744b7	#1f78b4	Anaerobic
+21ada0c9a8bf78e70d72e0cd0b7be5cb	#1f78b4	Anaerobic
+c7a766d06d80ef6e2ad150327a7cd0e9	#1f78b4	Anaerobic
+956f15a69b1fac98cc58d6143a5d75d8	#1f78b4	Anaerobic
+e757bf74d488b662fe648f61045d4af8	#1f78b4	Anaerobic
+64a600c610a5d74281dd6d5e578eb52b	#1f78b4	Anaerobic
+0ab31f7e797f551227445f0fd40c40d2	#1f78b4	Anaerobic
+2a1b95f280310734ee9a73f6e4fe75e7	#1f78b4	Anaerobic
+6c4d9c0af1e5ee335acf31c2adea4e87	#1f78b4	Anaerobic
+dbb96938b50804ee7a84b7fe8d98ce78	#1f78b4	Anaerobic
+ef857ddde862451cb25b32631cfdc8c3	#1f78b4	Anaerobic
+d10c72b287f6e198757f9d267625d1ed	#1f78b4	Anaerobic
+8599524cec26e00cc7df72e7ecc01220	#1f78b4	Anaerobic
+94ee4b5af727c67e8cca33272729569a	#1f78b4	Anaerobic
+d58b6cf2e9af6364330b92566e14d59e	#1f78b4	Anaerobic
+9bce72f67038518bec2e7db4108551af	#1f78b4	Anaerobic
+67588f6f0b9b141bc5f37204a50da5bf	#1f78b4	Anaerobic
+4154b0133a0838307a96d8b3478c035c	#1f78b4	Anaerobic
+34e7e6416f422b2f7bb31ddc27033669	#1f78b4	Anaerobic
+de994266986d0ab3e22c7979a250498a	#1f78b4	Anaerobic
+f3653056b4d9420571922d0a89546620	#1f78b4	Anaerobic
+9ff91974a21a30a1d0cf32c949bfaa31	#a6cee3	Aerobic
+fc06f5a871a835722bb928aa431aff9b	#a6cee3	Aerobic
+8abdf967e5b46a4af2dc34923219a392	#a6cee3	Aerobic
+683aa05cd60809840c6b3df5742fdd12	#a6cee3	Aerobic
+14dd9297d242c5bb745547163a9f81ff	#a6cee3	Aerobic
+d0b759748f21799300ab6edc1d2d1aa1	#a6cee3	Aerobic
+c9dac1b01afbcbb851165547387c3f11	#a6cee3	Aerobic
+3d71b48215993d82ea99dd556199818a	#a6cee3	Aerobic
+cbc404c2284fd9d72fe9c235e6dda48e	#a6cee3	Aerobic
+1972d4258dbcb7191701337402fae425	#a6cee3	Aerobic
+3afcf9c45c2aa849a02825dd35f38ea6	#a6cee3	Aerobic
+39cb84e5ee52dec95ca1af1a7978ea3b	#a6cee3	Aerobic
+7ca46b993c500cd1053a9bd0de165772	#a6cee3	Aerobic
+439ce9f5599fd864e33bd3c083b1adad	#a6cee3	Aerobic
+779379862716ac9ec327747a94361e19	#a6cee3	Aerobic
+6fd8cd726f1dbf11a2a23db8fc865743	#a6cee3	Aerobic
+ed676e9231c71ca5f6fb51f4d07c0e54	#a6cee3	Aerobic
+84d63a19a6f9811c726003c41c25a792	#a6cee3	Aerobic
+b87024d901b27a4b32736eb4770c1939	#a6cee3	Aerobic
+0e71ad81cd41c19164a2c5dcd5e4db84	#a6cee3	Aerobic
+bedb0ad47df2fa3cfce70c47437ec4ac	#a6cee3	Aerobic
+9256dde7d3b6e40233db5e9da7ad3aee	#a6cee3	Aerobic
+0dc52a30ea6b84b5bade843b94ad975a	#a6cee3	Aerobic
+169dd61e6af913fa11a2b662f5ed85d1	#a6cee3	Aerobic
+7fb0be99a714695bb3886c7899ac37ba	#1f78b4	Anaerobic
+f301064fa6ef6115efe0dc6743fe4340	#1f78b4	Anaerobic
+cb853386722f54216d8290ed67f77363	#1f78b4	Anaerobic
+45740f0bf677868bd005458d6252a59f	#1f78b4	Anaerobic
+c7787fbb773eb833120abd1e37d51df7	#1f78b4	Anaerobic
+feca81a7fe343c148a92304ce19b0084	#fb9a99	None predicted
+e0e0a3865c878986a3a82124db7bbfc9	#fb9a99	None predicted
+1ba88e448032b8389f537bd7ca21ed7f	#fb9a99	None predicted
+c62e64a0c62afd400b35226ec9b50e8f	#fb9a99	None predicted
+3be844d5b9ef884fcbf2c9195aac45f9	#fb9a99	None predicted
+2dbc1777a3d602a5d81f1a8df3da37f7	#fb9a99	None predicted
+6cf38b3b304ccd7a52b43b0f5e1b1723	#fb9a99	None predicted
+5bc2d5bea3cb6de680da2fe29cce055c	#fb9a99	None predicted
+3d67411a8df43090196f48b82ee031d1	#fb9a99	None predicted
+9bc9063a0460031a80b560775c35bc39	#fb9a99	None predicted
+08b96fe613f84bdf8b3b8218c31574a0	#fb9a99	None predicted
+e16d86b7fe770de88e7e8fd0fb6c8b5a	#fb9a99	None predicted
+73ff0a30a35907b93f8e4e13e4874bf0	#fb9a99	None predicted
+02aca0523cb4d38278cb9b2eca420fa1	#fb9a99	None predicted
+ac958b04ee131b08eed1b3b286db2265	#fb9a99	None predicted
+524f945306ac2c325b6027df82cc10c2	#fb9a99	None predicted
+bad02fb4b97f30182ffe6e934f54ad5f	#a6cee3	Aerobic
+354b4d2bbedce16d1a4f778f6770c61d	#a6cee3	Aerobic
+ade0f8a47688c3103a4b5b27a8682676	#a6cee3	Aerobic
+d4f14515e5d1c1211423cb8044470596	#a6cee3	Aerobic
+3c7acf4460426193a32372a19fc10f45	#a6cee3	Aerobic
+2160011d683059b8508248a0bc7e726e	#a6cee3	Aerobic
+0f0a4718c507e6a3750a997bd69dc49d	#a6cee3	Aerobic
+0e7f5b16ae8ef72e812947f917e4e61f	#a6cee3	Aerobic
+46edd9a681a1c394007859666f76d477	#a6cee3	Aerobic
+c6e969dbc49e8f99c02f6be653f24918	#a6cee3	Aerobic
+42fe0719e7005583f11198477038a589	#a6cee3	Aerobic
+ffae01481756d8c477a6317f1f991ee2	#a6cee3	Aerobic
+6827268233ed42e4fbff4e5ac3d9d810	#a6cee3	Aerobic
+a1265d8ebbdc1005914385cf44565599	#a6cee3	Aerobic
+4047124ca9aa1f0b89e84da9135bbf44	#fb9a99	None predicted
+e5190b30c6d00842a5f1af6665aa68d8	#fb9a99	None predicted
+1e0ba721ae12e40d5f529985f08deec6	#a6cee3	Aerobic
+a1fc2f8ebbc1a12018840082c9eb284d	#a6cee3	Aerobic
+ff0faced38071b9541a42e96f4e0e979	#a6cee3	Aerobic
+0ddac5957ce4d349c08226012adda717	#a6cee3	Aerobic
+c66ea3d804ab0d5346b5d0a31b4562ae	#a6cee3	Aerobic
+aeb065f61d03c6099e4bcd2e1e1813d8	#a6cee3	Aerobic
+1ae82998a9f0925751eb6b3ee1322661	#a6cee3	Aerobic
+441e1c4e0c1ae2d4a1bece7d2729dc90	#a6cee3	Aerobic
+fc9d356a39dc37699a7dd231d369310c	#a6cee3	Aerobic
+f755894419fbc192c75c830a8492a3ae	#a6cee3	Aerobic
+73c73faaddc7d6ed59a054e9d4c2767a	#a6cee3	Aerobic
+be8a37581cea1f0db7c7c9a416e4acb7	#a6cee3	Aerobic
+daaa0bea1fdf6ca4458cf0b522185343	#a6cee3	Aerobic
+ee4cd2af00ba5b3837949269e6b78853	#a6cee3	Aerobic
+e7c758ba1dadddf2d068b06d706816f5	#a6cee3	Aerobic
+b63b12160716c86ba046a7098cac00d7	#fb9a99	None predicted
+92f3d716cd2e2c0347b2470375170537	#fb9a99	None predicted
+a6c514b808307b409f4758e6951889fa	#fb9a99	None predicted
+4a341f19cdc3cddbb6868b96047174a6	#a6cee3	Aerobic
+b81ac41bc85afa93cf2d500fe86aa4c8	#a6cee3	Aerobic
+9cc78ba233c3c7353e4b9f8e47b9ad78	#a6cee3	Aerobic
+4ef90815b26a191f57cc38f3be1a36f2	#a6cee3	Aerobic
+14572587570f2507a723baef159df236	#a6cee3	Aerobic
+6f6e226d1182d10d3da68eec16a49206	#a6cee3	Aerobic
+3a66a38841ba6877568198b9dac3a1dc	#a6cee3	Aerobic
+3fc97bb848a4fd9e9b5ffe277d067958	#a6cee3	Aerobic
+8bd2877366c411df023506578f2483ca	#a6cee3	Aerobic
+e0f46b183ca82d7f1c422c066d2a4bf9	#a6cee3	Aerobic
+0c8c63953ee4504f92afdc06bb3789f1	#a6cee3	Aerobic
+66907d1ca6dd97f5d3bde9a32c3e4cfa	#a6cee3	Aerobic
+16543908ca23561ad5f998978c1061b3	#a6cee3	Aerobic
+4804669ff00c7ec682696fdd03d60923	#a6cee3	Aerobic
+b97d4abc3b424129cb8f53a90c7b0c63	#a6cee3	Aerobic
+bb170a5a31420352ee7da1dd48707530	#a6cee3	Aerobic
+8404055239728f68455b0850f7fb61dd	#a6cee3	Aerobic
+bdfcfe535654013ef9cd3939572780d9	#a6cee3	Aerobic
+2c0c4f320afd5c381f7a2eb644d359ab	#a6cee3	Aerobic
+7dd7c9a77b79ffd17546dcee1aff754f	#a6cee3	Aerobic
+546b1de0dd05553a29cbb8de49f8e7cc	#a6cee3	Aerobic
+e8cd31337951a2167e1f56b2abdc16f9	#a6cee3	Aerobic
+ea93f7b6b7dd2a74711462cda2a47ff4	#a6cee3	Aerobic
+98400a46df8735554d0d4638c7deb830	#a6cee3	Aerobic
+0ac00c45a3b84a739c3145093b96572d	#a6cee3	Aerobic
+07dce33f2efc4d6a048cf33e935edacc	#a6cee3	Aerobic
+4c6ed4bfbaf01b3199180c2955348feb	#a6cee3	Aerobic
+3d65860d85b2914a6f9e19ee22fead80	#a6cee3	Aerobic
+703b85dd0c04e97ab4064e7d095b4de6	#a6cee3	Aerobic
+3b457d9ae35b6d25203a79b6de5b83dc	#a6cee3	Aerobic
+81b28baef5bda12ef42f368970cc1beb	#a6cee3	Aerobic
+82af12d508b61d5e70d9a9d6f3431c13	#a6cee3	Aerobic
+1bc3f534e31cdc5bb88163917946b90f	#a6cee3	Aerobic
+6bd9d5d481d10c84a166da7008dc199a	#a6cee3	Aerobic
+2c4cf52dedc3d418111e8ae423e76f92	#a6cee3	Aerobic
+c68b436bce474dba861b1dbb48fb7bd0	#a6cee3	Aerobic
+0ce4daec5bf638df2b229bfde127d63e	#a6cee3	Aerobic
+c5a5803d19afec6939e84381d9ba654f	#a6cee3	Aerobic
+70397633b32e0d41ee6fc2c689f8666b	#a6cee3	Aerobic
+e777ba141615056b3b6194ec2862e119	#a6cee3	Aerobic
+24f6109f3d21d85644e7232b3fd6f167	#a6cee3	Aerobic
+26dde19696662b83afbb324cc281e261	#a6cee3	Aerobic
+945650b0c37fd64b2610edada6d63cc1	#a6cee3	Aerobic
+da685234995e41f7f8116a19b2b35b41	#a6cee3	Aerobic
+813b5955154367962e668e7631d26cab	#a6cee3	Aerobic
+523964f294b78172b1b54942724c2a19	#a6cee3	Aerobic
+3ceeeefe0ad9cdd3259caa49d852493f	#a6cee3	Aerobic
+73b8950e984d31a2090d1f6936ab9fad	#a6cee3	Aerobic
+8e5d675df661d2555b6d746febd80829	#a6cee3	Aerobic
+8d487697145022cfe424cab8e5008143	#a6cee3	Aerobic
+31c1635b11542f2c077ea197c72ec567	#a6cee3	Aerobic
+a79e3b34afc9a8d590d8d2c4f2f788cf	#a6cee3	Aerobic
+67d9100d732c2ca21e848bc400d7548c	#a6cee3	Aerobic
+55d1f625ba03614a71f168697bfb8e10	#a6cee3	Aerobic
+eaa35c5ca83e0c58a175b16eb64dea95	#a6cee3	Aerobic
+0dbf207ed248593305fee9f2d96c95fa	#a6cee3	Aerobic
+cfc954574200160e7c7337c1f470cc56	#a6cee3	Aerobic
+393c9389ff13edf6af1b3e672dfc54da	#a6cee3	Aerobic
+ded0d7faa120f15184a25491be7df295	#a6cee3	Aerobic
+ad0f846300436cfbc2439a891ccb8718	#a6cee3	Aerobic
+ad19b4cf9e6bbdab2917bed76db664a1	#a6cee3	Aerobic
+64550d6c86476bfa7842baa5542a8bb2	#a6cee3	Aerobic
+e6254af8651bf000235d8bbb7fd6fc4d	#a6cee3	Aerobic
+6a54e40fa55e5eb1b7b69caa047db0fa	#a6cee3	Aerobic
+d24ffc76e1c774a994cbf0e24ba4b352	#a6cee3	Aerobic
+01a8dfce255a8c6ba6cd54f91e7f3ffc	#a6cee3	Aerobic
+425b29537046eb0d86b9911bcc6fdde2	#a6cee3	Aerobic
+3f471db43758d0d8d10774ee95ea39de	#a6cee3	Aerobic
+7026a5ed099e71c4013b4c37caac6bc1	#a6cee3	Aerobic
+52e88d6af5c2f01ace8fae6880dd00d0	#a6cee3	Aerobic
+322ba7f97afe787e531a4977289394f6	#a6cee3	Aerobic
+2f7db29d89aa3dce7453fcc7348598e9	#a6cee3	Aerobic
+e898620b82d3ae5814a1888c8888639a	#a6cee3	Aerobic
+ac54c65e1228690833a5a749e571543b	#a6cee3	Aerobic
+13cb42bb3434d6e436ddbceb80ea0d23	#a6cee3	Aerobic
+9565b05acfd21a80e6723c89a502e07c	#a6cee3	Aerobic
+ba7860debf24dbcea60ecfec64ba0ce9	#a6cee3	Aerobic
+266c4952d02c48988138ccadf7125576	#a6cee3	Aerobic
+877763b29a0094aff019692faa7b55ef	#a6cee3	Aerobic
+c4c1d27e115e260a4248a1e131ebf09e	#a6cee3	Aerobic
+b961ba31dcc7ff858a67f2066e45476e	#a6cee3	Aerobic
+777bc35c768df2cc0c0e53c003b6a78a	#a6cee3	Aerobic
+d34fada04446c9bf38db00bdc7710585	#a6cee3	Aerobic
+6338920deae4adcd5d056e5acb2533c6	#a6cee3	Aerobic
+dd1838a1932ab6f43a7be0119fbfc715	#a6cee3	Aerobic
+4f9ce7ff6f0f7947e813a35ed530a1c1	#a6cee3	Aerobic
+3c41b3fac698520249d59a0c1ff0ba1d	#a6cee3	Aerobic
+4756ab5b83625980f851c3933c8021ef	#a6cee3	Aerobic
+0f4ae45a324129211f845167984d1cf8	#a6cee3	Aerobic
+3d3e424222037a5213a25f9a214350fb	#a6cee3	Aerobic
+ebdc141737ca6cb6384a839a6cf4546b	#a6cee3	Aerobic
+e34f427484f351056a63bc20907576e9	#a6cee3	Aerobic
+38a060ccd6bcae2e3d87f10cb112ef1b	#a6cee3	Aerobic
+083660f8c2c323182c74a5452360ade0	#a6cee3	Aerobic
+726e19def6b2d2f0ffcb25925385ffe9	#a6cee3	Aerobic
+b2097182b73a6ec2d66560f183ffb16b	#a6cee3	Aerobic
+734e753072e67b3036b5da30132d177d	#a6cee3	Aerobic
+da2e24268cddde581097792733f99351	#a6cee3	Aerobic
+4a497127ba52103abe8e40bd029b2614	#a6cee3	Aerobic
+0d46ccea29d8ee8e60903f6238962a07	#a6cee3	Aerobic
+eb75bbc7857767d0dc5551c84e2be394	#a6cee3	Aerobic
+0735696ca6e9a1b040d85c4ab88e947b	#a6cee3	Aerobic
+d5e3d160feb11dc6d9e88d9c0aeefb29	#a6cee3	Aerobic
+019d124934d8d272b28c94d7781ccbba	#a6cee3	Aerobic
+e1c73b10c138d995b2df6c0d29c1cbd2	#a6cee3	Aerobic
+e412c14ece33301d836b1e85e149a92b	#a6cee3	Aerobic
+70eca19d129d0f35de3538129f1072dc	#a6cee3	Aerobic
+9008764305469acb079f239b4f29a8f0	#a6cee3	Aerobic
+ef72aa142d0b3907e7ba0ae1108537e1	#a6cee3	Aerobic
+b236ea0b4468575cd8e41523d74f4322	#a6cee3	Aerobic
+bf837dcec2d7a2a18c17f950b2b7291e	#a6cee3	Aerobic
+4c8e646712639371c7a18cd3bc28a4bf	#a6cee3	Aerobic
+b62477ab1c7d3fa86039eea10c85a2ca	#a6cee3	Aerobic
+ff7049da684694ac8ad10bbf68a93003	#a6cee3	Aerobic
+0c6a1b48aa2b083d4b256333d9edccdc	#a6cee3	Aerobic
+26029f722f2232bc76d8f980f575e865	#a6cee3	Aerobic
+ac136db5250a103554f91b732fdf3cc9	#33a02c	No Greengenes match
+dd271dc884a096a3a88fa3898dbb2e8b	#33a02c	No Greengenes match
+318ad8a5d81657fa9d1edcee05ed903d	#33a02c	No Greengenes match
+ffd7b63f5c6859885b69e93caf0ba9e9	#33a02c	No Greengenes match
+042fb10760c88fa046cf26dacae3ac09	#33a02c	No Greengenes match
+97aae3123fa1839312c60bcfc02a5ae4	#33a02c	No Greengenes match
+22dcecc58d16d215fcfcac62fdcdf0be	#fb9a99	None predicted
+563e775dc1ffff0e1e11f6206cb725cc	#fb9a99	None predicted
+867180f9c2ba94c9c9018e297e38f55d	#fb9a99	None predicted
+8cd346cbfb59de8b5650e967a97a6c20	#fb9a99	None predicted
+820ad8e919a6321a4c28d78bf2d00a8e	#a6cee3	Aerobic
+125c445bd423029999549b245a449330	#fb9a99	None predicted
+34921157f2402c4d9e6a2f0fa14cb56c	#fb9a99	None predicted
+530b0f9d346a8ec4981483cfb35c0915	#fb9a99	None predicted
+fecf476e2c0801737619388a4b34050d	#fb9a99	None predicted
+72fc3cd1b1017b8b7ede53478f1fd3a0	#fb9a99	None predicted
+be5da296d91d1b41195663fe11369f59	#fb9a99	None predicted
+0802f2c4d22eff92b678db175f6345d9	#fb9a99	None predicted
+2c8234beafc5fcc887e02e63118885c0	#fb9a99	None predicted
+1ab05cf0bba9e3850a57a9db71f1e858	#fb9a99	None predicted
+ae94a70589b39afd8a985707119af0c7	#fb9a99	None predicted
+8b467d674b970af6f18f9bf21579b5d2	#fb9a99	None predicted
+f46a3eae590e38554bda70a7015d498b	#a6cee3	Aerobic
+cfb196e564fdb306e59795d666dbca0c	#a6cee3	Aerobic
+1bc8f2b685c3fd1699eee11ba295b884	#a6cee3	Aerobic
+45a703c3d46ed9731722d03c72be9069	#a6cee3	Aerobic
+7725ed1253357d22cf750f5f83134001	#a6cee3	Aerobic
+c0f775fff77049501c4f8b4f5460097c	#b2df8a	Facultatively anaerobic
+817dea4f814ebb5a581a2a5d16d39def	#b2df8a	Facultatively anaerobic
+b7286dac15acbe9492d95550dff60192	#a6cee3	Aerobic
+7a2918c5fc600dbb3a26121acaecc5bb	#fb9a99	None predicted
+84673c2f1ee54f972d05b2e5a65e8a1b	#fb9a99	None predicted
+5bb2f4dfe7191a3e0833c6d5c721d15b	#fb9a99	None predicted
+382ace22000054bb854626b5f51ebf66	#fb9a99	None predicted
+0f5f48d793a468de8ec2131049a25f1e	#a6cee3	Aerobic
+1e647bd899ee04d9d1510d8a09d831d2	#a6cee3	Aerobic
+94e342db04b7fa7da0b41164197005fa	#a6cee3	Aerobic
+2a4426d3d2adbd9d57cfc77e53585048	#a6cee3	Aerobic
+a4e8eed7e06e9860af263733eacbe2ba	#a6cee3	Aerobic
+840da214791d4f4a6f3f743366731c59	#b2df8a	Facultatively anaerobic
+eaaa8468052658318c7d254c725be445	#b2df8a	Facultatively anaerobic
+2bd96af4aa0005ab747459690112bf0f	#a6cee3	Aerobic
+5661861dd4a17a1dce146330854f7b33	#a6cee3	Aerobic
+e4fcb5ea8cc1b8e22e5b2ff5d70d873f	#a6cee3	Aerobic
+61cc36091f797a5ba0280a3ead6016ea	#a6cee3	Aerobic
+d620f8b2a50f6308f3fe4b8994be2805	#a6cee3	Aerobic
+2669393d2c604777304a3a3cb8fc5710	#a6cee3	Aerobic
+ee659869ba04ca0a89d99a9c7d14d87c	#a6cee3	Aerobic
+67146b381fb233ac16b37f6ac875f76b	#a6cee3	Aerobic
+ad83ae80b32ade990ca9398c2c65e8dc	#a6cee3	Aerobic
+a1d144d0a0f88b0b14b10eab7c143154	#a6cee3	Aerobic
+dd8229814f2d127e61ac92c5d275db8b	#a6cee3	Aerobic
+00c905253e84aab5042613bcc22d568c	#a6cee3	Aerobic
+df71de0e92459aa808364311135bb8fc	#a6cee3	Aerobic
+4e8ccf41cae7d0510b1845838617504c	#a6cee3	Aerobic
+89c6353ababfad34224aa74954880a96	#a6cee3	Aerobic
+3d9e3648bf97c7bd63c648f4908e8879	#a6cee3	Aerobic
+c9de210c5a513e7749d7e67ce403d19a	#a6cee3	Aerobic
+4f31fc43bb2ba611fa37c25e788fecf7	#a6cee3	Aerobic
+f36c50279a8fa1c121cb9dda1ab1cb42	#a6cee3	Aerobic
+3e1442f203abfada84808fd86effbe98	#a6cee3	Aerobic
+85305eb18fc8adc65fcdcc2d243e9016	#b2df8a	Facultatively anaerobic
+f1a8effc04a0147418e4d845aceee603	#a6cee3	Aerobic
+2f706b911fae2382a6f9159c592a20df	#a6cee3	Aerobic
+00c1e13a038e3bc1d6aeef145e9af89a	#a6cee3	Aerobic
+18253d5cb4b262eaa15180c7df2109ca	#a6cee3	Aerobic
+6d1e7588f6b0b24b04034a31da1c5e73	#a6cee3	Aerobic
+748c09fbdcf8e556d386794f8a3a7c9f	#a6cee3	Aerobic
+07b9db0375df4a5e63c8a479145d4478	#b2df8a	Facultatively anaerobic
+dab1160ee7a4ecf9945086ff09f99528	#b2df8a	Facultatively anaerobic
+6af5bd519a06104d7006af1c02f9b389	#b2df8a	Facultatively anaerobic
+1584c408509daa04a93cf862686badb8	#b2df8a	Facultatively anaerobic
+28ebc796909e1697b72d7bc5880d88fa	#b2df8a	Facultatively anaerobic
+fd107efacca017dd40df18a16eb3c476	#b2df8a	Facultatively anaerobic
+7ac6c842b41e82d9030f441de2d2ebc2	#b2df8a	Facultatively anaerobic
+d0f7766c04e617ad04c1cd5c08d41ae2	#b2df8a	Facultatively anaerobic
+aff0f43259280ad0011d1f9ae5bbbfc7	#b2df8a	Facultatively anaerobic
+ef485b77e80ee2250803ea0efb1eb1f7	#a6cee3	Aerobic
+f24c3b3c42d0aff416f254bbf3b4ec19	#a6cee3	Aerobic
+db0c4dcc32980c50daba57098dd923f5	#fb9a99	None predicted
+71a1593986886fa1e4edad36a06d18df	#fb9a99	None predicted
+08caa9a94426a7da3031f86ce775cda1	#fb9a99	None predicted
+c95ab352583ab0df7f89b774999f5e45	#fb9a99	None predicted
+e1d85ddadbfa93648656b83919491cd7	#fb9a99	None predicted
+97b977d246ed4385025253b5527ca3e6	#fb9a99	None predicted
+2d08da4f453fc29dc877098febb32801	#fb9a99	None predicted
+8c6c1cd6f464d55e5a562cac4fb08e4d	#fb9a99	None predicted
+40a013ca9531ed35a6aa63f88b554797	#fb9a99	None predicted
+6d0607457fab645fe1a5373329ca761d	#fb9a99	None predicted
+639cf02290f9357f3c6712edfa1df01e	#fb9a99	None predicted
+c2ce06c2b82f9e7d717486094494c035	#fb9a99	None predicted
+1c6aef2fc49a3ae676cdf487bb2d8565	#fb9a99	None predicted
+08798b3fee18d8bb5c4d4720cc3639e0	#fb9a99	None predicted
+bff6de03ae94f56eeb5c69c522f3c4e3	#fb9a99	None predicted
+32d9c6c03db8883b1ce46e01fb306fde	#fb9a99	None predicted
+c6fca0f88e1b87a2fa14d6d3e35299a4	#fb9a99	None predicted
+a03a0b32b80da0fec5d7c1e1173a141a	#fb9a99	None predicted
+6118553c4fee24d79f393eaaafadd478	#fb9a99	None predicted
+38e7aadf84b5655a7cd284a25479cd08	#fb9a99	None predicted
+40cb166b03a886d7cf9f3774b79be2be	#fb9a99	None predicted
+fb3e1134c7d9134f3e11fc311d345d0f	#fb9a99	None predicted
+b2b9b858ad1bb714280061e5caf9d7d1	#fb9a99	None predicted
+f215110ed58fea919ad416ea7c210e6a	#fb9a99	None predicted
+08fd492d1cf6c7ef7f2b7de2115aed0d	#fb9a99	None predicted
+810ccf2b036fa2a32704d7a3a4f93f31	#fb9a99	None predicted
+03e461f7a6b4b5fb3bb4940e4dccf237	#fb9a99	None predicted
+7d727dbcce606b82c181b9c66a7c616f	#fb9a99	None predicted
+5658bf41a27f1e10258d6904a005e5fb	#fb9a99	None predicted
+0ad2ee7f25716659675397f73a09197e	#fb9a99	None predicted
+c9332ffead0ef1e7542cd9451ce26f00	#fb9a99	None predicted
+5f8db894a571d35c9d2fa4f8df8581f9	#fb9a99	None predicted
+e299050937dd264e6745e2e2238252b0	#fb9a99	None predicted
+13159bfae50d0a52792a2dd696dfebaa	#fb9a99	None predicted
+fb5efa4054b36436174d10213cd453e3	#fb9a99	None predicted
+f97002fc869f78cf32c5a7dc20690b04	#fb9a99	None predicted
+5c21dc48ab4c82b8196c673cadc41b50	#fb9a99	None predicted
+8aa1709893f1ba88b9acf2172f79f594	#fb9a99	None predicted
+bd0362ecfe4165a3e542080b053c1b6a	#fb9a99	None predicted
+30b21006cdf677a1721c2f64e157df7c	#fb9a99	None predicted
+e602eda561f35ce124568010f461be4c	#fb9a99	None predicted
+4c2d4d410ca4fe7dd71899572b65beed	#fb9a99	None predicted
+170f9dd01656271d5951cc933ade5b98	#fb9a99	None predicted
+4a56ea14e126c20ddff0ff2fb987866b	#fb9a99	None predicted
+a5c84d456f2186d5620a76b5d74687d2	#fb9a99	None predicted
+b8049112f6f89cda4508cc345e142f43	#fb9a99	None predicted
+91c3280a726b426cdde9c95add213fde	#fb9a99	None predicted
+f72e990cb8ca032e13313e9882801531	#fb9a99	None predicted
+15e3e64bb4c6851fd90437e884763ba7	#fb9a99	None predicted
+2c528d8432a90da6c4a587d53886d4d7	#fb9a99	None predicted
+a471bd4d0843c182aae007fa8492a539	#fb9a99	None predicted
+aaf126e0fb2f7da51cc67cc99f485994	#fb9a99	None predicted
+167e0aac1b970612e0758ef1f608dc16	#fb9a99	None predicted
+38e721ca79bb7ff9f6cf7b1e846a88dd	#fb9a99	None predicted
+79b64f404f44692c694b3372e849b65f	#fb9a99	None predicted
+34e65f71d5c4648fa277732196a74e8f	#fb9a99	None predicted
+e1b4fb9640d90a5a178fa018fd46ef55	#fb9a99	None predicted
+d1efa5e1993dfae180f1c7e14441f29c	#fb9a99	None predicted
+41dff0bbf4e3ce1dd81756403c382d36	#fb9a99	None predicted
+592878dce69238c9dc4a6e148b5e7d81	#fb9a99	None predicted
+668f259bd019131c963d07c6bbf05d78	#fb9a99	None predicted
+b15e89bdc2a8afb21d8f9d347d8f3372	#fb9a99	None predicted
+fb3ba27d784c03cd97128fc7968c243c	#fb9a99	None predicted
+98c00065f96fccfda3dc6f53cf94048d	#fb9a99	None predicted
+aeecd57eb1c76ac948699ee75981b4f6	#fb9a99	None predicted
+902e06603cfe626e3fd5fa1cac46272d	#fb9a99	None predicted
+63f1db5a5382c33b588186ad2fc2d618	#fb9a99	None predicted
+df911c72e4804798706caf17fff3298f	#fb9a99	None predicted
+0ce51d2de5507edbeef6b4dd114e9447	#fb9a99	None predicted
+c0268ae98bfad56b2c8077c61385cf89	#fb9a99	None predicted
+f8b8173289056f3442317b4669562a60	#fb9a99	None predicted
+332864e3168e91e2d124d018a0f71974	#a6cee3	Aerobic
+265f0ed6b3f8dbe0916726ff8e9c0c77	#a6cee3	Aerobic
+08c8839ae52a2d167fab77c50ba4253c	#a6cee3	Aerobic
+9c08c840f7d836db55f238f53ef61680	#fb9a99	None predicted
+26832e2a6c579e6674f77208d9cac253	#a6cee3	Aerobic
+b9821a32dd0aa7536323ad20230e9df1	#a6cee3	Aerobic
+d454e5d9091553b741d0df54b6ed9964	#a6cee3	Aerobic
+8f503d2a775cc66ebbdaf80cbd1cfed2	#a6cee3	Aerobic
+f52a4baef57c00dfa8c36ac5ed6d9b89	#fb9a99	None predicted
+3e7faf9cb1625d01c659b7d386ed435d	#a6cee3	Aerobic
+e608f982d8b608cda0b2f4bde519413a	#b2df8a	Facultatively anaerobic
+73c5b1018989f66cbfffa8f0355dc200	#b2df8a	Facultatively anaerobic
+9a625aec27de8cf472150108d5129845	#b2df8a	Facultatively anaerobic
+495e8f70e6560daa88cdbf4e79b12d11	#b2df8a	Facultatively anaerobic
+8276ae8794c02dee9bcb3622e348baa8	#b2df8a	Facultatively anaerobic
+442a3e552c484495396cdf2f96345311	#b2df8a	Facultatively anaerobic
+56647e4a68ea887b883e781fec05348e	#b2df8a	Facultatively anaerobic
+ec533958f71cfcaddfa1f89f26f3a3c9	#b2df8a	Facultatively anaerobic
+7381c0477c1526fa19f975a6284698bd	#b2df8a	Facultatively anaerobic
+00b116f3d90f72c8573b5b45320a54f1	#b2df8a	Facultatively anaerobic
+c0e2b72a3cc0165beba642d84136b453	#b2df8a	Facultatively anaerobic
+75e61d6100104b1942713a7af31cd0e7	#b2df8a	Facultatively anaerobic
+bd401c6b6b0771d3386ba553586aff90	#b2df8a	Facultatively anaerobic
+fbd86380aabdb46d7ab8edc58315dd1f	#b2df8a	Facultatively anaerobic
+bc841548f461361bd4bf39804cd96de1	#b2df8a	Facultatively anaerobic
+e01081343229a2e1ac1279bdb49b65da	#b2df8a	Facultatively anaerobic
+7c0a4bd0ca9ac6f2afea7ce94d8fd71d	#b2df8a	Facultatively anaerobic
+2d7f1b96178c343de8018ff215c09c2b	#b2df8a	Facultatively anaerobic
+da8c88d41fe90faff2f3653b64020ed7	#b2df8a	Facultatively anaerobic
+8e2b6d93f84b4ab9b35101996bfa0235	#b2df8a	Facultatively anaerobic
+24c065e4be03c40ef7a499c4ac1cfb7b	#b2df8a	Facultatively anaerobic
+f25f56a63f711b76377bb6505825741b	#b2df8a	Facultatively anaerobic
+0bf348a8b0470489ae22cdc3c54cc3ba	#b2df8a	Facultatively anaerobic
+b7e778ea0a9a02cdfe8ec2fabda49f54	#b2df8a	Facultatively anaerobic
+9664486f6806fc522518962c422bb9b9	#b2df8a	Facultatively anaerobic
+612dcf9d528b0c89b2af2127f479f391	#b2df8a	Facultatively anaerobic
+2982cb6785a459d9ce11e41a11e171b6	#b2df8a	Facultatively anaerobic
+59fd687754963cdc389a72656af6b59a	#b2df8a	Facultatively anaerobic
+1467cd62328881340fbeaf7eabcf4238	#b2df8a	Facultatively anaerobic
+f693c27545c0dd5fa4efab76c0fb7c0e	#b2df8a	Facultatively anaerobic
+d3c08b6834184a8bc2394a9ba06e4638	#b2df8a	Facultatively anaerobic
+2d0a288899c7ec7e77ab1de85f924ce1	#b2df8a	Facultatively anaerobic
+baa00b4332026060029d23dbc3252b77	#b2df8a	Facultatively anaerobic
+8685a856947e0f7a592ab7c4e34d63d0	#b2df8a	Facultatively anaerobic
+4f31579cf248f8a954f50fbbf72eb871	#b2df8a	Facultatively anaerobic
+3edbe6d383462dd2cd809beac8655bbf	#b2df8a	Facultatively anaerobic
+27555f85745e8095930655bfc813aef5	#b2df8a	Facultatively anaerobic
+816220cc6f4f4f2109a56aec8bdb6cf6	#b2df8a	Facultatively anaerobic
+b507f0a24cc4822607821be0f07761b3	#b2df8a	Facultatively anaerobic
+ea3903b5915c967a5e1059913a6fb8d3	#b2df8a	Facultatively anaerobic
+a20fd835a195d11c8040f33e59d27e40	#b2df8a	Facultatively anaerobic
+5328d2b30e8d1375ee4cb8e8f26b4a07	#b2df8a	Facultatively anaerobic
+4f76a766d74ed7c73db75a77b6600876	#b2df8a	Facultatively anaerobic
+a0b14b03e9036342b8c674bda16bf45d	#b2df8a	Facultatively anaerobic
+99b79ed0a5d3c4cfa237ca2956ac4ad8	#b2df8a	Facultatively anaerobic
+cc1a18b8664030cb23aec4c11cac7064	#b2df8a	Facultatively anaerobic

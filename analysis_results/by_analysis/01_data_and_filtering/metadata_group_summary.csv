@@ -1,0 +1,225 @@
+variable,level,n
+Author,Acua_et_al._2023_10.1038/s41598-023-47099-4,60
+Author,Chandel_et_al_2022_10.1186/s40793-022-00452-y,370
+Author,Chesneau_et_al_2022_10.1128/mbio.01648-22,1450
+Author,Cui_et_al_2023_10.1016/j.scitotenv.2023.164147,59
+Author,Kim_et_al_2022_10.1016/j.foodres.2021.110896,90
+Author,Nunes_et_at_2022_10.1093/femsec/fiac028,260
+Author,metaSEED,168
+Geography,Australia,370
+Geography,Chile,96
+Geography,China,71
+Geography,Denmark,260
+Geography,France,1546
+Geography,Italy,6
+Geography,Japan,6
+Geography,New Zealand,6
+Geography,South Korea: Gyeonggi-do (seed),90
+Geography,USA,6
+Cultivar,,222
+Cultivar,Chun,29
+Cultivar,Flamboyant5,724
+Cultivar,Flavert,726
+Cultivar,Grand Rapids,8
+Cultivar,Jichun 585,30
+Cultivar,aborigineus,18
+Cultivar,alfalfa,32
+Cultivar,botrytis,6
+Cultivar,brandelier,6
+Cultivar,capitata,54
+Cultivar,fausto,8
+Cultivar,gladiador,7
+Cultivar,italica,14
+Cultivar,napus,12
+Cultivar,radish,35
+Cultivar,rapa,24
+Cultivar,rapeseed,23
+Cultivar,sativus,18
+Cultivar,seed,20
+Cultivar,soil,48
+Cultivar,undefined,386
+Cultivar,velocity,7
+Developmental_Stage,Seedlings,998
+Developmental_Stage,Seeds,1411
+Developmental_Stage,soil,48
+Scientific_Name,Arabidopsis thaliana,6
+Scientific_Name,Brassica napus,35
+Scientific_Name,Brassica oleracea,82
+Scientific_Name,Brassica rapa,24
+Scientific_Name,Daucus carota,20
+Scientific_Name,Diplotaxis tenuifolia,6
+Scientific_Name,Glycine clandestina,317
+Scientific_Name,Glycine max,53
+Scientific_Name,Lactuca sativa,14
+Scientific_Name,Medicago sativa,32
+Scientific_Name,Medicago truncatula,6
+Scientific_Name,Petroselinum crispum,8
+Scientific_Name,Phaseolus vulgaris,744
+Scientific_Name,Raphanus sativus,765
+Scientific_Name,Solanum lycopersicum,26
+Scientific_Name,Triticum aestivum,271
+Scientific_Name,soil,48
+sample_description,16S (v4 region) amplification of radish seed microbiota,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on BSM medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on CASO medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on NB medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on R2A medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on R3M medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on TSA10 medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on TSA100 medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on TYG medium,3
+sample_description,16S (v4 region) amplification of radish seed microbiota after culture enrichment on YEM medium,3
+sample_description,16S and gyrB amplicon sequencing of a single seed following enrichment on TSA10,1158
+sample_description,16S and gyrB amplicon sequencing of a single seedling following enrichment on TSA10,169
+sample_description,16S and gyrB amplicon sequencing of seed microbiota,31
+sample_description,16S and gyrB amplicon sequencing of seed microbiota with culture enrichment on TSA10,32
+sample_description,Germinating seeds Arabidopsis thaliana Maceration of 200 germinating seeds of Arabidopsis thaliana,2
+sample_description,Germinating seeds Brassica napus var. napus Maceration of 200 germinating seeds of Brassica napus var. Napus,4
+sample_description,Germinating seeds Brassica oleracea var. botrytis Maceration of 200 germinating seeds of Brassica oleracea var. botrytis,2
+sample_description,Germinating seeds Brassica oleracea var. capitata Maceration of 200 germinating seeds of Brassica oleracea var. capitata,18
+sample_description,Germinating seeds Brassica oleracea var. italica Maceration of 200 germinating seeds of Brassica oleracea var. Italica,2
+sample_description,Germinating seeds Brassica rapa subsp. rapa Maceration of 200 germinating seeds of Brassica rapa var. Rapa,8
+sample_description,Germinating seeds Daucus carota subsp. sativus Maceration of 200 germinating seeds of Daucus carota,4
+sample_description,Germinating seeds Diplotaxis tenuifolia Maceration of 200 germinating seeds of Diplotaxis tenuifolia,2
+sample_description,Germinating seeds Medicago truncatula Maceration of 200 germinating seeds of Medicago truncatula,2
+sample_description,Germinating seeds Phaseolus vulgaris var. aborigineus Maceration of 200 germinating seeds of Phaseolus vulgaris,6
+sample_description,Germinating seeds Raphanus sativus var. sativus Maceration of 200 germinating seeds of Raphanus sativus var. Sativus,2
+sample_description,Germinating seeds Solanum lycopersicum Maceration of 200 germinating seeds of Solanum lycopersicum,4
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on BSM medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on CASO medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on R2A medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on R3M medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on TSA10 medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on TSA100 medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on TYG medium,3
+sample_description,GyrB amplification of radish seed microbiota after culture enrichment on YEM medium,3
+sample_description,Seedlings Arabidopsis thaliana Maceration of 100 seedlings of Arabidopsis thaliana,2
+sample_description,Seedlings Brassica napus var. napus Maceration of 100 seedlings of Brassica napus var. Napus,4
+sample_description,Seedlings Brassica oleracea var. botrytis Maceration of 100 seedlings of Brassica oleracea var. botrytis,2
+sample_description,Seedlings Brassica oleracea var. capitata Maceration of 100 seedlings of Brassica oleracea var. capitata,18
+sample_description,Seedlings Brassica oleracea var. italica Maceration of 100 seedlings of Brassica oleracea var. Italica,2
+sample_description,Seedlings Brassica rapa subsp. rapa Maceration of 100 seedlings of Brassica rapa var. Rapa,8
+sample_description,Seedlings Daucus carota subsp. sativus Maceration of 100 seedlings of Daucus carota,4
+sample_description,Seedlings Diplotaxis tenuifolia Maceration of 100 seedlings of Diplotaxis tenuifolia,2
+sample_description,Seedlings Medicago truncatula Maceration of 100 seedlings of Medicago truncatula,2
+sample_description,Seedlings Phaseolus vulgaris var. aborigineus Maceration of 100 seedlings of Phaseolus vulgaris,6
+sample_description,Seedlings Raphanus sativus var. sativus Maceration of 100 seedlings of Raphanus sativus var. Sativus,2
+sample_description,Seedlings Solanum lycopersicum Maceration of 100 seedlings of Solanum lycopersicum,4
+sample_description,Seeds Arabidopsis thaliana Maceration of 1000 seeds of Arabidopsis thaliana,2
+sample_description,Seeds Brassica napus var. napus Maceration of 1000 seeds of Brassica napus var. Napus,4
+sample_description,Seeds Brassica oleracea var. botrytis Maceration of 1000 seeds of Brassica oleracea var. botrytis,2
+sample_description,Seeds Brassica oleracea var. capitata Maceration of 1000 seeds of Brassica oleracea var. capitata,18
+sample_description,Seeds Brassica oleracea var. italica Maceration of 1000 seeds of Brassica oleracea var. Italica,2
+sample_description,Seeds Brassica rapa subsp. rapa Maceration of 1000 seeds of Brassica rapa var. Rapa,8
+sample_description,Seeds Daucus carota subsp. sativus Maceration of 1000 seeds of Daucus carota,4
+sample_description,Seeds Diplotaxis tenuifolia Maceration of 1000 seeds of Diplotaxis tenuifolia,2
+sample_description,Seeds Medicago truncatula Maceration of 1000 seeds of Medicago truncatula,2
+sample_description,Seeds Phaseolus vulgaris var. aborigineus Maceration of 1000 seeds of Phaseolus vulgaris,6
+sample_description,Seeds Raphanus sativus var. sativus Maceration of 1000 seeds of Raphanus sativus var. Sativus,2
+sample_description,Seeds Solanum lycopersicum Maceration of 1000 seeds of Solanum lycopersicum,4
+sample_description,alfalfa: germination 1 Medicago sativa Illumina MiSeq sequencing: amplicon of germination1 alfalfa: day 1,5
+sample_description,alfalfa: germination 2 Medicago sativa Illumina MiSeq sequencing: amplicon of germination2 alfalfa: day 2,5
+sample_description,alfalfa: seed Medicago sativa Illumina MiSeq sequencing: amplicon of seed alfalfa: day 0,5
+sample_description,"alfalfa: soaking Medicago sativa Illumina MiSeq sequencing: amplicon of soaking alfalfa: day 0, 4 h",2
+sample_description,alfalfa: sprouting Medicago sativa Illumina MiSeq sequencing: amplicon of sprouting alfalfa: day 3,5
+sample_description,alfalfa: unwashed Medicago sativa Illumina MiSeq sequencing: amplicon of unwashed alfalfa: day 5,5
+sample_description,alfalfa: washed Medicago sativa Illumina MiSeq sequencing: amplicon of washed alfalfa: day 5,5
+sample_description,germinated seeds Brassica oleracea Plant sample from Brassica oleracea,8
+sample_description,germinated seeds Daucus carota Plant sample from Daucus carota,4
+sample_description,germinated seeds Lactuca sativa Plant sample from Lactuca sativa,7
+sample_description,germinated seeds Petroselinum crispum Plant sample from Petroselinum crispum,4
+sample_description,germinated seeds Solanum lycopersicum Plant sample from Solanum lycopersicum,8
+sample_description,gyrB amplification of radish seed microbiota,3
+sample_description,gyrB amplification of radish seed microbiota after culture enrichment on NB medium,3
+sample_description,radish: germination 1 Raphanus sativus Illumina MiSeq sequencing: amplicon of germination1 radish: day 1,5
+sample_description,radish: germination 2 Raphanus sativus Illumina MiSeq sequencing: amplicon of germination2 radish: day 2,5
+sample_description,radish: seed Raphanus sativus Illumina MiSeq sequencing: amplicon of seed radish: day 0,5
+sample_description,"radish: soaking Raphanus sativus Illumina MiSeq sequencing: amplicon of soaking radish: day 0, 4 h",5
+sample_description,radish: sprouting Raphanus sativus Illumina MiSeq sequencing: amplicon of sprouting radish: day 3,5
+sample_description,radish: unwashed Raphanus sativus Illumina MiSeq sequencing: amplicon of unwashed radish: day 5,5
+sample_description,radish: washed Raphanus sativus Illumina MiSeq sequencing: amplicon of washed radish: day 5,5
+sample_description,rapeseed: germination 1 Brassica napus Illumina MiSeq sequencing: amplicon of germination1 rapeseed: day 1,1
+sample_description,rapeseed: germination 2 Brassica napus Illumina MiSeq sequencing: amplicon of germination2 rapeseed: day 2,5
+sample_description,rapeseed: seed Brassica napus Illumina MiSeq sequencing: amplicon of seed rapeseed: day 0,3
+sample_description,rapeseed: sprouting Brassica napus Illumina MiSeq sequencing: amplicon of sprouting rapeseed: day 3,5
+sample_description,rapeseed: unwashed Brassica napus Illumina MiSeq sequencing: amplicon of unwashed rapeseed: day 5,5
+sample_description,rapeseed: washed Brassica napus Illumina MiSeq sequencing: amplicon of washed rapeseed: day 5,4
+sample_description,seed Triticum aestivum Plant sample from Triticum aestivum,59
+sample_description,seed:11 DAS:M1P1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:M1P1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:M1P1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:M1P1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1K1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1K1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1K1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1K1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1P2K2:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1P2K2:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1P2K2:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:11 DAS:N1P2K2:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:M1P1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:M1P1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:M1P1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:M1P1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1K1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1K1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1K1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1K1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1P2K2:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1P2K2:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1P2K2:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:14 DAS:N1P2K2:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:M1P1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:M1P1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:M1P1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:M1P1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1K1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1K1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1K1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1K1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1P2K2:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1P2K2:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1P2K2:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:17 DAS:N1P2K2:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:M1P1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:M1P1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:M1P1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:M1P1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1K1:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1K1:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1K1:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1K1:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1P2K2:BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1P2K2:Control Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1P2K2:PB Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:31 DAS:N1P2K2:PB+BS Keywords: GSC:MIxS MIMS:5.0,4
+sample_description,seed:T0.Seed:NA:BS Metagenome or environmental sample from seed metagenome,5
+sample_description,seed:T0.Seed:NA:Control Metagenome or environmental sample from seed metagenome,5
+sample_description,seed:T0.Seed:NA:PB Metagenome or environmental sample from seed metagenome,5
+sample_description,seed:T0.Seed:NA:PB+BS Metagenome or environmental sample from seed metagenome,5
+sample_description,seedlings Glycine clandestina Illumina MiSeq sequencing: Seed microbiome transmissibility,193
+sample_description,seedlings Glycine clandestina Metagenome or environmental sample from plant metagenome,124
+sample_description,seedlings Glycine max Metagenome or environmental sample from plant metagenome,53
+sample_description,seeds Brassica oleracea Plant sample from Brassica oleracea,8
+sample_description,seeds Daucus carota Plant sample from Daucus carota,4
+sample_description,seeds Lactuca sativa Plant sample from Lactuca sativa,7
+sample_description,seeds Petroselinum crispum Plant sample from Petroselinum crispum,4
+sample_description,seeds Solanum lycopersicum Plant sample from Solanum lycopersicum,6
+sample_description,soil:3DBS:M1P1:Control Metagenome or environmental sample from soil metagenome,16
+sample_description,soil:3DBS:N1K1:Control Metagenome or environmental sample from soil metagenome,16
+sample_description,soil:3DBS:N1P2K2:Control Metagenome or environmental sample from soil metagenome,16
+Title,Australian native Glycine clandestina seed microbiota hosts a more diverse bacterial community than the domesticated soybean Glycine max,370
+Title,Diversity and dynamics of seed microbiota during germination-emergence,168
+Title,Endophytic bacterial communities in ungerminated and germinated seeds of commercial vegetables,60
+Title,"Microbiome shifts in sprouts (alfalfa, radish, and rapeseed) during production from seed to sprout using 16S rRNA microbiome sequencing",90
+Title,Microgravity stress alters bacterial community assembly and co-occurrence networks during wheat seed germination,59
+Title,Single Seed Microbiota: Assembly and Transmission from Parent Plant to Seedling,1450
+Title,Succession of the wheat seed-associated microbiome as affected by soil fertility level and introduction of Penicillium and Bacillus inoculants in the field,260
+study_alias,PRJEB45079,1450
+study_alias,PRJEB6729,168
+study_alias,PRJNA649549,260
+study_alias,PRJNA735565,90
+study_alias,PRJNA784432,59
+study_alias,PRJNA810761,193
+study_alias,PRJNA811248,177
+study_alias,PRJNA926007,60

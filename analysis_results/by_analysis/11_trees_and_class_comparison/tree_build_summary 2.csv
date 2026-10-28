@@ -1,0 +1,4 @@
+group,sequences,aligned_columns,trimmed_columns,trimmed_gap_share,programs
+generalists,241,293,291,0.000,"MUSCLE 5.3.osx64; trimAl -automated1; IQ-TREE 3.0.1 TIM3+I+R3 -B 1000"
+specialists,1120,483,466,0.260,"MAFFT v7.526 --auto; trimAl -automated1; FastTree 2.2.0 -nt -gtr -gamma"
+combined,1361,483,251,0.000,"MAFFT v7.526 --auto; trimAl -automated1; FastTree 2.2.0 -nt -gtr -gamma"

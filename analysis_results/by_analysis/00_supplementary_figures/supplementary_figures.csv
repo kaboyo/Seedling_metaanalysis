@@ -1,0 +1,6 @@
+figure,status,panels,height_in,width_in
+Figure_S1,written,cooccurrence_network.tiff,7.46,6.75
+Figure_S2,written,beta_variance_explained.tiff + pcoa_css_by_stage_study.tiff + pcoa_css_asv_by_stage.tiff,9.37,7.04
+Figure_S3,written,host_breadth_null.tiff + host_class_composition.tiff,7.34,7.13
+Figure_S4,written,ko_kegg_category_heatmap.tiff + special_group_heatmaps.tiff,9.18,6.96
+Figure_S5,written,functional_stage_heatmaps.tiff,8.51,6.93

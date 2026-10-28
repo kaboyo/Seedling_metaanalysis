@@ -1,0 +1,17 @@
+unit,host_level,fraction,df,adj_R2,n
+genus,genus,genus alone,11,0.08057051914497826,1727
+genus,genus,stage alone,1,0.0034756294238872387,1727
+genus,genus,genus and stage,0,0.010843092492985762,1727
+genus,genus,unexplained,NA,0.9051107589381487,1727
+genus,family,family alone,5,0.04874186956073401,1727
+genus,family,stage alone,1,0.012003148297799915,1727
+genus,family,family and stage,0,0.002315573619073086,1727
+genus,family,unexplained,NA,0.936939408522393,1727
+ASV,genus,genus alone,11,0.0842851342736447,1879
+ASV,genus,stage alone,1,0.004660173097767006,1879
+ASV,genus,genus and stage,0,0.011018730473353777,1879
+ASV,genus,unexplained,NA,0.9000359621552345,1879
+ASV,family,family alone,5,0.05266943329020424,1879
+ASV,family,stage alone,1,0.010998734495488827,1879
+ASV,family,family and stage,0,0.004680169075631957,1879
+ASV,family,unexplained,NA,0.931651663138675,1879

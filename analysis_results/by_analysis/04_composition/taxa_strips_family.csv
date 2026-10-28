@@ -1,0 +1,721 @@
+study_alias,ref,row_val,Stage,n,Taxon,rel
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Other,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Erwiniaceae,0.3333333333333333
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Paenibacillaceae,0.6666666666666666
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seed,3,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Other,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Moraxellaceae,0.24503311258278146
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Paenibacillaceae,0.7549668874172186
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seed,1,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Other,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Bacillaceae,1.0000000000000002
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,italica,Seedling,1,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Other,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Micrococcaceae,0.2894736842105263
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Paenibacillaceae,0.7105263157894737
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,fausto,Seedling,1,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Other,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Erwiniaceae,0.6166243404932312
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Paenibacillaceae,0.27504603208281164
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Pseudomonadaceae,0.06542593444785288
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Xanthomonadaceae,0.042903692976104274
+PRJNA926007,Acuña et al. 2023,undefined,Seed,4,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Other,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Erwiniaceae,0.41901659003649216
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Microbacteriaceae,0.007755630186609672
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Moraxellaceae,0.07716371220020855
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Paenibacillaceae,0.49426485922836283
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Xanthomonadaceae,0.0017992083483267362
+PRJNA926007,Acuña et al. 2023,undefined,Seedling,7,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Other,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Moraxellaceae,1
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seed,4,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Other,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Sphingomonadaceae,0.9999999999999999
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Grand Rapids,Seedling,1,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Other,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Erwiniaceae,0.9122769532862207
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Microbacteriaceae,0.00967741935483871
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Sphingomonadaceae,0.07473118279569892
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Xanthomonadaceae,0.0033144445632417407
+PRJNA926007,Acuña et al. 2023,brandelier,Seedling,2,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Other,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Bacillaceae,0.008053300392658794
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Moraxellaceae,0.9919466996073412
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,brandelier,Seed,3,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Other,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Paenibacillaceae,1
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,gladiador,Seed,3,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Other,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Akkermansiaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Bacillaceae,1
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Rhizobiaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,velocity,Seedling,3,Yersiniaceae,0
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Other,0.02276925797276115
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Akkermansiaceae,0
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Bacillaceae,0.027111254963086466
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Beijerinckiaceae,0.003861838417100726
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Enterobacteriaceae,0.009215987974202821
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Erwiniaceae,0.3540617723557358
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Microbacteriaceae,0.005746229504004802
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Micrococcaceae,4.472350929381841e-4
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Moraxellaceae,0
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Oxalobacteraceae,0.006708523165007924
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Paenibacillaceae,0.023295698181679356
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Pseudomonadaceae,0.472013953024802
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Rhizobiaceae,5.60035403371641e-4
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Sphingomonadaceae,0.041388043961121036
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Xanthomonadaceae,0.002307372657087243
+PRJNA811248,Chandel et al. 2022,undefined,Seedling,33,Yersiniaceae,0.030512797327100806
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Other,0.25850940997903304
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Akkermansiaceae,0
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Bacillaceae,0.0062312745796338585
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Beijerinckiaceae,1.1180165071849003e-4
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Enterobacteriaceae,0.007373575577709311
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Erwiniaceae,0.24738501607083355
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Microbacteriaceae,0
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Micrococcaceae,9.102334908664818e-5
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Moraxellaceae,6.618078937136522e-5
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Oxalobacteraceae,0.03559750945597381
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Paenibacillaceae,0.3508172937184959
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Pseudomonadaceae,0.08350222000464352
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Rhizobiaceae,0.004361783210774676
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Sphingomonadaceae,0.005952911613725808
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Xanthomonadaceae,0
+PRJNA810761,Chandel et al. 2022,undefined,Seedling,109,Yersiniaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Other,0.03370646309750144
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Akkermansiaceae,0.004135191307109701
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Bacillaceae,0.029009580776796943
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Beijerinckiaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Enterobacteriaceae,0.351594783143329
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Erwiniaceae,0.12994858556787559
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Microbacteriaceae,3.2249117986623065e-5
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Micrococcaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Moraxellaceae,0.011670238544034865
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Oxalobacteraceae,0.11116274074738537
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Paenibacillaceae,0.10849611197214556
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Pseudomonadaceae,0.18982213329432637
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Rhizobiaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Sphingomonadaceae,0.010126290465770202
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Xanthomonadaceae,0.020295631965738355
+PRJNA784432,Cui et al. 2023,Chun,Seedling,23,Yersiniaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Other,0.0255523203835068
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Akkermansiaceae,0.03542205315133401
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Bacillaceae,0.007548933708001351
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Beijerinckiaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Enterobacteriaceae,0.07503619571742172
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Erwiniaceae,0.5540013174523454
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Microbacteriaceae,0.002519964979349096
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Micrococcaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Moraxellaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Oxalobacteraceae,0.0758550750430498
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Paenibacillaceae,0.0364222239542314
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Pseudomonadaceae,0.16379333673169139
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Rhizobiaceae,4.4798505192179556e-4
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Sphingomonadaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Xanthomonadaceae,0.023400593827147306
+PRJNA784432,Cui et al. 2023,Jichun 585,Seedling,24,Yersiniaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Other,0.3179715313547276
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Akkermansiaceae,0.2671679862285822
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Bacillaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Beijerinckiaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Enterobacteriaceae,0.1379537048159285
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Erwiniaceae,0.2031723667262637
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Microbacteriaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Micrococcaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Moraxellaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Oxalobacteraceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Paenibacillaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Pseudomonadaceae,0.020430737197082972
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Rhizobiaceae,0.00435716184444496
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Sphingomonadaceae,0
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Xanthomonadaceae,0.04894651183297009
+PRJNA784432,Cui et al. 2023,Jichun 585,Seed,6,Yersiniaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Other,0.11918238444789615
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Akkermansiaceae,0.14834269529443084
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Bacillaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Beijerinckiaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Enterobacteriaceae,0.2091024140927104
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Erwiniaceae,0.37247460155922546
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Microbacteriaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Micrococcaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Moraxellaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Oxalobacteraceae,0.00815165514363485
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Paenibacillaceae,0.0023501762632197414
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Pseudomonadaceae,0.04463892389538033
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Rhizobiaceae,0.008208771354685309
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Sphingomonadaceae,0
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Xanthomonadaceae,0.08754837794881695
+PRJNA784432,Cui et al. 2023,Chun,Seed,6,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Other,0.012909484973456689
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Akkermansiaceae,0
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Bacillaceae,7.704644969276762e-4
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Beijerinckiaceae,0
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Enterobacteriaceae,0.81857777016359
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Erwiniaceae,0.08312920303874041
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Microbacteriaceae,0.0031387856538697884
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Micrococcaceae,1.2769673619542315e-5
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Moraxellaceae,0.018030208184449243
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Oxalobacteraceae,0.00428225638645447
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Paenibacillaceae,0.006982541777664125
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Pseudomonadaceae,0.047514161813217534
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Rhizobiaceae,5.1718270718254754e-5
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Sphingomonadaceae,0.0012340465458631706
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Xanthomonadaceae,0.0032498856373044675
+PRJNA735565,Kim et al. 2022,alfalfa,Seedling,26,Yersiniaceae,1.1670338412465367e-4
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Other,0.7975770079763514
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Akkermansiaceae,0
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Bacillaceae,0.0023181442963472374
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Beijerinckiaceae,0.0025954333525503763
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Enterobacteriaceae,0.03746627675681153
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Erwiniaceae,0.028952125523071234
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Microbacteriaceae,0.004457282402350345
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Micrococcaceae,0.008808720250654881
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Moraxellaceae,1.0110201193003741e-4
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Oxalobacteraceae,0.019308646589521132
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Paenibacillaceae,2.7272727272727274e-4
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Pseudomonadaceae,0.009591186528581815
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Rhizobiaceae,3.863636363636364e-4
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Sphingomonadaceae,0.07756128223706854
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Xanthomonadaceae,0.010603701165670512
+PRJNA735565,Kim et al. 2022,alfalfa,Seed,5,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Other,0.06563418132615423
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Akkermansiaceae,0
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Bacillaceae,0
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Beijerinckiaceae,0.015388810795390678
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Enterobacteriaceae,0.22076172324096477
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Erwiniaceae,0.39645335836454054
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Microbacteriaceae,0.046618337919788075
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Micrococcaceae,0.003877889558307327
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Moraxellaceae,0
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Oxalobacteraceae,0.019793809569897337
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Paenibacillaceae,0.009076734765786154
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Pseudomonadaceae,0.1334503348102486
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Rhizobiaceae,0.009436346020989946
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Sphingomonadaceae,0.04377125596381481
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Xanthomonadaceae,0.027600245440242303
+PRJNA735565,Kim et al. 2022,radish,Seed,5,Yersiniaceae,0.00813697222387522
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Other,0.05626215612501642
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Akkermansiaceae,0
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Bacillaceae,1.3310834742884427e-4
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Beijerinckiaceae,5.895504804340467e-5
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Enterobacteriaceae,0.3045334108610424
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Erwiniaceae,0.18022539807368598
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Microbacteriaceae,0.0016768187643769884
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Micrococcaceae,0
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Moraxellaceae,2.8577960676726106e-4
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Oxalobacteraceae,0.04642067961363165
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Paenibacillaceae,0.05164655037267869
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Pseudomonadaceae,0.3195684710640372
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Rhizobiaceae,0.0014182055838140861
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Sphingomonadaceae,0.0030854308449427587
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Xanthomonadaceae,0.034685035694534294
+PRJNA735565,Kim et al. 2022,radish,Seedling,27,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Other,9.206324607023174e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Akkermansiaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Bacillaceae,0.014779981835624368
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Beijerinckiaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Enterobacteriaceae,0.16605191100163355
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Erwiniaceae,0.32525075585359237
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Microbacteriaceae,0.0026909397061573356
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Micrococcaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Moraxellaceae,5.321263759825544e-6
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Oxalobacteraceae,0.040735465358974675
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Paenibacillaceae,0.04438075118543125
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Pseudomonadaceae,0.4012945531155383
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Rhizobiaceae,1.417086662634323e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Sphingomonadaceae,0.002890206351662617
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Xanthomonadaceae,8.577732006599513e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seedling,20,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Other,0.008724201990774465
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Akkermansiaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Bacillaceae,0
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Beijerinckiaceae,0.0012230044147476435
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Enterobacteriaceae,0.06904219451811065
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Erwiniaceae,0.793284455704198
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Microbacteriaceae,0.007280834894797493
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Micrococcaceae,1.8826083246172292e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Moraxellaceae,1.789762558167283e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Oxalobacteraceae,0.002343515164957505
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Paenibacillaceae,2.9951191479630113e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Pseudomonadaceae,0.10035196826471376
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Rhizobiaceae,9.604004744468023e-4
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Sphingomonadaceae,0.01072467933208324
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Xanthomonadaceae,0.0038002154723746086
+PRJNA735565,Kim et al. 2022,rapeseed,Seed,2,Yersiniaceae,0.001597780765721137
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Other,0.09673224025526365
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Akkermansiaceae,0
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Bacillaceae,0.07046527256230489
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Beijerinckiaceae,0
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Enterobacteriaceae,0.017348026590030395
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Erwiniaceae,0.24960840026439454
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Microbacteriaceae,0.014464768749696192
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Micrococcaceae,0.071817462574229
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Moraxellaceae,0
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Oxalobacteraceae,0
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Paenibacillaceae,0.002251854653257893
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Pseudomonadaceae,0.30729024576246056
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Rhizobiaceae,0.0040188335149267925
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Sphingomonadaceae,0.08355586587048311
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Xanthomonadaceae,0
+PRJNA649549,Nunes et al. 2022,not reported,Seedling,53,Yersiniaceae,0.08244702920295299
+PRJEB6729,metaSEED,not reported,Seed,8,Other,0.11500019049912831
+PRJEB6729,metaSEED,not reported,Seed,8,Akkermansiaceae,0
+PRJEB6729,metaSEED,not reported,Seed,8,Bacillaceae,6.280128220850535e-4
+PRJEB6729,metaSEED,not reported,Seed,8,Beijerinckiaceae,0.031996887179814276
+PRJEB6729,metaSEED,not reported,Seed,8,Enterobacteriaceae,0.2600495369887347
+PRJEB6729,metaSEED,not reported,Seed,8,Erwiniaceae,0.1254295073284835
+PRJEB6729,metaSEED,not reported,Seed,8,Microbacteriaceae,0.010387005333174127
+PRJEB6729,metaSEED,not reported,Seed,8,Micrococcaceae,0.002922757623626323
+PRJEB6729,metaSEED,not reported,Seed,8,Moraxellaceae,0.025531900675200433
+PRJEB6729,metaSEED,not reported,Seed,8,Oxalobacteraceae,0.007259128724163139
+PRJEB6729,metaSEED,not reported,Seed,8,Paenibacillaceae,0.01501173973497573
+PRJEB6729,metaSEED,not reported,Seed,8,Pseudomonadaceae,0.30630365385889785
+PRJEB6729,metaSEED,not reported,Seed,8,Rhizobiaceae,0.0063648718180499666
+PRJEB6729,metaSEED,not reported,Seed,8,Sphingomonadaceae,0.04999771017147743
+PRJEB6729,metaSEED,not reported,Seed,8,Xanthomonadaceae,0.04249341033442987
+PRJEB6729,metaSEED,not reported,Seed,8,Yersiniaceae,6.236869077592994e-4
+PRJEB6729,metaSEED,not reported,Seedling,16,Other,0.10913580313493981
+PRJEB6729,metaSEED,not reported,Seedling,16,Akkermansiaceae,0
+PRJEB6729,metaSEED,not reported,Seedling,16,Bacillaceae,0.010882621315592466
+PRJEB6729,metaSEED,not reported,Seedling,16,Beijerinckiaceae,0.022094442129892887
+PRJEB6729,metaSEED,not reported,Seedling,16,Enterobacteriaceae,0.022978500887853883
+PRJEB6729,metaSEED,not reported,Seedling,16,Erwiniaceae,0.1878813939946963
+PRJEB6729,metaSEED,not reported,Seedling,16,Microbacteriaceae,1.1194984646878198e-4
+PRJEB6729,metaSEED,not reported,Seedling,16,Micrococcaceae,8.921074727120067e-4
+PRJEB6729,metaSEED,not reported,Seedling,16,Moraxellaceae,0.1170238070584093
+PRJEB6729,metaSEED,not reported,Seedling,16,Oxalobacteraceae,0.048815984089248
+PRJEB6729,metaSEED,not reported,Seedling,16,Paenibacillaceae,0.06494244650259737
+PRJEB6729,metaSEED,not reported,Seedling,16,Pseudomonadaceae,0.3688074383296015
+PRJEB6729,metaSEED,not reported,Seedling,16,Rhizobiaceae,0.0025537333977935193
+PRJEB6729,metaSEED,not reported,Seedling,16,Sphingomonadaceae,0.017812272901318784
+PRJEB6729,metaSEED,not reported,Seedling,16,Xanthomonadaceae,0.02606749893887542
+PRJEB6729,metaSEED,not reported,Seedling,16,Yersiniaceae,0
+PRJEB6729,metaSEED,napus,Seed,4,Other,0.25644542648301305
+PRJEB6729,metaSEED,napus,Seed,4,Akkermansiaceae,0
+PRJEB6729,metaSEED,napus,Seed,4,Bacillaceae,0.02626933395988433
+PRJEB6729,metaSEED,napus,Seed,4,Beijerinckiaceae,0.015759156814192453
+PRJEB6729,metaSEED,napus,Seed,4,Enterobacteriaceae,0
+PRJEB6729,metaSEED,napus,Seed,4,Erwiniaceae,0.022039263414677716
+PRJEB6729,metaSEED,napus,Seed,4,Microbacteriaceae,0.1659418800432335
+PRJEB6729,metaSEED,napus,Seed,4,Micrococcaceae,0.0020807532906858585
+PRJEB6729,metaSEED,napus,Seed,4,Moraxellaceae,0.022760071041854724
+PRJEB6729,metaSEED,napus,Seed,4,Oxalobacteraceae,0.17867196296789836
+PRJEB6729,metaSEED,napus,Seed,4,Paenibacillaceae,0.0014566878156156934
+PRJEB6729,metaSEED,napus,Seed,4,Pseudomonadaceae,0.037199248097847276
+PRJEB6729,metaSEED,napus,Seed,4,Rhizobiaceae,0.010614447189538554
+PRJEB6729,metaSEED,napus,Seed,4,Sphingomonadaceae,0.24847904397446052
+PRJEB6729,metaSEED,napus,Seed,4,Xanthomonadaceae,0.012282724907097947
+PRJEB6729,metaSEED,napus,Seed,4,Yersiniaceae,0
+PRJEB6729,metaSEED,napus,Seedling,8,Other,0.043334702078364706
+PRJEB6729,metaSEED,napus,Seedling,8,Akkermansiaceae,0
+PRJEB6729,metaSEED,napus,Seedling,8,Bacillaceae,0.06159303795210558
+PRJEB6729,metaSEED,napus,Seedling,8,Beijerinckiaceae,0.013748448388923475
+PRJEB6729,metaSEED,napus,Seedling,8,Enterobacteriaceae,0.03311968724975687
+PRJEB6729,metaSEED,napus,Seedling,8,Erwiniaceae,0.11526841614469537
+PRJEB6729,metaSEED,napus,Seedling,8,Microbacteriaceae,0.007272441086076644
+PRJEB6729,metaSEED,napus,Seedling,8,Micrococcaceae,8.954648151209566e-5
+PRJEB6729,metaSEED,napus,Seedling,8,Moraxellaceae,0.0028121403926793884
+PRJEB6729,metaSEED,napus,Seedling,8,Oxalobacteraceae,0.12896084627404333
+PRJEB6729,metaSEED,napus,Seedling,8,Paenibacillaceae,0.03670405267528626
+PRJEB6729,metaSEED,napus,Seedling,8,Pseudomonadaceae,0.48357176200638047
+PRJEB6729,metaSEED,napus,Seedling,8,Rhizobiaceae,0.00831235132579365
+PRJEB6729,metaSEED,napus,Seedling,8,Sphingomonadaceae,0.06064790408684373
+PRJEB6729,metaSEED,napus,Seedling,8,Xanthomonadaceae,0.004564663857538372
+PRJEB6729,metaSEED,napus,Seedling,8,Yersiniaceae,0
+PRJEB6729,metaSEED,botrytis,Seed,2,Other,0.3506031898781401
+PRJEB6729,metaSEED,botrytis,Seed,2,Akkermansiaceae,0
+PRJEB6729,metaSEED,botrytis,Seed,2,Bacillaceae,0.15720714444476946
+PRJEB6729,metaSEED,botrytis,Seed,2,Beijerinckiaceae,0.031029806158720225
+PRJEB6729,metaSEED,botrytis,Seed,2,Enterobacteriaceae,0.037376854320968045
+PRJEB6729,metaSEED,botrytis,Seed,2,Erwiniaceae,0.009626033944001012
+PRJEB6729,metaSEED,botrytis,Seed,2,Microbacteriaceae,0.02921835053038363
+PRJEB6729,metaSEED,botrytis,Seed,2,Micrococcaceae,0.04304371908114538
+PRJEB6729,metaSEED,botrytis,Seed,2,Moraxellaceae,0.07178289345580774
+PRJEB6729,metaSEED,botrytis,Seed,2,Oxalobacteraceae,0.01671307643246606
+PRJEB6729,metaSEED,botrytis,Seed,2,Paenibacillaceae,4.607314998582365e-4
+PRJEB6729,metaSEED,botrytis,Seed,2,Pseudomonadaceae,0.09338088658001276
+PRJEB6729,metaSEED,botrytis,Seed,2,Rhizobiaceae,0.017742290255395584
+PRJEB6729,metaSEED,botrytis,Seed,2,Sphingomonadaceae,0.12223207602836501
+PRJEB6729,metaSEED,botrytis,Seed,2,Xanthomonadaceae,0.019582947389966736
+PRJEB6729,metaSEED,botrytis,Seed,2,Yersiniaceae,0
+PRJEB6729,metaSEED,botrytis,Seedling,4,Other,0.06351424057841701
+PRJEB6729,metaSEED,botrytis,Seedling,4,Akkermansiaceae,0
+PRJEB6729,metaSEED,botrytis,Seedling,4,Bacillaceae,0.22693782100689466
+PRJEB6729,metaSEED,botrytis,Seedling,4,Beijerinckiaceae,0.014581892511059916
+PRJEB6729,metaSEED,botrytis,Seedling,4,Enterobacteriaceae,0.0048103543743078635
+PRJEB6729,metaSEED,botrytis,Seedling,4,Erwiniaceae,0.016140746583806004
+PRJEB6729,metaSEED,botrytis,Seedling,4,Microbacteriaceae,0.00353646899670333
+PRJEB6729,metaSEED,botrytis,Seedling,4,Micrococcaceae,0.003930574585642933
+PRJEB6729,metaSEED,botrytis,Seedling,4,Moraxellaceae,0.013180796378026983
+PRJEB6729,metaSEED,botrytis,Seedling,4,Oxalobacteraceae,0.02824341696436373
+PRJEB6729,metaSEED,botrytis,Seedling,4,Paenibacillaceae,0.06163997473812516
+PRJEB6729,metaSEED,botrytis,Seedling,4,Pseudomonadaceae,0.5456339803584199
+PRJEB6729,metaSEED,botrytis,Seedling,4,Rhizobiaceae,0
+PRJEB6729,metaSEED,botrytis,Seedling,4,Sphingomonadaceae,0.01197693310137336
+PRJEB6729,metaSEED,botrytis,Seedling,4,Xanthomonadaceae,0.005872799822859053
+PRJEB6729,metaSEED,botrytis,Seedling,4,Yersiniaceae,0
+PRJEB6729,metaSEED,capitata,Seed,18,Other,0.15098972475870182
+PRJEB6729,metaSEED,capitata,Seed,18,Akkermansiaceae,0
+PRJEB6729,metaSEED,capitata,Seed,18,Bacillaceae,0.027434992753298117
+PRJEB6729,metaSEED,capitata,Seed,18,Beijerinckiaceae,0.03259991919063509
+PRJEB6729,metaSEED,capitata,Seed,18,Enterobacteriaceae,0.03197107179775952
+PRJEB6729,metaSEED,capitata,Seed,18,Erwiniaceae,0.28675763330008075
+PRJEB6729,metaSEED,capitata,Seed,18,Microbacteriaceae,0.04157152845538928
+PRJEB6729,metaSEED,capitata,Seed,18,Micrococcaceae,0.028280900989315006
+PRJEB6729,metaSEED,capitata,Seed,18,Moraxellaceae,0.03784159830247578
+PRJEB6729,metaSEED,capitata,Seed,18,Oxalobacteraceae,0.02370376209279128
+PRJEB6729,metaSEED,capitata,Seed,18,Paenibacillaceae,0.00700750497458687
+PRJEB6729,metaSEED,capitata,Seed,18,Pseudomonadaceae,0.24285864960805825
+PRJEB6729,metaSEED,capitata,Seed,18,Rhizobiaceae,0.011357281077829753
+PRJEB6729,metaSEED,capitata,Seed,18,Sphingomonadaceae,0.04521553548580111
+PRJEB6729,metaSEED,capitata,Seed,18,Xanthomonadaceae,0.021433883564512767
+PRJEB6729,metaSEED,capitata,Seed,18,Yersiniaceae,0.01097601364876462
+PRJEB6729,metaSEED,capitata,Seedling,36,Other,0.02431511929188579
+PRJEB6729,metaSEED,capitata,Seedling,36,Akkermansiaceae,0
+PRJEB6729,metaSEED,capitata,Seedling,36,Bacillaceae,0.094781203642454
+PRJEB6729,metaSEED,capitata,Seedling,36,Beijerinckiaceae,0.007923671974044685
+PRJEB6729,metaSEED,capitata,Seedling,36,Enterobacteriaceae,0.03644292653187036
+PRJEB6729,metaSEED,capitata,Seedling,36,Erwiniaceae,0.3348014636314688
+PRJEB6729,metaSEED,capitata,Seedling,36,Microbacteriaceae,0.0018691052493214533
+PRJEB6729,metaSEED,capitata,Seedling,36,Micrococcaceae,0.0037904074689582073
+PRJEB6729,metaSEED,capitata,Seedling,36,Moraxellaceae,0.013930321288455129
+PRJEB6729,metaSEED,capitata,Seedling,36,Oxalobacteraceae,0.01735527497069558
+PRJEB6729,metaSEED,capitata,Seedling,36,Paenibacillaceae,0.0501714047894022
+PRJEB6729,metaSEED,capitata,Seedling,36,Pseudomonadaceae,0.38646491571820607
+PRJEB6729,metaSEED,capitata,Seedling,36,Rhizobiaceae,0.0016189552008393712
+PRJEB6729,metaSEED,capitata,Seedling,36,Sphingomonadaceae,0.01203158166433412
+PRJEB6729,metaSEED,capitata,Seedling,36,Xanthomonadaceae,0.013363868036882186
+PRJEB6729,metaSEED,capitata,Seedling,36,Yersiniaceae,0.0011397805411820546
+PRJEB6729,metaSEED,italica,Seed,2,Other,0.21299130924838344
+PRJEB6729,metaSEED,italica,Seed,2,Akkermansiaceae,0
+PRJEB6729,metaSEED,italica,Seed,2,Bacillaceae,0.0110569496351664
+PRJEB6729,metaSEED,italica,Seed,2,Beijerinckiaceae,0.035228480749836866
+PRJEB6729,metaSEED,italica,Seed,2,Enterobacteriaceae,0.02012178916770481
+PRJEB6729,metaSEED,italica,Seed,2,Erwiniaceae,0.08125624369698048
+PRJEB6729,metaSEED,italica,Seed,2,Microbacteriaceae,0.04496941923236637
+PRJEB6729,metaSEED,italica,Seed,2,Micrococcaceae,0.019031618912024678
+PRJEB6729,metaSEED,italica,Seed,2,Moraxellaceae,0.0015216230646022426
+PRJEB6729,metaSEED,italica,Seed,2,Oxalobacteraceae,0.06366123865456488
+PRJEB6729,metaSEED,italica,Seed,2,Paenibacillaceae,0.014994127068873465
+PRJEB6729,metaSEED,italica,Seed,2,Pseudomonadaceae,0.2592642225781574
+PRJEB6729,metaSEED,italica,Seed,2,Rhizobiaceae,0.025354096221154414
+PRJEB6729,metaSEED,italica,Seed,2,Sphingomonadaceae,0.09456854719107788
+PRJEB6729,metaSEED,italica,Seed,2,Xanthomonadaceae,0.11525956575903187
+PRJEB6729,metaSEED,italica,Seed,2,Yersiniaceae,7.207688200747464e-4
+PRJEB6729,metaSEED,italica,Seedling,4,Other,0.11390254544295977
+PRJEB6729,metaSEED,italica,Seedling,4,Akkermansiaceae,0
+PRJEB6729,metaSEED,italica,Seedling,4,Bacillaceae,0.005998203813187607
+PRJEB6729,metaSEED,italica,Seedling,4,Beijerinckiaceae,0.028614367593643462
+PRJEB6729,metaSEED,italica,Seedling,4,Enterobacteriaceae,0.015903101369741164
+PRJEB6729,metaSEED,italica,Seedling,4,Erwiniaceae,0.059763523144840805
+PRJEB6729,metaSEED,italica,Seedling,4,Microbacteriaceae,0.008153896293670885
+PRJEB6729,metaSEED,italica,Seedling,4,Micrococcaceae,0.011275869772311129
+PRJEB6729,metaSEED,italica,Seedling,4,Moraxellaceae,0.004209586575093453
+PRJEB6729,metaSEED,italica,Seedling,4,Oxalobacteraceae,0.08694590439325708
+PRJEB6729,metaSEED,italica,Seedling,4,Paenibacillaceae,0.013784928448785655
+PRJEB6729,metaSEED,italica,Seedling,4,Pseudomonadaceae,0.6018883713255219
+PRJEB6729,metaSEED,italica,Seedling,4,Rhizobiaceae,0.002173169062286105
+PRJEB6729,metaSEED,italica,Seedling,4,Sphingomonadaceae,0.029667946374102975
+PRJEB6729,metaSEED,italica,Seedling,4,Xanthomonadaceae,0.017718586390598128
+PRJEB6729,metaSEED,italica,Seedling,4,Yersiniaceae,0
+PRJEB6729,metaSEED,rapa,Seed,8,Other,0.1772830693540783
+PRJEB6729,metaSEED,rapa,Seed,8,Akkermansiaceae,0
+PRJEB6729,metaSEED,rapa,Seed,8,Bacillaceae,0.03449416543278705
+PRJEB6729,metaSEED,rapa,Seed,8,Beijerinckiaceae,0.05059543197347479
+PRJEB6729,metaSEED,rapa,Seed,8,Enterobacteriaceae,0.051735761878801634
+PRJEB6729,metaSEED,rapa,Seed,8,Erwiniaceae,0.16796392405041136
+PRJEB6729,metaSEED,rapa,Seed,8,Microbacteriaceae,0.021257813842632436
+PRJEB6729,metaSEED,rapa,Seed,8,Micrococcaceae,0.03053948659043373
+PRJEB6729,metaSEED,rapa,Seed,8,Moraxellaceae,0.015737995207159843
+PRJEB6729,metaSEED,rapa,Seed,8,Oxalobacteraceae,0.02438015528408071
+PRJEB6729,metaSEED,rapa,Seed,8,Paenibacillaceae,0.03906333283234208
+PRJEB6729,metaSEED,rapa,Seed,8,Pseudomonadaceae,0.21736773770276493
+PRJEB6729,metaSEED,rapa,Seed,8,Rhizobiaceae,0.02258003039130042
+PRJEB6729,metaSEED,rapa,Seed,8,Sphingomonadaceae,0.058196484537218277
+PRJEB6729,metaSEED,rapa,Seed,8,Xanthomonadaceae,0.08463615086877745
+PRJEB6729,metaSEED,rapa,Seed,8,Yersiniaceae,0.004168460053736994
+PRJEB6729,metaSEED,rapa,Seedling,16,Other,0.02543157232993003
+PRJEB6729,metaSEED,rapa,Seedling,16,Akkermansiaceae,0
+PRJEB6729,metaSEED,rapa,Seedling,16,Bacillaceae,0.10604310518831853
+PRJEB6729,metaSEED,rapa,Seedling,16,Beijerinckiaceae,0.005611729986439876
+PRJEB6729,metaSEED,rapa,Seedling,16,Enterobacteriaceae,0.011829967871225535
+PRJEB6729,metaSEED,rapa,Seedling,16,Erwiniaceae,0.2075028695120754
+PRJEB6729,metaSEED,rapa,Seedling,16,Microbacteriaceae,2.2949914783305505e-4
+PRJEB6729,metaSEED,rapa,Seedling,16,Micrococcaceae,0.009506579861876963
+PRJEB6729,metaSEED,rapa,Seedling,16,Moraxellaceae,0.006973379060533207
+PRJEB6729,metaSEED,rapa,Seedling,16,Oxalobacteraceae,0.0912684282231161
+PRJEB6729,metaSEED,rapa,Seedling,16,Paenibacillaceae,0.12569686367493116
+PRJEB6729,metaSEED,rapa,Seedling,16,Pseudomonadaceae,0.39173907823433035
+PRJEB6729,metaSEED,rapa,Seedling,16,Rhizobiaceae,0.0016908018854487632
+PRJEB6729,metaSEED,rapa,Seedling,16,Sphingomonadaceae,0.00852327125933728
+PRJEB6729,metaSEED,rapa,Seedling,16,Xanthomonadaceae,0.00795285376460371
+PRJEB6729,metaSEED,rapa,Seedling,16,Yersiniaceae,0
+PRJEB6729,metaSEED,sativus,Seed,6,Other,0.02135629697277068
+PRJEB6729,metaSEED,sativus,Seed,6,Akkermansiaceae,0
+PRJEB6729,metaSEED,sativus,Seed,6,Bacillaceae,0
+PRJEB6729,metaSEED,sativus,Seed,6,Beijerinckiaceae,0.005578748407207053
+PRJEB6729,metaSEED,sativus,Seed,6,Enterobacteriaceae,0.009456181428605897
+PRJEB6729,metaSEED,sativus,Seed,6,Erwiniaceae,0.34763666100203594
+PRJEB6729,metaSEED,sativus,Seed,6,Microbacteriaceae,0.011716894104307929
+PRJEB6729,metaSEED,sativus,Seed,6,Micrococcaceae,2.3922818676288743e-4
+PRJEB6729,metaSEED,sativus,Seed,6,Moraxellaceae,5.822477634804823e-4
+PRJEB6729,metaSEED,sativus,Seed,6,Oxalobacteraceae,0.01286108285716509
+PRJEB6729,metaSEED,sativus,Seed,6,Paenibacillaceae,0.009228497653271824
+PRJEB6729,metaSEED,sativus,Seed,6,Pseudomonadaceae,0.22425788189255244
+PRJEB6729,metaSEED,sativus,Seed,6,Rhizobiaceae,0.008178769165442551
+PRJEB6729,metaSEED,sativus,Seed,6,Sphingomonadaceae,0.047891365920415076
+PRJEB6729,metaSEED,sativus,Seed,6,Xanthomonadaceae,0.30083305407718075
+PRJEB6729,metaSEED,sativus,Seed,6,Yersiniaceae,1.830905688013671e-4
+PRJEB6729,metaSEED,sativus,Seedling,12,Other,0.011495705972655522
+PRJEB6729,metaSEED,sativus,Seedling,12,Akkermansiaceae,0
+PRJEB6729,metaSEED,sativus,Seedling,12,Bacillaceae,3.2061714828773055e-4
+PRJEB6729,metaSEED,sativus,Seedling,12,Beijerinckiaceae,0.0024908103452748144
+PRJEB6729,metaSEED,sativus,Seedling,12,Enterobacteriaceae,0.019991154273677165
+PRJEB6729,metaSEED,sativus,Seedling,12,Erwiniaceae,0.2781846166556291
+PRJEB6729,metaSEED,sativus,Seedling,12,Microbacteriaceae,4.112524066299124e-4
+PRJEB6729,metaSEED,sativus,Seedling,12,Micrococcaceae,0
+PRJEB6729,metaSEED,sativus,Seedling,12,Moraxellaceae,9.758688214349152e-5
+PRJEB6729,metaSEED,sativus,Seedling,12,Oxalobacteraceae,0.03979581819504516
+PRJEB6729,metaSEED,sativus,Seedling,12,Paenibacillaceae,0.009247388139610766
+PRJEB6729,metaSEED,sativus,Seedling,12,Pseudomonadaceae,0.5788448930623226
+PRJEB6729,metaSEED,sativus,Seedling,12,Rhizobiaceae,0.009954176495720564
+PRJEB6729,metaSEED,sativus,Seedling,12,Sphingomonadaceae,0.016871659532869152
+PRJEB6729,metaSEED,sativus,Seedling,12,Xanthomonadaceae,0.032294320890134
+PRJEB6729,metaSEED,sativus,Seedling,12,Yersiniaceae,0
+PRJEB6729,metaSEED,aborigineus,Seed,6,Other,0.1996120567479046
+PRJEB6729,metaSEED,aborigineus,Seed,6,Akkermansiaceae,0
+PRJEB6729,metaSEED,aborigineus,Seed,6,Bacillaceae,0.03881325618679117
+PRJEB6729,metaSEED,aborigineus,Seed,6,Beijerinckiaceae,0.16286553380978408
+PRJEB6729,metaSEED,aborigineus,Seed,6,Enterobacteriaceae,0.0027840169964742202
+PRJEB6729,metaSEED,aborigineus,Seed,6,Erwiniaceae,0.0952366404285202
+PRJEB6729,metaSEED,aborigineus,Seed,6,Microbacteriaceae,0.07708020536991157
+PRJEB6729,metaSEED,aborigineus,Seed,6,Micrococcaceae,0.07627118141329117
+PRJEB6729,metaSEED,aborigineus,Seed,6,Moraxellaceae,0.02171504665384714
+PRJEB6729,metaSEED,aborigineus,Seed,6,Oxalobacteraceae,0.042776149410562285
+PRJEB6729,metaSEED,aborigineus,Seed,6,Paenibacillaceae,0.0026551392684608737
+PRJEB6729,metaSEED,aborigineus,Seed,6,Pseudomonadaceae,0.08484940714827299
+PRJEB6729,metaSEED,aborigineus,Seed,6,Rhizobiaceae,0.013953444074894504
+PRJEB6729,metaSEED,aborigineus,Seed,6,Sphingomonadaceae,0.13228080133542683
+PRJEB6729,metaSEED,aborigineus,Seed,6,Xanthomonadaceae,0.03253113288464365
+PRJEB6729,metaSEED,aborigineus,Seed,6,Yersiniaceae,0.01657598827121471
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Other,0.04673422041957979
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Akkermansiaceae,0
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Bacillaceae,0.11320713396807708
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Beijerinckiaceae,0.040095417124603884
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Enterobacteriaceae,0.021630564316200685
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Erwiniaceae,0.3788841406281919
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Microbacteriaceae,0.020265260184166273
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Micrococcaceae,0.02905795214671823
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Moraxellaceae,0.004160052559777389
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Oxalobacteraceae,0.009205179685807599
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Paenibacillaceae,0.0022750170799888756
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Pseudomonadaceae,0.2945796408866061
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Rhizobiaceae,0.0038742776651762498
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Sphingomonadaceae,0.03382055515116119
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Xanthomonadaceae,0.0022105881839447118
+PRJEB6729,metaSEED,aborigineus,Seedling,11,Yersiniaceae,0
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Other,0.07808963297996815
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Akkermansiaceae,0
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Bacillaceae,0.033381087685489065
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Beijerinckiaceae,3.086078495915272e-4
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Enterobacteriaceae,0.02084020746366426
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Erwiniaceae,0.46777477701019554
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Microbacteriaceae,0.06081044093855548
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Micrococcaceae,0.005164145167666937
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Moraxellaceae,0.01110744683092745
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Oxalobacteraceae,0.014624295834446317
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Paenibacillaceae,0.00972263342976958
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Pseudomonadaceae,0.18968388379414236
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Rhizobiaceae,0.009507078650765215
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Sphingomonadaceae,0.023377782255082368
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Xanthomonadaceae,0.010503563621646532
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seed,567,Yersiniaceae,0.0651044164880892
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Other,0.17829007356774135
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Akkermansiaceae,0
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Bacillaceae,0.031911510223748746
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Beijerinckiaceae,0.00950014737517982
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Enterobacteriaceae,0.014936514450532961
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Erwiniaceae,0.24178187676463533
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Microbacteriaceae,0.1713567838960097
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Micrococcaceae,0.050016268687877286
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Moraxellaceae,0.003701533877108687
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Oxalobacteraceae,0.05112224397341585
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Paenibacillaceae,0.012082085642390777
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Pseudomonadaceae,0.1297049616346598
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Rhizobiaceae,0.01436135391638664
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Sphingomonadaceae,0.07399801919917452
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Xanthomonadaceae,0.014254794648860428
+PRJEB45079,Chesneau et al. 2022,Flavert,Seed,619,Yersiniaceae,0.002981832142278087
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Other,0.043073530541887464
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Akkermansiaceae,0
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Bacillaceae,0.0019067984976948364
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Beijerinckiaceae,5.831855929831109e-6
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Enterobacteriaceae,0.043120720940883935
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Erwiniaceae,0.4111011420540545
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Microbacteriaceae,0.11299801967655658
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Micrococcaceae,0.012014465386836417
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Moraxellaceae,0.011444932313039455
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Oxalobacteraceae,0.03195779040842713
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Paenibacillaceae,0.0011492975928457335
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Pseudomonadaceae,0.1510800149699554
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Rhizobiaceae,0.0015312334347800842
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Sphingomonadaceae,0.017133210865825893
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Xanthomonadaceae,0.10180631321411349
+PRJEB45079,Chesneau et al. 2022,Flamboyant5,Seedling,84,Yersiniaceae,0.059676698247169264
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Other,0.05080428088824484
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Akkermansiaceae,0
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Bacillaceae,0.1307569953998641
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Beijerinckiaceae,0.09635799503084781
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Enterobacteriaceae,1.1480375912106648e-4
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Erwiniaceae,0.015423071478327189
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Microbacteriaceae,0.29224049668073526
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Micrococcaceae,0.03621052442727237
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Moraxellaceae,0.020215499841679717
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Oxalobacteraceae,0
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Paenibacillaceae,0.054743207833806116
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Pseudomonadaceae,0.04403952502217401
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Rhizobiaceae,0.03785789253610896
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Sphingomonadaceae,0.15852555901081278
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Xanthomonadaceae,0.06271014809100577
+PRJEB45079,Chesneau et al. 2022,Flavert,Seedling,81,Yersiniaceae,0

@@ -1,0 +1,221 @@
+Removed from seedling_analysis_master.qmd on 2026-10-07 at the user's request: the top-five
+genus x stage Spearman correlations (Part 1 chunk top-5-genus-correlation-stats, Part 2 chunk
+fx-fig-correlation-heatmaps, two captions). Superseded by the stratified stage-effect
+meta-analysis (chunk stage-effects-by-stratum).
+
+### Top 5 Genus Correlation Stats by Developmental Stage
+
+```{r top-5-genus-correlation-stats}
+if (!all(c("Scientific_Name", "Developmental_Stage") %in% colnames(metadata_df))) {
+    cat("Skipping genus correlation stats: required metadata columns are missing.\n")
+} else {
+    genus_rel <- sweep(genus_matrix, 1, rowSums(genus_matrix), "/")
+    genus_rel[is.na(genus_rel)] <- 0
+
+    top5_genera <- colMeans(genus_rel) |>
+        sort(decreasing = TRUE) |>
+        head(5) |>
+        names()
+
+    genus_stage_df <- as.data.frame(genus_rel[, top5_genera, drop = FALSE])
+    genus_stage_df$sample_id <- rownames(genus_rel)
+
+    family_lookup <- family_map |>
+        dplyr::distinct(Scientific_Name, Family)
+
+    metadata_join_cols <- intersect(c("Scientific_Name", "Developmental_Stage", "Cultivar"), colnames(metadata_df))
+    metadata_join_df <- tibble::tibble(sample_id = rownames(metadata_df)) |>
+        dplyr::bind_cols(metadata_df[, metadata_join_cols, drop = FALSE])
+    if (!"Cultivar" %in% colnames(metadata_join_df)) {
+        metadata_join_df$Cultivar <- NA_character_
+    }
+
+    genus_stage_df <- genus_stage_df |>
+        dplyr::left_join(metadata_join_df, by = "sample_id") |>
+        dplyr::left_join(family_lookup, by = "Scientific_Name") |>
+        dplyr::mutate(
+            Family = dplyr::coalesce(Family, "Other"),
+            Cultivar = dplyr::na_if(trimws(as.character(Cultivar)), ""),
+            Developmental_Stage = factor(Developmental_Stage, levels = c("Seeds", "Seedlings")),
+            stage_binary = dplyr::if_else(Developmental_Stage == "Seedlings", 1, 0, missing = NA_real_)
+        )
+
+    top_genus_correlation_stats <- function(df, group_var, min_n = 4) {
+        group_sym <- rlang::sym(group_var)
+
+        df |>
+            dplyr::filter(!is.na(.data[[group_var]]), !is.na(stage_binary)) |>
+            dplyr::group_by(!!group_sym) |>
+            dplyr::group_modify(function(.x, .g) {
+                if (dplyr::n_distinct(.x$Developmental_Stage, na.rm = TRUE) < 2 || nrow(.x) < min_n) {
+                    return(tibble::tibble())
+                }
+
+                purrr::map_dfr(top5_genera, function(genus_name) {
+                    genus_vals <- .x[[genus_name]]
+                    keep <- is.finite(genus_vals) & is.finite(.x$stage_binary)
+                    genus_vals <- genus_vals[keep]
+                    stage_vals <- .x$stage_binary[keep]
+
+                    if (length(genus_vals) < min_n || dplyr::n_distinct(stage_vals) < 2) {
+                        return(tibble::tibble())
+                    }
+
+                    ct <- suppressWarnings(
+                        stats::cor.test(stage_vals, genus_vals, method = "spearman", exact = FALSE)
+                    )
+
+                    seed_mean <- mean(genus_vals[stage_vals == 0], na.rm = TRUE)
+                    seedling_mean <- mean(genus_vals[stage_vals == 1], na.rm = TRUE)
+
+                    tibble::tibble(
+                        group_type = group_var,
+                        group_value = as.character(.g[[1]]),
+                        genus = genus_name,
+                        n_samples = length(genus_vals),
+                        n_seeds = sum(stage_vals == 0, na.rm = TRUE),
+                        n_seedlings = sum(stage_vals == 1, na.rm = TRUE),
+                        seed_mean = seed_mean,
+                        seedling_mean = seedling_mean,
+                        delta_mean = seedling_mean - seed_mean,
+                        spearman_rho = unname(ct$estimate),
+                        p_value = ct$p.value
+                    )
+                })
+            }) |>
+            dplyr::ungroup() |>
+            dplyr::mutate(
+                p_adj = p.adjust(p_value, method = "BH")
+            ) |>
+            dplyr::arrange(p_adj, dplyr::desc(abs(spearman_rho)))
+    }
+
+    family_stats <- top_genus_correlation_stats(genus_stage_df, "Family")
+    cultivar_stats <- top_genus_correlation_stats(genus_stage_df, "Cultivar")
+
+    readr::write_csv(family_stats, file.path(tables_dir, "top5_genus_stage_correlation_by_family.csv"))
+    readr::write_csv(cultivar_stats, file.path(tables_dir, "top5_genus_stage_correlation_by_cultivar.csv"))
+    readr::write_csv(
+        tibble::tibble(top5_genera = top5_genera, rank = seq_along(top5_genera)),
+        file.path(tables_dir, "top5_genera_used_for_stage_correlations.csv")
+    )
+
+    cat("Top 5 genera used for correlations:", paste(top5_genera, collapse = ", "), "\n")
+
+    if (nrow(family_stats) > 0) {
+        cat("\n**Family-level Spearman correlations between top 5 genera and developmental stage**\n\n")
+        print(knitr::kable(
+            utils::head(family_stats, 50),
+            digits = 4,
+            caption = "Top 5 Genus vs Developmental Stage Correlations by Plant Family"
+        ))
+    }
+
+    if (nrow(cultivar_stats) > 0) {
+        cat("\n**Cultivar-level Spearman correlations between top 5 genera and developmental stage**\n\n")
+        print(knitr::kable(
+            utils::head(cultivar_stats, 50),
+            digits = 4,
+            caption = "Top 5 Genus vs Developmental Stage Correlations by Cultivar"
+        ))
+    }
+
+    plot_top5_genus_stage_correlations <- function(stats_df, group_label, output_dir) {
+        if (nrow(stats_df) == 0) {
+            cat("Skipping", group_label, "correlation heatmap: no rows.\n")
+            return(invisible(NULL))
+        }
+
+        plot_df <- stats_df |>
+            dplyr::mutate(
+                group_value = factor(group_value, levels = unique(group_value)),
+                genus = factor(genus, levels = top5_genera),
+                label = ifelse(
+                    p_adj < 0.05,
+                    sprintf("%.2f*", spearman_rho),
+                    sprintf("%.2f", spearman_rho)
+                )
+            )
+
+        p_corr <- ggplot(plot_df, aes(x = genus, y = group_value, fill = spearman_rho)) +
+            geom_tile(color = "white", linewidth = 0.2) +
+            geom_text(aes(label = label), size = 2.4, fontface = "bold") +
+            scale_fill_gradient2(
+                low = "#0B3D91",
+                mid = "white",
+                high = "#F94144",
+                midpoint = 0,
+                limits = c(-1, 1),
+                oob = scales::squish,
+                name = "Spearman\nrho"
+            ) +
+            labs(
+                x = "Top 5 dominant genera",
+                y = group_label,
+                title = paste0("Top 5 genus correlations by ", group_label, " and developmental stage"),
+                subtitle = "Tiles show Spearman rho; asterisk indicates BH-adjusted p < 0.05"
+            ) +
+            theme_pipeline_classic() +
+            theme(
+                axis.text.x = element_text(angle = 35, hjust = 1, face = "bold"),
+                axis.text.y = element_text(face = "bold"),
+                legend.position = "right"
+            )
+
+        safe_group <- tolower(group_label)
+        safe_group <- gsub("[^a-z0-9]+", "_", safe_group)
+        safe_group <- gsub("^_|_$", "", safe_group)
+
+        save_nature_figure(
+            file.path(figures_dir, paste0("top5_genus_stage_correlation_heatmap_by_", safe_group, ".tiff")),
+            p_corr,
+            kind = "wide"
+        )
+    }
+
+    plot_top5_genus_stage_correlations(family_stats, "Plant family", figures_dir)
+    plot_top5_genus_stage_correlations(cultivar_stats, "Cultivar", figures_dir)
+}
+```
+
+
+
+# ---------------------------------
+
+```{r fx-fig-correlation-heatmaps}
+corr_heatmap <- function(path, facet_label, name) {
+    fig_section(name, needs = path, {
+        dat <- read_csv(path, show_col_types = FALSE) |>
+            dplyr::filter(!is.na(spearman_rho))
+        p <- ggplot(dat, aes(x = genus, y = group_value, fill = spearman_rho)) +
+            geom_tile(colour = "white", linewidth = 0.3) +
+            geom_text(aes(label = ifelse(p_adj < 0.05, "*", "")), size = 2.6, vjust = 0.75) +
+            scale_fill_gradient2(low = "#3B6E9E", mid = "white", high = "#C0392B",
+                                 midpoint = 0, limits = c(-1, 1)) +
+            labs(x = NULL, y = facet_label, fill = "Spearman rho",
+                 title = sprintf("Top-5 genus vs stage correlation by %s", facet_label),
+                 subtitle = "* adjusted p < 0.05") +
+            theme_pipeline_classic() +
+            theme(axis.text.x = element_text(angle = 45, hjust = 1))
+        print(p)
+        save_nature_figure(fig(name), p, "wide")
+    })
+}
+
+corr_heatmap(res("tables", "top5_genus_stage_correlation_by_family.csv"),
+             "Plant family", "top5_genus_stage_correlation_heatmap_by_plant_family")
+corr_heatmap(res("tables", "top5_genus_stage_correlation_by_cultivar.csv"),
+             "Cultivar", "top5_genus_stage_correlation_heatmap_by_cultivar")
+```
+
+
+# ---------------------------------
+
+  "top5_genus_stage_correlation_heatmap_by_plant_family.tiff" =
+    "Spearman correlation between the top five genera and developmental stage, within each plant family. Asterisks mark adjusted p < 0.05.",
+
+
+# ---------------------------------
+
+  "top5_genus_stage_correlation_heatmap_by_cultivar.tiff" =
+    "Spearman correlation between the top five genera and developmental stage, within each cultivar. Asterisks mark adjusted p < 0.05.",

@@ -117,10 +117,34 @@ Every figure is wrapped in `fig_section(name, needs = <input paths>)`, which rec
 continues when an input is absent rather than aborting the render, then writes
 `tables/figure_manifest.csv` accounting for all 44 attempts. Check that manifest after any render.
 
-All figures land in `analysis_results/figures/` — one directory, no exceptions. `phyloseq_analysis.qmd`
-historically scattered them across `figures/`, `diversity/` and `setup/`, and wrote data files
-(`pairwise_*.rds`, `umap_data.csv`) into `figures/`; both are cleaned up. `diversity/umap_data.csv` is
-now the canonical UMAP coordinate path.
+Figures live in `analysis_results/by_analysis/<NN_analysis>/`, beside that analysis's tables, and
+nowhere else (changed 2026-10-08 at the user's request; previously everything went to `figures/`).
+Which file belongs to which folder is the `analysis_folders` section of the config. Part 2's `fig()`
+writes each figure straight into its folder; Part 1 still writes its own to `figures/`, and the
+`fx-analysis-folders` chunk at the end of Part 2 moves those across and copies the tables in
+(tables stay in `tables/`, which every later step reads). `figures/` is therefore empty after a
+run. A new figure must be added to the config list, or it stays in `figures/` and shows up in
+`by_analysis/index.csv` as not assigned. `Rscript make_analysis_folders.R` refreshes the folders.
+
+The manuscript's five figures are merged from finished figures with patchwork by the last chunk of Part 2,
+`fx-fig-main-figures`, into `by_analysis/00_main_figures/`; which panel goes where is the
+`main_figures` section of the config, and the layout follows `CELL-REPORTS-D-26-05893.pdf`.
+Every colour comes from the `palette` section of the config (sampled from the same PDF: seeds
+orange, seedlings teal, and those two mean nothing else); do not hard-code a colour.
+Figures listed under `figures.skip` in the config are not drawn. Figure style is Nature's, with capital panel letters at the user's request: letters
+bold, 8 pt (`PANEL_LETTER_SIZE`), their case set by `figures.panel_letter_case` in the config and
+applied by `panel_letter()`, no titles inside a figure, key titles that name the
+variable only, and one colour per host everywhere (`host_colours()` in `fx-palettes`: plant
+families first, then host genera). The supplementary set (`supplementary_figures`) holds figures
+only for data that no main figure shows. When the figures are merged, full-width white
+bands are cut back (`trim_margin_in` round a panel, `max_gap_in` inside it) and the finished
+figure is cropped on all four sides (`crop_border_in`), so it is ready to insert and a little
+narrower than 7.2 in; rows are nested patchworks, not `wrap_elements()`, which leaves a margin. Launchers rebuild parts without
+a full render, each by evaluating chunks of the master: `make_composition.R`, `make_alpha_tests.R`,
+`make_beta_figures.R`, `make_stage_effects.R`, `make_trait_figures.R`, `make_tree_figures.R`,
+`make_analysis_folders.R`,
+`make_main_figures.R`. A launcher's own variable names must not clash with names the master
+assigns (it once silently skipped chunks after the master assigned `body`).
 
 Two figures skip legitimately: `pcoa_bray_genus_by_timepoint` (the config lists `Timepoint` as a
 secondary group but `Datesets/metadata.csv` has no such column) and `pcoa_bray_genus_by_geography`
@@ -172,7 +196,8 @@ recomputed quantity against those tables; all six checks currently pass, with Kr
   matching ASV columns when a filtered-feature list is supplied.
 - Beta diversity runs on a separate `ps_beta` object restricted to `filters.beta_top_taxa` (100)
   genera; distances are cached to `analysis_results/cache/*.rds` and reused across Bray-Curtis,
-  Jaccard, NMDS, PCoA, PERMANOVA, and PERMDISP.
+  Jaccard, NMDS, PCoA and PERMANOVA. Dispersion (PERMDISP) is not tested in the R pipeline
+  (removed 2026-10-20 at the user's request); the validation path still recomputes it.
 - `memory.use_mori` / `memory.mirai_workers` in the config gate an optional `mori::share()` +
   `mirai` shared-memory backend; it must stay optional.
 
@@ -181,7 +206,9 @@ recomputed quantity against those tables; all six checks currently pass, with Kr
 - Sample key is **`run_accession`** throughout. `load_metadata()` tries UTF-8 then falls back to
   `latin-1` (author names contain accented characters) and drops `Unnamed:` columns.
 - Grouping: `Developmental_Stage` (Seeds vs Seedlings) is primary; `study_alias`,
-  `Scientific_Name`, `Geography`, `Timepoint` are secondary. Because this is a meta-analysis,
+  `Scientific_Name`, `Timepoint` are secondary. Host is tested only as plant family and host genus (cultivar and, outside the host-phylogeny and host-breadth analyses, host species removed 2026-10-22 at the user's request). Country (`Geography`) is description only
+  (map and tables of Figure 1): it is not a variable in any test (removed 2026-10-19
+  at the user's request). Because this is a meta-analysis,
   `study_alias` is a confounder, not just another factor — per-study effect sizes
   (`per_study_effect_sizes()`) feed `random_effects_meta()` for forest plots.
 - Taxonomy filtering keeps Bacteria only and drops Chloroplast (order), Mitochondria (family), and

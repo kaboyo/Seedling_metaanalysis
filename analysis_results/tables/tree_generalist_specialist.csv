@@ -1,0 +1,1355 @@
+ASV,Phylum,Genus,host_class,n_hosts,predicted_oxygen_use,Apiaceae,Asteraceae,Brassicaceae,Fabaceae,Poaceae,Solanaceae
+ASV 1 : 515404b3833ab29b77a7a6293b989216,Actinobacteriota,Saccharopolyspora,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2 : 146195f72933e590d98b89c38d6eda33,Actinobacteriota,Klenkia,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 3 : b8c4ed03d7d91546b9f6ad80b80135a3,Actinobacteriota,Blastococcus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 5 : ea42d04c88f5c0820d2dba0aebce86da,Actinobacteriota,Blastococcus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 7 : cff60bed359051dd65fe850fd0bd07e1,Actinobacteriota,Rhodococcus,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 34 : 8d010eac44909c4d2abe7931c6cef8df,Actinobacteriota,Rhodococcus,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 35 : b2454af7c713c8f76c857b34224ae21f,Actinobacteriota,Rhodococcus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 39 : 09de3dde6c465b74bcb8e6f8a478e4e0,Actinobacteriota,Rhodococcus,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 66 : 694f805cf06999b51d9eb984569d9e85,Actinobacteriota,Microbacteriaceae,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 67 : 0fa49142751c13e7e8f6ac697763f94e,Actinobacteriota,Frondihabitans,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 68 : fc7938a34f6b8fd1f42d861847a91a91,Actinobacteriota,Frondihabitans,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 71 : cf8a5d6878f222c00471bfd5203031ab,Actinobacteriota,Microbacteriaceae,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 72 : e2589adc85d2ad2e2d65bfd1c3fcfa35,Actinobacteriota,Leifsonia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 77 : dda790b231dac999691aba49ec5b7d5c,Actinobacteriota,Frondihabitans,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 78 : e753eff98de96841ef1d491589773c94,Actinobacteriota,Frondihabitans,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 80 : bd969543907f908045c156e352251863,Actinobacteriota,Microbacteriaceae,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 81 : 2b5b9e801ddbc2f28dac5d98f39d7a9f,Actinobacteriota,Frondihabitans,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 82 : fdad6a85a10b6db6cec485327a0edaff,Actinobacteriota,Frondihabitans,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 86 : e29184bbe1ae9db0e5c95bc98d611791,Actinobacteriota,Frigoribacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 87 : 56b81411b11e6030a0875eeb373a52d2,Actinobacteriota,Frigoribacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 88 : b163a0c87201b9e313755c62b7d5cadd,Actinobacteriota,Microbacteriaceae,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 89 : 5ac666df173cb8972cdbe6a129d18b97,Actinobacteriota,Frigoribacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 90 : 5c7bf45c446b1528780b0db82c4ce0ba,Actinobacteriota,Frigoribacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 91 : b061eab0969a21ca7d3304e527eca041,Actinobacteriota,Frigoribacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 92 : 894d23cae6d3fcf9e0db83cc0db364cd,Actinobacteriota,Frondihabitans,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 93 : 908615fff5be37d504dc9ddbdc7e4b22,Actinobacteriota,Frigoribacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 94 : 3f803c6a182a7484832b04d0550ce269,Actinobacteriota,Kineococcus,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 98 : befd9c7580d0eeb76de178eaf089d4df,Actinobacteriota,Kineococcus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 108 : d66ddcf4c482277819ef5e864c0c976b,Actinobacteriota,Quadrisphaera,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 110 : 4525d87b2aad8b69aec06e57b34dd87b,Actinobacteriota,Streptomyces,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 127 : c49d0f2f4cc8c67198c6e128f0ee704f,Actinobacteriota,Streptomyces,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 132 : 517ec93b563cd9303b71a6562834b39a,Actinobacteriota,Brevibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 133 : 3d1cd2060471ac0f1b09cdf8637430b8,Actinobacteriota,Brevibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 134 : 493220a81c1395a6c181f9846e7adac4,Actinobacteriota,Brevibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 135 : c48eee94428d70d09aac8654eca8e27f,Actinobacteriota,Brevibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 138 : 014dc21f3e8a9700b7ad26e9c418dd78,Actinobacteriota,Brachybacterium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 139 : 9f173ded7d0d3296f9c8dd1e0b437894,Actinobacteriota,Brachybacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 141 : c1c2319d0cc6dbfc5855669bb9bbfc2c,Actinobacteriota,Brachybacterium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 142 : 6341aae5c9141dc72eaf6a375c36a92e,Actinobacteriota,Brachybacterium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 144 : c48997a8c5a8413ad8ae65f7562a1063,Actinobacteriota,Brachybacterium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 157 : d5c07034883f1dd9f2016a30ac622515,Actinobacteriota,Sanguibacter,Host generalist,6,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 169 : 71b7bc617d7daf228f48f7492a7e58e9,Actinobacteriota,Serinibacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 172 : 00449567f2e6c1a9e9ae900fb703e436,Actinobacteriota,Serinibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 173 : c1fb9c5276758eb1a415b768601040f7,Actinobacteriota,Cellulomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 174 : d892d40bc79d0c356bd2886ce8d120ee,Actinobacteriota,Cellulomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 179 : 6f3b5c2b84860cdec9290349880e6193,Actinobacteriota,Clavibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 186 : cfed1f6f47e5fea60d8367e16c13140e,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 187 : 5c2586815a4b57fb70384794457c9a3a,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 188 : 361aaaa433ac3746096fd3490ab90a5a,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 189 : 043f7586d73fff12c1bf596b03505ad9,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 190 : 564f3420d7e3227d19340cc8cac97a30,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 192 : 46f0ee51310d89d76b4c19557925d01d,Actinobacteriota,Schumannella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 208 : 3c40a6628726a88ac30702791538d0c7,Actinobacteriota,Microbacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 216 : eec241c3844e90fd9f12b955dd34b8ea,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 217 : 9c670bffedec4173bf6274436ebecbc8,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 223 : d7afdeea87a63dfd8e366032a0afc40f,Actinobacteriota,Diaminobutyricimonas,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 226 : 372652a6bb53287cd0b4684c0a110b15,Actinobacteriota,Agromyces,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 227 : 09fcfc99232a8211fc24af58233d5f0d,Actinobacteriota,Agromyces,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 230 : 68fca501532f4911e8295f14f4098c63,Actinobacteriota,Rathayibacter,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 253 : a6ba1ddd3378e9fb91f9a8685fd865bf,Actinobacteriota,Curtobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 254 : 01149117f02319f2f7e18d2a76b11562,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 256 : 4bd68bbeb4a74a2f481ee61f0c2797fb,Actinobacteriota,Curtobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 257 : 9de2546e41da8232db3cb2d6c876d5e7,Actinobacteriota,Curtobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 283 : 63d96765d185f8ce65a557446a57285a,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 284 : 25497ad2d6667d529f6dd078cf115d7b,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 285 : 84ac452fb92c5375c7ee3aef7fb89e3e,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 286 : b7211ad1b300bb5e2fcd677ff3d4f8e5,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 287 : 763d3803acfcfc7e2de1453a352cebab,Actinobacteriota,Arthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 297 : 6ab7907310adfc2a1947e5e4d23b7855,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 298 : 90edf3556e4068b2106aa977681e681d,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 299 : 504dd758e9341ec287449f5414e775a5,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 300 : 3b7b05b9aa6fb8be658a0390f6330fc7,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 302 : ca52e0ac788a83d5aa9bd76666e623f6,Actinobacteriota,Arthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 303 : 9e4422cc69c72721ac777f4a53b29c36,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 304 : 8bf9da688f2c10924022f0f00bc76b82,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 305 : a716c7869bbacc6c89086f1825bf09a4,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 306 : 49aee11bd1846153699266f3bbcc0bab,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 307 : 04413ce2fba5827dfd7e0900d22944e3,Actinobacteriota,Arthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 308 : a20eb37d50abf4ef13197bd4a0ea8c84,Actinobacteriota,Arthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 311 : d7969032672b49ec1614196e1d3732ff,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 313 : 603a1ce1f8977cafdc6a1ae1c2ad9db4,Actinobacteriota,Pseudarthrobacter,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 332 : 7d2889d11ad7b8e6dde0a6b58bc50c27,Actinobacteriota,Pseudarthrobacter,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 333 : 5d550e83e364b390a1ceb9398683b9f5,Actinobacteriota,Pseudarthrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 342 : af109cf601e93bfd8b8b4f6da29eb30d,Actinobacteriota,Cutibacterium,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 354 : 6ef30ad70950c7994898405da4aa1f2a,Actinobacteriota,Nocardioides,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 355 : 86cdce355c8d35e9a5f9ff6f2c5c476a,Actinobacteriota,Nocardioides,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 357 : 50fb93dad525b440dc193bc631872eba,Actinobacteriota,Nocardioides,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 358 : 43198a949f79d6f51bbed979260a1f6e,Actinobacteriota,Nocardioides,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 359 : 95cb8d50efe6a49f60d2928bd1b57745,Actinobacteriota,Nocardiopsis,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 363 : 699326ed0d62e32d53f72d81e66719e9,Actinobacteriota,Nocardiopsis,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 365 : 2d10bf1bb7e2481d142e806beacbda47,Actinobacteriota,Nocardiopsis,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 366 : c6d338e9604be70d8140ea72728934fb,Actinobacteriota,Nocardiopsis,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 367 : 1e7e96e3a65b48b09ccff622deb0f9aa,Myxococcota,Anaeromyxobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 368 : 8470362fab9b39cb1e85d6b20d4523ed,Myxococcota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 369 : a0b84d1e743c5c63fa472ebb0e5f920e,Myxococcota,Myxococcaceae,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 370 : e822089db6514f39f52e73510975564e,Myxococcota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 371 : 6cad158df7966582e3719c3822c427f6,Myxococcota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 372 : cefb6b4e5eb3c923fb5764ce36247945,Myxococcota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 373 : aedbcf471e8ee592b11ffe4729a69f6e,Myxococcota,mle1-27,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 374 : 0952299d87618319b70016986c74ab69,Myxococcota,Pajaroellobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 375 : 0b25dc772a69f85ed52ed792878bad1b,Myxococcota,P3OB-42,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 376 : b528a79845348b5b7831958a0b78c972,Myxococcota,P3OB-42,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 377 : cf42b637dee1ed585fccca9b967cbd35,Myxococcota,bacteriap25,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 378 : 3d8884f3e0e3b6decd0db35b6c77ca5d,Myxococcota,Haliangium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 379 : e66e1e1921a905589dd1481e7ef235f3,Bdellovibrionota,OM27_clade,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 380 : cb853386722f54216d8290ed67f77363,Desulfobacterota,Desulfovibrio,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 381 : f301064fa6ef6115efe0dc6743fe4340,Desulfobacterota,Desulfovibrio,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 382 : 7fb0be99a714695bb3886c7899ac37ba,Desulfobacterota,Desulfovibrio,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 383 : 45740f0bf677868bd005458d6252a59f,Desulfobacterota,Desulfovibrio,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 384 : c7787fbb773eb833120abd1e37d51df7,Desulfobacterota,Desulfovibrio,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 385 : 86eca251a79873cec5eafc313b8141a9,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 386 : 8599524cec26e00cc7df72e7ecc01220,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 387 : 94ee4b5af727c67e8cca33272729569a,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 388 : 6c4d9c0af1e5ee335acf31c2adea4e87,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 389 : dbb96938b50804ee7a84b7fe8d98ce78,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 390 : 0ab31f7e797f551227445f0fd40c40d2,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 391 : ef857ddde862451cb25b32631cfdc8c3,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 392 : 2a1b95f280310734ee9a73f6e4fe75e7,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 393 : 64a600c610a5d74281dd6d5e578eb52b,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 394 : d10c72b287f6e198757f9d267625d1ed,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 395 : e757bf74d488b662fe648f61045d4af8,Acidobacteriota,Luteitalea,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 397 : 4f856faa12011d6b010d1218d6af965c,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 398 : 770bea6a3aeeef6984a4cdfca3975e93,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 399 : 2610f7f6de6764188e36ee625ff434de,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 400 : 44ce6482692430da34be7e4359b43d08,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 401 : e7e7332909c66631ee441ca79af4234f,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 402 : d9727162db66dbffac8ca727a81c7182,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 403 : 27790c0d23dd1c1080c574171123ab06,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 404 : 33d58d7e02c979f21abbd21a38c25657,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 405 : 0921bfaaf0aa55277f6156005457a46c,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 406 : 6264b06be7cf94c79b21897849e4b434,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 407 : cc9b06d29ba382d49e86f9a1e8c561d2,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 408 : 69304d479a6cbf8e4d348d51bbdffe7a,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 409 : 9bce72f67038518bec2e7db4108551af,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 410 : 67588f6f0b9b141bc5f37204a50da5bf,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 411 : 956f15a69b1fac98cc58d6143a5d75d8,Acidobacteriota,Luteitalea,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 412 : d58b6cf2e9af6364330b92566e14d59e,Acidobacteriota,Vicinamibacter,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 414 : 337b14e1938677e488fda429b20b7e54,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 415 : f0a46c6d8eb7f519a79113d33390d4d6,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 416 : 887070b273e401be76c2a78bdc542aa0,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 417 : 4fbbbe7148d8ec0b18e6731be1e2b8ca,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 418 : 1ee51409a28fff65c0ada46159ccac3f,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 419 : 80d14e7271265765ba657c10a59c4692,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 420 : 493e67e00eb01c4232009a7ebf0f09cc,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 421 : c856e83fd500753d3d6723ca0ce6be7a,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 422 : 6d01029368e4cc381d8e748ea1285708,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 423 : ddb7424c2d7c7513f56e68c80305e3ca,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 424 : ad145b5c8b7c9b7ffb1c647fa0da640d,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 425 : 8e12e34659aeec298c5981d6534c055f,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 426 : 3762c2b1e91eb8ff683a092954d47027,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 427 : bd24b7966ce594d3534ff34d53c3e8da,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 428 : 0a60184eb11318c87e1a2328f8c95582,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 429 : f8cefd85f37758531fffe1f5fa4744b7,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 430 : 21ada0c9a8bf78e70d72e0cd0b7be5cb,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 431 : cc428be3080c07135e48a37bc55c3556,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 432 : bb1131467162ed41aff22490cc8f2979,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 433 : 10f0461cb8a244c14aa2fb73e127e9e5,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 434 : c7a766d06d80ef6e2ad150327a7cd0e9,Acidobacteriota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 436 : 317865ea6c50e83c72a4d779d02d8b58,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 437 : de31bb03f3d7398695aa04e993a77e12,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 438 : 9b76e1edd022417a8f7e0722ca707f2c,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 439 : f99ccaaf35afbf4166f84ccb6c357d31,Acidobacteriota,Vicinamibacteraceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 440 : 4b33522f5e5325271b522497cc6ff873,Acidobacteriota,Subgroup_17,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 441 : 26d3b88219bfb6a787c3ded6b2e83596,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 442 : 73c809ac5107d2b83a165033c3816575,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 443 : 0a51bfb8e6104bbfba2d850e124b8dbb,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 444 : 967b49e6487d86b1f97ad6a685716edf,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 445 : f6c7eed67ed0c3db8e5ada7b189f9dc6,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 446 : 36d691af6b6c720d729801fb9f46a384,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 447 : 3e5239fc12554565607b0987be7077bf,Planctomycetota,WD2101_soil_group,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 448 : c9cdb616b1f52d7bcedfdac7a59cdd47,Planctomycetota,WD2101_soil_group,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 449 : e6d4e63f6baead777f61c53b03caad1d,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 450 : 5920b0b3be1452805523df5d624eeeef,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 451 : a5d168b2c676ee5b00d6b8b48fc19239,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 452 : 16bc655530eb740e8bbeb113928ac60c,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 453 : 7be8e9060944b7776dadd2d0a7445fec,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 455 : a5a1bd4689aceb78ad1b21e97eb24bc2,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 456 : e7d8240675c5b9a6d5f8794ecde8a6ef,Planctomycetota,WD2101_soil_group,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 457 : 02371acc2922a69f8d3a00b17f38f743,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 458 : a93031d75af80524132c586134517ab2,Planctomycetota,WD2101_soil_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 459 : de994266986d0ab3e22c7979a250498a,Verrucomicrobiota,Opitutus,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 460 : f3653056b4d9420571922d0a89546620,Verrucomicrobiota,Opitutus,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 461 : 4154b0133a0838307a96d8b3478c035c,Verrucomicrobiota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 462 : 34e7e6416f422b2f7bb31ddc27033669,Verrucomicrobiota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 463 : 779379862716ac9ec327747a94361e19,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 464 : 6fd8cd726f1dbf11a2a23db8fc865743,Verrucomicrobiota,Ellin517,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 465 : ed676e9231c71ca5f6fb51f4d07c0e54,Verrucomicrobiota,Pedosphaeraceae,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 466 : 439ce9f5599fd864e33bd3c083b1adad,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 467 : c9dac1b01afbcbb851165547387c3f11,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 468 : 3d71b48215993d82ea99dd556199818a,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 469 : 7ca46b993c500cd1053a9bd0de165772,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 470 : 3afcf9c45c2aa849a02825dd35f38ea6,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 471 : 39cb84e5ee52dec95ca1af1a7978ea3b,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 472 : 1972d4258dbcb7191701337402fae425,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 473 : cbc404c2284fd9d72fe9c235e6dda48e,Verrucomicrobiota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 474 : 14dd9297d242c5bb745547163a9f81ff,Verrucomicrobiota,Candidatus_Xiphinematobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 475 : 683aa05cd60809840c6b3df5742fdd12,Verrucomicrobiota,Chthoniobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 476 : d0b759748f21799300ab6edc1d2d1aa1,Verrucomicrobiota,Chthoniobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 477 : 9ff91974a21a30a1d0cf32c949bfaa31,Verrucomicrobiota,Chthoniobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 478 : 8abdf967e5b46a4af2dc34923219a392,Verrucomicrobiota,Candidatus_Udaeobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 479 : fc06f5a871a835722bb928aa431aff9b,Verrucomicrobiota,Chthoniobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 487 : 4c687e9abe11199b993e2ab668384d5c,Nitrospirota,Nitrospira,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 488 : f03c1ff4c0f4f52f62810ed5ccf71fe1,Actinobacteriota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 489 : 2f08f91319b71ff9612b3d665567644f,Actinobacteriota,Ilumatobacteraceae,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 490 : 3a54d4e72af90b9c2fd50d7d1bb0336b,Actinobacteriota,Ilumatobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 491 : 35f23ca925e88b47f5d3ec9f1c689432,Actinobacteriota,Ilumatobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 492 : e024fec14b521ebf12c9b6ec926eaf9f,Actinobacteriota,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 493 : cc2d00709262a1ad0b9dab66b6d8654f,Actinobacteriota,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 494 : e3bbf1bd6c612fbffbbf88f4dc54b805,Actinobacteriota,IMCC26256,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 495 : 376f4cbddad93a13137df6a6121abcae,Actinobacteriota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 496 : c69aa30a0b251d4ecf5114c9d4f4416d,Actinobacteriota,Rubrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 497 : 8c83fe5d444479bd20ab5ab54d7c689e,Actinobacteriota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 498 : c85d1b78dc8077b2d72f6ffe73fd4783,Actinobacteriota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 499 : e7c2c171be5ef785791bb5a3a49fb3b5,Actinobacteriota,Gaiella,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 500 : 6f3ce5d1ced34ce17da79a51daf74eed,Actinobacteriota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 501 : 7e8cecd0ced894666039f5946836f2e4,Acidobacteriota,DS-100,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 502 : 8562afaf3955423d4eda6d71b8b277d8,Acidobacteriota,RB41,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 503 : 5718174a13cca6ad8370916cb45e0132,Acidobacteriota,Elev-16S-573,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 504 : 9b37dc6429783f397d7362485a4f9873,Acidobacteriota,Stenotrophobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 506 : a652f496fb4f9105e6797d717c3926ef,Acidobacteriota,Stenotrophobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 507 : 31bcf0a5168e76f7e320deb6bca05160,Acidobacteriota,JGI_0001001-H03,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 508 : 28c9c933ef4fab3f4a31cd36416e8076,Acidobacteriota,Stenotrophobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 509 : 6ba46f2b5eac60cd35b997c34e5e1c6a,Acidobacteriota,Stenotrophobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 510 : c269de64ae2164c437a48fc858d6aa25,Acidobacteriota,11-24,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 511 : fdbd907cb724db987496a9d1d58ef492,Acidobacteriota,Subgroup_25,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 512 : ca89ab3792c3e5fbb3ae778b51c59d1d,Sumerlaeota,Sumerlaea,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 513 : aef9ba0908439d0896ca8cfc4db4dbcf,Chloroflexi,Gitt-GS-136,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 514 : d63e3ee111f0d41a61942a4d040b4d1a,Chloroflexi,Gitt-GS-136,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 515 : 25648685986d7c6c59055298cc1f672b,Chloroflexi,KD4-96,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 517 : c39e15de7f8295ecfed0969cd53b2126,Chloroflexi,KD4-96,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 518 : bffd6e7320d0aa746feb22974f1388eb,Chloroflexi,KD4-96,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 519 : 8aaaa8d82e84f0578c2ed71c52346da9,Chloroflexi,KD4-96,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 520 : 81ebc96bb244755085aef90afd8435af,Chloroflexi,KD4-96,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 521 : 8a99025ba9415f84c3820348289ab75a,Acidobacteriota,Bryobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 522 : b019dd54338af8e51cf0d4cc28ded009,Acidobacteriota,Bryobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 523 : 92198387a446dac7a0bc49a195bfa721,Planctomycetota,Candidatus_Kuenenia,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 524 : 132ffe9a542685a423a59236950b46b0,Myxococcota,bacteriap25,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 525 : e05e62b810a559e67a88ee632976a4ea,Myxococcota,bacteriap25,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 526 : feca81a7fe343c148a92304ce19b0084,Gemmatimonadota,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 527 : e0e0a3865c878986a3a82124db7bbfc9,Gemmatimonadota,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 528 : 1ba88e448032b8389f537bd7ca21ed7f,Gemmatimonadota,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 532 : dbab222fa7d391384320dafcc46fccf5,Planctomycetota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 533 : d7e7a03a16ebcaaa0a6f7ce46811f84d,Planctomycetota,Tundrisphaera,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 534 : 68272991438b211c4b9f653c55a25651,Planctomycetota,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 535 : 3b0d7ea03342477888a73fa7fe55f717,Planctomycetota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 536 : 72def892cc3af0e30e69f475aa16dc62,Planctomycetota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 537 : e0a789e8a8c319261322c2e5b892b72f,Planctomycetota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 538 : e729d0fc77f098941a585f0db1bbcb4c,Planctomycetota,Rhodopirellula,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 539 : febfb4b28c826ca8aebab60c55e503e5,Planctomycetota,Pir4_lineage,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 540 : d554f717d25d5f90590ec252d3c67d0d,Methylomirabilota,Rokubacteriales,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 541 : 0086fa53b5f42b4c0c233a67c90836bc,Methylomirabilota,Rokubacteriales,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 542 : d51b0288df561c2acad1fcd1af2e6b2c,Methylomirabilota,Rokubacteriales,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 543 : 6b87bba29fef340e0dde5ce404fe7c19,FCPU426,FCPU426,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 544 : 478d04cabd3290a47509bddb00bdacc0,FCPU426,FCPU426,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 545 : c62e64a0c62afd400b35226ec9b50e8f,Gemmatimonadota,S0134_terrestrial_group,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 546 : 3be844d5b9ef884fcbf2c9195aac45f9,Gemmatimonadota,Longimicrobiaceae,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 548 : adbbb85bea0c018e519c8cc8ddf12e13,Armatimonadota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 549 : 751da794f3162dbcb44c540641d1a077,Armatimonadota,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 550 : 8413c208cd202bc5df988c40ecd48e0f,Chloroflexi,C0119,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 551 : 9a0fe2cda7a62be392d3d28ccb98cdc5,Chloroflexi,SJA-15,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 552 : c484a020638da1bd01cd2df6f1cdf307,Chloroflexi,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 553 : 10b03d5b098927f6a02f95e2d6f36105,Chloroflexi,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 554 : 00d95acb3cff5cfe27f89e3e91213611,Chloroflexi,OLB13,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 555 : 3443a946876aa9c922d9c50c6963b782,Chloroflexi,A4b,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 556 : e4d0937b69713698efbb066f6eb82bce,Chloroflexi,A4b,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 557 : 2dcd591300d2ce80ca6d98aba8965aa8,Chloroflexi,AKIW781,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 558 : 31d0e02fe7dea959901edd22ed875e11,Chloroflexi,AKYG1722,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 559 : e84f141e50806d74f2e46162ed0c552f,Chloroflexi,JG30-KF-CM45,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 560 : 1a0db85f8cd3acf8f51934e333fb073d,Chloroflexi,TK10,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 561 : ed747edf937dcda2641f02af3683ea7a,Chloroflexi,TK10,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 562 : 4bf92e2ec8708d1adfc8515877e7b657,Chloroflexi,TK10,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 563 : 8b49e37e3c87b34b3cf8fa98e87b9e56,Chloroflexi,TK10,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 564 : 655a92f7490158af04e61b724d720cbb,Chloroflexi,JG30-KF-CM66,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 565 : a09866bd0a8a9eb09d730fff1bc63e7b,Chloroflexi,JG30-KF-CM66,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 566 : 71a5753d4ed729be6a99181a1a8b2af3,Chloroflexi,OLB14,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 567 : 298e59ed47623a59c93050f8abafdf88,Chloroflexi,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 568 : 3da7ac3acd3262ea908d830836f822ad,Armatimonadota,Armatimonadales,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 569 : f6e00f86f8e59a7b131694ba0821efb9,Armatimonadota,Armatimonas,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 572 : 5f2548d67c8bd16e7397f88fad807197,Firmicutes,Spiroplasma,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 573 : f6ad1bdd2d398ad50b6484f1bd900b19,Firmicutes,Faecalibaculum,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 578 : a2244adbf7b994366ac327e35fc1ceb1,Firmicutes,Streptococcus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 598 : d114fb4c335125128be28401522dd41a,Firmicutes,Lactococcus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 599 : 63165aabfe252f695caa19f282375e06,Firmicutes,Lactococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 600 : 35cfe09337e288473ae84ac738abf2e7,Firmicutes,Lactococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 603 : 1c952c4f3636cb2dc8935096e39085c5,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 604 : 92840aa9af386d17c72adf6da6b36511,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 605 : 2a2cd9817264eed6cb2db01618ae156e,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 606 : 95f9081f19b91e6f978cc4fdd2282d16,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 607 : 535976fd0c4adb39dec4566af333faa9,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 608 : df59a336fdb309424b75dade5f1fea32,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 611 : 1469653e82f0361a67c10e5ec70b9bd0,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 620 : 28f467e631032bc064ea9bf25abb25a3,Firmicutes,Solibacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 623 : 31c289176cec20031daddc29621b138d,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 624 : daaec15dc9855156770a5ee7ec5c81e4,Firmicutes,Turicibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 625 : b5980931fa3ec97aac8185639c5aa0fb,Firmicutes,Turicibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 629 : 4aaa6487088b5acc8d2923865b0d3f1e,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 630 : 2afcc303b2540fa208b0d2ddf704212e,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 631 : f2bbdabb3218b6c0bac5fb988ad2a374,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 639 : 9c9ae81141788affc9852a16e5d6e2c4,Firmicutes,Bacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 641 : 0a45de1f0b92a201ed762e292aed7ccc,Firmicutes,Bacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 657 : d07add659a53b4697a0f51d0332f7575,Firmicutes,Staphylococcus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 658 : 0fef413fbd24152aacb396dc83d202cd,Firmicutes,Staphylococcaceae,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 660 : 2dacc836245df77831a7b534d9bc2a75,Firmicutes,Staphylococcus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 661 : b4c361a1a2fc72e40e86b59c5daaa6dc,Firmicutes,Staphylococcaceae,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 667 : 1c8d5717456cf60881d1826a3380e16c,Firmicutes,Staphylococcus,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 668 : 59bb2968a686bc053160ee2abcb541ca,Firmicutes,Staphylococcus,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 673 : 7ff153e9c004926a43dcecefc51cd5d2,Firmicutes,Staphylococcus,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 678 : 4e4c5cd13eb19d445bd2ee4bd71a7053,Firmicutes,Staphylococcus,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 679 : 426e95e4e41aa0a7c290b9bc0889754f,Firmicutes,Staphylococcus,Host generalist,6,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 683 : 9e229e8729a1f0db63b51bbb360fffb2,Firmicutes,Staphylococcus,Host generalist,7,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 684 : 05e25869b50d6491d88718723b7b1bc6,Firmicutes,Staphylococcus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 690 : 91729d7c94b96bc181c1090ea670453d,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 691 : 77bde7ac9d08b0e4cb91078af624d31d,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 693 : 9be1b43b9c1ace673d6a734362605bdd,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 695 : b383a0f98e44fe8a7452ebf944105c48,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 696 : a0927d5a3925e1e22bcd71ba291d6ef0,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 697 : ebb63f97f6410cc1d5691dc0f8a32ecc,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 713 : af7aa0fc0488b52a0b2f03b235837079,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 723 : f4367de8194454c4667ac27dcc80fe92,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 724 : f8bfd6ac0f2f109b8424863d175621e8,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 726 : feff6031d205234f1f9057d7838e76c8,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 729 : fd1098cd571337c869bc804919b0f630,Firmicutes,Sporosarcina,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 744 : a0ae4f72882f3d8291e53fe7d42566c9,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 747 : b67006200f440123ea7c71b57e304cf1,Firmicutes,Planococcus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 752 : a640cbdccefc0744d84aa41dff1f1e90,Firmicutes,Planococcus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 758 : b3bf9b6190c6e6940f7746f7df02e552,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 759 : 8a31c028cb9ed974d954da796dea40cb,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 760 : 0a0256973d8ff5b94395bf808a00e81c,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 761 : 108b88411370d75b42c9bdbe4e263857,Firmicutes,Domibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 762 : 0677c5d745525e813b050c5b09d365bb,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 764 : bc690029a91dcc10db34c95d76d3d25d,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 765 : a7634c9fdc21b123ac3a67432d3a5a0e,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 766 : fbb77ca5af017d1eda59ca6a1c05c521,Firmicutes,Exiguobacterium,Host generalist,7,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 767 : 44124f02c4ff1a4ca1df2ab705b22086,Firmicutes,Exiguobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 770 : b8c65c70691548918c866de57aa01562,Firmicutes,Exiguobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 773 : 4fe3019d6d2b372244cece60d1e4be7a,Firmicutes,Exiguobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 776 : f21d25664e28a237d47024f27e80cd0b,Firmicutes,Exiguobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 777 : 6f8340b1648604113fc685724d35aefb,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 778 : a0b8645fdd220172798d50024e26fa38,Firmicutes,Exiguobacterium,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 779 : e6875fb3c36af502c436c8b03c86b8b7,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 780 : 56aa67b3a8cdd95d24bef401872d49f0,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 782 : 9228cdb5dd79d11fe96d44ed2b406420,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 783 : 83840f26c89e5995ca289157b62fc3ee,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 786 : 0dcc10691abb8736134132f3166afeb6,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 788 : 66c803bd5833f9ab29204db87ee041b7,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 789 : a5c06fb7901873f2ec63b38bea44295e,Firmicutes,Exiguobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 793 : a2a129fb0c1efccbc495919da7971488,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 796 : b50e8a26ba8185a40fe67677ec8facdb,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 797 : dcc117d5b6d0440929bd0ef198244cd6,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 800 : 5251e249761b2210c563b452d01b0afe,Firmicutes,Bacillus,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 801 : 0825bc388bc8cab872476a38fb7b8435,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 803 : 18d4dd76b8de025903caf42d02b5ce27,Firmicutes,Bacillus,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 806 : abaa7e57b5edb2f65f16b8127b008865,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 807 : 8b96de7d3e8f983ab8ddd27bbd45d1e8,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 808 : eddf68ab16516ff137c7587abbe1d6ed,Firmicutes,Bacillus,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 811 : d6f59428925e984358e47daf20715abf,Firmicutes,Bacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 813 : 17eb5f71483183061f56b89fac05ceae,Firmicutes,Bacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 814 : 8327feae65c5b814cd8e0d5a5cd01060,Firmicutes,Enterococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 815 : f0266522fdc33b87f763d9f2b7fe498a,Firmicutes,Enterococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 816 : 73fe74833ba0f218b0161a83bde9c5da,Firmicutes,Enterococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 817 : 88fb1936780e46b5aabf0e296b7fcd2d,Firmicutes,Enterococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 818 : 22d23d7974aed4cca1781e52b8ca2f77,Firmicutes,Enterococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 819 : 3a5f099a662dc4f62a1b37e1eba1588a,Firmicutes,Enterococcus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 821 : 48472c7310804351e4b26d61fb76bc2e,Firmicutes,Carnobacterium,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 824 : f5dd22bcc75775dbbbff45ff6917c750,Firmicutes,Dolosigranulum,Host specialist,1,Anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 825 : b05cad881995a3d5767d54ed1aa5abf5,Firmicutes,Dolosigranulum,Host specialist,1,Anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 827 : 832ef2087adeb9e4cc816600b055cb56,Firmicutes,Dolosigranulum,Host specialist,1,Anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 829 : 0abb356d9dedc1c54159c3a158d29eb2,Firmicutes,Dolosigranulum,Host specialist,1,Anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 830 : b3f74a2e1bd30955529ddca7b9e0fa37,Firmicutes,Lactobacillus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 831 : e1481d9ad61d5be56f79ee97e18d2dd8,Firmicutes,Lactobacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 832 : 5861ab0625dfdd7175c8de5fa1cdd31d,Firmicutes,Lactobacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 833 : eb2190bc19ca7de278bb918b774dc07b,Firmicutes,Lactobacillus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 834 : d041d9308e01f4360cedb1efcd05857f,Firmicutes,Lactobacillus,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 836 : ba190cbaf6752710b1895e5b76ebc383,Firmicutes,Weissella,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 837 : 88d7f2d77979a4b3dfdfafa15c330e9e,Firmicutes,Weissella,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 839 : 2196e25eb0b8187130aacc217e223a46,Firmicutes,Anaerocolumna,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 840 : eac8731fbff44802dffee728e0e8a520,Firmicutes,Lachnospiraceae_NK4A136_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 841 : 4848e0ec9978f8585cb530ff7d0a3dbd,Firmicutes,Lachnospiraceae_NK4A136_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 842 : 17579f50a98bba3610707dacd6df9875,Firmicutes,Lachnospiraceae_NK4A136_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 843 : f23469223e52c71c570adc727e2a0ef1,Firmicutes,Clostridium_sensu_stricto_1,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 844 : bd5a04baae7e047b82923910cdc01e9d,Firmicutes,Clostridium_sensu_stricto_1,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 845 : 4e2ba7432fac27a2857ad296d9977ce8,Firmicutes,Clostridium_sensu_stricto_1,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 848 : 101055c758a616428018175658ac0808,Firmicutes,Clostridium_sensu_stricto_1,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 849 : 7b76ad8c6e9fac88fb20133b348abd1a,Firmicutes,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 850 : ddf94483144a2f2b43838d1e9553f882,Firmicutes,uncultured,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 853 : 2d60c5941685b39719a9ab2db83b3b05,Firmicutes,Peptoniphilus,Host specialist,1,Anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 856 : 6f6b39ccd1ee0f0b2a8271bd4162c9f1,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 857 : a55478f632263ea034c8e0d7dd4871bf,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 858 : 6905abc549a14d776bc5022869d6c2a1,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 861 : a3bab949487c9e0a00f70e67fa738084,Firmicutes,Tumebacillus,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 862 : 1dddd2302c527ddf9dd77f827e39a96f,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 863 : 8b036dd3327878e5dfce766efc4205b7,Firmicutes,Tumebacillus,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 864 : facfc18e0227542dd620453bef70741a,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 865 : 65eda82f57f7cf113d0c7665c66b9170,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 866 : 9921948115514b264af12eb14685e200,Firmicutes,Tumebacillus,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 867 : b90b3a167f3ebb25b49f88ef80bb1d6e,Firmicutes,Tumebacillus,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 869 : 9a47d7c5b1470a224bf2dd38389cef17,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 870 : 3fcb22961a6b7289f95472d822d28591,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 871 : c65a0cd6c09e26f3e1c710d2ac819b5a,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 872 : d1adc665c21ecb15db983a0c309843c6,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 873 : f3afaa59b365614546d64675f40235a9,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 874 : 991a50799f257fc1c148de636a050ad4,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 875 : f50499815eabb3a175db30609fd41479,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 876 : 952ce6d6750408d93407873b994aa675,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 877 : a3c60c802f74c8f2ee8498a6083b808f,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 878 : 4defb6f2d16b7ba1e7baf695edf165af,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 879 : ee8065fef3dc7d37cbfebbb5872129a3,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 880 : 740d8ac1a40f12fb314e0b011ca24a03,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 881 : 23053d46ca5c5729043c94cece722558,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 884 : 89e52d6f9bd03cad6e02f67c7fc893c7,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 885 : 021776275c6edf2c33936a9fd348a086,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 892 : feb536c2b3865ee3aaa018e58650119e,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 893 : db1dd17a7ff61cf926ea9945e1a66fc7,Firmicutes,Brevibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 894 : f5b255f37ca57ded236d0a8ed73af9cf,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 895 : 8c833efa5f3d9dfd58d385eaf85db52d,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 896 : 475f4aaa8af89d2c041a813f16efd09d,Firmicutes,Paenibacillus,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 897 : 23e73462ee0513abb472e4c8173bf1dd,Firmicutes,Paenibacillus,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 898 : dc6f629169b2c7592fd2fc2062217a8b,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 899 : 294e2a760698995309d812c19913f7e6,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 900 : 2f01e178a27cc462499d0482100a7837,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 902 : acaa98b5f63c1a402ecbea10fae75f73,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 909 : 4a5dda09b92f709bd2f91411ade1c9e7,Firmicutes,Paenibacillus,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 919 : 61ba00ec451d7cfcbf1b70794494e4b5,Firmicutes,Paenibacillus,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 920 : cedeff0e5e6d309075ea4dd7235071ad,Firmicutes,Paenibacillus,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 921 : 4cd0e79d62c58d8bae2f76e1b1a423a0,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 922 : 27f8c57bcb5a32b92e13e65c479511e9,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 925 : 1aadec5bb68a99d9d469e337e6aaa9cd,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 926 : dee4217b4501c00cf7b62eac9e9bc8b9,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 927 : c262225c533377e35bd4e45eab4393e2,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 935 : 68cb4d923f982e6626202fb007d5274f,Firmicutes,Paenibacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 936 : bc56bc77c1e7a1e067ec9c3ca442e3b0,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 937 : 3fa09209c9019a7f6091642d2a5f4187,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 938 : 4be6768d77bafbf922c12cb04c6e841f,Firmicutes,Paenibacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 939 : 0f65fc02b722b0c980c9312e6f9e9f3b,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 941 : 26b5bc6d783f570f82a4e484661e9403,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE
+ASV 943 : 1ee3c120febcda70b14332a67c4fa5ba,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 944 : 5f4f2e5f60abd4bc7c072d3416e61941,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 945 : 7d041df433f6676b18a5b2916bcfb95b,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 948 : 563a67da7fcb2ec8662803a0f6f41f78,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 949 : 818212039356ffce84418a9e5e59e180,Firmicutes,Paenibacillus,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 951 : 99f8e7dab8e5786ee2e687c6949097cb,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 958 : dbf5bd9bdb24832debb0fc01a65bb36d,Firmicutes,Paenibacillus,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 959 : 6f908723c200c6d06815be03b87ec522,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 964 : d4cbfc18dbf6af7bd42652f6907e45ed,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 965 : 99f3c41110778146181d2943199a402f,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 966 : 1fd4acd16f8f218329f05139e72253a9,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 967 : 5ae32e8bd3567198ca921d9f7078fcce,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 968 : fda44b2ffb749c199b845b5bef40ada7,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 970 : 7e3c9b5d25377c891d11981d1eb61428,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 972 : 0f09998f67118cba87d46286b76d193c,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 973 : aca3b536a262ef2f5ed492e111160dee,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 974 : 766dd5c2526a43e39ef1523abaeab832,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 975 : 7fed5da6b10c1368f69f57d3659a3d1e,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 976 : b0cab519a7f6ab013bbe571f3c56c7ad,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 977 : c349ebf3f9e29a11fd00eb7004923d96,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 978 : fd989cc6b1f34a24bcbb49aa914dca12,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 979 : 7d49ab138848c70c55a5cbd28871e97a,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 983 : 21b19f64e6affc9531a58a1611b5c980,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 986 : df877970020e6887ddc2e536972d03ef,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 988 : 8d8e40893b5afc03c64153297c00f2d4,Firmicutes,Paenibacillus,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 991 : 9a16b13109f6cd0affa2ceeb95d56fde,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 992 : 46812c010e4c813858b7af02323fff09,Firmicutes,Paenibacillus,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 994 : d81f0023f81f9e13abb820c99529ea27,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 996 : fc38b9a5a9bb18378b8b524fcec6d340,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 998 : 86de591cf871a0ac6f8286456f86a1be,Firmicutes,Paenibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 999 : 9b9c9a82270065025609244c3c658cb4,Firmicutes,Cohnella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1018 : 37c04e9285ba4fbcbe37282e8e1100eb,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1019 : 231c996000c45b4c4cc15dd3cb2dbaa7,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1020 : d4c217e0ae28535f28d2ddee5dc8a0c9,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1021 : c2996d1099dde672bc71560e27a9de49,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1023 : 52efa5417f31eff63a67abb3acb1215e,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1029 : 009aed121a4626abf9277beff02418a1,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1031 : b9e6290688959e7c2b5accfc52ab6c21,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1032 : 857805dbb2ebd60a913603dcce4b483a,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1034 : a50c50bac1a4fa3df6e7a0fb54517261,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1035 : f8e8139512c122295420b1af3ac0b1eb,Firmicutes,Saccharibacillus,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1041 : ade0f8a47688c3103a4b5b27a8682676,Proteobacteria,Woeseia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1042 : ac958b04ee131b08eed1b3b286db2265,Proteobacteria,Steroidobacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1043 : 73ff0a30a35907b93f8e4e13e4874bf0,Proteobacteria,Steroidobacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1044 : 02aca0523cb4d38278cb9b2eca420fa1,Proteobacteria,Steroidobacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1045 : e16d86b7fe770de88e7e8fd0fb6c8b5a,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1046 : 2dbc1777a3d602a5d81f1a8df3da37f7,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1047 : 6cf38b3b304ccd7a52b43b0f5e1b1723,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1048 : 524f945306ac2c325b6027df82cc10c2,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1049 : 3d67411a8df43090196f48b82ee031d1,Proteobacteria,Acidibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1050 : 9bc9063a0460031a80b560775c35bc39,Proteobacteria,Acidibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1051 : 08b96fe613f84bdf8b3b8218c31574a0,Proteobacteria,Acidibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1052 : bad02fb4b97f30182ffe6e934f54ad5f,Proteobacteria,CCD24,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1053 : 354b4d2bbedce16d1a4f778f6770c61d,Proteobacteria,CCD24,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1054 : 5bc2d5bea3cb6de680da2fe29cce055c,Proteobacteria,PLTA13,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1055 : 042fb10760c88fa046cf26dacae3ac09,Proteobacteria,Buchnera,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1056 : 97aae3123fa1839312c60bcfc02a5ae4,Proteobacteria,Buchnera,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1068 : 573e97e673257ddf83dba39eb3581eeb,Proteobacteria,Enhydrobacter,Host generalist,7,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1069 : 198557024ff68287753d60dbaa7db219,Proteobacteria,Enhydrobacter,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1075 : 3f1a732f9f067da040d9ce8b03e24d84,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1077 : dd15cc49b2ad03fa4dcf13b549aa9a47,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1078 : b7567a1e8444e7c19c259631fcb44c67,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1079 : dca8e5a50433d3f14bc8cd62184df801,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1080 : c83b4dcb8f41fd68e5d6c75cddc76a0e,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1081 : 2085a9bb30b04092830a48807a5b9974,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1083 : 551e7423c41be3b2e0b26d3637449574,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1084 : 4d237027dd7b22442d71e98ef6d35bf5,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1086 : bed912e2c9e23db3e9be6fa9074fa24a,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1087 : c0b9998d2d84aeaf44e248bda5400987,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1088 : 1508c5c1cfb1a6f872e4ecb59856c8c6,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1089 : e27d7465e0204aabd7ef9cb1fbefc022,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1090 : ac61dc691424c4bf7c4c0c7b7b0c9bfb,Proteobacteria,Enhydrobacter,Host specialist,1,Aerobic,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE
+ASV 1101 : 4fbc6b8b3556da454ac5f3e4e8bdde46,Proteobacteria,Pantoea,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1110 : 62958e9d3914fa2d0693a004cb908f83,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1111 : 1e4b7f0dbf0505d821929958a55d5e4b,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1112 : 6b721fc87ab731b53e890f51fc421e4b,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1113 : 50640d319c60b01014fc92f8d164ecf9,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1114 : 444f2ee01848661c422206a4a315c89d,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1115 : c187ec77b08c325fe724d7a090480aec,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1116 : 90dd32a7e1feafcc45de83a267b39f07,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1117 : db8c4a20c7147013214e3a9fab747c3d,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1118 : 89c2c5b54b7fd93f4052c7a84f77aed5,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1119 : d99590a4b93656a6b2b1ee2d71d8a05f,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1120 : 570d347d410e3cda60cda7c093e19fb6,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1121 : c79c021a5e18c94408af2e9ce94b2091,Proteobacteria,Phaseolibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1122 : ba2576ac06ba6cf3087680751d323a9f,Proteobacteria,Pantoea,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1123 : 8254b66a02d125a69c7441b2a4a86bd3,Proteobacteria,Erwinia,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1124 : 5edd174f6df8be848bc41e9a1c6d6666,Proteobacteria,Erwinia,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1125 : 08378e94c0f24c6eab8b6f38d5899d0b,Proteobacteria,Pantoea,Host generalist,12,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1126 : 10300044130ed8c09f050276b5d281e9,Proteobacteria,Pantoea,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1127 : 98c189309ec0077a87844aa470a302f4,Proteobacteria,Pantoea,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1128 : 2fc2958b17e214556dd9ef2c15abcd49,Proteobacteria,Pantoea,Host generalist,10,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1131 : 069c27b7b9944c8210af97e06ef46355,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1132 : f0fdd76cfffb4fc0106a6c7d21ce28f0,Proteobacteria,Pantoea,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1136 : 3fda0b8e1a264492274755d9c962b785,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1137 : 22ff6c51f8964db3eab9cb72b3e42997,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1138 : 1b3188588b028d6f7212aec557fed8a8,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1141 : 0d64a6e51dece0cbd18a3d1c5c28d450,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1142 : 29d364da55321dc6a453dd21103e5cb2,Proteobacteria,Erwiniaceae,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1145 : ee0f54fda0b407b349420513a712388e,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1146 : 7d58b73b13de6e7980febf7dd1a7fe76,Proteobacteria,Citrobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1148 : a3d30b5eefb723045def6f1eccde3880,Proteobacteria,Kosakonia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1149 : a02f92154e01ceed7730ab9e059582fc,Proteobacteria,Kosakonia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1150 : 8aa95a9709a2f7dc9fdc2312ec35e3aa,Proteobacteria,Kosakonia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1152 : 55e9d224e6823be3a4db1b4a12888dfe,Proteobacteria,Kosakonia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1153 : c3f640f926cd368355c2992c93fdbe61,Proteobacteria,Kosakonia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1154 : 2b3100ca39685e0076647ec121edf9d8,Proteobacteria,Kosakonia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1157 : c96f5bb2a740d5ae22298a4ca42f5646,Proteobacteria,Salmonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1158 : 5530e4382697209868f43fecf3fc063b,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1166 : c290844651f4525745a14c00ae2f0c89,Proteobacteria,Salmonella,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1169 : 44c9f59231dd703269388032da1d5a98,Proteobacteria,Escherichia-Shigella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1172 : 24034a8cc90f0328d2a27ba98b1121c6,Proteobacteria,Escherichia-Shigella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1177 : 36782e2214c45641b2af1dc770bd1ac8,Proteobacteria,Salmonella,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1188 : d3c08b6834184a8bc2394a9ba06e4638,Proteobacteria,Erwinia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1193 : ec533958f71cfcaddfa1f89f26f3a3c9,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1194 : 5e1a4019a5115dbf8feda0550b928a08,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1203 : baa00b4332026060029d23dbc3252b77,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1204 : 2d0a288899c7ec7e77ab1de85f924ce1,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1215 : 56647e4a68ea887b883e781fec05348e,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1218 : 7381c0477c1526fa19f975a6284698bd,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1229 : 816220cc6f4f4f2109a56aec8bdb6cf6,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1230 : 3edbe6d383462dd2cd809beac8655bbf,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1231 : 8685a856947e0f7a592ab7c4e34d63d0,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1232 : 27555f85745e8095930655bfc813aef5,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1233 : 4f31579cf248f8a954f50fbbf72eb871,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1237 : 8aa240a45fc4dda6080ae2730924975b,Proteobacteria,Erwinia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1238 : b775f9263ad29813819ba5f06ed0ac00,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1239 : cb2c7e4359f24df0e26aa8801843bb95,Proteobacteria,Erwinia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1242 : 4312244ec726c2ee26578d6bbe214a2f,Proteobacteria,Erwinia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1243 : cc51dc1dcbb0770f7d7bfe30832f0ab5,Proteobacteria,Erwinia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1244 : c2b64d2775cbe7a6e715dc9cc99c862b,Proteobacteria,Erwinia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1246 : f776f17911efdc448a9e560cb6c96d84,Proteobacteria,Klebsiella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1247 : 9b025c8b2cbb74beb807e3ca8d610529,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1248 : a87af8e89ba9e5e52b40bafa76e2e536,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1249 : 16ccca8727eb579aa36439e4cefd5a3c,Proteobacteria,Enterobacter,Host generalist,8,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1250 : 059a617c8cfef9d94bafd08eefd72076,Proteobacteria,Enterobacter,Host generalist,10,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1251 : fde6a4f80210e261b5354bd9ba4fff39,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1252 : 8ccb265ce306f9267a975b98ee6c4bf5,Proteobacteria,Klebsiella,Host generalist,9,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1253 : 7658a9af35cd380b358f49cf223d703b,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1254 : cffca597bc51f2b1b469eb753c39c3cc,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1255 : dc19d1268fa63c5f4407305de3599443,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1256 : eb26749b8ecda9b231535f39631171f4,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1257 : 8959500506f3188c5516c0f6299b7b3e,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1258 : eb21f6fb86efb4086eb401ed426d1a1b,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1259 : 0bc121bf99890e10097190999d095f7b,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1262 : 452b59188775b3cebefaf95ade1d8d09,Proteobacteria,Klebsiella,Host generalist,7,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1266 : 804639243e7380b732fbe5e94fd89c36,Proteobacteria,Klebsiella,Host generalist,9,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1267 : e5213f655ff87d3e6cf834615fa8d249,Proteobacteria,Klebsiella,Host generalist,8,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1269 : c3db9c177b9fb260b307af355195070c,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1270 : aa4f2f3f3f3f93e7137936c330fcd723,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1271 : 3629653f043e0b3d0beec8aa244053f3,Proteobacteria,Trabulsiella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1272 : 021180ba8bcdcae46fb9bfb9ca501eb0,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1273 : 1159b19737bec37a5767704de2ae5d41,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1274 : 842a9a77efef4909e73470b709cacdf0,Proteobacteria,Enterobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1283 : 81f9ec4f2987443bcf251551383e4f3d,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1284 : f6bdb7d668baf5fd9fee9c2c9ea63913,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1285 : 2ebdebbac6f59a34a424bd1562d72cca,Proteobacteria,Erwinia,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1286 : 0fda8878c2a7780049447cff31cefee6,Proteobacteria,Pantoea,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1287 : b9f3ada92b1790c81639bf66b8c3cf66,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1288 : 3c8deb3502b34cbca78352ba92e498ba,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1289 : 4713516390e645bab012d2e6103d3be9,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1290 : a0b14b03e9036342b8c674bda16bf45d,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1291 : 4f76a766d74ed7c73db75a77b6600876,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1292 : 41d0926fe4adaf15a1a6da7801531b76,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1293 : b3dc4eb873a1c0f44608451fd1693dda,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1294 : 5c299627333a2adf81667b01d53f5290,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1295 : 5328d2b30e8d1375ee4cb8e8f26b4a07,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1296 : 66b4105e158c5a07fbaadc16e908fff0,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1297 : b507f0a24cc4822607821be0f07761b3,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1298 : 79502b98b0fd4128d07b1a74b38196ae,Proteobacteria,Pantoea,Host generalist,12,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1299 : e2ce9c3489cef6733f554e97fae8e73b,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1300 : 3fc3eeee16583bbb3999819d982f443a,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1301 : 754c222439d07aa0c80a48d5b82ad0f8,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1302 : 0adc01eb597cb473e24b106fb59eddd6,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1303 : 590ad5722e3538bed12f6a912bebd43b,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1304 : 11aece8715afbce92f9fb7e7b7f7c746,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1305 : 99b79ed0a5d3c4cfa237ca2956ac4ad8,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1306 : 8276ae8794c02dee9bcb3622e348baa8,Proteobacteria,Enterobacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1307 : 2aba8588a384df44c13ea262ccb42dba,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1308 : ea3903b5915c967a5e1059913a6fb8d3,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1309 : 5da4d5be5a5e875cdae4d51c31c31776,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1310 : add24eed8afedee542c739d0d13d0bf7,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1311 : a20fd835a195d11c8040f33e59d27e40,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1312 : 9c6b1dbc28f791992b344b973291290c,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1313 : fedae813d4395138be7e12d3b5eae501,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1314 : cc1a18b8664030cb23aec4c11cac7064,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1315 : 442a3e552c484495396cdf2f96345311,Proteobacteria,Enterobacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1316 : 495e8f70e6560daa88cdbf4e79b12d11,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1317 : ce49318b84fc1a376fbcb58bc38a5a83,Proteobacteria,Pantoea,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1325 : ffd7b63f5c6859885b69e93caf0ba9e9,Proteobacteria,Pseudomonas,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1358 : 503b845eec9027435f60d0011301cb3e,Proteobacteria,Acinetobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1359 : 1f0f89eac079917ac58499d5e2f68a51,Proteobacteria,Acinetobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1372 : 4dc93b778a8253bcf4583ee674ba7a81,Proteobacteria,Acinetobacter,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1376 : 0ddf9da4feecc6fb84c8329ffa4bbaf0,Proteobacteria,Acinetobacter,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1378 : 5d4aecde65d25324d69d76eb0e1b4fce,Proteobacteria,Acinetobacter,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1381 : ad95c0821a56948e578bed563050ffad,Proteobacteria,Acinetobacter,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1390 : ea403646ed22d679fa4586263d8fc32f,Proteobacteria,Acinetobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1393 : df1574debb6a183fb41a86b8d98e36d4,Proteobacteria,Pantoea,Host generalist,12,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1394 : 94fc6aa367623acde9bd02e25762ede2,Proteobacteria,Pantoea,Host generalist,11,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1395 : 838b5611f3825fe54ca223bb366c010f,Proteobacteria,Escherichia-Shigella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1396 : c72e583b4858d73bfb51cf8fd8be8ce0,Proteobacteria,Escherichia-Shigella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1397 : 6a4f7adf121a1968a6f1e9ca115c20eb,Proteobacteria,Escherichia-Shigella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1398 : 312c68e6fabf5b53228b02c088e97633,Proteobacteria,Escherichia-Shigella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1399 : d009af238de8aeea0a70650d45313bdf,Proteobacteria,Escherichia-Shigella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1400 : 575383956f5a11a07ba54cc8faadd077,Proteobacteria,Escherichia-Shigella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1401 : 001450cc59eefee8d2eda35bca9dd451,Proteobacteria,Pantoea,Host generalist,10,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1408 : 9664486f6806fc522518962c422bb9b9,Proteobacteria,Rahnella1,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1409 : 2982cb6785a459d9ce11e41a11e171b6,Proteobacteria,Rahnella1,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1410 : 612dcf9d528b0c89b2af2127f479f391,Proteobacteria,Rahnella1,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1411 : 1467cd62328881340fbeaf7eabcf4238,Proteobacteria,Rahnella1,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1412 : f693c27545c0dd5fa4efab76c0fb7c0e,Proteobacteria,Rahnella1,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1413 : 00b116f3d90f72c8573b5b45320a54f1,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1414 : c0e2b72a3cc0165beba642d84136b453,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1415 : 8e2b6d93f84b4ab9b35101996bfa0235,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1416 : 75e61d6100104b1942713a7af31cd0e7,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1417 : 24c065e4be03c40ef7a499c4ac1cfb7b,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1418 : 2d7f1b96178c343de8018ff215c09c2b,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1419 : bd401c6b6b0771d3386ba553586aff90,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1420 : 0bf348a8b0470489ae22cdc3c54cc3ba,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1421 : f25f56a63f711b76377bb6505825741b,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1422 : b7e778ea0a9a02cdfe8ec2fabda49f54,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1423 : fbd86380aabdb46d7ab8edc58315dd1f,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1424 : 7c0a4bd0ca9ac6f2afea7ce94d8fd71d,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1425 : bc841548f461361bd4bf39804cd96de1,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1426 : e01081343229a2e1ac1279bdb49b65da,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1427 : da8c88d41fe90faff2f3653b64020ed7,Proteobacteria,Serratia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1428 : 40c00caf4aba9abc8cf5384e6e8e438c,Proteobacteria,Pseudocitrobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1429 : 5473c224f739cb4b6ff3265bbc140a4c,Proteobacteria,Cronobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1447 : 59fd687754963cdc389a72656af6b59a,Proteobacteria,Janthinobacterium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1457 : 9a625aec27de8cf472150108d5129845,Proteobacteria,Conservatibacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1462 : 318ad8a5d81657fa9d1edcee05ed903d,Proteobacteria,Pseudomonas,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1465 : 703b85dd0c04e97ab4064e7d095b4de6,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1466 : 81b28baef5bda12ef42f368970cc1beb,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1467 : 3d3e424222037a5213a25f9a214350fb,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1468 : ebdc141737ca6cb6384a839a6cf4546b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1469 : e34f427484f351056a63bc20907576e9,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1471 : 38a060ccd6bcae2e3d87f10cb112ef1b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1477 : 266c4952d02c48988138ccadf7125576,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1478 : 9565b05acfd21a80e6723c89a502e07c,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1479 : 877763b29a0094aff019692faa7b55ef,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1480 : d34fada04446c9bf38db00bdc7710585,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1481 : dd1838a1932ab6f43a7be0119fbfc715,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1482 : b961ba31dcc7ff858a67f2066e45476e,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1483 : 777bc35c768df2cc0c0e53c003b6a78a,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1484 : c4c1d27e115e260a4248a1e131ebf09e,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1485 : 6338920deae4adcd5d056e5acb2533c6,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1486 : ba7860debf24dbcea60ecfec64ba0ce9,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1488 : 3b457d9ae35b6d25203a79b6de5b83dc,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1489 : eb75bbc7857767d0dc5551c84e2be394,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1492 : 4a497127ba52103abe8e40bd029b2614,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1493 : c6f5dae4ec049df47c3f7c8b71c677da,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1494 : bf837dcec2d7a2a18c17f950b2b7291e,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1495 : 4c8e646712639371c7a18cd3bc28a4bf,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1496 : 0c6a1b48aa2b083d4b256333d9edccdc,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ASV 1497 : ff7049da684694ac8ad10bbf68a93003,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1498 : b62477ab1c7d3fa86039eea10c85a2ca,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1499 : 26029f722f2232bc76d8f980f575e865,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1500 : e412c14ece33301d836b1e85e149a92b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1501 : b236ea0b4468575cd8e41523d74f4322,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1502 : ef72aa142d0b3907e7ba0ae1108537e1,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1503 : e1c73b10c138d995b2df6c0d29c1cbd2,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1504 : 019d124934d8d272b28c94d7781ccbba,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1505 : 33bda93c36dff3738e6a103d98daff84,Proteobacteria,Pseudomonas,Host generalist,11,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1506 : 70eca19d129d0f35de3538129f1072dc,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1509 : 4756ab5b83625980f851c3933c8021ef,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1510 : 0f4ae45a324129211f845167984d1cf8,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1518 : e0c81632f217f055023182a90c105df8,Proteobacteria,Pseudomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1519 : a2a6580600c947f094a5145358ecfe96,Proteobacteria,Pseudomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1520 : f5db973e35a282fb81ae7205f85e7a8d,Proteobacteria,Pseudomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1521 : 0735696ca6e9a1b040d85c4ab88e947b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ASV 1522 : d5e3d160feb11dc6d9e88d9c0aeefb29,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE
+ASV 1524 : 8b41b7e6e3c2dcae23eaf65424470ddd,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1534 : 2d9d824a2193ac6dbabd8690ddfae8c6,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1539 : f6946ed0ad3f63a8f2c27e61b361859f,Proteobacteria,Pseudomonas,Host generalist,11,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1541 : ef2b5be726640adc92d4da6183bc8ed1,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1542 : 22f94bb203a9a186e75ab70e86f79d01,Proteobacteria,Pseudomonas,Host generalist,11,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1544 : 0b25378d55827675cf7563bbdd8b7dc2,Proteobacteria,Pseudomonas,Host generalist,11,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1545 : 9421c8141c378a5378e39897b39ecfca,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1546 : 7d58019d25807bec6ad8d316d288db54,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1547 : 239a4fb325da39242fb517fae3697e05,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1548 : 43c8489bc7e32a26020dad592448ca93,Proteobacteria,Pseudomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1549 : 2e6ad6b24007de7e78174c24b059c781,Proteobacteria,Pseudomonas,Host generalist,11,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1553 : bdb57bde43a597deb30ce2d07c5c4ff1,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1555 : 6cb1eed3194d9e0481f7f30f92101778,Proteobacteria,Pseudomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1557 : db84b067c97568cf20272f1b17e09071,Proteobacteria,Pseudomonas,Host generalist,7,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1561 : 07dce33f2efc4d6a048cf33e935edacc,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1562 : 4c6ed4bfbaf01b3199180c2955348feb,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1563 : 36a110549084f829ae107f9b36fc2ae7,Proteobacteria,Pseudomonas,Host generalist,7,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1565 : 78e2d8638969bea7bfb12a2de08a0eb1,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1568 : 713c576698e0f5d20c852bb2173496e7,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1569 : 0f73f372e1bd8e806df43c4d3d40b8f4,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1570 : 9f7592f9b894eb3dc02d58c53f894533,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1572 : 546b1de0dd05553a29cbb8de49f8e7cc,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1583 : ea93f7b6b7dd2a74711462cda2a47ff4,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1584 : 98400a46df8735554d0d4638c7deb830,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1586 : e8cd31337951a2167e1f56b2abdc16f9,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1587 : 0ac00c45a3b84a739c3145093b96572d,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1589 : 9115bb0f59e16706954339756e74769e,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1590 : fb8d8cf73099ec84f4458f5a47110492,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1593 : bb170a5a31420352ee7da1dd48707530,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1595 : 8404055239728f68455b0850f7fb61dd,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1596 : 2c0c4f320afd5c381f7a2eb644d359ab,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1597 : 7dd7c9a77b79ffd17546dcee1aff754f,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1599 : bdfcfe535654013ef9cd3939572780d9,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1600 : 0caa71c0e836750d43db02614190f5e4,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1601 : bd06cd968a9c2b37340163ff1100e532,Proteobacteria,Pseudomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1602 : a58f8b5193043784eb014d160fdf9585,Proteobacteria,Pseudomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1604 : ac136db5250a103554f91b732fdf3cc9,Actinobacteriota,E1B-B3-114,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1605 : dd271dc884a096a3a88fa3898dbb2e8b,Actinobacteriota,E1B-B3-114,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1612 : 96b708f1774f6c7bb4285483e1a454e9,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1614 : 2c4cf52dedc3d418111e8ae423e76f92,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1615 : c68b436bce474dba861b1dbb48fb7bd0,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1616 : 0ce4daec5bf638df2b229bfde127d63e,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1617 : 31c1635b11542f2c077ea197c72ec567,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1618 : 67d9100d732c2ca21e848bc400d7548c,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1619 : 24f6109f3d21d85644e7232b3fd6f167,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1620 : 55d1f625ba03614a71f168697bfb8e10,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1621 : a79e3b34afc9a8d590d8d2c4f2f788cf,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1622 : 8d487697145022cfe424cab8e5008143,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1623 : 26dde19696662b83afbb324cc281e261,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1624 : 945650b0c37fd64b2610edada6d63cc1,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1625 : 73b8950e984d31a2090d1f6936ab9fad,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1626 : 8e5d675df661d2555b6d746febd80829,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1627 : da685234995e41f7f8116a19b2b35b41,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1628 : 523964f294b78172b1b54942724c2a19,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1629 : 813b5955154367962e668e7631d26cab,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1630 : 3ceeeefe0ad9cdd3259caa49d852493f,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1633 : 322ba7f97afe787e531a4977289394f6,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1635 : 2f7db29d89aa3dce7453fcc7348598e9,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1636 : 13cb42bb3434d6e436ddbceb80ea0d23,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1638 : c5a5803d19afec6939e84381d9ba654f,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1639 : 70397633b32e0d41ee6fc2c689f8666b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1640 : 3d65860d85b2914a6f9e19ee22fead80,Proteobacteria,Azotobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1646 : 083660f8c2c323182c74a5452360ade0,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1647 : 726e19def6b2d2f0ffcb25925385ffe9,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1648 : b2097182b73a6ec2d66560f183ffb16b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1652 : b6e5d8cac23358b1dfad38af979dfd56,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1655 : 0d46ccea29d8ee8e60903f6238962a07,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1656 : 9008764305469acb079f239b4f29a8f0,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1658 : e898620b82d3ae5814a1888c8888639a,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1675 : 205386159c59a74b2d25afd7e48b5d45,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1678 : 7f4f3520b4db33b6cab8ae1a657898a8,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1684 : eaa35c5ca83e0c58a175b16eb64dea95,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1685 : 0dbf207ed248593305fee9f2d96c95fa,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1686 : cfc954574200160e7c7337c1f470cc56,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1688 : 6a54e40fa55e5eb1b7b69caa047db0fa,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1689 : 393c9389ff13edf6af1b3e672dfc54da,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1690 : 425b29537046eb0d86b9911bcc6fdde2,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1691 : d24ffc76e1c774a994cbf0e24ba4b352,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1692 : 01a8dfce255a8c6ba6cd54f91e7f3ffc,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1693 : 64550d6c86476bfa7842baa5542a8bb2,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1694 : ded0d7faa120f15184a25491be7df295,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1695 : e6254af8651bf000235d8bbb7fd6fc4d,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1696 : ad0f846300436cfbc2439a891ccb8718,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1697 : ad19b4cf9e6bbdab2917bed76db664a1,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1698 : 52e88d6af5c2f01ace8fae6880dd00d0,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1700 : 7026a5ed099e71c4013b4c37caac6bc1,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1701 : 3f471db43758d0d8d10774ee95ea39de,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1706 : e811874ad20b871b592b26e7a14e161c,Proteobacteria,Pseudomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1708 : b97d4abc3b424129cb8f53a90c7b0c63,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1715 : 39020f2c0046f241029396360429702f,Proteobacteria,Pseudomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1716 : c746b9dccd802be57418e32a5a1f6a76,Proteobacteria,Pseudomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1717 : a6977f7f2d246d10c777115dcceda7a4,Proteobacteria,Pseudomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1729 : 9eaa3fb0552cd1ab1785edfbb80d49b4,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1734 : abba025fdba4173e664f81ae457f0844,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1735 : 269c438ac6f76e2214c572ea6dee288a,Proteobacteria,Pseudomonas,Host generalist,9,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1736 : 32e9a008c4ebf14306f775f623e69e5c,Proteobacteria,Pseudomonas,Host generalist,9,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1737 : 6c5fee61be1055727dcd4822e438599a,Proteobacteria,Pseudomonas,Host generalist,8,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1738 : a69f0ed55591f7cc2a16b3469473592e,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1739 : cf3bacc6afeb5716f0dfcf17cc1b719a,Proteobacteria,Pseudomonas,Host generalist,9,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1740 : 5bfbd54148e0e7a22799fdb0116af07b,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1742 : 594f06bd20827c765ff0088f531422f5,Proteobacteria,Pseudomonas,Host generalist,10,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1744 : ac54c65e1228690833a5a749e571543b,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1745 : 1bc3f534e31cdc5bb88163917946b90f,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1746 : 6bd9d5d481d10c84a166da7008dc199a,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1747 : 82af12d508b61d5e70d9a9d6f3431c13,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1748 : e777ba141615056b3b6194ec2862e119,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1749 : 734e753072e67b3036b5da30132d177d,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1750 : da2e24268cddde581097792733f99351,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1752 : 4f9ce7ff6f0f7947e813a35ed530a1c1,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1753 : 3c41b3fac698520249d59a0c1ff0ba1d,Proteobacteria,Pseudomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1755 : 378f9f556679986acf3ce6f2650c5e0b,Proteobacteria,Pseudomonas,Host generalist,7,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1759 : 09fd25417d86e8ffc110a9a82a7fee97,Proteobacteria,Xanthomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1760 : 1a957330cf12f7be142e101e6a7904a0,Proteobacteria,Xanthomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1761 : f76c9ef28cdc059140aa8637cad6a720,Proteobacteria,Xanthomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1763 : 9f5972890a8e7579225e1def166739bf,Proteobacteria,Xanthomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1764 : 92f3d716cd2e2c0347b2470375170537,Proteobacteria,Xanthomonas,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1765 : a6c514b808307b409f4758e6951889fa,Proteobacteria,Xanthomonas,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1766 : e5190b30c6d00842a5f1af6665aa68d8,Proteobacteria,Xanthomonas,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1767 : b63b12160716c86ba046a7098cac00d7,Proteobacteria,Xanthomonas,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1768 : 4047124ca9aa1f0b89e84da9135bbf44,Proteobacteria,Xanthomonas,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1770 : effc491abcbf1c94f3b7a067a85e47a3,Proteobacteria,Xanthomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1771 : eddf0567609cd0de0d3db51333114828,Proteobacteria,Xanthomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1772 : e92c9f0f1e1e52f4b304e766936e3743,Proteobacteria,Xanthomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1773 : f7d291b6b60a2c4f3cb31bdd9a11a7e2,Proteobacteria,Xanthomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1774 : 28096ee7a8ad355b4f9927fc48b363da,Proteobacteria,Xanthomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1777 : 7e6fafef9382a21455abd600a7f77a62,Proteobacteria,Stenotrophomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1780 : ee4cd2af00ba5b3837949269e6b78853,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1781 : e7c758ba1dadddf2d068b06d706816f5,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1790 : 1e0ba721ae12e40d5f529985f08deec6,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1791 : be8a37581cea1f0db7c7c9a416e4acb7,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1792 : 1ae82998a9f0925751eb6b3ee1322661,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1793 : ff0faced38071b9541a42e96f4e0e979,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1794 : fc9d356a39dc37699a7dd231d369310c,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1795 : aeb065f61d03c6099e4bcd2e1e1813d8,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1796 : daaa0bea1fdf6ca4458cf0b522185343,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1797 : f755894419fbc192c75c830a8492a3ae,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1798 : a1fc2f8ebbc1a12018840082c9eb284d,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1799 : 0ddac5957ce4d349c08226012adda717,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1801 : 73c73faaddc7d6ed59a054e9d4c2767a,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1802 : c66ea3d804ab0d5346b5d0a31b4562ae,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1804 : 441e1c4e0c1ae2d4a1bece7d2729dc90,Proteobacteria,Stenotrophomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1824 : 69c3908d1d4ade3c8dd576064a8c60a1,Proteobacteria,Stenotrophomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1829 : a021dd291f2cd02bf837e2be8378e992,Proteobacteria,Stenotrophomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1833 : 115d63352d33f178a7f70ef299d515ac,Proteobacteria,Stenotrophomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1834 : ba31f64f79736097537022b584ec2965,Proteobacteria,Stenotrophomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1845 : 56fcaf54d62dd16e3dfdb0413a5f439f,Proteobacteria,Stenotrophomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1851 : 4a341f19cdc3cddbb6868b96047174a6,Proteobacteria,Lysobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1852 : b81ac41bc85afa93cf2d500fe86aa4c8,Proteobacteria,Lysobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1853 : e0f46b183ca82d7f1c422c066d2a4bf9,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1854 : 66907d1ca6dd97f5d3bde9a32c3e4cfa,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1855 : 8bd2877366c411df023506578f2483ca,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1856 : 3fc97bb848a4fd9e9b5ffe277d067958,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1857 : 0c8c63953ee4504f92afdc06bb3789f1,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1858 : 0e7f5b16ae8ef72e812947f917e4e61f,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1859 : a1265d8ebbdc1005914385cf44565599,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1860 : c6e969dbc49e8f99c02f6be653f24918,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1861 : ffae01481756d8c477a6317f1f991ee2,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1862 : 6827268233ed42e4fbff4e5ac3d9d810,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1863 : 42fe0719e7005583f11198477038a589,Proteobacteria,Rhodanobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1864 : 3c7acf4460426193a32372a19fc10f45,Proteobacteria,Chujaibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1865 : 2160011d683059b8508248a0bc7e726e,Proteobacteria,Chujaibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1866 : 0f0a4718c507e6a3750a997bd69dc49d,Proteobacteria,Chujaibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1867 : d4f14515e5d1c1211423cb8044470596,Proteobacteria,Chujaibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1868 : 46edd9a681a1c394007859666f76d477,Proteobacteria,Luteibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1869 : 16543908ca23561ad5f998978c1061b3,Proteobacteria,Arenimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1870 : 4804669ff00c7ec682696fdd03d60923,Proteobacteria,Arenimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1871 : 3a66a38841ba6877568198b9dac3a1dc,Proteobacteria,Lysobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1872 : 4ef90815b26a191f57cc38f3be1a36f2,Proteobacteria,Lysobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1875 : 9cc78ba233c3c7353e4b9f8e47b9ad78,Proteobacteria,Luteimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1879 : 14572587570f2507a723baef159df236,Proteobacteria,Lysobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1880 : 6f6e226d1182d10d3da68eec16a49206,Proteobacteria,Lysobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1882 : e1796a8f0b1457a9f016a4d5f87c63ea,Proteobacteria,Massilia,Host generalist,7,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1884 : 949040843b30d5e738fb028e26d59f13,Proteobacteria,Massilia,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1885 : 1cc92b8d4208444eb59015cfae7d1a17,Proteobacteria,Massilia,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1886 : 902e06603cfe626e3fd5fa1cac46272d,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1887 : c5a5a9b0d718215f000671e2e3533d1b,Proteobacteria,Massilia,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1889 : aeecd57eb1c76ac948699ee75981b4f6,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1890 : fb3e1134c7d9134f3e11fc311d345d0f,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1891 : 170f9dd01656271d5951cc933ade5b98,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1892 : a5c84d456f2186d5620a76b5d74687d2,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1893 : 4c2d4d410ca4fe7dd71899572b65beed,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1894 : 4a56ea14e126c20ddff0ff2fb987866b,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1895 : c6fca0f88e1b87a2fa14d6d3e35299a4,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1896 : fb5efa4054b36436174d10213cd453e3,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1897 : a03a0b32b80da0fec5d7c1e1173a141a,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1898 : f97002fc869f78cf32c5a7dc20690b04,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1899 : 6118553c4fee24d79f393eaaafadd478,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1900 : 5c21dc48ab4c82b8196c673cadc41b50,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1901 : 6d0607457fab645fe1a5373329ca761d,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1902 : 2c528d8432a90da6c4a587d53886d4d7,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1903 : 15e3e64bb4c6851fd90437e884763ba7,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1904 : f72e990cb8ca032e13313e9882801531,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1905 : 639cf02290f9357f3c6712edfa1df01e,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1906 : 40a013ca9531ed35a6aa63f88b554797,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1907 : c2ce06c2b82f9e7d717486094494c035,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1908 : 1c6aef2fc49a3ae676cdf487bb2d8565,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1909 : 91c3280a726b426cdde9c95add213fde,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1911 : b8049112f6f89cda4508cc345e142f43,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1913 : b2b9b858ad1bb714280061e5caf9d7d1,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1914 : 92e4c5c65a223e837553ef872172ef88,Proteobacteria,Massilia,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1915 : 30b21006cdf677a1721c2f64e157df7c,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1916 : 8aa1709893f1ba88b9acf2172f79f594,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1917 : e295e205a1a79c7bc63d5f07e927d011,Proteobacteria,Massilia,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1918 : c9332ffead0ef1e7542cd9451ce26f00,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1919 : 810ccf2b036fa2a32704d7a3a4f93f31,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1920 : 5c9f00242c96f84721c2fe61437a8b87,Proteobacteria,Massilia,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1921 : 41dff0bbf4e3ce1dd81756403c382d36,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1922 : 8b66bf3a2fb68f326cde16ca8fc835a9,Proteobacteria,Massilia,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1924 : fbd20f64dc20164ddfa0a5cb856a59c5,Proteobacteria,Massilia,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1925 : 8ab9a592159097ee7dd09b2e7280283c,Proteobacteria,Massilia,Host generalist,9,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1927 : 34413f5d942f19b085912ca16947cabf,Proteobacteria,Massilia,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1928 : e299050937dd264e6745e2e2238252b0,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1929 : 5f8db894a571d35c9d2fa4f8df8581f9,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1930 : 82e608306907ac0b092ce623a8d6771f,Proteobacteria,Massilia,Host generalist,6,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1931 : 794121c83b4fb6334f0080d3e86bbd17,Proteobacteria,Massilia,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1932 : 479e421ddfa5ac82775483ee9b46b879,Proteobacteria,Massilia,Host generalist,7,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1933 : 92f8fe0d6e24945de58fff973614d98b,Proteobacteria,Massilia,Host generalist,8,Not predicted,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1934 : bd0362ecfe4165a3e542080b053c1b6a,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1935 : e602eda561f35ce124568010f461be4c,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1936 : f215110ed58fea919ad416ea7c210e6a,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1937 : 13159bfae50d0a52792a2dd696dfebaa,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1938 : 08fd492d1cf6c7ef7f2b7de2115aed0d,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1939 : 592878dce69238c9dc4a6e148b5e7d81,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1940 : 668f259bd019131c963d07c6bbf05d78,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1941 : e1b4fb9640d90a5a178fa018fd46ef55,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1942 : 38e721ca79bb7ff9f6cf7b1e846a88dd,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1943 : 34e65f71d5c4648fa277732196a74e8f,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1944 : 7334e014634672189429473299c43603,Proteobacteria,Massilia,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1945 : 827e937687dd563f816cdcf1dce0541e,Proteobacteria,Massilia,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1946 : 7d727dbcce606b82c181b9c66a7c616f,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1949 : 0ad2ee7f25716659675397f73a09197e,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1950 : 03e461f7a6b4b5fb3bb4940e4dccf237,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1951 : 5658bf41a27f1e10258d6904a005e5fb,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1955 : 38e7aadf84b5655a7cd284a25479cd08,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1956 : 40cb166b03a886d7cf9f3774b79be2be,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1957 : ce72350364636ea2c13095c00f15a5a8,Proteobacteria,Massilia,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1958 : 98c00065f96fccfda3dc6f53cf94048d,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1959 : d1efa5e1993dfae180f1c7e14441f29c,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1960 : 79b64f404f44692c694b3372e849b65f,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1961 : b1ae1177339fd3edf6f6aa31a028f721,Proteobacteria,Massilia,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1962 : 08798b3fee18d8bb5c4d4720cc3639e0,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1963 : d45b0284c3c677fb4dfa6b98ef6b4313,Proteobacteria,Massilia,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1964 : bff6de03ae94f56eeb5c69c522f3c4e3,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1965 : bf109e5ca9f41dca2bde516b69a9b91e,Proteobacteria,Massilia,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1966 : 49c3dcc04dad997226702f150af99cc5,Proteobacteria,Massilia,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1967 : 95939489c41bc1b1aa593553ce5ccebc,Proteobacteria,Massilia,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1968 : 03d20ffddb24b95ac31687e5dd0cbe32,Proteobacteria,Massilia,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 1969 : a8b94718a9151f062d500cc5a457df54,Proteobacteria,Massilia,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1970 : 167e0aac1b970612e0758ef1f608dc16,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1971 : a471bd4d0843c182aae007fa8492a539,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1972 : be86c4f7d1e84fc5f4c35b1bd0fd8172,Proteobacteria,Massilia,Host generalist,8,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1973 : aaf126e0fb2f7da51cc67cc99f485994,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1974 : 8cd4fdf28e8f65e14678ac66d2773a03,Proteobacteria,Massilia,Host generalist,11,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1975 : ba6684ed9aa2f5fb485897fdbe3b914d,Proteobacteria,Massilia,Host generalist,10,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1976 : 8c6c1cd6f464d55e5a562cac4fb08e4d,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1977 : 32d9c6c03db8883b1ce46e01fb306fde,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1984 : fb3ba27d784c03cd97128fc7968c243c,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1985 : 71a1593986886fa1e4edad36a06d18df,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1986 : 08caa9a94426a7da3031f86ce775cda1,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1988 : 63f1db5a5382c33b588186ad2fc2d618,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1989 : df911c72e4804798706caf17fff3298f,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1991 : 97b977d246ed4385025253b5527ca3e6,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1992 : c95ab352583ab0df7f89b774999f5e45,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1993 : 2d08da4f453fc29dc877098febb32801,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 1994 : b15e89bdc2a8afb21d8f9d347d8f3372,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 1995 : e1d85ddadbfa93648656b83919491cd7,Proteobacteria,Massilia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1997 : 97934d4398fe4d1645789ba6cfdd5b1e,Proteobacteria,Massilia,Host generalist,9,Not predicted,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 1998 : 840da214791d4f4a6f3f743366731c59,Proteobacteria,Ellin6067,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 1999 : eaaa8468052658318c7d254c725be445,Proteobacteria,Ellin6067,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2000 : 2c8234beafc5fcc887e02e63118885c0,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2001 : 563e775dc1ffff0e1e11f6206cb725cc,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2002 : 22dcecc58d16d215fcfcac62fdcdf0be,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2003 : 867180f9c2ba94c9c9018e297e38f55d,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2004 : fecf476e2c0801737619388a4b34050d,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2005 : be5da296d91d1b41195663fe11369f59,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2006 : ae94a70589b39afd8a985707119af0c7,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2007 : 72fc3cd1b1017b8b7ede53478f1fd3a0,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2008 : 0802f2c4d22eff92b678db175f6345d9,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2009 : 8b467d674b970af6f18f9bf21579b5d2,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2010 : 1ab05cf0bba9e3850a57a9db71f1e858,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2011 : 820ad8e919a6321a4c28d78bf2d00a8e,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2012 : 530b0f9d346a8ec4981483cfb35c0915,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2013 : 125c445bd423029999549b245a449330,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2014 : 34921157f2402c4d9e6a2f0fa14cb56c,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2015 : 8cd346cbfb59de8b5650e967a97a6c20,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2016 : 84673c2f1ee54f972d05b2e5a65e8a1b,Proteobacteria,Herbaspirillum,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2017 : 5bb2f4dfe7191a3e0833c6d5c721d15b,Proteobacteria,Herbaspirillum,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2018 : 7a2918c5fc600dbb3a26121acaecc5bb,Proteobacteria,Herbaspirillum,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2019 : 382ace22000054bb854626b5f51ebf66,Proteobacteria,Herbaspirillum,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2020 : b7286dac15acbe9492d95550dff60192,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2021 : 1e647bd899ee04d9d1510d8a09d831d2,Proteobacteria,Noviherbaspirillum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2022 : 2a4426d3d2adbd9d57cfc77e53585048,Proteobacteria,Noviherbaspirillum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2023 : a4e8eed7e06e9860af263733eacbe2ba,Proteobacteria,Noviherbaspirillum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2024 : 94e342db04b7fa7da0b41164197005fa,Proteobacteria,Oxalicibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2029 : 0f5f48d793a468de8ec2131049a25f1e,Proteobacteria,Noviherbaspirillum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2031 : c0f775fff77049501c4f8b4f5460097c,Proteobacteria,Cupriavidus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2032 : 817dea4f814ebb5a581a2a5d16d39def,Proteobacteria,Cupriavidus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2034 : 1bc8f2b685c3fd1699eee11ba295b884,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2035 : 45a703c3d46ed9731722d03c72be9069,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2036 : 7725ed1253357d22cf750f5f83134001,Proteobacteria,Parasutterella,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2041 : f52a4baef57c00dfa8c36ac5ed6d9b89,Proteobacteria,Verticiella,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2042 : 8f503d2a775cc66ebbdaf80cbd1cfed2,Proteobacteria,Bordetella,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2050 : 3e7faf9cb1625d01c659b7d386ed435d,Proteobacteria,Achromobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2053 : 26832e2a6c579e6674f77208d9cac253,Proteobacteria,Bordetella,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2054 : b9821a32dd0aa7536323ad20230e9df1,Proteobacteria,Bordetella,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2055 : d454e5d9091553b741d0df54b6ed9964,Proteobacteria,Bordetella,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2061 : e608f982d8b608cda0b2f4bde519413a,Proteobacteria,Thiobacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2062 : 73c5b1018989f66cbfffa8f0355dc200,Proteobacteria,Thiobacillus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2063 : f46a3eae590e38554bda70a7015d498b,Proteobacteria,Limnobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2064 : cfb196e564fdb306e59795d666dbca0c,Proteobacteria,Lautropia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2065 : ee659869ba04ca0a89d99a9c7d14d87c,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2066 : 61cc36091f797a5ba0280a3ead6016ea,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2067 : 2bd96af4aa0005ab747459690112bf0f,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2068 : d620f8b2a50f6308f3fe4b8994be2805,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2069 : ad83ae80b32ade990ca9398c2c65e8dc,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2070 : 2669393d2c604777304a3a3cb8fc5710,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2071 : 5661861dd4a17a1dce146330854f7b33,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2072 : e4fcb5ea8cc1b8e22e5b2ff5d70d873f,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2073 : 67146b381fb233ac16b37f6ac875f76b,Proteobacteria,Uliginosibacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2074 : 0ce51d2de5507edbeef6b4dd114e9447,Proteobacteria,MND1,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2075 : c0268ae98bfad56b2c8077c61385cf89,Proteobacteria,MND1,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2076 : 332864e3168e91e2d124d018a0f71974,Proteobacteria,SC-I-84,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2077 : 08c8839ae52a2d167fab77c50ba4253c,Proteobacteria,SC-I-84,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2078 : 265f0ed6b3f8dbe0916726ff8e9c0c77,Proteobacteria,SC-I-84,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2080 : 9c08c840f7d836db55f238f53ef61680,Proteobacteria,TRA3-20,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2081 : f8b8173289056f3442317b4669562a60,Proteobacteria,TRA3-20,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2082 : db0c4dcc32980c50daba57098dd923f5,Proteobacteria,Burkholderia-Caballeronia-Paraburkholderia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2083 : d417cb6e254b6183ab3782ab82a2337d,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2084 : e91708ff8a064fb5ea8e8a1636a586e0,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2085 : 54c3294b918e617365e3574c18d3dae6,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2086 : beae2a5b28ca3f6de1a3f6e56ee9eae8,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2087 : 3f52f4b7bcc37b8011a92a6c26683a68,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2088 : b5960a7e93426b6faccd9f7a0a822a22,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2089 : 583d98031ba7220cbfdd25393a3e2b9a,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2090 : ce67df0775cc32145befb58d824f2afa,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2091 : 1554b51b46c2fc6f9bff818049ee7c1e,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2092 : 93fa99be8ff07d8f368273a60a1e0fbc,Proteobacteria,Candidatus_Alysiosphaera,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2093 : 80b5123eeb23ddfddb90e3c07ab200b1,Proteobacteria,Candidatus_Alysiosphaera,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2094 : abf22e4d06624c53a8e4a69c0542300d,Proteobacteria,Geminicoccus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2095 : 962c8c92d05611cd83986f7461ce0187,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2096 : 0fa05de0ab92e77b36e9ab7975633275,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2099 : bf2040777648f4ecd2b84babf16a911a,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2100 : 4bcd0e6e567f5e378f88d14a83543195,Proteobacteria,Roseomonas,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2101 : f2dc00990da0c8e7079b7254337580d7,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2102 : 274e61d7ce88871435c170e914017da1,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2103 : b0ce5c9314d3f2d1d8d999953d3f94f2,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2104 : d4acd758b69d325d87cee68ec99f3b31,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2105 : 7605ecf940c1843569a728c00cb6eb9d,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2106 : 67dcf9f6bb6afacf257d3931196f12ed,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2107 : acfd2ebdc83fef3e582ca5fe9558fbb1,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2108 : 1b9b82444d4d216b95032bb22ee44a93,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2109 : dafa9e64b59eff7067d069abcba07f66,Proteobacteria,Roseomonas,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2110 : 2f5a22680fc733973cff34cec9ffb1e7,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2111 : 6ef6d5c3eae0382dcab041d117724d50,Proteobacteria,uncultured,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2112 : 249c0140ac341b0bcb0f1eb995667800,Proteobacteria,Dongia,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2113 : 7b9099f474901941b6faf4132ef01b90,Proteobacteria,Dongia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2114 : 1bd7ab3ed785f8ad6aaa14aacfe30c39,Proteobacteria,Dongia,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2115 : bc84c01dbfc576927c9a43ad8a4fbf8f,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2116 : c43ccad8f58430e360c76332e20e3172,Proteobacteria,Skermanella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2117 : d1f677a61cd89adfff6327a4518e5880,Proteobacteria,Skermanella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2118 : 0fa9b44d52836d2f173f4ac532f8a013,Proteobacteria,Skermanella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2119 : ca062221b62b696374ab9857e0e08144,Proteobacteria,Skermanella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2120 : 0a023b056a85b92a1ca8214e78a9c45a,Proteobacteria,Skermanella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2121 : f08f37d7ed59c2cd93ac689d3312cb7b,Proteobacteria,Parvibaculum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2131 : f2d0e9c2774be4d164f974b5e7e37526,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2134 : 0374fbdf9d85f4f4bf3ecb8dbf0c6452,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2137 : 08b306f1e7d3059e3e0df1ce4fa069eb,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,7,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2139 : 3c0a549d6c4596cb95485f8bb48f0335,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2146 : e94970e3743075ce0097023150a694e7,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2147 : 5ebabd356f10dae925c50da173b093c8,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2148 : c87456f19f4f13548a7f703cedf3111f,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2150 : 97063bf85e3fd66bce93573ac72e9493,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2151 : 7b4d7ca3decd91d72e91eea703c05527,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+ASV 2153 : 9ceeb1887eecbaca08dcbc8b5977624c,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE
+ASV 2157 : 79168cf71be152fb12bc12c88c9e800c,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2159 : 7b9ce8e5c02aca74dd6c923413e99764,Proteobacteria,Methylobacterium-Methylorubrum,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2161 : 51159862b3deaac66f1cdcaf6ef5b788,Proteobacteria,Methylobacterium-Methylorubrum,Host generalist,6,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2175 : a5ed1c3fbdb29651bc0b3cfde1a90b3b,Proteobacteria,Methylobacterium-Methylorubrum,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2178 : f5058befce1e42549993e3e4147ec678,Proteobacteria,Microvirga,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2180 : 06d0165290de3bc1980514d3470b951e,Proteobacteria,Microvirga,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2181 : 9fa2e499072a105f3bd8f37f3f0c258d,Proteobacteria,Microvirga,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2193 : 0f4db40d459d55341c67b6ea5473b9cf,Proteobacteria,Methylobacterium-Methylorubrum,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2195 : 79a79991cc02836372508cfc2eb01266,Proteobacteria,Methylobacterium-Methylorubrum,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2196 : 050b3996f8c3d5b8369867fe3fb9a1da,Proteobacteria,Methylobacterium-Methylorubrum,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2213 : 655bfa7150ecaa5e3ece2f4f5ead0503,Proteobacteria,Asticcacaulis,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2214 : 2be3f2360901e1e58aa9ee09285a1e2e,Proteobacteria,Asticcacaulis,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2215 : 9ec52120ea52efa8321f3ec5294f3c56,Proteobacteria,Asticcacaulis,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2216 : de314f846d702c48b13ca241394fa653,Proteobacteria,Asticcacaulis,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2217 : 498870164b93e8b0db543e9fc96155ce,Proteobacteria,Asticcacaulis,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2218 : 446273c2dfec416b038c8aa366ec5400,Proteobacteria,Asticcacaulis,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2219 : 8d9a7c573820a256585c501be88ea092,Proteobacteria,Asticcacaulis,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2220 : 0a165844daf38d8ce2008c94a5b4565e,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2222 : ffdf7a6a35808b6b3f891cf50e9324df,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2236 : f3a37a2b5a3110eab00fe0cc4b2e7a34,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2239 : 146011b4b3b1ac5bd7d8224c5d93209d,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2240 : a831054ee802d48e933d003870c0d42c,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2241 : 784083ef977c5d61c689daed53449fa3,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2242 : e526b7bcb6bcc4067b9f0430c5399489,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2243 : 0eedb25a12c4cc261190b69f3f82cc60,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2245 : 2d16d001e21717f960cf771ae879b1dd,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2247 : 396c2d79acbe8883549b9049dddce9fb,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2249 : f7a188fc3fb288942a02a9b65dcd3b66,Proteobacteria,Sphingomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2250 : f51077ca3ea6e01c801702d2a77e5da1,Proteobacteria,Sphingomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2251 : 41bb8e69c0104ad63a2cd8c272a01d5b,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2252 : 820dbf1f767f00c55b184afd0ee10066,Proteobacteria,Sphingomonas,Host generalist,10,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2253 : 6c8b34267203cd0682f74ce856661c0f,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2254 : da32c8097c1ebe17163e073cd58e1f12,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2255 : 5c7445c0af66365826dc7ead81776d2d,Proteobacteria,Sphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2256 : 188b35815d41929e048cd1d3995ac6a0,Proteobacteria,Sphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2259 : 345bf259c10ca5fa12c6020804b3e9e7,Proteobacteria,Sphingomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2260 : c27db13f7524cd02da680aac56c2f0a8,Proteobacteria,Sphingomonas,Host generalist,9,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2261 : 9bb037a292d3d6a7cc86fe2ecb01a279,Proteobacteria,Sphingomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2262 : 0e9524193e9ec35712e392b847722d5c,Proteobacteria,Sphingomonas,Host generalist,8,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2269 : fe1900950f4269c0ab1ff3a9b45c4125,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2271 : 4c157652314c993aa13b1178f85fe0e5,Proteobacteria,Blastomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2272 : d88fdd25cf0defbbeed5e4a61038ecee,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2273 : 20b2a1cd685acf58314fb59252a14448,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2274 : 4c89d54c8a191956b286cec583212fb2,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2275 : f000aa01d0eb374fadbcafb45e7f2dd1,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2276 : 414a7e3a617b2c666d57c7808dcefe2a,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2281 : b32ba9481b903379ecef98945614919b,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2282 : df6999e532c812cf009aee328f473077,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2284 : 6662a00231531ac6cfdc1191a99809de,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2285 : 475be13c71b1218e9a795e99128d78f3,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2286 : 5c8074ba7aabc98e373235de11c69e0e,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2287 : 263f3c6b73d1f88dd5b197dabfa0f7f2,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2288 : dc309858fd186e55543ab705e3fe27af,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2289 : c518a0b115793802b2ed3030332ccc1e,Proteobacteria,Sphingobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2291 : 4fe33355b5da0a665adfee25ded28196,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2294 : 7ab2c03c54104f8aa2f08025654a1eed,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2295 : 4a0adc19c05c726ce6adc553bce27e6b,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2296 : 97e1a57e6cfd8134fc70e6d7b2038b32,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2297 : 9b4985bf8e91160b1f062eb1cf2f289e,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2299 : 18988d3d044f149844a1a617b65f0f24,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2310 : 72bb4a903bb1c36e10c8cdf584b0d49b,Proteobacteria,Sphingomonas,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2311 : 4933cc6a6bf5ea55c2f1ebebf50e3fab,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2320 : ad70b60b1fde7afe8196f6a08ac272ad,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2321 : 990f56ff9ac90bb3662e5688e5313556,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2324 : 98cee55e0da97faeeefee04ec83f9ddf,Proteobacteria,Sphingobium,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2326 : 989bd0d39b46393d43ef36a4a3328b89,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2328 : 6a414033ff6987596b1913a9aceaf50f,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2329 : 17edd50e238bbf5aebdc1a58f9e6ca2b,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2330 : 9c3f6af486818d549fe0f5c21a973f6c,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2332 : cd4366f6b27538135aabfbd87b466c98,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2333 : f830ff5918843d3aa8fe24f3142447b4,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2335 : 6d7b473394415fdf58b0783646b43d58,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2342 : 4f56c9dd4d0931112b945f672ddcd781,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2346 : 292d9544a23e49de589bda23fa6e7bce,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2351 : 5af8bc1b2da6dc0d77b2927b608b171b,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2353 : 61bb94d45cd3ee0fd482238d90b44f4d,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2365 : 5d0c6af420698f1cdff612c8f7960627,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2368 : 41fbd10965a9dcfd028875763746436c,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2375 : 1f6ed167106fd140cca9e7f2e70509b2,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2377 : ba2d9dda466792a61bb60ba51e97380a,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2378 : 10afda2baef44de4c584a6641de399b1,Proteobacteria,Sphingomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2380 : 37f26f026cef46af871d8cecbaca65d9,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2381 : c9ac40e89de5f5922227e8fa49e6c6fa,Proteobacteria,Sphingomonas,Host generalist,6,Aerobic,FALSE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2384 : 5cf37e80516a615f77bd5e97f18ae417,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2387 : 81745b8abbb7ce630d6610083d59dbcf,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2398 : a00207dac8cecfb280ee732df82bf536,Proteobacteria,Altererythrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2399 : 69af3c35bf4904157910660ee924b3a6,Proteobacteria,Porphyrobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2400 : 92fcf0f4c930f5bc66515788741e3a98,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2402 : a01118cd28756f3d534adf00c3bdc05b,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2403 : b867276ef61fdee848c1d4b268640323,Proteobacteria,Novosphingobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2404 : 671a0b188956760dfe9d16a84c56b698,Proteobacteria,D05-2,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2405 : 851249f44eae25773448f3092a30e063,Proteobacteria,Hyphomicrobium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2406 : ac96bd0169dbfa19efb6c406fde0001d,Proteobacteria,Hyphomicrobium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2407 : 4f54b7c1bd04f426bd5971e5625e4609,Proteobacteria,Hyphomicrobium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2408 : 445b4b68c699d3520e9097fefa08f58f,Proteobacteria,Hyphomicrobium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2409 : 0ba210559c7884e7157bf87ac5a7acd8,Proteobacteria,Devosia,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2413 : 8ded19ba3180f04fada2be334a33e2e6,Proteobacteria,Devosia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2415 : 2d8c5d0bc7913288932ac52e7cb2b65a,Proteobacteria,Aureimonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2419 : 88f7a00a040d23fae0be9ea655208e22,Proteobacteria,Ochrobactrum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2420 : b3dfbd7ba297e7fb963add515d86756d,Proteobacteria,Ochrobactrum,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2426 : d09c1310466ca54d42eb40883233547c,Proteobacteria,Microvirga,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2427 : d5d5dbee2d550c1e5d320c9267090680,Proteobacteria,Mesorhizobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2433 : d829bee4984f82ffc2453212157caf96,Proteobacteria,Bradyrhizobium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2434 : 90aca794c7e30b8a77e87f13ffc9a5cc,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2435 : 892751e9e470eaf5f0a95dcf7589a852,Proteobacteria,Pseudolabrys,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2436 : a20f4b5e93a49ea3098101c60983de82,Proteobacteria,Pseudolabrys,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2444 : 38926f45206d589e80afa0e540db6243,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2445 : 56251e1e0433c247c235c81afca967cb,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2450 : 2a16d1c7280759587801706d365a30ad,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2453 : d4b8a68ce67b41231ff898fdaf5dcb02,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2454 : d429091b3c9a62628eb535ab554cc753,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2458 : 02fb746bb8c2abc7fa6b40d20ef45045,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2459 : 1f71feb32076c4fa92fc17d127042c80,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2461 : 3613434ab8b68ceb5da3ae9f4cc145f3,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2462 : 18591cbdc8246f6f913ec9203a5c32f3,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2470 : 17a463a2631a630bbfefac2b5c9037cf,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2485 : 571a664395ff18c6729fa553afb86b56,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,7,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2486 : a5cd13f72ba580b2a52b1f31691650d6,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2488 : 2b9d4000f5a9506979d5ff04eac1c014,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2500 : e93ecff2f7d6ab84e9556e613393b854,Proteobacteria,Brevundimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2514 : ad72127c01dac114c005c83404612b5d,Proteobacteria,Brevundimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2520 : 344f977cfcf67c78fa2c77d1240ad04d,Proteobacteria,Brevundimonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2530 : 919c69564d0e3dcfc1b863feaa22574c,Proteobacteria,Brevundimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2531 : 3016488652a94350725ec6a6217326cd,Proteobacteria,Phenylobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2532 : 345c308f76539edd9e91d297e2d97c13,Proteobacteria,Phenylobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2533 : 6de8fff163b98c8aa71aeec462c52f49,Proteobacteria,Phenylobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2534 : 2dd9e191a81b91117b77df5eac7e6048,Proteobacteria,Phenylobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2539 : c20a2840efa94731bcf98caf0ff4ac09,Proteobacteria,Brevundimonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2542 : 5b91e29a41439da341b2ac9349cce657,Proteobacteria,Brevundimonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2548 : 1432af512120f8938cce97553915ab22,Proteobacteria,Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2551 : 6eef4ce3ea2f855e7a458b111ee76a7e,Proteobacteria,Falsirhodobacter,Host generalist,7,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,TRUE
+ASV 2558 : 32eb93b762657a6945fda37c2c2ee62d,Proteobacteria,Falsirhodobacter,Host generalist,6,Facultatively anaerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2567 : b8f8822e59cba100c57b1c771a96a5df,Proteobacteria,Falsirhodobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2570 : b4b55462fc87503bdabeb19518353ef9,Proteobacteria,Amaricoccus,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2571 : 06c85ab33b6ef156967a7898b133a240,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2585 : 928b67e64faa0e5503b45c9c643bdcdc,Proteobacteria,Rubellimicrobium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2586 : 9ebd4d47c25e82ab5fff6ca85f1ad499,Proteobacteria,Rubellimicrobium,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2587 : aa441ccaffa9c33d44bfaf008a3cbc22,Proteobacteria,Reyranella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2588 : 65f3bc04e6d68755f1b889edc8f64cc8,Proteobacteria,Reyranella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2589 : 923b2d72e02c1fd5147aa205c0d032be,Bacteroidota,Muribaculaceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2590 : fe534c698aa8d269605fb5f310f371c9,Bacteroidota,Muribaculaceae,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2591 : 5b46da51ed75ea34c50eb30e475b97e3,Bacteroidota,Parabacteroides,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2592 : 58a3744edd2cb95e00bf16cd42fdb2df,Bacteroidota,Bacteroides,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2593 : 73e4aa40678b6394e1f9626439f1c1bf,Bacteroidota,Bacteroides,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2594 : 45a5b937529debcc980ba40152dc0103,Bacteroidota,Adhaeribacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2595 : 3725e63715d30df08b67d09db5ca80c4,Bacteroidota,Adhaeribacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2596 : 4d4013a27176f943a56ac6c5e84cfa2b,Bacteroidota,Siphonobacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2597 : 6926f0744c3f537cf7f4d0d0ad76db93,Bacteroidota,Siphonobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2598 : 9555acec6ec3beb981603408e9e883a8,Bacteroidota,Dyadobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2601 : 344dafe7bf37ec053b3ef832bedcafb8,Bacteroidota,Chryseolinea,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2602 : f9addd8a736ba8f99f715836c4086005,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2603 : 5e616c0a99413e29f72efd5e9c67497a,Bacteroidota,Ohtaekwangia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2604 : ac68c7c702432c26bc13677cb4c1ea8f,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2605 : 549962ace793258897c214e16c8199ab,Bacteroidota,Rhodocytophaga,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2606 : 80156a49f74e047e7ce75972ecfaf2d5,Bacteroidota,Rhodocytophaga,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2609 : 4a6086b0d2aac9c15dcc4c55f3c38f79,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2612 : b5f97198a5c9321c9096cb7d32ba29f0,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2614 : 685899ab474306d2bcf8f7ff67795e2b,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2615 : 318731df8b5243f85b944770513f061e,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2616 : f23ae79b8e8f9da6aacd23180c2361db,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2619 : bd078ce71812fc177de340164b515964,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2621 : 52fca7032a3156be06f7e7376a6c52c2,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2623 : e243a81f47f66f6c6904f6e6e6fd0f08,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2624 : 7f669fb027599b7d197b99a4f691532c,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2625 : 698ede169cc9c326fb78b97e85683800,Bacteroidota,Hymenobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2626 : 12e14fba675eb6a0c892a6a4155d78a4,Bacteroidota,Pontibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2629 : cdf6698b742f5fdb42ed90b46cff4d32,Bacteroidota,Sphingobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2631 : 9fe47b03d6b861867cce6698dfa448c9,Bacteroidota,Sphingobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2648 : 289c294a3963b6e58cb16f57aca2cf14,Bacteroidota,Pedobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2650 : 24bc91eebc53a8eca054504358c0f290,Bacteroidota,Pedobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2656 : 0d34e514b2d0d3a14fbfa27a9717f5ae,Bacteroidota,Pedobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2660 : d8955939438035414f9a68eb3688782c,Bacteroidota,Pedobacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2661 : 1634ba7200245febae311caf7f170e15,Bacteroidota,Mucilaginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2662 : 74c6ddfe28b19da4ffe2491105dbdc05,Bacteroidota,Mucilaginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2663 : 475fd32bbe85633e19b9033890e663c0,Bacteroidota,Mucilaginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2669 : c6fa5fd77a5483314afc1d62c03864eb,Bacteroidota,Pedobacter,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2680 : e0df36b5d8845362c8ade91c634eba98,Bacteroidota,Mucilaginibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2681 : 8d510ac021b634b91d3ec659521accd9,Bacteroidota,Mucilaginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2682 : 95316d7724765b5fed9948f5cdff66b6,Bacteroidota,Mucilaginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2683 : 79f2ce3e64c66106b3caa6c956520441,Bacteroidota,Mucilaginibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2684 : 8e17971c74c92ba71b2405bf1634ee29,Bacteroidota,Mucilaginibacter,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2686 : f9a2e5ce7fa3a89aa9957ddc344609f1,Bacteroidota,Mucilaginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2688 : c750b3f5d0ddd55e03e738aed60ddee8,Bacteroidota,Taibaiella,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2689 : 936b5432181af9733d03fc6416cc1ee5,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2691 : 68d1643e66a570ba966aafab70029cce,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2692 : 5b824059f35b2d1a22e2ce26ab79ede0,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2693 : eced797b352323bb4a82eae6bdde773b,Bacteroidota,Dinghuibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2694 : 8678dea077ece20287b950cd5bc66db8,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2695 : b939a2eac1f90203c14cab0d23755a3c,Bacteroidota,Puia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2696 : 3a243c419f242f78d33de701e1c590d0,Bacteroidota,Parasegetibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2697 : e07719f4be1c88d455837c0779481019,Bacteroidota,Dinghuibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2698 : fd9566a2b963a28558617cdfa8809ca1,Bacteroidota,Flavisolibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2699 : 0e9ae3d0137092a4fbf8d113097c38af,Bacteroidota,Flavisolibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2700 : f716ca223786d697f2f0961c1e8ef9d1,Bacteroidota,Flavisolibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2701 : af5a1564ed9de77e6cc208f83e9a15c1,Bacteroidota,Flavisolibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2702 : e6a068593f205d08039ff051787368b7,Bacteroidota,Flaviaesturariibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2703 : cfc806a9950faf41f6cf3c8534a63c82,Bacteroidota,Flaviaesturariibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2704 : 67e9d5be132bb76e7d01c3916f034994,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2705 : e24d939fbbcd56596add346334368a3a,Bacteroidota,Segetibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2706 : 422a3c019dbe1b529c87ac238b5bafd5,Bacteroidota,Ferruginibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2707 : 47f2617de53ce85d035fd4d1cc587272,Bacteroidota,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2708 : eccd9a63335490600e8ae94b5d207f63,Bacteroidota,Aurantisolimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2709 : 9fb877df89cff6487d4371a1444880f8,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2710 : 892a0fc53b26d6a2c193d145b2464da7,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2711 : 7dc105c5eb1c0a543b4e334d14f27fc2,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2712 : 0033ccc9b36c2fc94e1975501b9b5552,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2714 : 9b86de54891d33904c43d3dfd06b477a,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2715 : 2c9783ac184a9526ae156c27d990bf7f,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2729 : 7eade307c998285fbb669287f9351e15,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2730 : ab8cb8f8a86f08ebc2084a1fe785ae63,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2731 : 791e233ef27f1ed7439e9b4781dbee4c,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2732 : b496a7902ac6c1d6828db7614b270efa,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2733 : cb41c5340797d97fb63c4aebcd89ad4d,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2734 : 7f9af2f2d8e97540a52f8a967ef583e4,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2738 : 54b965c6f0a00ed8ad444f7c60e8eeab,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2739 : 30cdf280549530143e15e33cb14d8535,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2740 : a2b4852c9f63a7b103397e02c210f7a4,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2741 : b5a43cda51f52bb58a1a7be72d32c71b,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2742 : 378bd194bac529852174a579fa666d8f,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2743 : 198dd6d253141800219d2d7e81b23279,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2744 : 3b2dc6b7b136c4657e24edbe463aa8f7,Bacteroidota,Chryseobacterium,Host specialist,1,Not predicted,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2750 : e28f6a6fc49aecf0b2c5d03916c919f4,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2751 : 25356bc436963f8584df134a9ac4025e,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2752 : c665d42dafe2e0e550bbe6d2ad62d444,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2753 : 9abda72952d13fd5c4d697d36481f69d,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2754 : 414fe0d999c5b4efa147efb33235bc39,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2755 : 556d0c34540705317284deac4acc8eef,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2756 : 90fa27753cbfa0b91760ded4f666b8a5,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2757 : a11f6576ed07dda68f4187d8839b584b,Bacteroidota,Flavobacterium,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2758 : 5b6a46c214be400c810773a867ffb027,Bacteroidota,env.OPS_17,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2759 : 58f19b49464bde30cb9fca88349d121b,Bacteroidota,Alistipes,Host specialist,1,Not predicted,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2760 : f802a398d82b1da667ec935f6e9b94f7,Bacteroidota,Alistipes,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2761 : 794846a8cb277bce66fa2f98f0450a1c,Bacteroidota,Odoribacter,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2762 : 111e4ccbd37b130eccc2912060aa6173,Bacteroidota,Odoribacter,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2763 : 6399b8c746c93ae15341aa7aa79c0e3a,Bacteroidota,Rikenellaceae_RC9_gut_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2764 : 04a67f30b722a5aee59c22dd6642112d,Bacteroidota,Rikenellaceae_RC9_gut_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2765 : a4af9c363601f6ddefd0878bb31510d6,Bacteroidota,Rikenellaceae_RC9_gut_group,Host specialist,1,Anaerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2770 : 89c6353ababfad34224aa74954880a96,Proteobacteria,Delftia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2771 : 4e8ccf41cae7d0510b1845838617504c,Proteobacteria,Delftia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2775 : 18253d5cb4b262eaa15180c7df2109ca,Synergistota,Aminivibrio,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2776 : 6d1e7588f6b0b24b04034a31da1c5e73,Synergistota,Aminivibrio,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2777 : 00c1e13a038e3bc1d6aeef145e9af89a,Proteobacteria,Simplicispira,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2778 : f1a8effc04a0147418e4d845aceee603,Synergistota,Aminivibrio,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2779 : 2f706b911fae2382a6f9159c592a20df,Synergistota,Aminivibrio,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2781 : 4b5a73d445b752fef7829be53abd71c1,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2782 : 08b3baf9516eaaf5b30df953603f5cbb,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2783 : 4c943ac9e1158a027b25310bfe60e15a,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2785 : 6e717fe6be7b68fae31c989a0610716e,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2786 : dd8229814f2d127e61ac92c5d275db8b,Proteobacteria,Caenimonas,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2787 : 00c905253e84aab5042613bcc22d568c,Proteobacteria,Ramlibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2788 : ebbfeff7e34b5e4653195c9b659fd99b,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2789 : 320d2b8821aedebf161fa9b3b23c6ed4,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2792 : e9383edeae32998b3dd242991749eefe,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2795 : 8d93b6effd21ba6e1b97a58346e5752a,Proteobacteria,Variovorax,Host generalist,6,Aerobic,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE
+ASV 2796 : df71de0e92459aa808364311135bb8fc,Proteobacteria,Variovorax,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2799 : 3e1442f203abfada84808fd86effbe98,Proteobacteria,uncultured,Host specialist,1,Aerobic,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE
+ASV 2804 : c9de210c5a513e7749d7e67ce403d19a,Proteobacteria,Ramlibacter,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2805 : 4f31fc43bb2ba611fa37c25e788fecf7,Proteobacteria,Caenimonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2806 : f36c50279a8fa1c121cb9dda1ab1cb42,Proteobacteria,Acidovorax,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2808 : 3d9e3648bf97c7bd63c648f4908e8879,Proteobacteria,Delftia,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2809 : 748c09fbdcf8e556d386794f8a3a7c9f,Proteobacteria,Acidovorax,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+ASV 2810 : 07b9db0375df4a5e63c8a479145d4478,Proteobacteria,Rhizobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2812 : dab1160ee7a4ecf9945086ff09f99528,Proteobacteria,Rhizobacter,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2813 : a1d144d0a0f88b0b14b10eab7c143154,Proteobacteria,Thiomonas,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2814 : 85305eb18fc8adc65fcdcc2d243e9016,Proteobacteria,uncultured,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2815 : 6af5bd519a06104d7006af1c02f9b389,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2816 : 28ebc796909e1697b72d7bc5880d88fa,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2817 : fd107efacca017dd40df18a16eb3c476,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2818 : 7ac6c842b41e82d9030f441de2d2ebc2,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2819 : 1584c408509daa04a93cf862686badb8,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2820 : d0f7766c04e617ad04c1cd5c08d41ae2,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2821 : aff0f43259280ad0011d1f9ae5bbbfc7,Proteobacteria,Ideonella,Host specialist,1,Facultatively anaerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2822 : ef485b77e80ee2250803ea0efb1eb1f7,Proteobacteria,Leptothrix,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE
+ASV 2823 : f24c3b3c42d0aff416f254bbf3b4ec19,Proteobacteria,Leptothrix,Host specialist,1,Aerobic,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE

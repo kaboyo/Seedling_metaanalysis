@@ -3,7 +3,9 @@
     "counts": "Datesets/asv-counts.csv",
     "taxonomy": "Datesets/taxa.csv",
     "metadata": "Datesets/metadata.csv",
-    "tree": "Datesets/tree.nexus"
+    "tree": "Datesets/tree.nexus",
+    "host_tree": "Datesets/host_plant_species.nwk",
+    "rep_seqs": "rep-seqs.qza"
   },
   "filters": {
     "min_library_size": 500,
@@ -34,7 +36,6 @@
     "secondary_groups": [
       "study_alias",
       "Scientific_Name",
-      "Geography",
       "Timepoint"
     ],
     "permutations": 999,
@@ -55,7 +56,508 @@
     "core_prevalence_threshold": 0.5,
     "core_abundance_threshold": 0.001,
     "indicator_permutations": 999,
-    "strip_other_threshold": 0.03
+    "strip_other_threshold": 0.03,
+    "composition_rank": "Class",
+    "sankey_class_taxa": 9,
+    "dendrogram_min_samples": 3,
+    "dendrogram_genera": 10
+  },
+  "generalist_specialist": {
+    "study_group": "study_alias",
+    "host_group": "Scientific_Name",
+    "clam_specialization": 0.6667,
+    "clam_alpha": 0.005,
+    "clam_coverage_limit": 10,
+    "host_breadth_depth": 1000,
+    "host_breadth_probs": [0.025, 0.975],
+    "screen_iterations": 1000,
+    "screen_fdr": 0.05,
+    "top_genera": 25,
+    "major_phyla": 5,
+    "tree_bootstraps": 1000,
+    "tree_min_alignment_columns": 100
+  },
+  "external_analyses": {
+    "run": true,
+    "force": false
+  },
+  "stage_effects": {
+    "deseq2_fdr": 0.05,
+    "deseq2_min_log2fc": 1,
+    "min_samples_per_stage": 3,
+    "min_prevalence": 0.1,
+    "clr_pseudocount": 0.5,
+    "strata": ["Plant_Family", "Host_Genus"],
+    "strata_nested_in_study": ["Host_Genus"],
+    "strata_within_host": [],
+    "strata_excluded_levels": ["undefined"],
+    "min_strata": 2
+  },
+  "predicted_traits": {
+    "resources_dir": "resources",
+    "greengenes_identity": 0.97,
+    "min_annotated": 100,
+    "max_hosts": 20,
+    "fdr": 0.05,
+    "heatmap_traits_per_direction": 12,
+    "heatmap_host_breaks": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9
+    ],
+    "heatmap_min_asvs_per_cell": 5,
+    "forest_traits_per_direction": 10
+  },
+  "gene_content": {
+    "max_nsti": 0.15,
+    "fdr": 0.05,
+    "log2_odds_ratio": 0.5,
+    "max_hosts": 20,
+    "heatmap_categories": 15,
+    "heatmap_exclude_pattern": "^(Protein families|Unclassified|Poorly characterized)",
+    "function_bars": 12
+  },
+  "special_groups": {
+    "small_genome_share": 0.01,
+    "heatmap_min_host_genera": 3
+  },
+  "analysis_folders": {
+    "directory": "by_analysis",
+    "folders": {
+      "01_data_and_filtering": {
+        "methods_paragraph": 1,
+        "analysis": "Data and filtering",
+        "files": [
+          "figures/study_overview.tiff",
+          "figures/study_scope.tiff",
+          "figures/fig1_geographic_distribution.tiff",
+          "figures/geographic_distribution_map.tiff",
+          "figures/sample_provenance_by_country.tiff",
+          "figures/library_sizes.tiff",
+          "figures/sequencing_depth_histogram.tiff",
+          "tables/host_plant_species.*",
+          "tables/metadata_overview_publication.*",
+          "tables/meta_analysis_*.csv",
+          "tables/metadata_group_summary.csv",
+          "tables/analysis_summary_table.csv",
+          "tables/fig1_study_table.csv",
+          "tables/study_level_audit.csv",
+          "tables/sequencing_depth_summary.csv",
+          "tables/taxonomy_filtered_features.csv",
+          "setup/sample_statistics.csv"
+        ]
+      },
+      "02_alpha_diversity": {
+        "methods_paragraph": 2,
+        "analysis": "Alpha diversity",
+        "files": [
+          "figures/alpha_*.tiff",
+          "tables/alpha_*.csv",
+          "tables/rarefied_alpha_*.csv"
+        ]
+      },
+      "03_beta_diversity": {
+        "methods_paragraph": 2,
+        "analysis": "Beta diversity (CSS, Bray-Curtis, PERMANOVA)",
+        "files": [
+          "figures/pcoa_css_by_stage_study.tiff",
+          "figures/pcoa_css_asv_by_stage.tiff",
+          "figures/beta_variance_explained.tiff",
+          "figures/pcoa_css_*.tiff",
+          "diversity/permanova_css_by_unit.csv",
+          "diversity/pcoa_css_genus_by_stage.csv",
+          "diversity/permanova_css_genus_by_stage.csv",
+          "diversity/pcoa_css_asv_by_stage.csv",
+          "diversity/permanova_css_asv_by_stage.csv"
+        ]
+      },
+      "04_composition": {
+        "methods_paragraph": 2,
+        "analysis": "Taxonomic composition",
+        "files": [
+          "tables/top_phylum_summary.csv",
+          "tables/composition_by_stage.csv",
+          "figures/composition_dendrogram.tiff",
+          "tables/composition_dendrogram_tips.csv",
+          "figures/top_*_composition.tiff",
+          "figures/fig_taxa_strips_*.tiff",
+          "figures/fig_alluvial_*.tiff",
+          "figures/fig_genus_seedling_vs_seed_by_species.tiff",
+          "tables/top_*_summary.csv",
+          "tables/taxa_strips_*.csv",
+          "tables/genus_*.csv"
+        ]
+      },
+      "05_cooccurrence_network": {
+        "methods_paragraph": 2,
+        "analysis": "Co-occurrence network",
+        "files": [
+          "figures/cooccurrence_network.tiff",
+          "tables/cooccurrence_edges.csv"
+        ]
+      },
+      "06_taxon_stage_associations": {
+        "methods_paragraph": 3,
+        "analysis": "Taxon-stage associations (two steps)",
+        "files": [
+          "figures/stage_screen.tiff",
+          "figures/stage_effect_heatmap.tiff",
+          "figures/indicator_species_plot.tiff",
+          "figures/volcano_deseq2.tiff",
+          "tables/stage_screen_asvs.csv",
+          "tables/stage_effect_*.csv",
+          "tables/indicator_species_*.csv",
+          "differential_abundance/deseq2_results.csv"
+        ]
+      },
+      "07_host_phylogenetic_signal": {
+        "methods_paragraph": 4,
+        "analysis": "Host phylogenetic signal in alpha diversity",
+        "files": [
+          "figures/host_phylosignal.tiff",
+          "figures/prunetree.png",
+          "tables/host_phylosignal*",
+          "../Datesets/host_plant_species.nwk"
+        ]
+      },
+      "08_phylosymbiosis": {
+        "methods_paragraph": 4,
+        "analysis": "Phylosymbiosis, marginal PERMANOVA and variance partitioning",
+        "files": [
+          "figures/host_phylosymbiosis_scatter.tiff",
+          "tables/host_phylosymbiosis_*.csv",
+          "tables/host_beta_*.csv",
+          "tables/host_phylosignal_tree.nwk"
+        ]
+      },
+      "09_stage_generalists_specialists_clam": {
+        "methods_paragraph": 5,
+        "analysis": "Stage generalists and specialists (CLAM), genera",
+        "files": [
+          "figures/tree_generalist_specialist_genus.tiff",
+          "tables/tree_generalist_specialist_genus.csv",
+          "tables/generalist_specialist_genus.csv"
+        ]
+      },
+      "10_host_generalists_specialists": {
+        "methods_paragraph": 6,
+        "analysis": "Host generalists and specialists (two-step screen)",
+        "files": [
+          "figures/host_breadth_null.tiff",
+          "tables/generalist_specialist_asv_host_screen.csv",
+          "tables/generalist_specialist_breadth_null.csv",
+          "tables/generalist_specialist_clustered_taxa.csv",
+          "tables/generalist_specialist_summary.csv",
+          "tables/host_phylosignal_tree.nwk"
+        ]
+      },
+      "11_trees_and_class_comparison": {
+        "methods_paragraph": 7,
+        "analysis": "Trees of host generalists and specialists, and their comparison",
+        "files": [
+          "figures/host_class_composition.tiff",
+          "figures/host_breadth_top_genera.tiff",
+          "figures/tree_generalist_specialist.tiff",
+          "figures/tree_host_generalists.tiff",
+          "figures/tree_host_specialists.tiff",
+          "tables/tree_generalist_specialist.csv",
+          "tables/generalist_specialist_composition_tests.csv",
+          "tables/generalist_specialist_exclusive_taxa.csv",
+          "tables/generalist_specialist_top_genera.csv",
+          "tables/generalist_specialist_breadth_abundance.csv",
+          "trees/tree_build_summary.csv",
+          "trees/*/tree.nwk",
+          "trees/*/trimmed.fasta",
+          "trees/generalists/iqtree.iqtree",
+          "itol/*/*.txt"
+        ]
+      },
+      "12_predicted_functions": {
+        "methods_paragraph": 8,
+        "analysis": "Predicted traits, gene content and special groups",
+        "files": [
+          "figures/ko_kegg_category_heatmap.tiff",
+          "figures/trait_breadth_forest.tiff",
+          "figures/ko_function_bars.tiff",
+          "figures/trait_numeric_volcano.tiff",
+          "figures/trait_binary_volcano.tiff",
+          "figures/ko_volcano.tiff",
+          "figures/functional_host_breadth_heatmaps.tiff",
+          "figures/functional_stage_heatmaps.tiff",
+          "figures/special_group_heatmaps.tiff",
+          "tables/predicted_trait*.csv",
+          "tables/functional_trait_heatmap_matrix.csv",
+          "tables/ko_*.csv",
+          "tables/special_group_*.csv",
+          "picrust2/bac_KO_predicted.tsv.gz",
+          "picrust2/combined_marker_predicted_and_nsti.tsv.gz",
+          "picrust2/bac.tre"
+        ]
+      }
+    }
+  },
+  "main_figures": {
+    "directory": "00_main_figures",
+    "width_in": 7.2,
+    "max_height_in": 9.7,
+    "dpi": 600,
+    "figures": {
+      "Figure_1": [
+        {
+          "file": "study_overview.tiff"
+        }
+      ],
+      "Figure_2": [
+        {
+          "file": "composition_dendrogram.tiff",
+          "tag": "a"
+        },
+        {
+          "file": "pcoa_css_by_stage.tiff"
+        }
+      ],
+      "Figure_3": [
+        {
+          "file": "host_phylosignal.tiff",
+          "tag": "a"
+        },
+        {
+          "file": "alpha_stage_effect_heatmap.tiff"
+        }
+      ],
+      "Figure_4": [
+        {
+          "file": "host_phylosymbiosis_scatter.tiff",
+          "tag": "a"
+        },
+        {
+          "file": "stage_effect_heatmap.tiff"
+        }
+      ],
+      "Figure_5": [
+        {
+          "file": "tree_host_generalists.tiff",
+          "tag": "a",
+          "row": 1
+        },
+        {
+          "file": "tree_host_specialists.tiff",
+          "tag": "b",
+          "row": 1
+        },
+        {
+          "file": "host_breadth_top_genera.tiff",
+          "tag": "c",
+          "row": 2
+        },
+        {
+          "file": "trait_breadth_forest.tiff",
+          "tag": "d",
+          "row": 3
+        },
+        {
+          "file": "ko_function_bars.tiff",
+          "tag": "e",
+          "row": 3
+        }
+      ]
+    },
+    "trim_margin_in": 0.05,
+    "max_gap_in": 0.1,
+    "crop_border_in": 0.02
+  },
+  "supplementary_figures": {
+    "directory": "00_supplementary_figures",
+    "width_in": 7.2,
+    "max_height_in": 9.7,
+    "dpi": 600,
+    "figures": {
+      "Figure_S1": [
+        {
+          "file": "cooccurrence_network.tiff"
+        }
+      ],
+      "Figure_S2": [
+        {
+          "file": "beta_variance_explained.tiff"
+        },
+        {
+          "file": "pcoa_css_by_stage_study.tiff"
+        },
+        {
+          "file": "pcoa_css_asv_by_stage.tiff"
+        }
+      ],
+      "Figure_S3": [
+        {
+          "file": "host_breadth_null.tiff",
+          "tag": "a"
+        },
+        {
+          "file": "host_class_composition.tiff"
+        }
+      ],
+      "Figure_S4": [
+        {
+          "file": "ko_kegg_category_heatmap.tiff",
+          "tag": "a"
+        },
+        {
+          "file": "special_group_heatmaps.tiff"
+        }
+      ],
+      "Figure_S5": [
+        {
+          "file": "functional_stage_heatmaps.tiff"
+        }
+      ]
+    },
+    "trim_margin_in": 0.05,
+    "max_gap_in": 0.1,
+    "crop_border_in": 0.02
+  },
+  "figures": {
+    "skip": [
+      "tree_genus_by_stage",
+      "tree_asv_by_stage",
+      "tree_asv_prevalent_by_stage",
+      "umap",
+      "rarefaction_curves"
+    ],
+    "panel_letter_case": "upper",
+    "font_family": "Helvetica"
+  },
+  "palette": {
+    "source": "Colours sampled from the figure pages of CELL-REPORTS-D-26-05893.pdf; approximate, read off the rendered pages",
+    "seeds": "#DA7A2A",
+    "seedlings": "#0A9296",
+    "categorical": [
+      "#865A66",
+      "#527AAE",
+      "#7A9A7A",
+      "#F2CE8E",
+      "#82668E",
+      "#D26A72",
+      "#3A5A42",
+      "#B6BECA",
+      "#3E425A",
+      "#DEA246",
+      "#E6BED6",
+      "#1E4A76",
+      "#8A926A",
+      "#8ECEBE",
+      "#CA663E",
+      "#F6E29A",
+      "#4686A2",
+      "#9A5A72",
+      "#9EAEC6",
+      "#5E6E56"
+    ],
+    "pastel": [
+      "#8ECEBE",
+      "#F6E29A",
+      "#B6BECA",
+      "#E6BED6",
+      "#F2CE8E",
+      "#CEE2D2",
+      "#D6C2C2",
+      "#9EAEC6",
+      "#E6E2CA",
+      "#7AC6C6",
+      "#FAE6B2"
+    ],
+    "sequential": [
+      "#F6F1DC",
+      "#C9C58E",
+      "#7A9A7A",
+      "#3A5A42"
+    ],
+    "sequential_contrast": [
+      "#F6E29A",
+      "#8ECEBE",
+      "#527AAE",
+      "#3E425A"
+    ],
+    "diverging": [
+      "#865A66",
+      "#F7F3EE",
+      "#3A5A42"
+    ],
+    "bar": "#527AAE",
+    "stage_generalist": "#1E4A76",
+    "host_generalist": "#82668E",
+    "host_specialist": "#3E425A",
+    "host_genera": "#1E4A76",
+    "host_species": "#527AAE",
+    "abundance": "#D26A72",
+    "oxygen": {
+      "Aerobic": "#DADFE7",
+      "Facultatively anaerobic": "#9EAEC6",
+      "Anaerobic": "#1E4A76"
+    },
+    "trait_sources": {
+      "BugBase": "#865A66",
+      "FAPROTAX": "#3A5A42",
+      "metaTraits": "#527AAE"
+    },
+    "host_contrast": [
+      "#1E4A76",
+      "#DEA246",
+      "#D26A72",
+      "#3A5A42",
+      "#8ECEBE",
+      "#82668E",
+      "#527AAE",
+      "#F2CE8E",
+      "#3E425A",
+      "#E6BED6",
+      "#7A9A7A",
+      "#865A66",
+      "#F6E29A",
+      "#4686A2"
+    ],
+    "host_genus": [
+      "#527AAE",
+      "#8C510A",
+      "#3E425A",
+      "#B5487C",
+      "#7A9A7A",
+      "#865A66",
+      "#5E6E56",
+      "#6A51A3",
+      "#9EAEC6",
+      "#A6A13A",
+      "#4D9221",
+      "#9A5A72"
+    ],
+    "class_bars": [
+      "#1E4A76",
+      "#D26A72",
+      "#3A5A42",
+      "#82668E",
+      "#F2CE8E",
+      "#4686A2",
+      "#3E425A",
+      "#865A66",
+      "#8A926A"
+    ],
+    "genus_bars": [
+      "#DEA246",
+      "#E6BED6",
+      "#527AAE",
+      "#7A9A7A",
+      "#8ECEBE",
+      "#6A51A3",
+      "#F6E29A",
+      "#9EAEC6",
+      "#9A5A72",
+      "#5E6E56"
+    ]
   },
   "memory": {
     "enabled": true,

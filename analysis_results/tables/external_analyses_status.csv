@@ -1,0 +1,10 @@
+step,status,detail
+host_phylosignal,up to date,
+host_phylosymbiosis,up to date,
+generalist_specialist_trees,up to date,
+predicted_traits,up to date,
+predicted_trait_tests,up to date,
+ko_predict,up to date,
+ko_breadth_tests,up to date,
+special_groups,completed,0.5 min
+generalist_specialist_itol,up to date,

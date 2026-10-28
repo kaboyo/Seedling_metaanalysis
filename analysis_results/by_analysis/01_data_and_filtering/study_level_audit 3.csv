@@ -1,0 +1,61 @@
+study_alias,Scientific_Name,Geography,Developmental_Stage,n_samples
+PRJEB45079,Phaseolus vulgaris,France,Seeds,644
+PRJEB45079,Raphanus sativus,France,Seeds,637
+PRJNA810761,Glycine clandestina,Australia,Seedlings,193
+PRJNA649549,Triticum aestivum,Denmark,Seedlings,192
+PRJNA811248,Glycine clandestina,Australia,Seedlings,124
+PRJEB45079,Raphanus sativus,France,Seedlings,87
+PRJEB45079,Phaseolus vulgaris,France,Seedlings,82
+PRJNA811248,Glycine max,Australia,Seedlings,53
+PRJNA649549,soil,Denmark,soil,48
+PRJNA784432,Triticum aestivum,China,Seedlings,47
+PRJNA735565,Raphanus sativus,South Korea: Gyeonggi-do (seed),Seedlings,30
+PRJNA735565,Medicago sativa,South Korea: Gyeonggi-do (seed),Seedlings,27
+PRJEB6729,Brassica oleracea,France,Seedlings,24
+PRJNA735565,Brassica napus,South Korea: Gyeonggi-do (seed),Seedlings,20
+PRJNA649549,Triticum aestivum,Denmark,Seeds,20
+PRJEB6729,Brassica oleracea,Chile,Seedlings,12
+PRJEB6729,Brassica oleracea,France,Seeds,12
+PRJNA784432,Triticum aestivum,China,Seeds,12
+PRJEB6729,Brassica napus,France,Seedlings,8
+PRJNA926007,Brassica oleracea,Chile,Seedlings,8
+PRJNA926007,Brassica oleracea,Chile,Seeds,8
+PRJEB6729,Brassica rapa,Chile,Seedlings,8
+PRJEB6729,Brassica rapa,France,Seedlings,8
+PRJEB6729,Phaseolus vulgaris,France,Seedlings,8
+PRJEB6729,Solanum lycopersicum,China,Seedlings,8
+PRJNA926007,Solanum lycopersicum,Chile,Seedlings,8
+PRJNA926007,Lactuca sativa,Chile,Seedlings,7
+PRJNA926007,Lactuca sativa,Chile,Seeds,7
+PRJEB6729,Brassica oleracea,Chile,Seeds,6
+PRJNA926007,Solanum lycopersicum,Chile,Seeds,6
+PRJNA735565,Medicago sativa,South Korea: Gyeonggi-do (seed),Seeds,5
+PRJNA735565,Raphanus sativus,South Korea: Gyeonggi-do (seed),Seeds,5
+PRJEB6729,Arabidopsis thaliana,France,Seedlings,4
+PRJEB6729,Brassica napus,France,Seeds,4
+PRJEB6729,Brassica oleracea,Italy,Seedlings,4
+PRJEB6729,Brassica oleracea,Japan,Seedlings,4
+PRJEB6729,Brassica rapa,Chile,Seeds,4
+PRJEB6729,Brassica rapa,France,Seeds,4
+PRJEB6729,Daucus carota,New Zealand,Seedlings,4
+PRJEB6729,Daucus carota,USA,Seedlings,4
+PRJNA926007,Daucus carota,Chile,Seedlings,4
+PRJNA926007,Daucus carota,Chile,Seeds,4
+PRJEB6729,Diplotaxis tenuifolia,France,Seedlings,4
+PRJEB6729,Medicago truncatula,France,Seedlings,4
+PRJNA926007,Petroselinum crispum,Chile,Seedlings,4
+PRJNA926007,Petroselinum crispum,Chile,Seeds,4
+PRJEB6729,Phaseolus vulgaris,Chile,Seedlings,4
+PRJEB6729,Phaseolus vulgaris,France,Seeds,4
+PRJEB6729,Raphanus sativus,France,Seedlings,4
+PRJEB6729,Solanum lycopersicum,China,Seeds,4
+PRJNA735565,Brassica napus,South Korea: Gyeonggi-do (seed),Seeds,3
+PRJEB6729,Arabidopsis thaliana,France,Seeds,2
+PRJEB6729,Brassica oleracea,Italy,Seeds,2
+PRJEB6729,Brassica oleracea,Japan,Seeds,2
+PRJEB6729,Daucus carota,New Zealand,Seeds,2
+PRJEB6729,Daucus carota,USA,Seeds,2
+PRJEB6729,Diplotaxis tenuifolia,France,Seeds,2
+PRJEB6729,Medicago truncatula,France,Seeds,2
+PRJEB6729,Phaseolus vulgaris,Chile,Seeds,2
+PRJEB6729,Raphanus sativus,France,Seeds,2

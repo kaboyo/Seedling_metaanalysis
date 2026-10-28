@@ -1,0 +1,705 @@
+study_alias,ref,row_val,Stage,n,Taxon,rel
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Other,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Erwiniaceae,0.25
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Moraxellaceae,0.061258278145695365
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Paenibacillaceae,0.6887417218543046
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seed,4,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Other,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Bacillaceae,0.5000000000000001
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Micrococcaceae,0.14473684210526316
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Paenibacillaceae,0.35526315789473684
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Brassica oleracea,Seedling,2,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Other,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Erwiniaceae,0.6166243404932312
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Paenibacillaceae,0.27504603208281164
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Pseudomonadaceae,0.06542593444785288
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Xanthomonadaceae,0.042903692976104274
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seed,4,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Other,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Erwiniaceae,0.9777053767518151
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Microbacteriaceae,0.018096470435422566
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Xanthomonadaceae,0.0041981528127623844
+PRJNA926007,Acuña et al. 2023,Daucus carota,Seedling,3,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Other,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Bacillaceae,0.0034514144539966258
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Moraxellaceae,0.9965485855460033
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seed,7,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Other,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Erwiniaceae,0.6081846355241471
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Microbacteriaceae,0.0064516129032258064
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Sphingomonadaceae,0.38315412186379927
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Xanthomonadaceae,0.002209629708827827
+PRJNA926007,Acuña et al. 2023,Lactuca sativa,Seedling,3,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Other,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Moraxellaceae,0.13503649635036497
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Paenibacillaceae,0.8649635036496349
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Petroselinum crispum,Seedling,4,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Other,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Bacillaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Paenibacillaceae,1
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seed,3,Yersiniaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Other,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Alicyclobacillaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Bacillaceae,1
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Beijerinckiaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Enterobacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Erwiniaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Microbacteriaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Micrococcaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Moraxellaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Oxalobacteraceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Paenibacillaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Pseudomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Sphingomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Streptococcaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Xanthomonadaceae,0
+PRJNA926007,Acuña et al. 2023,Solanum lycopersicum,Seedling,3,Yersiniaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Other,0.07002281630675981
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Alicyclobacillaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Bacillaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Beijerinckiaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Enterobacteriaceae,0.030694494737269977
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Erwiniaceae,0.20566263520683548
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Microbacteriaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Micrococcaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Moraxellaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Oxalobacteraceae,0.003127271330007772
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Paenibacillaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Pseudomonadaceae,0.4882177612263647
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Sphingomonadaceae,0.10099941211052321
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Streptococcaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Xanthomonadaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine clandestina,Seedling,9,Yersiniaceae,0.10127560908223904
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Other,0.005819222277147657
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Alicyclobacillaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Bacillaceae,0.03727797557424389
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Beijerinckiaceae,0.005310027823513499
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Enterobacteriaceae,0.001161547938052638
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Erwiniaceae,0.40971144878657345
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Microbacteriaceae,0.007901065568006602
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Micrococcaceae,6.149482527900032e-4
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Moraxellaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Oxalobacteraceae,0.008051492603132981
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Paenibacillaceae,0.03203158499980911
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Pseudomonadaceae,0.465937524949216
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Sphingomonadaceae,0.01903378090509522
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Streptococcaceae,0
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Xanthomonadaceae,0.003172637403494959
+PRJNA811248,Chandel et al. 2022,Glycine max,Seedling,24,Yersiniaceae,0.003976742918923968
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Other,0.26287119318980773
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Alicyclobacillaceae,0
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Bacillaceae,0.0062312745796338585
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Beijerinckiaceae,1.1180165071849003e-4
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Enterobacteriaceae,0.007373575577709311
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Erwiniaceae,0.24738501607083355
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Microbacteriaceae,0
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Micrococcaceae,9.102334908664818e-5
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Moraxellaceae,6.618078937136522e-5
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Oxalobacteraceae,0.03559750945597381
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Paenibacillaceae,0.3508172937184959
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Pseudomonadaceae,0.08350222000464352
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Sphingomonadaceae,0.005952911613725808
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Streptococcaceae,0
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Xanthomonadaceae,0
+PRJNA810761,Chandel et al. 2022,Glycine clandestina,Seedling,109,Yersiniaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Other,0.04988286505081615
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Alicyclobacillaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Bacillaceae,0.01805095248634813
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Beijerinckiaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Enterobacteriaceae,0.21037337679818485
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Erwiniaceae,0.3464861507854772
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Microbacteriaceae,0.0013025721110227794
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Micrococcaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Moraxellaceae,0.005710967798144721
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Oxalobacteraceae,0.09313329443027785
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Paenibacillaceae,0.0716924244736362
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Pseudomonadaceae,0.176530832921917
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Sphingomonadaceae,0.004955418738568396
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Streptococcaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Xanthomonadaceae,0.021881144405606755
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seedling,47,Yersiniaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Other,0.43261526526238353
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Alicyclobacillaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Bacillaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Beijerinckiaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Enterobacteriaceae,0.17352805945431946
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Erwiniaceae,0.28782348414274456
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Microbacteriaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Micrococcaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Moraxellaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Oxalobacteraceae,0.004075827571817425
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Paenibacillaceae,0.0011750881316098707
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Pseudomonadaceae,0.03253483054623165
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Sphingomonadaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Streptococcaceae,0
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Xanthomonadaceae,0.06824744489089352
+PRJNA784432,Cui et al. 2023,Triticum aestivum,Seed,12,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Other,0.012961203244174943
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Alicyclobacillaceae,0
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Bacillaceae,7.704644969276762e-4
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Beijerinckiaceae,0
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Enterobacteriaceae,0.81857777016359
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Erwiniaceae,0.08312920303874041
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Microbacteriaceae,0.0031387856538697884
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Micrococcaceae,1.2769673619542315e-5
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Moraxellaceae,0.018030208184449243
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Oxalobacteraceae,0.00428225638645447
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Paenibacillaceae,0.006982541777664125
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Pseudomonadaceae,0.047514161813217534
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Sphingomonadaceae,0.0012340465458631706
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Streptococcaceae,0
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Xanthomonadaceae,0.0032498856373044675
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seedling,26,Yersiniaceae,1.1670338412465367e-4
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Other,0.797963371612715
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Alicyclobacillaceae,0
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Bacillaceae,0.0023181442963472374
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Beijerinckiaceae,0.0025954333525503763
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Enterobacteriaceae,0.03746627675681153
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Erwiniaceae,0.028952125523071234
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Microbacteriaceae,0.004457282402350345
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Micrococcaceae,0.008808720250654881
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Moraxellaceae,1.0110201193003741e-4
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Oxalobacteraceae,0.019308646589521132
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Paenibacillaceae,2.7272727272727274e-4
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Pseudomonadaceae,0.009591186528581815
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Sphingomonadaceae,0.07756128223706854
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Streptococcaceae,0
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Xanthomonadaceae,0.010603701165670512
+PRJNA735565,Kim et al. 2022,Medicago sativa,Seed,5,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Other,0.07507052734714417
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Alicyclobacillaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Bacillaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Beijerinckiaceae,0.015388810795390678
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Enterobacteriaceae,0.22076172324096477
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Erwiniaceae,0.39645335836454054
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Microbacteriaceae,0.046618337919788075
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Micrococcaceae,0.003877889558307327
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Moraxellaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Oxalobacteraceae,0.019793809569897337
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Paenibacillaceae,0.009076734765786154
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Pseudomonadaceae,0.1334503348102486
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Sphingomonadaceae,0.04377125596381481
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Streptococcaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Xanthomonadaceae,0.027600245440242303
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seed,5,Yersiniaceae,0.00813697222387522
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Other,0.05768036170883051
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Alicyclobacillaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Bacillaceae,1.3310834742884427e-4
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Beijerinckiaceae,5.895504804340467e-5
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Enterobacteriaceae,0.3045334108610424
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Erwiniaceae,0.18022539807368598
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Microbacteriaceae,0.0016768187643769884
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Micrococcaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Moraxellaceae,2.8577960676726106e-4
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Oxalobacteraceae,0.04642067961363165
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Paenibacillaceae,0.05164655037267869
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Pseudomonadaceae,0.3195684710640372
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Sphingomonadaceae,0.0030854308449427587
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Streptococcaceae,0
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Xanthomonadaceae,0.034685035694534294
+PRJNA735565,Kim et al. 2022,Raphanus sativus,Seedling,27,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Other,0.0010603982098700221
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Alicyclobacillaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Bacillaceae,0.014779981835624368
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Beijerinckiaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Enterobacteriaceae,0.16605191100163355
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Erwiniaceae,0.32525075585359237
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Microbacteriaceae,0.0026909397061573356
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Micrococcaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Moraxellaceae,5.321263759825544e-6
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Oxalobacteraceae,0.040735465358974675
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Paenibacillaceae,0.04438075118543125
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Pseudomonadaceae,0.4012945531155383
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Sphingomonadaceae,0.002890206351662617
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Streptococcaceae,1.9429170957275254e-6
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Xanthomonadaceae,8.577732006599513e-4
+PRJNA735565,Kim et al. 2022,Brassica napus,Seedling,20,Yersiniaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Other,0.009500983921082042
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Alicyclobacillaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Bacillaceae,0
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Beijerinckiaceae,0.0012230044147476435
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Enterobacteriaceae,0.06904219451811065
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Erwiniaceae,0.793284455704198
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Microbacteriaceae,0.007280834894797493
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Micrococcaceae,1.8826083246172292e-4
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Moraxellaceae,1.789762558167283e-4
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Oxalobacteraceae,0.002343515164957505
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Paenibacillaceae,2.9951191479630113e-4
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Pseudomonadaceae,0.10035196826471376
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Sphingomonadaceae,0.01072467933208324
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Streptococcaceae,1.836185441392256e-4
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Xanthomonadaceae,0.0038002154723746086
+PRJNA735565,Kim et al. 2022,Brassica napus,Seed,2,Yersiniaceae,0.001597780765721137
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Other,0.10075107377019045
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Alicyclobacillaceae,0
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Bacillaceae,0.07046527256230489
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Beijerinckiaceae,0
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Enterobacteriaceae,0.017348026590030395
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Erwiniaceae,0.24960840026439454
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Microbacteriaceae,0.014464768749696192
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Micrococcaceae,0.071817462574229
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Moraxellaceae,0
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Oxalobacteraceae,0
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Paenibacillaceae,0.002251854653257893
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Pseudomonadaceae,0.30729024576246056
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Sphingomonadaceae,0.08355586587048311
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Streptococcaceae,0
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Xanthomonadaceae,0
+PRJNA649549,Nunes et al. 2022,Triticum aestivum,Seedling,53,Yersiniaceae,0.08244702920295299
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Other,0.06749117693260957
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Alicyclobacillaceae,0.06823835372558602
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Bacillaceae,0
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Beijerinckiaceae,0.03595259455779938
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Enterobacteriaceae,0.032191948987369025
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Erwiniaceae,0.03586958267153055
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Microbacteriaceae,0.00388463977565613
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Micrococcaceae,5.283018867924528e-4
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Moraxellaceae,0.027197877576667303
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Oxalobacteraceae,0
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Paenibacillaceae,0.0027752081406105457
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Pseudomonadaceae,0.6326648165279063
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Sphingomonadaceae,0.07916776336841616
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Streptococcaceae,0.005207547169811321
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Xanthomonadaceae,0.008830188679245284
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seed,2,Yersiniaceae,0
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Other,0.07843228712345854
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Alicyclobacillaceae,0.12220761027013174
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Bacillaceae,0
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Beijerinckiaceae,0.12842741647276174
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Enterobacteriaceae,0.01316298877274487
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Erwiniaceae,0.08498460181730536
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Microbacteriaceae,0
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Micrococcaceae,0
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Moraxellaceae,0.032163684516827766
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Oxalobacteraceae,0.03950974579624528
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Paenibacillaceae,0.017510468214693566
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Pseudomonadaceae,0.07706297847142918
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Sphingomonadaceae,0.020189031353579613
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Streptococcaceae,0.35840148928434745
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Xanthomonadaceae,0.027947697906474958
+PRJEB6729,metaSEED,Arabidopsis thaliana,Seedling,2,Yersiniaceae,0
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Other,0.23304877440746885
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Alicyclobacillaceae,0.01252664264023708
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Bacillaceae,0.02626933395988433
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Beijerinckiaceae,0.015759156814192453
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Enterobacteriaceae,0
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Erwiniaceae,0.022039263414677716
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Microbacteriaceae,0.1659418800432335
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Micrococcaceae,0.0020807532906858585
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Moraxellaceae,0.022760071041854724
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Oxalobacteraceae,0.17867196296789836
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Paenibacillaceae,0.0014566878156156934
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Pseudomonadaceae,0.037199248097847276
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Sphingomonadaceae,0.24847904397446052
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Streptococcaceae,0.021484456624845705
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Xanthomonadaceae,0.012282724907097947
+PRJEB6729,metaSEED,Brassica napus,Seed,4,Yersiniaceae,0
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Other,0.0400088836437066
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Alicyclobacillaceae,0.011638169760451757
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Bacillaceae,0.06159303795210558
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Beijerinckiaceae,0.013748448388923475
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Enterobacteriaceae,0.03311968724975687
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Erwiniaceae,0.11526841614469537
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Microbacteriaceae,0.007272441086076644
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Micrococcaceae,8.954648151209566e-5
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Moraxellaceae,0.0028121403926793884
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Oxalobacteraceae,0.12896084627404333
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Paenibacillaceae,0.03670405267528626
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Pseudomonadaceae,0.48357176200638047
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Sphingomonadaceae,0.06064790408684373
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Streptococcaceae,0
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Xanthomonadaceae,0.004564663857538372
+PRJEB6729,metaSEED,Brassica napus,Seedling,8,Yersiniaceae,0
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Other,0.15564399433489065
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Alicyclobacillaceae,0.01567340314258609
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Bacillaceae,0.03774354807814718
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Beijerinckiaceae,0.03269614178402481
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Enterobacteriaceae,0.0313852990607735
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Erwiniaceae,0.24288190703106438
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Microbacteriaceae,0.04075741144193214
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Micrococcaceae,0.028782131536091375
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Moraxellaceae,0.03762535465842654
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Oxalobacteraceae,0.02670074308383204
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Paenibacillaceae,0.007138400303637594
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Pseudomonadaceae,0.23076117778460858
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Sphingomonadaceae,0.05670367659924117
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Streptococcaceae,0.016665687807237574
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Xanthomonadaceae,0.029795224111783047
+PRJEB6729,metaSEED,Brassica oleracea,Seed,22,Yersiniaceae,0.009045899241723302
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Other,0.02533304596147516
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Alicyclobacillaceae,0.011961730784347514
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Bacillaceae,0.0987242597820153
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Beijerinckiaceae,0.010409937079191413
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Enterobacteriaceae,0.0316999813209893
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Erwiniaceae,0.28082885840107874
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Microbacteriaceae,0.0025920284122061175
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Micrococcaceae,0.004483646507143448
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Moraxellaceae,0.012978479504474236
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Oxalobacteraceae,0.02467152691762555
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Paenibacillaceae,0.04790614057195733
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Pseudomonadaceae,0.4205187811952542
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Sphingomonadaceae,0.013629919495862128
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Streptococcaceae,2.503710285581774e-4
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Xanthomonadaceae,0.013078745322308804
+PRJEB6729,metaSEED,Brassica oleracea,Seedling,44,Yersiniaceae,9.325477155125901e-4
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Other,0.17747364490729747
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Alicyclobacillaceae,0.010979818626463885
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Bacillaceae,0.03449416543278705
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Beijerinckiaceae,0.05059543197347479
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Enterobacteriaceae,0.051735761878801634
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Erwiniaceae,0.16796392405041136
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Microbacteriaceae,0.021257813842632436
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Micrococcaceae,0.03053948659043373
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Moraxellaceae,0.015737995207159843
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Oxalobacteraceae,0.02438015528408071
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Paenibacillaceae,0.03906333283234208
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Pseudomonadaceae,0.21736773770276493
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Sphingomonadaceae,0.058196484537218277
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Streptococcaceae,0.011409636211617355
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Xanthomonadaceae,0.08463615086877745
+PRJEB6729,metaSEED,Brassica rapa,Seed,8,Yersiniaceae,0.004168460053736994
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Other,0.01630064743719539
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Alicyclobacillaceae,0.008459113065924059
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Bacillaceae,0.10604310518831853
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Beijerinckiaceae,0.005611729986439876
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Enterobacteriaceae,0.011829967871225535
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Erwiniaceae,0.2075028695120754
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Microbacteriaceae,2.2949914783305505e-4
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Micrococcaceae,0.009506579861876963
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Moraxellaceae,0.006973379060533207
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Oxalobacteraceae,0.0912684282231161
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Paenibacillaceae,0.12569686367493116
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Pseudomonadaceae,0.39173907823433035
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Sphingomonadaceae,0.00852327125933728
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Streptococcaceae,0.0023626137122593487
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Xanthomonadaceae,0.00795285376460371
+PRJEB6729,metaSEED,Brassica rapa,Seedling,16,Yersiniaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Other,0.033064703025186784
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Alicyclobacillaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Bacillaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Beijerinckiaceae,0.006507234889224091
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Enterobacteriaceae,0.006614641150683419
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Erwiniaceae,0.1668911813227245
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Microbacteriaceae,0.01519134139378733
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Micrococcaceae,2.1643850440993453e-4
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Moraxellaceae,8.225131538870103e-4
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Oxalobacteraceae,0.017791042418943456
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Paenibacillaceae,0.006123579720353619
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Pseudomonadaceae,0.23633182446436551
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Sphingomonadaceae,0.06788905521627685
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Streptococcaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Xanthomonadaceae,0.44255644474015743
+PRJEB6729,metaSEED,Daucus carota,Seed,4,Yersiniaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Other,0.02690838424365179
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Alicyclobacillaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Bacillaceae,3.131872720692631e-5
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Beijerinckiaceae,0.003540312179584693
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Enterobacteriaceae,0.011026909863008486
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Erwiniaceae,0.3735497776436888
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Microbacteriaceae,2.468296103531985e-4
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Micrococcaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Moraxellaceae,1.4638032321523728e-4
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Oxalobacteraceae,0.05485753633283895
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Paenibacillaceae,0.008604197439204283
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Pseudomonadaceae,0.4506595912144733
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Sphingomonadaceae,0.02335554478060311
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Streptococcaceae,0
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Xanthomonadaceae,0.04707321764217121
+PRJEB6729,metaSEED,Daucus carota,Seedling,8,Yersiniaceae,0
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Other,0.05835437433126077
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Alicyclobacillaceae,0.0017737984627079991
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Bacillaceae,0.002512051288340214
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Beijerinckiaceae,0.03218879048189442
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Enterobacteriaceae,0.002322831320212856
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Erwiniaceae,0.3647994317877449
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Microbacteriaceae,0.03766338155704038
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Micrococcaceae,9.291325280851423e-4
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Moraxellaceae,0.0014922431511670468
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Oxalobacteraceae,0.0061540479700643
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Paenibacillaceae,0.04811943092278979
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Pseudomonadaceae,0.37042459247787385
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Sphingomonadaceae,0.05121957325573653
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Streptococcaceae,0.003188612325507058
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Xanthomonadaceae,0.018857708139574735
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seed,2,Yersiniaceae,0
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Other,0.028851934125816235
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Alicyclobacillaceae,0.005313496280552604
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Bacillaceae,0.026996210067651162
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Beijerinckiaceae,0.004605030109812257
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Enterobacteriaceae,0.037491419917658184
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Erwiniaceae,0.34596438499440463
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Microbacteriaceae,5.97065847833504e-4
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Micrococcaceae,0
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Moraxellaceae,0.002479631597591215
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Oxalobacteraceae,0.12504377134344646
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Paenibacillaceae,0.26580015821515945
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Pseudomonadaceae,0.14389938726861873
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Sphingomonadaceae,0.003747450011831105
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Streptococcaceae,0.009210060219624514
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Xanthomonadaceae,0
+PRJEB6729,metaSEED,Diplotaxis tenuifolia,Seedling,3,Yersiniaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Other,0.004757906521130703
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Alicyclobacillaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Bacillaceae,0.03104443694884199
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Beijerinckiaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Enterobacteriaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Erwiniaceae,0.2413866650699624
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Microbacteriaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Micrococcaceae,0.004757906521130703
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Moraxellaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Oxalobacteraceae,0.03985236605405091
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Paenibacillaceae,0.05369808059020979
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Pseudomonadaceae,0.6197447317735427
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Sphingomonadaceae,0.004757906521130703
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Streptococcaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Xanthomonadaceae,0
+PRJEB6729,metaSEED,Medicago truncatula,Seedling,3,Yersiniaceae,0
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Other,0.19590177594147526
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Alicyclobacillaceae,0.01736913068482952
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Bacillaceae,0.03881325618679117
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Beijerinckiaceae,0.16286553380978408
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Enterobacteriaceae,0.0027840169964742202
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Erwiniaceae,0.0952366404285202
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Microbacteriaceae,0.07708020536991157
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Micrococcaceae,0.07627118141329117
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Moraxellaceae,0.02171504665384714
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Oxalobacteraceae,0.042776149410562285
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Paenibacillaceae,0.0026551392684608737
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Pseudomonadaceae,0.08484940714827299
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Sphingomonadaceae,0.13228080133542683
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Streptococcaceae,2.945941964943291e-4
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Xanthomonadaceae,0.03253113288464365
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seed,6,Yersiniaceae,0.01657598827121471
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Other,0.03656239774668564
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Alicyclobacillaceae,0.013662787235150827
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Bacillaceae,0.11320713396807708
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Beijerinckiaceae,0.040095417124603884
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Enterobacteriaceae,0.021630564316200685
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Erwiniaceae,0.3788841406281919
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Microbacteriaceae,0.020265260184166273
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Micrococcaceae,0.02905795214671823
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Moraxellaceae,0.004160052559777389
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Oxalobacteraceae,0.009205179685807599
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Paenibacillaceae,0.0022750170799888756
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Pseudomonadaceae,0.2945796408866061
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Sphingomonadaceae,0.03382055515116119
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Streptococcaceae,3.833131029195681e-4
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Xanthomonadaceae,0.0022105881839447118
+PRJEB6729,metaSEED,Phaseolus vulgaris,Seedling,11,Yersiniaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Other,0.022475792364266126
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Alicyclobacillaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Bacillaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Beijerinckiaceae,0.00372177544317298
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Enterobacteriaceae,0.01513926198445085
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Erwiniaceae,0.7091276203606588
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Microbacteriaceae,0.0047679995253491255
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Micrococcaceae,2.8480755146879325e-4
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Moraxellaceae,1.0171698266742615e-4
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Oxalobacteraceae,0.0030011637336083575
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Paenibacillaceae,0.015438333519108236
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Pseudomonadaceae,0.2001099967489263
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Sphingomonadaceae,0.007895987328691536
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Streptococcaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Xanthomonadaceae,0.017386272751227325
+PRJEB6729,metaSEED,Raphanus sativus,Seed,2,Yersiniaceae,5.492717064041013e-4
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Other,0.010532878917824683
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Alicyclobacillaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Bacillaceae,8.99213990449339e-4
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Beijerinckiaceae,3.9180667665505834e-4
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Enterobacteriaceae,0.03791964309501453
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Erwiniaceae,0.08745429467950967
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Microbacteriaceae,7.400979991833401e-4
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Micrococcaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Moraxellaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Oxalobacteraceae,0.009672381919457568
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Paenibacillaceae,0.010533769540423732
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Pseudomonadaceae,0.8352154967580212
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Sphingomonadaceae,0.00390388903740124
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Streptococcaceae,0
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Xanthomonadaceae,0.00273652738605958
+PRJEB6729,metaSEED,Raphanus sativus,Seedling,4,Yersiniaceae,0
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Other,0.0872655530440321
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Alicyclobacillaceae,0.038438210903842904
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Bacillaceae,0
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Beijerinckiaceae,0.029923081839781644
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Enterobacteriaceae,0.5028416838236784
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Erwiniaceae,0.050524507427329335
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Microbacteriaceae,0
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Micrococcaceae,0.005116798039813849
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Moraxellaceae,0.03671874098648369
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Oxalobacteraceae,0.011441233463294129
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Paenibacillaceae,0.004576159938251292
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Pseudomonadaceae,0.11106260321490558
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Sphingomonadaceae,0.03480175203087851
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Streptococcaceae,0.01489942921274019
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Xanthomonadaceae,0.07114287225944974
+PRJEB6729,metaSEED,Solanum lycopersicum,Seed,4,Yersiniaceae,0.0012473738155185988
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Other,0.04154696924999397
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Alicyclobacillaceae,0.018279589102903632
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Bacillaceae,0
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Beijerinckiaceae,0.010355143850415745
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Enterobacteriaceae,0.02860697211339973
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Erwiniaceae,0.13425999376092865
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Microbacteriaceae,0
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Micrococcaceae,0
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Moraxellaceae,0.22507683113851495
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Oxalobacteraceae,0.025918480205373157
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Paenibacillaceae,0.0056954363995078885
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Pseudomonadaceae,0.43198258740053513
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Sphingomonadaceae,0.027387779264381983
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Streptococcaceae,0.005742144112913095
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Xanthomonadaceae,0.045148073401132104
+PRJEB6729,metaSEED,Solanum lycopersicum,Seedling,8,Yersiniaceae,0
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Other,0.0856142767310878
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Alicyclobacillaceae,0
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Bacillaceae,0.033381087685489065
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Beijerinckiaceae,3.086078495915272e-4
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Enterobacteriaceae,0.02084020746366426
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Erwiniaceae,0.46777477701019554
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Microbacteriaceae,0.06081044093855548
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Micrococcaceae,0.005164145167666937
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Moraxellaceae,0.01110744683092745
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Oxalobacteraceae,0.014624295834446317
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Paenibacillaceae,0.00972263342976958
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Pseudomonadaceae,0.18968388379414236
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Sphingomonadaceae,0.023377782255082368
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Streptococcaceae,0.0019824348996455745
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Xanthomonadaceae,0.010503563621646532
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seed,567,Yersiniaceae,0.0651044164880892
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Other,0.19258097010249206
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Alicyclobacillaceae,0
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Bacillaceae,0.031911510223748746
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Beijerinckiaceae,0.00950014737517982
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Enterobacteriaceae,0.014936514450532961
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Erwiniaceae,0.24178187676463533
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Microbacteriaceae,0.1713567838960097
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Micrococcaceae,0.050016268687877286
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Moraxellaceae,0.003701533877108687
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Oxalobacteraceae,0.05112224397341585
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Paenibacillaceae,0.012082085642390777
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Pseudomonadaceae,0.1297049616346598
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Sphingomonadaceae,0.07399801919917452
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Streptococcaceae,7.045738163591777e-5
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Xanthomonadaceae,0.014254794648860428
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seed,619,Yersiniaceae,0.002981832142278087
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Other,0.04460476397666755
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Alicyclobacillaceae,0
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Bacillaceae,0.0019067984976948364
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Beijerinckiaceae,5.831855929831109e-6
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Enterobacteriaceae,0.043120720940883935
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Erwiniaceae,0.4111011420540545
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Microbacteriaceae,0.11299801967655658
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Micrococcaceae,0.012014465386836417
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Moraxellaceae,0.011444932313039455
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Oxalobacteraceae,0.03195779040842713
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Paenibacillaceae,0.0011492975928457335
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Pseudomonadaceae,0.1510800149699554
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Sphingomonadaceae,0.017133210865825893
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Streptococcaceae,0
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Xanthomonadaceae,0.10180631321411349
+PRJEB45079,Chesneau et al. 2022,Raphanus sativus,Seedling,84,Yersiniaceae,0.059676698247169264
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Other,0.0886621734243538
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Alicyclobacillaceae,0
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Bacillaceae,0.1307569953998641
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Beijerinckiaceae,0.09635799503084781
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Enterobacteriaceae,1.1480375912106648e-4
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Erwiniaceae,0.015423071478327189
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Microbacteriaceae,0.29224049668073526
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Micrococcaceae,0.03621052442727237
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Moraxellaceae,0.020215499841679717
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Oxalobacteraceae,0
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Paenibacillaceae,0.054743207833806116
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Pseudomonadaceae,0.04403952502217401
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Sphingomonadaceae,0.15852555901081278
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Streptococcaceae,0
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Xanthomonadaceae,0.06271014809100577
+PRJEB45079,Chesneau et al. 2022,Phaseolus vulgaris,Seedling,81,Yersiniaceae,0

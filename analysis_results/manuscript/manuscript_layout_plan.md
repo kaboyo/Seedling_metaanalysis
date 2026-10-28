@@ -11,8 +11,8 @@
    - Keep the phylum Sankey and rank-specific Sankey panels in the supplement unless they are needed to support a specific composition claim.
 
 3. Alpha diversity
-   - Use `alpha_richness_by_species.tiff` as the primary alpha-diversity figure.
-   - Use `alpha_richness_by_cultivar.tiff` as the companion panel or move it to the supplement if space is limited.
+   - Use `alpha_richness_by_species_depth500.tiff` as the primary alpha-diversity figure.
+   - Put `alpha_richness_by_species_depth1000.tiff` in the supplement as the rarefaction-depth sensitivity check; the stage contrast in richness depends on depth.
    - Keep developmental-stage faceting in both plots.
 
 4. Beta diversity

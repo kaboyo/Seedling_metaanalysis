@@ -1,42 +1,18 @@
 variable,kept,group,n
 Developmental_Stage,TRUE,Seeds,1282
 Developmental_Stage,TRUE,Seedlings,604
-Scientific_Name,TRUE,Phaseolus vulgaris,718
-Scientific_Name,TRUE,Raphanus sativus,689
-Scientific_Name,TRUE,Glycine clandestina,118
-Scientific_Name,TRUE,Triticum aestivum,113
-Scientific_Name,TRUE,Brassica oleracea,72
-Scientific_Name,TRUE,Brassica napus,34
-Scientific_Name,TRUE,Medicago sativa,31
-Scientific_Name,TRUE,Brassica rapa,24
-Scientific_Name,TRUE,Glycine max,24
-Scientific_Name,TRUE,Daucus carota,19
-Scientific_Name,TRUE,Solanum lycopersicum,18
-Scientific_Name,TRUE,Lactuca sativa,10
-Scientific_Name,TRUE,Diplotaxis tenuifolia,5
-Scientific_Name,TRUE,Arabidopsis thaliana,4
-Scientific_Name,TRUE,Petroselinum crispum,4
-Scientific_Name,TRUE,Medicago truncatula,3
-Cultivar,TRUE,Flavert,701
-Cultivar,TRUE,Flamboyant5,651
-Cultivar,TRUE,undefined,153
-Cultivar,TRUE,capitata,54
-Cultivar,TRUE,radish,32
-Cultivar,TRUE,alfalfa,31
-Cultivar,TRUE,Jichun 585,30
-Cultivar,TRUE,Chun,29
-Cultivar,TRUE,rapa,24
-Cultivar,TRUE,rapeseed,22
-Cultivar,TRUE,sativus,18
-Cultivar,TRUE,aborigineus,17
-Cultivar,TRUE,napus,12
-Cultivar,TRUE,italica,10
-Cultivar,TRUE,botrytis,6
-Cultivar,TRUE,Grand Rapids,5
-Cultivar,TRUE,brandelier,5
-Cultivar,TRUE,gladiador,3
-Cultivar,TRUE,velocity,3
-Cultivar,FALSE,fausto,2
+Host_Genus,TRUE,Phaseolus,718
+Host_Genus,TRUE,Raphanus,689
+Host_Genus,TRUE,Glycine,142
+Host_Genus,TRUE,Brassica,130
+Host_Genus,TRUE,Triticum,113
+Host_Genus,TRUE,Medicago,34
+Host_Genus,TRUE,Daucus,19
+Host_Genus,TRUE,Solanum,18
+Host_Genus,TRUE,Lactuca,10
+Host_Genus,TRUE,Diplotaxis,5
+Host_Genus,TRUE,Arabidopsis,4
+Host_Genus,TRUE,Petroselinum,4
 study_alias,TRUE,PRJEB45079,1352
 study_alias,TRUE,PRJEB6729,161
 study_alias,TRUE,PRJNA810761,109

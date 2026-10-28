@@ -1,0 +1,250 @@
+Genus,Phylum,stage_class,support,host_class,Arabidopsis,Brassica,Daucus,Diplotaxis,Glycine,Lactuca,Medicago,Petroselinum,Phaseolus,Raphanus,Solanum,Triticum
+Saccharopolyspora,Actinobacteriota,Stage generalist,One study or none,Host specialist,0,0.011866408250531917,0,0,0,0,0,0,0,0,0,0
+Klenkia,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0.0012458379455798755,0,0
+Blastococcus,Actinobacteriota,Stage generalist,One study or none,Intermediate,0,0.004796276624586964,0,0,0,0,0.022044871003599552,0,0.007195523108167773,0,0.05353503954685179,0.3651353539743787
+Rhodococcus,Actinobacteriota,Stage generalist,One study or none,Host generalist,0.05660377358490566,0.7211323985750197,0.004395037600713877,0.09324444238039967,0,0,0,0,0.21351912906181822,0.2714173329901151,0,0.004375189147382146
+Corynebacterium,Actinobacteriota,Stage generalist,One study or none,Host generalist,0.6441654516594725,0.14186312151018085,0.008245232433613943,0,0.002231534638115551,0,0,0,0.0024901924681685894,9.383914718983034e-4,0.8431196195223216,0
+Lawsonella,Actinobacteriota,Seed specialist,One study or none,Intermediate,0,0.005439958360611742,0,0,0,0,0,0,0,0.0013238481087285276,0,0
+Frigoribacterium,Actinobacteriota,Stage generalist,One study or none,Intermediate,0,0,0.01952549660414816,0,0,0,0,0,0.9874665103291623,0.42620088010419355,0,0
+Microbacterium,Actinobacteriota,Seed specialist,One study or none,Intermediate,0.10943396226415095,0.021369902511146368,0,0,0.008672610436079201,0,0,0,0.4587125195218344,0.5161238239652521,0,0
+Microbacteriaceae,Actinobacteriota,Seed specialist,Two or more studies,Host generalist,0,0.36658078306216946,0.016517675336547636,0.17048447054905724,0,0,0.007118696480250934,0,6.353174792146081,2.513819634981206,0,0
+Frondihabitans,Actinobacteriota,Seed specialist,One study or none,Host generalist,0,0.3778545480913918,0.27966267523525856,0.42362446780468965,0,0,0,0,5.770512080552533,2.0286414593129662,0,0
+Leifsonia,Actinobacteriota,Seed specialist,One study or none,Intermediate,0,0,0,0,0,0,0,0,0.004879839888450274,9.03688692937536e-4,0,0.29281309556927787
+Kineococcus,Actinobacteriota,Stage generalist,One study or none,Host generalist,0,0.06833943667687527,0,0.022413986327468337,0,0,0,0,0.041405216049284314,0.0031254194217843817,0.04152275258101655,0
+Quadrisphaera,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,5.90864094723486e-4,0,0
+Streptomyces,Actinobacteriota,Seed specialist,One study or none,Host generalist,0,0.5611611659585275,0.0013019561891742344,0,0.5301816416344424,0,0,0,0.13303873416901393,0.8694200526501876,0,0
+Brevibacterium,Actinobacteriota,Stage generalist,One study or none,Intermediate,0,0.024819341795079775,0,0,0,0,0,0,0.07841068321357958,0,0,0.30745394047045166
+Brachybacterium,Actinobacteriota,Stage generalist,One study or none,Intermediate,0,0.13981804448844115,0,0.05563199115951031,0,0,0,0,0.0034465351364892406,0,0,0.021967815516452147
+Sanguibacter,Actinobacteriota,Seed specialist,Two or more studies,Host generalist,0,0.15243446237869848,0.01110671272629927,0.590327299956095,0,0,0.008558956906690505,0,0.044155378021182516,0.02402554555399513,0,0
+Flavobacterium,Bacteroidota,Seed specialist,Two or more studies,Host generalist,0,0.01259228861402654,0,0.06507234543693328,0,0,0,0,0.021663110919550532,0.004672523070392421,0,2.931189331942762
+Serinibacter,Actinobacteriota,Seed specialist,Two or more studies,Intermediate,0,0.03825872461670955,0,0,0,0,0,0,0.02205790193993801,0.001512570216960752,0,0
+Cellulomonas,Actinobacteriota,Seed specialist,One study or none,Intermediate,0,0,0,0,0.00932790965941329,0,0.031853578215134876,0,0,0,0,0
+Clavibacter,Actinobacteriota,Stage generalist,One study or none,Intermediate,0,0.05460769334167606,0,0,0,0,0,0,0.359483522282523,0.012922095805717359,0,0
+Leucobacter,Actinobacteriota,Seed specialist,One study or none,Intermediate,0,0.0029988440819175154,0,0,0,0,0,0,0,0.001370896165325934,0,0
+Curtobacterium,Actinobacteriota,Seed specialist,One study or none,Host generalist,0,0.4260722600170224,0.2857337437171984,0.5116962241659284,0.12466497175514298,0.1935483870967742,0.240024785295925,0,3.9178922815820867,0.8998177241611359,0,0.439800738901491
+Schumannella,Actinobacteriota,Seed specialist,Two or more studies,Intermediate,0,0.015273824219569508,0,0.17078805047199072,0,0,0,0,0.007092704280428664,0.006428913820345435,0,0
+Diaminobutyricimonas,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0.0037486243470699634,0,0,0
+Rathayibacter,Actinobacteriota,Stage generalist,One study or none,Host generalist,0.08479802651865556,0.1785056033315798,0.014504692076545159,0.2432415752366831,2.0155416945278438e-4,0,0,0,0.25722144618986675,0.009118197582736723,0,0
+Agromyces,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.04626176669922175,0,0,0,0,0
+Pseudoclavibacter,Actinobacteriota,Seed specialist,Two or more studies,Host generalist,0,0.07579370422064506,0,0.02252442492327618,0,0,0.012167807443326498,0,0.0450982077121168,0.008776901993996934,0,0
+Micrococcus,Actinobacteriota,Seedling specialist,One study or none,Host generalist,0,0.01577385821476827,0,0,0.006764170938115352,0,0,0,0.006068132141284292,0.2651444829015754,0.11031743596961743,0
+Pseudarthrobacter,Actinobacteriota,Seed specialist,Two or more studies,Host generalist,0,0.9197092716878719,0.004556600092840727,0.015203986823211418,0.010393491596450756,0,0.17249803626698418,0,3.7245543091732753,0.16158773298484475,0.0033891871373569766,2.9593401233398806
+Arthrobacter,Actinobacteriota,Seed specialist,Two or more studies,Intermediate,0,0.007579966200212769,0,0.02196131430019427,0,0,0,0,0.8245567865485924,0.11084462971332973,0,0.40908953722130265
+Paenarthrobacter,Actinobacteriota,Seed specialist,Two or more studies,Intermediate,0,0.0252125588118227,0,0,0,0,0,0,0.0025408596069864233,0.005672772366110517,0,0
+Glutamicibacter,Actinobacteriota,Seed specialist,Two or more studies,Intermediate,0,0.196957199006488,0,0,2.2283261853581145e-4,0,0,0,0.21891961622364708,0.015472621587390142,0,0
+Kocuria,Actinobacteriota,Seed specialist,Two or more studies,Intermediate,0.026415094339622643,0.008457993395846585,0,0,0,0,0,0,0.05210505375729404,0.015623836710303401,0,0
+Cutibacterium,Actinobacteriota,Stage generalist,One study or none,Host generalist,1.0321074370029861,0.15662157197987556,0,0.008965594530987336,0.14234180646505337,0,0,0,0.006451805086430812,0,0.4171661067624803,0
+Nocardioides,Actinobacteriota,Stage generalist,One study or none,Intermediate,0,0.009748197030313861,0,0,0,0,0.05428037363896777,0,0.0011796628880125658,0.0019612190700682456,0,0
+Nocardiopsis,Actinobacteriota,Seed specialist,One study or none,Intermediate,0,0.13537343675429322,0,0,0,0,0,0,0.0063908331979234765,0,0,0
+Anaeromyxobacter,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.02349130929271449,0,0,0,0,0
+Myxococcaceae,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.11696389411078745,0,0,0,0,0
+mle1-27,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.007297770271769166,0,0,0,0,0
+Pajaroellobacter,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.011195062476335225,0,0,0,0,0
+P3OB-42,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0.001284766547029337,0,0
+bacteriap25,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1869677983214533,0,0,0,0,0
+Haliangium,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.02118381160142313,0,0,0,0,0
+OM27_clade,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.012211058151273189,0,0,0,0,0
+Desulfovibrio,Other,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.7859149274861548
+Vicinamibacteraceae,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,1.7672788550637148,0,0,0,0,0
+Luteitalea,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1381987913660546,0,0,0,0,0
+Vicinamibacter,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.027491505324300218,0,0,0,0,0
+RB41,Acidobacteriota,Seed specialist,One study or none,Intermediate,0,0,0,0,0,0,0.31006994078750505,0,0,4.378877085139164e-5,0,0
+Subgroup_17,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.011844541125554126,0,0,0,0,0
+WD2101_soil_group,Planctomycetota,Seed specialist,One study or none,Intermediate,0,6.883702146797242e-5,0,0,0,0,0.8537150873036069,0,0,0,0,0
+Opitutus,Verrucomicrobiota,Seed specialist,One study or none,Intermediate,0,0,0,0,0.029582686718829646,0,0.04126093803010865,0,0,0,0,0
+Ellin517,Verrucomicrobiota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.0067185132363308435,0,0,0,0,0
+Pedosphaeraceae,Verrucomicrobiota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.030870664860429615,0,0,0,0,0
+Candidatus_Xiphinematobacter,Verrucomicrobiota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.0906180592857804,0,0,0,0,0
+Chthoniobacter,Verrucomicrobiota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.13888999325254317,0,0,0,0,0
+Candidatus_Udaeobacter,Verrucomicrobiota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.010789968169616013,0,0,0,0,0
+Nitrospira,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.09335263566888954,0,0,0,0,0
+Ilumatobacteraceae,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.007347660522944503,0,0,0,0,0
+Ilumatobacter,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.11278441696412037,0,0,0,0,0
+Rubrobacter,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.018957531021036554,0,0,0,0,0
+Gaiella,Actinobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.01973356130839923,0,0,0,0,0
+DS-100,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.0175179881085008,0,0,0,0,0
+Elev-16S-573,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.009748534491100616,0,0,0,0,0
+Stenotrophobacter,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.34144187007292265,0,0,0,0,0
+JGI_0001001-H03,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.06521280131884326,0,0,0,0,0
+11-24,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.009892902522898052,0,0,0,0,0
+Subgroup_25,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.012650210453045332,0,0,0,0,0
+Sumerlaea,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.014311348997599695,0,0,0,0,0
+Gitt-GS-136,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.09111489887353323,0,0,0,0,0
+KD4-96,Other,Seed specialist,Two or more studies,Intermediate,0,0.0030132682650781386,0,0,0,0,0.0938723691005398,0,1.115455438224516e-4,0,0,0.4970571587730421
+Bryobacter,Acidobacteriota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1129047931698286,0,0,0,0,0
+Candidatus_Kuenenia,Planctomycetota,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.03459693032237667
+Fervidobacterium,Other,Seed specialist,One study or none,Intermediate,0,0,0,0,0,0,0,0,0.0016710568113087825,0.0030570005974320824,0,0
+Tundrisphaera,Planctomycetota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.016440614709049565,0,0,0,0,0
+Rhodopirellula,Planctomycetota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.011853583074004748,0,0,0,0,0
+Rokubacteriales,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.10388749755832682,0,0,0,0,0
+S0134_terrestrial_group,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.018596544012556886,0,0,0,0,0
+Longimicrobiaceae,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.009721138716010127,0,0,0,0,0
+Deinococcus,Other,Seed specialist,One study or none,Intermediate,0,3.214772522696294e-4,0,0,0,0,0,0,5.944533853224945e-4,0,0,0
+C0119,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.0632170805765384,0,0,0,0,0
+SJA-15,Other,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.0178050364419488
+OLB13,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.021681035128420335,0,0,0,0,0
+A4b,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.03151905392400749,0,0,0,0,0
+AKIW781,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.015380745873706515,0,0,0,0,0
+JG30-KF-CM45,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.012261030977053533,0,0,0,0,0
+TK10,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.05715653408110649,0,0,0,0,0
+JG30-KF-CM66,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.023541222872501044,0,0,0,0,0
+OLB14,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.007988258054955531,0,0,0,0,0
+Armatimonas,Other,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.008166461508931768,0,0,0,0,0
+Thermoactinomyces,Firmicutes,Stage generalist,One study or none,Intermediate,0,0.0013605809589507117,0,0.003378663738491426,0,0,0,0,0,0,0,0
+Finegoldia,Firmicutes,Stage generalist,One study or none,Intermediate,0,0.0063934847309880275,0,0,0,0,0,0,0,0,0.016042881679029123,0
+Spiroplasma,Firmicutes,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,4.923689834335085e-4,0,0,0
+Faecalibaculum,Firmicutes,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.05200197222218749
+Streptococcus,Firmicutes,Stage generalist,One study or none,Host generalist,18.180451822707937,0.43778050642115574,0,0.6801481061977531,0,0,0,0,2.4617899428495466e-4,5.339223089648225e-4,0.5574505527371098,0
+Lactococcus,Firmicutes,Seed specialist,Two or more studies,Intermediate,0,0.018438176682267896,0,0,0,0,0,0,0.006661499075870243,0.16260694679104112,0.02885427923103205,0
+Gemella,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.004152732313852356,0,0,0,0,0,0,6.84872964283601e-5,0,0,0
+Bacillus,Firmicutes,Stage generalist,One study or none,Host generalist,0,6.513476870330058,0,1.5670716817929302,1.1083664387055943,0.2415990117797638,0.282966676828228,0,4.371211494586567,2.7713263530944907,16.666666666666668,4.055800188195152
+Solibacillus,Firmicutes,Seedling specialist,One study or none,Intermediate,0,0.060430334219091594,0,0,0,0,0,0,0,0,0,0
+Turicibacter,Firmicutes,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.11561850331476684
+Terribacillus,Firmicutes,Stage generalist,One study or none,Host generalist,0,0.39496834225188027,0.00131868325081795,0.1531829737997482,0,0,0.08396305625524769,0,0.06091935035202072,0,0,0
+Staphylococcus,Firmicutes,Stage generalist,One study or none,Host generalist,4.1587568817885865,0.6946578905115329,0.0013077251684785924,0.06341062321663953,0.04392152138965629,0,0.003418410406046225,0,0.008414508031101497,0.10988128975529252,0.41449884636212697,0
+Staphylococcaceae,Firmicutes,Stage generalist,One study or none,Intermediate,0,0.031021557232068342,0,0,0,0,0,0,0,7.009798647038763e-4,0,0
+Pseudomonas,Proteobacteria,Stage generalist,Two or more studies,Host generalist,35.486389749966776,33.71561963423585,25.32793560718242,23.45094693523208,17.379015796003248,0,9.242818632668214,0,12.20112051132212,19.343710557629194,21.667283955910573,22.09772756536834
+Oceanobacillus,Firmicutes,Stage generalist,One study or none,Intermediate,0,0.04562384185819458,0,0,0,0,0,0,0,0,0,0
+Exiguobacterium,Firmicutes,Seed specialist,Two or more studies,Host generalist,0,0.29894274956868866,0,0.0253399780386857,0,0,0,0,10.83061259093068,0.05289049098156711,0.1328004782095985,0.2807713422092893
+Bacilli,Firmicutes,Stage generalist,One study or none,Intermediate,0,0.023548291433316767,0,0.7013815090329436,0,0,0,0,0.019391930494379154,0,0,0
+Sporosarcina,Firmicutes,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0.02276041183877283,0,0,0,0,0
+Psychrobacillus,Firmicutes,Seed specialist,Two or more studies,Intermediate,0,0.10444561203733485,0,0.03491285863107808,0,0,0,0,0.0999864477504382,0,0,0
+Paenisporosarcina,Firmicutes,Stage generalist,One study or none,Intermediate,0,0.03619005224002483,0,0.04034517538944301,0,0,0,0,0.025903392775928936,0,0,0
+Planococcus,Firmicutes,Stage generalist,One study or none,Host specialist,0,0.02909417863372639,0,0,0,0,0,0,0,0,0,0
+Lysinibacillus,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.04736805149030039,0,0,0,0,0,0,0.1259941387196921,0,0.03491686012494574,0
+Domibacillus,Firmicutes,Stage generalist,One study or none,Host specialist,0,0.021869102941184278,0,0,0,0,0,0,0,0,0,0
+Kurthia,Firmicutes,Seedling specialist,One study or none,Intermediate,0,0.015709058330367835,0,0,0,0,0,0,0.0018467889914650472,0,0,0
+Enterococcus,Firmicutes,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.8247901793470495
+Dolosigranulum,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.14275529459706368,6.837934123342656e-4,0,0,0,0,0,0,0,0.11626241649782612,0
+Lactobacillus,Firmicutes,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.3863236219245403
+Leuconostoc,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.004981276986015161,0,0,0,0,0,0,0,0,0.0038410787556712395,0
+Weissella,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.032698590727683746,0,0,0,0,0,0,0.0024434344915212824,0,0.007748334108166745,0
+Lachnospiraceae_NK4A136_group,Firmicutes,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.09099932925676708
+Clostridium_sensu_stricto_1,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.007423271993336518,0,0,0.9067832569139354,0,0,0,0,0,0,0
+Peptoniphilus,Firmicutes,Seed specialist,One study or none,Intermediate,0,0.017757689168303174,0,0,0,0,0,0,0,0,0.11357164396530474,0
+Tumebacillus,Firmicutes,Seedling specialist,One study or none,Host generalist,9.522298199785888,0.9519440848917253,0,0.3897617153414762,0,0,0,0,0.035446440626133176,0,1.666608646881115,0
+Paenibacillus,Firmicutes,Seedling specialist,Two or more studies,Host generalist,1.0142838177652056,7.016940303851861,6.28164224592787,14.108444350343108,27.45141808215,0,0.9811108520340093,86.49635036496349,1.5144807198982855,0.8959917019973984,17.02148961638371,2.5578300510061913
+Brevibacillus,Firmicutes,Seedling specialist,One study or none,Host specialist,0,0.00060960209155324675,0,0,0,0,0,0,0,0,0,0
+Saccharibacillus,Firmicutes,Seedling specialist,Two or more studies,Host generalist,0,0.09208884746617582,0,3.7643423794780513,0,0,0.030665513711675942,0,0.15041717295252638,0.137698636401667,0,0.5421640237397276
+Woeseia,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.028999102257901112,0,0,0,0,0
+Steroidobacter,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1581710510887754,0,0,0,0,0
+CCD24,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1787235247820007,0,0,0,0,0
+PLTA13,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1043446809145029,0,0,0,0,0
+Buchnera,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0.15043094649384622,0,0,0.1791815984665389,0,0,0,0,0,0,0
+Psychrobacter,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0.0014364422199097276,0.01602621916373579,0,0,0,0,0,0,0,0,0
+Moraxella,Proteobacteria,Stage generalist,One study or none,Intermediate,0.948137370329057,0.04074264411301104,0,0.10626992561105207,0,0,0,0,0,0,0.3571239331050053,0
+Enhydrobacter,Proteobacteria,Stage generalist,One study or none,Host generalist,0.47870653192071166,0.2635320964888032,0.002179541947464321,0.018019539938620942,0,69.75840098822023,0,13.503649635036496,0.19052698019959297,0.1922120741108218,0.2149202060092077,0
+Aeromonas,Proteobacteria,Stage generalist,One study or none,Intermediate,0,5.420935653493794e-4,0,0,0,0,0,0,0,0,0.005554728293558089,0
+Serratia,Proteobacteria,Seed specialist,Two or more studies,Host generalist,0,0.21275778827831143,0,0,0.7091002195734694,0,0.008924376433061751,0,0.2709206163923989,6.091267083605368,0.02771941812263553,2.37630287922163
+Pantoea,Proteobacteria,Stage generalist,Two or more studies,Host generalist,4.59203516254485,20.63902545689828,42.98504328409182,16.072474631582498,12.187993547196822,18.245539065724415,6.300674610390125,0,11.069392504614747,32.489781521780536,5.88200428807847,27.91215110206916
+Citrobacter,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0,0,0,0,0,0.5363554787880801,0,0.004046350367231577,9.85842210477312e-4,0,0
+Erwinia,Proteobacteria,Seed specialist,Two or more studies,Host generalist,1.4506740618969458,3.9316723397523075,4.6758853404807,4.76089390112186,3.1821356358612123,0,0.7499090886331877,0,10.602493460560494,12.267434654790295,1.207873377459011,1.240054424588675
+Erwiniaceae,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0,0,14.516471838469712,0,0,1.8620042475428458,0,0.0065814298853455536,0,0,0.002573400921504757
+Kosakonia,Proteobacteria,Seedling specialist,Two or more studies,Host generalist,0,0.2967802225810878,0,0,0,0,29.731882462848276,0,0.9803142658765849,0.9836578281354038,0.2768453532969428,0.906206919740463
+Salmonella,Proteobacteria,Seedling specialist,One study or none,Host generalist,1.9054827370622984,0.29202149201202315,0,0,0.16915821193101274,0,0,0,0.004169438403441467,0,0.4822361655281945,0.03939353414998608
+Enterobacter,Proteobacteria,Seedling specialist,One study or none,Host generalist,0.1849056603773585,3.001694134792827,0.17560502493164723,0.2917093142272262,0.07972255323771012,0,30.910743972237746,0,0.12635630686774182,1.6581640542362306,4.355323343348193,5.750807558020503
+Trabulsiella,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0.10502046921077504,0,0,0,0,0.014196159506909351,0,0.03703776647175834,0.013504828500298518,0.008257286159457032,2.9727139081906597
+Escherichia-Shigella,Proteobacteria,Stage generalist,One study or none,Host generalist,0,0.016096635697235493,0,0,0,0,0.15690578182469817,0,0,0.001960537093445613,0.036804257969537395,1.4866320866437885
+Klebsiella,Proteobacteria,Stage generalist,One study or none,Host generalist,0.17735849056603772,1.2180629288925486,0.42794151984099255,2.050689133640779,0.052443533244123236,0,0,0,0.1482654657856924,0.7758019843385863,7.286214217041629,0
+Tatumella,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0.4027771573677936,0,0,0,0,0,0,0,0,0,0
+Enterobacillus,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.25073345541223835
+Janthinobacterium,Proteobacteria,Stage generalist,Two or more studies,Intermediate,0,0.0021144403910275432,0.11295731261556366,0,0.007649456529845773,0,0,0,0.0032210793533373966,0.01005264419113833,0,0
+Acinetobacter,Proteobacteria,Stage generalist,Two or more studies,Host generalist,1.541234202424985,1.229153297937142,0.005273687316536412,0.08417815635248176,0.005080074677097753,0,1.380267420162737,0,0.37303918246412515,0.8136976910695043,10.247342600074976,0.23753582877239107
+Pectobacterium,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0.002830933063491203,0,0,0,0,0,0,7.077646085692447e-4,0,0.02075446636116092,0
+Pseudocitrobacter,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0.20599615504171562,0,0,0,0,0
+Cronobacter,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,1.5920182486860928,0,0,0,0,0
+Raoultella,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.003032921042360691,0,0,0.4788498854737793,0,0,0,0.01893749624256027,0.16685976278370493,0,0
+Buttiauxella,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0,0,0,0,0,0,0,0.005335564417546742,0.01977720867192772,0,0
+Haemophilus,Proteobacteria,Stage generalist,One study or none,Host generalist,0.16453735965931088,0.06575528160591332,0,0.005631106230819045,0,0,0,0,6.940652791530553e-4,0.001878069081218437,0.19507081030342743,0
+Conservatibacter,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0.010442725943761704,0,0,0,0,0,0,0,0,0,0
+Azotobacter,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.0029362747159841925
+Marinobacter,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.00907209369407919,0,0,0,0,0,0,1.239008027645648e-4,0,0,0
+Xanthomonas,Proteobacteria,Stage generalist,One study or none,Host generalist,0.4415094339622642,0.7729323528121111,11.181627939833492,0.1516478112169964,0,0,0.008461012303271249,0,0.28492731775403896,0.30435943758833467,3.2658962462049983,0
+Pseudoxanthomonas,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0.004542789206471955,0,0,0,0,0,0,0,0,0,0
+Stenotrophomonas,Proteobacteria,Stage generalist,One study or none,Host generalist,1.397384895323748,0.7888862906583844,1.0869023256438968,0.602660514365993,0.05362204062245001,0.06628889126483481,0.20038349943858538,0,1.5881370462824194,1.9636945721203576,0.2653021698911225,1.6048046110116116
+Lysobacter,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.07267339616125762,0,0,0,0,0.10899749037038342,0,0.003701681488816295,0,0.056335340830855486,0.030047712664706773
+Luteibacter,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0.05899056550469944,0,0,0,0,0
+Arenimonas,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.06147718568558395,0,0,0,0,0
+Luteimonas,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.011502630601267359,0,0,0,0,0.025138260432378084,0,0.09018982499663694,8.339659891990285e-5,0,0
+Massilia,Proteobacteria,Stage generalist,Two or more studies,Host generalist,1.9754872898122637,4.314066859098762,2.321585763710302,7.7487881994093595,2.7182441048111494,0,0.8706423736491093,0,4.414337158820923,1.7036197683701955,1.3841967014640852,3.7781425745906336
+Duganella,Proteobacteria,Seedling specialist,Two or more studies,Host generalist,0,0.20822485000339652,0.24979618861353103,0,0,0,0.0036764705882352945,0,0,0.08218381167691408,0.021985384625702327,0
+Ellin6067,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.02952482702855743,0,0,0,0,0
+Herbaspirillum,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.1388262476083644
+Noviherbaspirillum,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.009494300995798522,0,0,0.16249361833957227,0,0.08873702975552188,0,0.022451744007660045,0,0,0
+Oxalicibacterium,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0.009052798115098456,0,0,0
+Comamonas,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0.012100549966434506,0,0,0.07687872248850487,0,0,0,0.0032389713027142575,0,0.008924859461706703,0
+Cupriavidus,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.007469946683078198,0,0,0,0,0.019178042191680837,0,0,8.521092821561555e-5,0,0
+Parasutterella,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.009571146634800135
+Verticiella,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,6.710978521942346e-4,0.03001969212316235,0,0,0,5.404786046139577e-4,0,0,0.018746581455632422,0,0
+Pigmentiphaga,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0,0,0,0,0,0.0031583673611872485,0,0,4.5288795269589924e-4,0,0
+Achromobacter,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.03248396130685712,0,0,0,0,0.013684722219157853,0,0.013355665391324585,0.0442081755467404,0.002033512282414186,0
+Neisseria,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.02680704389065356,0,0.006757327476982852,0,0,0,0,0,0.0033370144310301405,0.17489862553471852,0
+Thiobacillus,Proteobacteria,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.09192492515025262
+Limnobacter,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.025598528219346967,0,0,0,0,0
+Lautropia,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.08699136817732281,0,0,0,0,0
+MND1,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.1044256891955952,0,0,0,0,0
+SC-I-84,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.10164633470503409,0,0,0,0,0
+mle1-7,Proteobacteria,Seed specialist,One study or none,Intermediate,0,3.5355553119950784e-5,0,0,0,0,0.028850493609877535,0,0,0,0,0
+TRA3-20,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.033059988788953595,0,0,0,0,0
+Candidatus_Alysiosphaera,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.06131326744952427,0,0,0,0,0
+Geminicoccus,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.02647196321325739,0,0,0,0,0
+Azospirillum,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0.0017447820112974637,0,0,0.012692282333247505,0,0.001336898395721925,0,0,0.0010992865942141717,0,0
+Roseomonas,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0,0,0,9.343084921777525e-4,0,0.03612961311899415,0,0.03116887644855859,0.07395984942898569,0,0
+Dongia,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0,0,0,0.06268551736451482,0,0.018544158936992974,0,0,0,0,0
+Skermanella,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.5498745884254984,0,0,0,0,0
+Methylobacterium-Methylorubrum,Proteobacteria,Stage generalist,One study or none,Host generalist,8.219000551528055,1.3935850053637062,0.2860601947030206,1.5638534258645125,0.09832890682580238,0,0,0,2.1035977178223297,0.038173751013583924,1.125185989791403,0
+Microvirga,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.027471694252799255,0,0,0,0,0.03816813753750553,0,0,0,0,0
+Sphingomonas,Proteobacteria,Stage generalist,One study or none,Host generalist,3.142769774091632,2.870906120217824,2.4018127016738835,2.25673661224687,0.7697638186834552,11.494623655913976,0.6724251603175395,0,8.109131720337459,2.13817226806053,1.1256132982522917,3.987102233331627
+Sphingobium,Proteobacteria,Seed specialist,One study or none,Host generalist,1.1948812827628739,0.11634048002019885,0.010821925220496726,0.01689331869245713,0.5798126545547894,0,0.0017582881306759737,0,0.09910586397651132,0.04204515021960967,0.5135214875795945,0
+Novosphingobium,Proteobacteria,Stage generalist,One study or none,Host generalist,0.630188679245283,0.09544144109920275,0,0,0.06920720043295792,0,0.31866266071924465,0,0.12199292805931675,9.092427939667194e-4,0.35147211549350216,0.13800004264033686
+Blastomonas,Proteobacteria,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0.06844669663360681,0,0,0,0,0
+Altererythrobacter,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.0571740091834214,0,0,0,0,0
+Porphyrobacter,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.06615924982155577,0,0,0,0,0
+Devosia,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.011892774474062938,0,0,0.24166697188015854,0,0,0,0.001537618876635384,2.424051142120791e-4,0,0
+Aureimonas,Proteobacteria,Seed specialist,Two or more studies,Host generalist,0,0.01572523466217945,0.01611787539539163,0.018019539938620942,0,0,0,0,0.0011170407572251813,0.13224052929433056,0,0
+Ochrobactrum,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.1278305038974616,0,0,0,0,0,0,4.923579885699093e-4,0,0.002937295519042713,0.0762364959654024
+Azorhizobium,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.0017991549504141843,0,0,0,0,0,0,0,0,0.029254666591170753,0
+Bradyrhizobium,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.00684825892540059,0,0,0.19705053233890638,0,0.011611120007723089,0,0.0014881760039497942,0,0,0
+Allorhizobium-Neorhizobium-Pararhizobium-Rhizobium,Proteobacteria,Seed specialist,Two or more studies,Host generalist,0.10566037735849057,0.3787546789554717,0.6723504958818637,1.1845965698826098,0.34782784386317167,0,0.00963674476615531,0,1.6811907528467487,0.6866744528206125,0.1494043062792622,0
+Brevundimonas,Proteobacteria,Seed specialist,Two or more studies,Host generalist,0.16188714153561518,0.14426068202891093,0.010707067368804833,0.10839320990570717,0,0,0.013323839754567437,0,1.2230068964445493,0.46461025402860523,0.17513596473062906,0
+Phenylobacterium,Proteobacteria,Seed specialist,One study or none,Intermediate,0,0,0,0,0.05082418309012332,0,0.15517185874621822,0,0,0,0,0
+Falsirhodobacter,Proteobacteria,Seed specialist,Two or more studies,Host generalist,0.13962264150943396,0.21223941960703463,0.1866076054870328,0.8315526613766339,0,0,0.05378657016711256,0,1.000697468261415,0.0067013369313196295,0.09197073128606159,0
+Amaricoccus,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.030395594355977634,0,0,0,0,0
+Paracoccus,Proteobacteria,Seed specialist,Two or more studies,Host generalist,0.36231884057971014,0.06900353300230103,0,0,0,0,0.004016766298856205,0,1.101069334944043,0.5933126211182259,0.07007348201718686,0
+Rubellimicrobium,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.032079124044367344,0,0,0,0,0
+Reyranella,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.05485830303476548,0,0,0,0,0
+Muribaculaceae,Bacteroidota,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.05846113127174294
+Parabacteroides,Bacteroidota,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.025997906576743925
+Bacteroides,Bacteroidota,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.019624566206269605
+Adhaeribacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.08312775030968166,0,0,0,0,0
+Dyadobacter,Bacteroidota,Seed specialist,Two or more studies,Intermediate,0,0.0038179852273501234,0,0,0,0,0,0,0.027486671481415113,4.219112794147308e-4,0,0
+Chryseolinea,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.04825624560583526,0,0,0,0,0
+Ohtaekwangia,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.040668053807776106,0,0,0,0,0
+Rhodocytophaga,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.019127162502088135,0,0,0,0,0
+Hymenobacter,Bacteroidota,Seed specialist,Two or more studies,Intermediate,0,0.04062144734899656,0.11237827669969408,0,0,0,0,0,0.22672225289824843,0.007567390517340294,0,0
+Pontibacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.013674149800692044,0,0,0,0,0
+Sphingobacterium,Bacteroidota,Seedling specialist,Two or more studies,Host generalist,0,0.18847319607832164,0.01611787539539163,0.04054396486189712,0,0,0,0,5.460010428619918e-4,0.09249317716792775,0.03263944551510075,0.11054364574648413
+Pedobacter,Bacteroidota,Seed specialist,Two or more studies,Host generalist,0,0.10960549328806223,0.26168375231719265,0.12103552616832905,0,0,0.021034589539941785,0,0.22068743901515206,0.11408278768994169,0,0.15134485320167532
+Mucilaginibacter,Bacteroidota,Seedling specialist,One study or none,Intermediate,0,8.61014964440082e-4,0,0,0.6825289867059772,0,0,0,0,4.612023060176902e-4,0,0.06697220889455645
+Ferruginibacter,Bacteroidota,Seed specialist,One study or none,Intermediate,0,9.17826952906299e-5,0,0,0,0,0.10019504118225393,0,0,0,0,0
+Dinghuibacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.04184196651290385,0,0,0,0,0
+Puia,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.02262355042147223,0,0,0,0,0
+Parasegetibacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.05594432074788574,0,0,0,0,0
+Flavisolibacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.13387640883425936,0,0,0,0,0
+Flaviaesturariibacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.04353696928786952,0,0,0,0,0
+Segetibacter,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.012247479997058025,0,0,0,0,0
+Aurantisolimonas,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.03445780793528071,0,0,0,0,0
+Chryseobacterium,Bacteroidota,Seed specialist,Two or more studies,Host generalist,0,0.067134281586008,0.03633619855308385,0,3.0785807742630646e-4,0,0.44085654119084255,0,0.13147627018363145,4.220495667435422,0.21284353898574743,0
+env.OPS_17,Bacteroidota,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.019856526792689084,0,0,0,0,0
+Alistipes,Bacteroidota,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.017388264620493914
+Odoribacter,Bacteroidota,Seedling specialist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.023087521574212417
+Rikenellaceae_RC9_gut_group,Bacteroidota,Stage generalist,One study or none,Host specialist,0,0,0,0,0,0,0,0,0,0,0,0.1524630839579036
+Acidovorax,Proteobacteria,Stage generalist,One study or none,Host generalist,0.2516453735965931,0.008129591150502696,0,0,0,0,0.08878221310884025,0,6.77107840177931e-4,0.00869346816163449,0.04969191015702643,0.04220885787302782
+Delftia,Proteobacteria,Seedling specialist,One study or none,Host generalist,0.2188679245283019,0.03191811890595518,0,0,0,0,0,0,0,0.008420763282973956,0.008698913652549572,0.04876875923373849
+Variovorax,Proteobacteria,Stage generalist,One study or none,Host generalist,0,0.21573314156041545,0.37963736596630737,0.030258881542082262,0,0,0.047111879392593335,0,0.41078018103629577,0.027419613804937324,0,0
+Caenimonas,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0,0,0,0,0,0.05462912470916961,0,0,0.020551979352243885,0,0
+Ramlibacter,Proteobacteria,Seed specialist,One study or none,Host specialist,0,0,0,0,0,0,0.10342025618743282,0,0,0,0,0
+Curvibacter,Proteobacteria,Seedling specialist,One study or none,Intermediate,0,0.014629616809205413,0,0,0,0,0,0,0,0.0029741540070565174,0.1342945999434549,0
+Xylophilus,Proteobacteria,Stage generalist,One study or none,Intermediate,0,0.008140073534563539,0.0800869480707318,0.014077765577047612,0,0,0,0,0,0,0.12658698538349575,0
+Pseudorhodoferax,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.001117232837707566,0,0,0,0,0,0,0.016153530099612828,0,0,0
+Rhizobacter,Proteobacteria,Seed specialist,Two or more studies,Intermediate,0,0.007661900289957135,0,0,0,0,0.22411651584447229,0,5.471235308638949e-4,0,0,0

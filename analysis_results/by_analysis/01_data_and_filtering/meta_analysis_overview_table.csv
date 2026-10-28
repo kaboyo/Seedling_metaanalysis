@@ -1,0 +1,10 @@
+Study,Reference,Country,n_species,Species,Seeds,Seedlings,Total
+PRJEB45079,Chesneau et al. 2022,France,2,Phaseolus vulgaris; Raphanus sativus,1281,169,1450
+PRJNA649549,Nunes et al. 2022,Denmark,2,soil; Triticum aestivum,20,192,260
+PRJNA810761,Chandel et al. 2022,Australia,1,Glycine clandestina,0,193,193
+PRJNA811248,Chandel et al. 2022,Australia,2,Glycine clandestina; Glycine max,0,177,177
+PRJEB6729,metaSEED,Chile; China; France; Italy; Japan; New Zealand; USA,10,Arabidopsis thaliana; Brassica napus; Brassica oleracea; Brassica rapa; Daucus carota; Diplotaxis tenuifolia; Medicago truncatula; Phaseolus vulgaris; Raphanus sativus; Solanum lycopersicum,56,112,168
+PRJNA735565,Kim et al. 2022,South Korea,3,Brassica napus; Medicago sativa; Raphanus sativus,13,77,90
+PRJNA926007,Acua et al. 2023,Chile,5,Brassica oleracea; Daucus carota; Lactuca sativa; Petroselinum crispum; Solanum lycopersicum,29,31,60
+PRJNA784432,Cui et al. 2023,China,1,Triticum aestivum,12,47,59
+All studies,7 references,10 countries,17,-,1411,998,2457
